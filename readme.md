@@ -6,13 +6,9 @@
 <br/>
 <br/>
 
+<h3 align='center'>link.tree</h3>
 <p align='center'>
-  <img src='https://github.com/termsurf/leaf.tree/blob/make/view/leaf.svg?raw=true' height='312'>
-</p>
-
-<h3 align='center'>leaf.tree</h3>
-<p align='center'>
-  The BaseTree Third-Party API Integration Library
+  The NoteTree Third-Party API Integration Library
 </p>
 
 <br/>
@@ -21,7 +17,7 @@
 
 ### Welcome
 
-The `leaf.tree` project are the API definitions for several HTTP APIs, in NoteText. They are generic definitions which can be compiled into code eventually.
+The `link.tree` project are the API definitions for several HTTP APIs, in NoteText. They are generic definitions which can be compiled into code eventually.
 
 ### License
 
