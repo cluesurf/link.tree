@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/automation-parameter-value
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/automation-parameter-value
   take form automation-parameter-value
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form automation-parameter-value-list, name <AutomationParameterValueList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/runtime.lex.v2/2020-08-07/base/interpretation
+load @cluesurf/snow/amazonaws.com/runtime.lex.v2/2020-08-07/base/interpretation
   take form interpretation
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form interpretations, name <Interpretations>

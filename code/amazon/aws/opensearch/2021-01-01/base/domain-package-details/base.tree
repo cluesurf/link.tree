@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/domain-name
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/domain-package-status
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/domain-package-status
   take form domain-package-status
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/error-details
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/error-details
   take form error-details
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/last-updated
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/last-updated
   take form last-updated
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-id
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-id
   take form package-id
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-name
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-name
   take form package-name
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-type
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-type
   take form package-type
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-version
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-version
   take form package-version
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/reference-path
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/reference-path
   take form reference-path
 
 form domain-package-details, name <DomainPackageDetails>

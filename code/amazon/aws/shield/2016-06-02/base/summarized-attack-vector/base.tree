@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/shield/2016-06-02/base/summarized-counter-list
+load @cluesurf/snow/amazonaws.com/shield/2016-06-02/base/summarized-counter-list
   take form summarized-counter-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form summarized-attack-vector, name <SummarizedAttackVector>

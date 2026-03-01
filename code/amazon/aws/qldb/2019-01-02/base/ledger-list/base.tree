@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/ledger-summary
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/ledger-summary
   take form ledger-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form ledger-list, name <LedgerList>

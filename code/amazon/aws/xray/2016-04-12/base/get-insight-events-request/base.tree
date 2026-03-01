@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/get-insight-events-max-results
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/get-insight-events-max-results
   take form get-insight-events-max-results
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/insight-id
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/insight-id
   take form insight-id
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/token
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/token
   take form token
 
 form get-insight-events-request, name <GetInsightEventsRequest>

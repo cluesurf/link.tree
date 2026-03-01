@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/mitigation-action-id
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/mitigation-action-id
   take form mitigation-action-id
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/mitigation-action-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/mitigation-action-name
   take form mitigation-action-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/mitigation-action-params
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/mitigation-action-params
   take form mitigation-action-params
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/role-arn
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/role-arn
   take form role-arn
 
 form mitigation-action, name <MitigationAction>

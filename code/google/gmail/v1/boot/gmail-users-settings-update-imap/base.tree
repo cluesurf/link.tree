@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/gmail/v1/base/imap-settings
+load @cluesurf/snow/googleapis.com/gmail/v1/base/imap-settings
   take form imap-settings
 
 boot gmail-users-settings-update-imap, name <gmail.users.settings.updateImap>

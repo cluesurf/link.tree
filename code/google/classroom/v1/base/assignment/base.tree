@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/drive-folder
+load @cluesurf/snow/googleapis.com/classroom/v1/base/drive-folder
   take form drive-folder
 
 form assignment, name <Assignment>

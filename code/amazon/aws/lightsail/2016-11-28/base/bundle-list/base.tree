@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/bundle
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/bundle
   take form bundle
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form bundle-list, name <BundleList>

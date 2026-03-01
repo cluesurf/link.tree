@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/host-name
+load @cluesurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/host-name
   take form host-name
 
-load @termsurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/host-status
+load @cluesurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/host-status
   take form host-status
 
-load @termsurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/provider-type
+load @cluesurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/provider-type
   take form provider-type
 
-load @termsurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/url
+load @cluesurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/url
   take form url
 
-load @termsurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/vpc-configuration
+load @cluesurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/vpc-configuration
   take form vpc-configuration
 
 form get-host-output, name <GetHostOutput>

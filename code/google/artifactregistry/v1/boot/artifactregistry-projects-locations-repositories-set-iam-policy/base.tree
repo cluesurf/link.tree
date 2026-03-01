@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/artifactregistry/v1/base/policy
+load @cluesurf/snow/googleapis.com/artifactregistry/v1/base/policy
   take form policy
 
 boot artifactregistry-projects-locations-repositories-set-iam-policy, name <artifactregistry.projects.locations.repositories.setIamPolicy>

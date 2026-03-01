@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/arn
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/registry-alias-list
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/registry-alias-list
   take form registry-alias-list
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/registry-id
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/registry-id
   take form registry-id
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/registry-verified
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/registry-verified
   take form registry-verified
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/url
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/url
   take form url
 
 form registry, name <Registry>

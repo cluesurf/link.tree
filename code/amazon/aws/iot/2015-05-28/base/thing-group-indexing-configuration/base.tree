@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/fields
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/fields
   take form fields
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/thing-group-indexing-mode
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/thing-group-indexing-mode
   take form thing-group-indexing-mode
 
 form thing-group-indexing-configuration, name <ThingGroupIndexingConfiguration>

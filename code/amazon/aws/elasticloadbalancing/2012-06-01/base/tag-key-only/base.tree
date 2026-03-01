@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/tag-key
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/tag-key
   take form tag-key
 
 form tag-key-only, name <TagKeyOnly>

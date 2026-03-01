@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/google-bytestream-media
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/google-bytestream-media
   take form google-bytestream-media
 
 boot displayvideo-media-upload, name <displayvideo.media.upload>

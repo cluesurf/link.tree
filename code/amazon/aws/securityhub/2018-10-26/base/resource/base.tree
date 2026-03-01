@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/data-classification-details
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/data-classification-details
   take form data-classification-details
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/field-map
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/field-map
   take form field-map
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/partition
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/partition
   take form partition
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/resource-details
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/resource-details
   take form resource-details
 
 form resource, name <Resource>

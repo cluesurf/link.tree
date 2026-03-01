@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/destination-properties
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/destination-properties
   take form destination-properties
 
 form update-publishing-destination-request, name <UpdatePublishingDestinationRequest>

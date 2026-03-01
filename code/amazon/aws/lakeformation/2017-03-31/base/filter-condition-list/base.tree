@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lakeformation/2017-03-31/base/filter-condition
+load @cluesurf/snow/amazonaws.com/lakeformation/2017-03-31/base/filter-condition
   take form filter-condition
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form filter-condition-list, name <FilterConditionList>

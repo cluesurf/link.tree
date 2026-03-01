@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/callback-token
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/callback-token
   take form callback-token
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/idempotency-token
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/idempotency-token
   take form idempotency-token
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/output-parameter-list
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/output-parameter-list
   take form output-parameter-list
 
 form send-pipeline-execution-step-success-request, name <SendPipelineExecutionStepSuccessRequest>

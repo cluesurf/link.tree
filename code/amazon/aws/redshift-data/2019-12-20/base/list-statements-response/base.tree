@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/redshift-data/2019-12-20/base/statement-list
+load @cluesurf/snow/amazonaws.com/redshift-data/2019-12-20/base/statement-list
   take form statement-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-statements-response, name <ListStatementsResponse>

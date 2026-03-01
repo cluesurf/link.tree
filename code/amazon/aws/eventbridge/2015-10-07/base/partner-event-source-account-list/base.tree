@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/partner-event-source-account
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/partner-event-source-account
   take form partner-event-source-account
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form partner-event-source-account-list, name <PartnerEventSourceAccountList>

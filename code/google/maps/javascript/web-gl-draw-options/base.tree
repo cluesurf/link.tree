@@ -1,8 +1,8 @@
 
-load @termsurf/land/code/javascript/base/web-gl-rendering-context
+load @cluesurf/land/code/javascript/base/web-gl-rendering-context
   take form web-gl-rendering-context
 
-load @termsurf/snow/code/javascript/google/maps/coordinate-transformer
+load @cluesurf/snow/code/javascript/google/maps/coordinate-transformer
   take form coordinate-transformer
 
 form web-gl-draw-options, name <google.maps.WebGLDrawOptions>

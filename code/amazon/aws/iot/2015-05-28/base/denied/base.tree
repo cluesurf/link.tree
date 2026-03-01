@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/explicit-deny
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/explicit-deny
   take form explicit-deny
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/implicit-deny
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/implicit-deny
   take form implicit-deny
 
 form denied, name <Denied>

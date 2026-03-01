@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/audit-check-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/audit-check-name
   take form audit-check-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/audit-description
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/audit-description
   take form audit-description
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/resource-identifier
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/resource-identifier
   take form resource-identifier
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/suppress-indefinitely
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/suppress-indefinitely
   take form suppress-indefinitely
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/timestamp
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/timestamp
   take form timestamp
 
 form audit-suppression, name <AuditSuppression>

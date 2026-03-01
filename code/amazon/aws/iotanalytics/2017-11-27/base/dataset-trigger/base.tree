@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/schedule
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/schedule
   take form schedule
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/triggering-dataset
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/triggering-dataset
   take form triggering-dataset
 
 form dataset-trigger, name <DatasetTrigger>

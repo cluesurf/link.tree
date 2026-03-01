@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/backup-id
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/backup-id
   take form backup-id
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/backup-status
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/backup-status
   take form backup-status
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/backup-type
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/backup-type
   take form backup-type
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/server-name
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/server-name
   take form server-name
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/strings
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/strings
   take form strings
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/time-window-definition
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/time-window-definition
   take form time-window-definition
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form backup, name <Backup>

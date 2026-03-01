@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/compute/beta/base/policy
+load @cluesurf/snow/googleapis.com/compute/beta/base/policy
   take form policy
 
 boot compute-service-attachments-get-iam-policy, name <compute.serviceAttachments.getIamPolicy>

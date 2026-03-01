@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/content/v2.1/base/capture-order-response
+load @cluesurf/snow/googleapis.com/content/v2.1/base/capture-order-response
   take form capture-order-response
 
 boot content-orders-capture-order, name <content.orders.captureOrder>

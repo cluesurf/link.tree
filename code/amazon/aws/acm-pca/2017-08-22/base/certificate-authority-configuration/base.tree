@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/acm-pca/2017-08-22/base/asn1-subject
+load @cluesurf/snow/amazonaws.com/acm-pca/2017-08-22/base/asn1-subject
   take form asn1-subject
 
-load @termsurf/snow/amazonaws.com/acm-pca/2017-08-22/base/csr-extensions
+load @cluesurf/snow/amazonaws.com/acm-pca/2017-08-22/base/csr-extensions
   take form csr-extensions
 
-load @termsurf/snow/amazonaws.com/acm-pca/2017-08-22/base/key-algorithm
+load @cluesurf/snow/amazonaws.com/acm-pca/2017-08-22/base/key-algorithm
   take form key-algorithm
 
-load @termsurf/snow/amazonaws.com/acm-pca/2017-08-22/base/signing-algorithm
+load @cluesurf/snow/amazonaws.com/acm-pca/2017-08-22/base/signing-algorithm
   take form signing-algorithm
 
 form certificate-authority-configuration, name <CertificateAuthorityConfiguration>

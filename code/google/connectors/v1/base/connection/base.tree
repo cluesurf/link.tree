@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/connectors/v1/base/auth-config
+load @cluesurf/snow/googleapis.com/connectors/v1/base/auth-config
   take form auth-config
 
-load @termsurf/snow/googleapis.com/connectors/v1/base/connection-status
+load @cluesurf/snow/googleapis.com/connectors/v1/base/connection-status
   take form connection-status
 
-load @termsurf/snow/googleapis.com/connectors/v1/base/lock-config
+load @cluesurf/snow/googleapis.com/connectors/v1/base/lock-config
   take form lock-config
 
 form connection, name <Connection>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/tag-resource-body
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/tag-resource-body
   take form tag-resource-body
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot tag-resource, name <TagResource>

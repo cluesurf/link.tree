@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/room-membership-role
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/room-membership-role
   take form room-membership-role
 
 form update-room-membership-request, name <UpdateRoomMembershipRequest>

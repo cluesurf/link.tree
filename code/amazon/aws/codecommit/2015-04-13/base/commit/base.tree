@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/additional-data
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/additional-data
   take form additional-data
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/message
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/message
   take form message
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/object-id
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/object-id
   take form object-id
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/parent-list
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/parent-list
   take form parent-list
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/user-info
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/user-info
   take form user-info
 
 form commit, name <Commit>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/id
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/id
   take form id
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form asset-destination-entry, name <AssetDestinationEntry>

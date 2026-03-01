@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/algorithm-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/algorithm-arn
   take form algorithm-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/algorithm-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/algorithm-status
   take form algorithm-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/creation-time
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/creation-time
   take form creation-time
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-description
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-description
   take form entity-description
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
   take form entity-name
 
 form algorithm-summary, name <AlgorithmSummary>

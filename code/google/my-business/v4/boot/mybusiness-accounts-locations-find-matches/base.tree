@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/find-matching-locations-response
+load @cluesurf/snow/googleapis.com/my-business/v4/base/find-matching-locations-response
   take form find-matching-locations-response
 
 boot mybusiness-accounts-locations-find-matches, name <mybusiness.accounts.locations.findMatches>

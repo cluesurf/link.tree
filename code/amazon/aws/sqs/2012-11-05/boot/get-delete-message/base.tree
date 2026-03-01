@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/invalid-id-format
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/invalid-id-format
   take form invalid-id-format
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/receipt-handle-is-invalid
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/receipt-handle-is-invalid
   take form receipt-handle-is-invalid
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-delete-message, name <GET_DeleteMessage>

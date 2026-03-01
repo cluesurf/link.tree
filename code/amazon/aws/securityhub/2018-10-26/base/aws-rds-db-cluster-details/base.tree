@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-rds-db-cluster-associated-roles
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-rds-db-cluster-associated-roles
   take form aws-rds-db-cluster-associated-roles
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-rds-db-cluster-members
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-rds-db-cluster-members
   take form aws-rds-db-cluster-members
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-rds-db-cluster-option-group-memberships
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-rds-db-cluster-option-group-memberships
   take form aws-rds-db-cluster-option-group-memberships
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-rds-db-domain-memberships
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-rds-db-domain-memberships
   take form aws-rds-db-domain-memberships
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-rds-db-instance-vpc-security-groups
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-rds-db-instance-vpc-security-groups
   take form aws-rds-db-instance-vpc-security-groups
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/string-list
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/string-list
   take form string-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form aws-rds-db-cluster-details, name <AwsRdsDbClusterDetails>

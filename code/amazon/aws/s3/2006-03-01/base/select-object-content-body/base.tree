@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/compression-type
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/compression-type
   take form compression-type
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/csv-input
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/csv-input
   take form csv-input
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/csv-output
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/csv-output
   take form csv-output
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/enable-request-progress
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/enable-request-progress
   take form enable-request-progress
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/end
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/end
   take form end
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/json-input
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/json-input
   take form json-input
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/json-output
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/json-output
   take form json-output
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/parquet-input
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/parquet-input
   take form parquet-input
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/start
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/start
   take form start
 
 form select-object-content-body

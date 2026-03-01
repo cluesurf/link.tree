@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/ops-item-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/ops-item-id
   take form ops-item-id
 
 form get-ops-item-request, name <GetOpsItemRequest>

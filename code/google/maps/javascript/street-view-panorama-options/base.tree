@@ -1,42 +1,42 @@
 
-load @termsurf/land/code/javascript/base/native-boolean
+load @cluesurf/land/code/javascript/base/native-boolean
   take form native-boolean
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/land/code/javascript/base/native-number
+load @cluesurf/land/code/javascript/base/native-number
   take form native-number
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/fullscreen-control-options
+load @cluesurf/snow/code/javascript/google/maps/fullscreen-control-options
   take form fullscreen-control-options
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng
+load @cluesurf/snow/code/javascript/google/maps/lat-lng
   take form lat-lng
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-literal
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-literal
   take form lat-lng-literal
 
-load @termsurf/snow/code/javascript/google/maps/motion-tracking-control-options
+load @cluesurf/snow/code/javascript/google/maps/motion-tracking-control-options
   take form motion-tracking-control-options
 
-load @termsurf/snow/code/javascript/google/maps/pan-control-options
+load @cluesurf/snow/code/javascript/google/maps/pan-control-options
   take form pan-control-options
 
-load @termsurf/snow/code/javascript/google/maps/street-view-address-control-options
+load @cluesurf/snow/code/javascript/google/maps/street-view-address-control-options
   take form street-view-address-control-options
 
-load @termsurf/snow/code/javascript/google/maps/street-view-pov
+load @cluesurf/snow/code/javascript/google/maps/street-view-pov
   take form street-view-pov
 
-load @termsurf/snow/code/javascript/google/maps/zoom-control-options
+load @cluesurf/snow/code/javascript/google/maps/zoom-control-options
   take form zoom-control-options
 
 form street-view-panorama-options, name <google.maps.StreetViewPanoramaOptions>

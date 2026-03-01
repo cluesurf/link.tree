@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/delete-invoices-invoice-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/delete-invoices-invoice-body
   take form delete-invoices-invoice-body
 
-load @termsurf/snow/stripe.com/2020-08-27/base/deleted-invoice
+load @cluesurf/snow/stripe.com/2020-08-27/base/deleted-invoice
   take form deleted-invoice
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
 boot delete-invoices-invoice, name <DeleteInvoicesInvoice>

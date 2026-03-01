@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-multicast-domain-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-multicast-domain-list
   take form transit-gateway-multicast-domain-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-transit-gateway-multicast-domains-result, name <DescribeTransitGatewayMulticastDomainsResult>

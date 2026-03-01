@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/ecr/2015-09-21/base/registry-policy-text
+load @cluesurf/snow/amazonaws.com/ecr/2015-09-21/base/registry-policy-text
   take form registry-policy-text
 
 form put-registry-policy-request, name <PutRegistryPolicyRequest>

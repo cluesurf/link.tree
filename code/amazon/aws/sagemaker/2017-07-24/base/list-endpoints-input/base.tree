@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-name-contains
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-name-contains
   take form endpoint-name-contains
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-sort-key
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-sort-key
   take form endpoint-sort-key
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-status
   take form endpoint-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/max-results
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/max-results
   take form max-results
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/order-key
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/order-key
   take form order-key
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pagination-token
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pagination-token
   take form pagination-token
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
 form list-endpoints-input, name <ListEndpointsInput>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/okta/base/group
+load @cluesurf/snow/okta/base/group
   take form group
 
 boot create-group, name <createGroup>

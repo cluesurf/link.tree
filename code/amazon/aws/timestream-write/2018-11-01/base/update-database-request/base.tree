@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/timestream-write/2018-11-01/base/resource-name
+load @cluesurf/snow/amazonaws.com/timestream-write/2018-11-01/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/timestream-write/2018-11-01/base/string-value2048
+load @cluesurf/snow/amazonaws.com/timestream-write/2018-11-01/base/string-value2048
   take form string-value2048
 
 form update-database-request, name <UpdateDatabaseRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mq/2017-11-27/base/day-of-week
+load @cluesurf/snow/amazonaws.com/mq/2017-11-27/base/day-of-week
   take form day-of-week
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form weekly-start-time, name <WeeklyStartTime>

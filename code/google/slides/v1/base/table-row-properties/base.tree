@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/dimension
+load @cluesurf/snow/googleapis.com/slides/v1/base/dimension
   take form dimension
 
 form table-row-properties, name <TableRowProperties>

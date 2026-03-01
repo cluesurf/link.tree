@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/bigquery/v2/base/table
+load @cluesurf/snow/googleapis.com/bigquery/v2/base/table
   take form table
 
 boot bigquery-tables-update, name <bigquery.tables.update>

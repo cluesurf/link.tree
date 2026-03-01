@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/base-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/base-exception
   take form base-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/create-package-body
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/create-package-body
   take form create-package-body
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/create-package-response
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/create-package-response
   take form create-package-response
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/internal-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/internal-exception
   take form internal-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/invalid-type-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/invalid-type-exception
   take form invalid-type-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/limit-exceeded-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/limit-exceeded-exception
   take form limit-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/resource-already-exists-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/resource-already-exists-exception
   take form resource-already-exists-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/validation-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/validation-exception
   take form validation-exception
 
 boot create-package, name <CreatePackage>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/vault/v1/base/groups-count-result
+load @cluesurf/snow/googleapis.com/vault/v1/base/groups-count-result
   take form groups-count-result
 
-load @termsurf/snow/googleapis.com/vault/v1/base/mail-count-result
+load @cluesurf/snow/googleapis.com/vault/v1/base/mail-count-result
   take form mail-count-result
 
 form count-artifacts-response, name <CountArtifactsResponse>

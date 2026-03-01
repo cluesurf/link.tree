@@ -1,5 +1,5 @@
 
-load @termsurf/snow/okta/base/group-schema
+load @cluesurf/snow/okta/base/group-schema
   take form group-schema
 
 boot update-group-schema, name <updateGroupSchema>

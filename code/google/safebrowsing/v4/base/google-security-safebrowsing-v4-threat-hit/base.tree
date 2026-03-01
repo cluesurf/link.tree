@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/safebrowsing/v4/base/google-security-safebrowsing-v4-client-info
+load @cluesurf/snow/googleapis.com/safebrowsing/v4/base/google-security-safebrowsing-v4-client-info
   take form google-security-safebrowsing-v4-client-info
 
-load @termsurf/snow/googleapis.com/safebrowsing/v4/base/google-security-safebrowsing-v4-threat-entry
+load @cluesurf/snow/googleapis.com/safebrowsing/v4/base/google-security-safebrowsing-v4-threat-entry
   take form google-security-safebrowsing-v4-threat-entry
 
-load @termsurf/snow/googleapis.com/safebrowsing/v4/base/google-security-safebrowsing-v4-threat-hit-user-info
+load @cluesurf/snow/googleapis.com/safebrowsing/v4/base/google-security-safebrowsing-v4-threat-hit-user-info
   take form google-security-safebrowsing-v4-threat-hit-user-info
 
 form google-security-safebrowsing-v4-threat-hit, name <GoogleSecuritySafebrowsingV4ThreatHit>

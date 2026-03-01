@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/duration
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/duration
   take form duration
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/phase-status
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/phase-status
   take form phase-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form task-execution-result-detail, name <TaskExecutionResultDetail>

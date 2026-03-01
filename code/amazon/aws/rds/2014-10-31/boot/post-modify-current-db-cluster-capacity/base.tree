@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/db-cluster-capacity-info
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/db-cluster-capacity-info
   take form db-cluster-capacity-info
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/db-cluster-not-found-fault
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/db-cluster-not-found-fault
   take form db-cluster-not-found-fault
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/invalid-db-cluster-capacity-fault
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/invalid-db-cluster-capacity-fault
   take form invalid-db-cluster-capacity-fault
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/invalid-db-cluster-state-fault
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/invalid-db-cluster-state-fault
   take form invalid-db-cluster-state-fault
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-modify-current-db-cluster-capacity, name <POST_ModifyCurrentDBClusterCapacity>

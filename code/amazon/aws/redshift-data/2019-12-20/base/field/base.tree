@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/redshift-data/2019-12-20/base/blob
+load @cluesurf/snow/amazonaws.com/redshift-data/2019-12-20/base/blob
   take form blob
 
-load @termsurf/snow/amazonaws.com/redshift-data/2019-12-20/base/boxed-boolean
+load @cluesurf/snow/amazonaws.com/redshift-data/2019-12-20/base/boxed-boolean
   take form boxed-boolean
 
-load @termsurf/snow/amazonaws.com/redshift-data/2019-12-20/base/boxed-double
+load @cluesurf/snow/amazonaws.com/redshift-data/2019-12-20/base/boxed-double
   take form boxed-double
 
-load @termsurf/snow/amazonaws.com/redshift-data/2019-12-20/base/boxed-long
+load @cluesurf/snow/amazonaws.com/redshift-data/2019-12-20/base/boxed-long
   take form boxed-long
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form field, name <Field>

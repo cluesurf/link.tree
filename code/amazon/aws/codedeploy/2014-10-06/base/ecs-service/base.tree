@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/ecs-cluster-name
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/ecs-cluster-name
   take form ecs-cluster-name
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/ecs-service-name
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/ecs-service-name
   take form ecs-service-name
 
 form ecs-service, name <ECSService>

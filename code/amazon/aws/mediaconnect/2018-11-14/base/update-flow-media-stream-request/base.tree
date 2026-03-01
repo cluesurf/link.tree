@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/media-stream-attributes-request
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/media-stream-attributes-request
   take form media-stream-attributes-request
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/media-stream-type
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/media-stream-type
   take form media-stream-type
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-flow-media-stream-request, name <UpdateFlowMediaStreamRequest>

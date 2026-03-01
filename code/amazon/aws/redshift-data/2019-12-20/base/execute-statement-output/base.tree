@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/redshift-data/2019-12-20/base/location
+load @cluesurf/snow/amazonaws.com/redshift-data/2019-12-20/base/location
   take form location
 
-load @termsurf/snow/amazonaws.com/redshift-data/2019-12-20/base/secret-arn
+load @cluesurf/snow/amazonaws.com/redshift-data/2019-12-20/base/secret-arn
   take form secret-arn
 
-load @termsurf/snow/amazonaws.com/redshift-data/2019-12-20/base/statement-id
+load @cluesurf/snow/amazonaws.com/redshift-data/2019-12-20/base/statement-id
   take form statement-id
 
-load @termsurf/snow/amazonaws.com/redshift-data/2019-12-20/base/timestamp
+load @cluesurf/snow/amazonaws.com/redshift-data/2019-12-20/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form execute-statement-output, name <ExecuteStatementOutput>

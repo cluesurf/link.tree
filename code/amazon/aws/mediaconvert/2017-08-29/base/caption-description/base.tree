@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/caption-destination-settings
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/caption-destination-settings
   take form caption-destination-settings
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/language-code
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/language-code
   take form language-code
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/string-min1
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/string-min1
   take form string-min1
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/string-pattern-a-za-z23-a-za-z
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/string-pattern-a-za-z23-a-za-z
   take form string-pattern-a-za-z23-a-za-z
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form caption-description, name <CaptionDescription>

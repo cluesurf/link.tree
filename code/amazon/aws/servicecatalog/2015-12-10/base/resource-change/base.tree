@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/change-action
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/change-action
   take form change-action
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/logical-resource-id
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/logical-resource-id
   take form logical-resource-id
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/physical-resource-id
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/physical-resource-id
   take form physical-resource-id
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/plan-resource-type
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/plan-resource-type
   take form plan-resource-type
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/replacement
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/replacement
   take form replacement
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/resource-change-details
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/resource-change-details
   take form resource-change-details
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/scope
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/scope
   take form scope
 
 form resource-change, name <ResourceChange>

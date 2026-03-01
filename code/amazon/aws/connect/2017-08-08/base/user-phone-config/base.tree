@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/after-contact-work-time-limit
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/after-contact-work-time-limit
   take form after-contact-work-time-limit
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/auto-accept
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/auto-accept
   take form auto-accept
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/phone-number
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/phone-number
   take form phone-number
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/phone-type
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/phone-type
   take form phone-type
 
 form user-phone-config, name <UserPhoneConfig>

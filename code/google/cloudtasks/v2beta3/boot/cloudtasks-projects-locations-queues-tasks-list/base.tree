@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudtasks/v2beta3/base/list-tasks-response
+load @cluesurf/snow/googleapis.com/cloudtasks/v2beta3/base/list-tasks-response
   take form list-tasks-response
 
 boot cloudtasks-projects-locations-queues-tasks-list, name <cloudtasks.projects.locations.queues.tasks.list>

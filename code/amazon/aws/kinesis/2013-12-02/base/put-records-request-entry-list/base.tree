@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/put-records-request-entry
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/put-records-request-entry
   take form put-records-request-entry
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form put-records-request-entry-list, name <PutRecordsRequestEntryList>

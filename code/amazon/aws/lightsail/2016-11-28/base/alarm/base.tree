@@ -1,59 +1,59 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/alarm-state
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/alarm-state
   take form alarm-state
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/comparison-operator
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/comparison-operator
   take form comparison-operator
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/contact-protocols-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/contact-protocols-list
   take form contact-protocols-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/double
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/iso-date
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/iso-date
   take form iso-date
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-name
   take form metric-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-period
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-period
   take form metric-period
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-statistic
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-statistic
   take form metric-statistic
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-unit
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-unit
   take form metric-unit
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/monitored-resource-info
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/monitored-resource-info
   take form monitored-resource-info
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/notification-trigger-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/notification-trigger-list
   take form notification-trigger-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-location
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-location
   take form resource-location
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-type
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-type
   take form resource-type
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/treat-missing-data
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/treat-missing-data
   take form treat-missing-data
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form alarm, name <Alarm>

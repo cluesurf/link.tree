@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/image-digest
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/image-digest
   take form image-digest
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/image-manifest
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/image-manifest
   take form image-manifest
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/image-tag
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/image-tag
   take form image-tag
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/media-type
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/media-type
   take form media-type
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/registry-id-or-alias
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/registry-id-or-alias
   take form registry-id-or-alias
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/repository-name
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/repository-name
   take form repository-name
 
 form put-image-request, name <PutImageRequest>

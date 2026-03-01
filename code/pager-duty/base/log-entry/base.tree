@@ -1,20 +1,20 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/pager-duty/base/agent
+load @cluesurf/snow/pager-duty/base/agent
   take form agent
 
-load @termsurf/snow/pager-duty/base/channel
+load @cluesurf/snow/pager-duty/base/channel
   take form channel
 
-load @termsurf/snow/pager-duty/base/incident-reference
+load @cluesurf/snow/pager-duty/base/incident-reference
   take form incident-reference
 
-load @termsurf/snow/pager-duty/base/log-entry-reference
+load @cluesurf/snow/pager-duty/base/log-entry-reference
   take form log-entry-reference
 
-load @termsurf/snow/pager-duty/base/service-reference
+load @cluesurf/snow/pager-duty/base/service-reference
   take form service-reference
 
 form log-entry, name <LogEntry>

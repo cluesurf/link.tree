@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/model-package-summary
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/model-package-summary
   take form model-package-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form model-package-summary-list, name <ModelPackageSummaryList>

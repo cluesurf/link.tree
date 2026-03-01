@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/preview-understand-assistant
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/preview-understand-assistant
   take form preview-understand-assistant
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/update-assistant-body
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/update-assistant-body
   take form update-assistant-body
 
 boot update-assistant, name <UpdateAssistant>

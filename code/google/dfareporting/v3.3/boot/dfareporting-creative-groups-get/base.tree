@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.3/base/creative-group
+load @cluesurf/snow/googleapis.com/dfareporting/v3.3/base/creative-group
   take form creative-group
 
 boot dfareporting-creative-groups-get, name <dfareporting.creativeGroups.get>

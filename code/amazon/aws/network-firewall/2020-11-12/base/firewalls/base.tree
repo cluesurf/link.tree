@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/firewall-metadata
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/firewall-metadata
   take form firewall-metadata
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form firewalls, name <Firewalls>

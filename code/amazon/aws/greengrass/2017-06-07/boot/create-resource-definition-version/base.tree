@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/create-resource-definition-version-body
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/create-resource-definition-version-body
   take form create-resource-definition-version-body
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/create-resource-definition-version-response
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/create-resource-definition-version-response
   take form create-resource-definition-version-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot create-resource-definition-version, name <CreateResourceDefinitionVersion>

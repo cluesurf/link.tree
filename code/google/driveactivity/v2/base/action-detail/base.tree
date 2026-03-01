@@ -1,35 +1,35 @@
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/application-reference
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/application-reference
   take form application-reference
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/comment
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/comment
   take form comment
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/create
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/create
   take form create
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/data-leak-prevention-change
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/data-leak-prevention-change
   take form data-leak-prevention-change
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/delete
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/delete
   take form delete
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/edit
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/edit
   take form edit
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/move
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/move
   take form move
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/permission-change
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/permission-change
   take form permission-change
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/rename
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/rename
   take form rename
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/restore
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/restore
   take form restore
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/settings-change
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/settings-change
   take form settings-change
 
 form action-detail, name <ActionDetail>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/jira/openapi.json/base/comment
+load @cluesurf/snow/jira/openapi.json/base/comment
   take form comment
 
 boot add-comment, name <addComment>

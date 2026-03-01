@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/describe-load-balancer-target-groups-response
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/describe-load-balancer-target-groups-response
   take form describe-load-balancer-target-groups-response
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/resource-contention-fault
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/resource-contention-fault
   take form resource-contention-fault
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-describe-load-balancer-target-groups, name <GET_DescribeLoadBalancerTargetGroups>

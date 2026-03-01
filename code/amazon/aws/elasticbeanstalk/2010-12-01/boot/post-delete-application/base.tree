@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/operation-in-progress-exception
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/operation-in-progress-exception
   take form operation-in-progress-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-delete-application, name <POST_DeleteApplication>

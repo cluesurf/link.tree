@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-behavior
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-behavior
   take form cache-behavior
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-behavior-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-behavior-list
   take form cache-behavior-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-settings
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-settings
   take form cache-settings
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/input-origin
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/input-origin
   take form input-origin
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form update-distribution-request, name <UpdateDistributionRequest>

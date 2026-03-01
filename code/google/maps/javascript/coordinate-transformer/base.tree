@@ -1,27 +1,27 @@
 
-load @termsurf/land/code/javascript/base/float32-array
+load @cluesurf/land/code/javascript/base/float32-array
   take form float32-array
 
-load @termsurf/land/code/javascript/base/float64-array
+load @cluesurf/land/code/javascript/base/float64-array
   take form float64-array
 
-load @termsurf/land/code/javascript/base/native-number
+load @cluesurf/land/code/javascript/base/native-number
   take form native-number
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/camera-params
+load @cluesurf/snow/code/javascript/google/maps/camera-params
   take form camera-params
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng
+load @cluesurf/snow/code/javascript/google/maps/lat-lng
   take form lat-lng
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-altitude-literal
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-altitude-literal
   take form lat-lng-altitude-literal
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-literal
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-literal
   take form lat-lng-literal
 
 form coordinate-transformer, name <google.maps.CoordinateTransformer>

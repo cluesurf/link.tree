@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/byoip-cidr
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/byoip-cidr
   take form byoip-cidr
 
 form deprovision-byoip-cidr-response, name <DeprovisionByoipCidrResponse>

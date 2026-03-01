@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/proactive-insight-summary
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/proactive-insight-summary
   take form proactive-insight-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form proactive-insights, name <ProactiveInsights>

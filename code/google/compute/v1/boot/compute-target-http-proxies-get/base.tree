@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/compute/v1/base/target-http-proxy
+load @cluesurf/snow/googleapis.com/compute/v1/base/target-http-proxy
   take form target-http-proxy
 
 boot compute-target-http-proxies-get, name <compute.targetHttpProxies.get>

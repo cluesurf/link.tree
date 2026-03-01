@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/resolved-artifact
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/resolved-artifact
   take form resolved-artifact
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/resolved-secondary-artifacts
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/resolved-secondary-artifacts
   take form resolved-secondary-artifacts
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/status-type
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/status-type
   take form status-type
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/timestamp
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form build-summary, name <BuildSummary>

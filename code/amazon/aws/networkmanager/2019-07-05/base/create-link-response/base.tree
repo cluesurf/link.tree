@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/link
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/link
   take form link
 
 form create-link-response, name <CreateLinkResponse>

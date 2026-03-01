@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/backup-id
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/backup-id
   take form backup-id
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/backup-state
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/backup-state
   take form backup-state
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/cluster-id
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/cluster-id
   take form cluster-id
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/region
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/region
   take form region
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/tag-list
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/timestamp
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form backup, name <Backup>

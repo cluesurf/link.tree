@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/datapipeline/2012-10-29/base/pipeline-list
+load @cluesurf/snow/amazonaws.com/datapipeline/2012-10-29/base/pipeline-list
   take form pipeline-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-pipelines-output, name <ListPipelinesOutput>

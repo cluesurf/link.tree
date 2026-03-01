@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/cloud-watch-destination
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/cloud-watch-destination
   take form cloud-watch-destination
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/enabled
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/enabled
   take form enabled
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/event-destination-name
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/event-destination-name
   take form event-destination-name
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/event-types
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/event-types
   take form event-types
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/kinesis-firehose-destination
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/kinesis-firehose-destination
   take form kinesis-firehose-destination
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/sns-destination
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/sns-destination
   take form sns-destination
 
 form event-destination, name <EventDestination>

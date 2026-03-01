@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/id
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/position
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/position
   take form position
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/timestamp
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/timestamp
   take form timestamp
 
 form list-device-positions-response-entry, name <ListDevicePositionsResponseEntry>

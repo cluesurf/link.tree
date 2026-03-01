@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/person
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/person
   take form person
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/result-display-metadata
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/result-display-metadata
   take form result-display-metadata
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/source
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/source
   take form source
 
 form metadata, name <Metadata>

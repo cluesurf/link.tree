@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/certificatemanager/v1/base/operation
+load @cluesurf/snow/googleapis.com/certificatemanager/v1/base/operation
   take form operation
 
 boot certificatemanager-projects-locations-certificate-maps-certificate-map-entries-create, name <certificatemanager.projects.locations.certificateMaps.certificateMapEntries.create>

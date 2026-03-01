@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/adsensehost/v4.1/base/report
+load @cluesurf/snow/googleapis.com/adsensehost/v4.1/base/report
   take form report
 
 boot adsensehost-reports-generate, name <adsensehost.reports.generate>

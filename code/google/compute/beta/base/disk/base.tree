@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/compute/beta/base/customer-encryption-key
+load @cluesurf/snow/googleapis.com/compute/beta/base/customer-encryption-key
   take form customer-encryption-key
 
 form disk, name <Disk>

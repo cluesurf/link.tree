@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/vault/v1/base/saved-query
+load @cluesurf/snow/googleapis.com/vault/v1/base/saved-query
   take form saved-query
 
 boot vault-matters-saved-queries-create, name <vault.matters.savedQueries.create>

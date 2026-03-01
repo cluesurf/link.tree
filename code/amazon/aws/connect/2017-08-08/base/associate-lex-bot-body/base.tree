@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/bot-name
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/bot-name
   take form bot-name
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/lex-region
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/lex-region
   take form lex-region
 
 form associate-lex-bot-body

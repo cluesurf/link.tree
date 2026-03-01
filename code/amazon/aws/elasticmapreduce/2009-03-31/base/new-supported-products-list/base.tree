@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/supported-product-config
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/supported-product-config
   take form supported-product-config
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form new-supported-products-list, name <NewSupportedProductsList>

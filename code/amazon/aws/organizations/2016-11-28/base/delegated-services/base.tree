@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/organizations/2016-11-28/base/delegated-service
+load @cluesurf/snow/amazonaws.com/organizations/2016-11-28/base/delegated-service
   take form delegated-service
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form delegated-services, name <DelegatedServices>

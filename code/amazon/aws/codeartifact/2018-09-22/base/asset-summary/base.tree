@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/asset-hashes
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/asset-hashes
   take form asset-hashes
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/asset-name
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/asset-name
   take form asset-name
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/long-optional
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/long-optional
   take form long-optional
 
 form asset-summary, name <AssetSummary>

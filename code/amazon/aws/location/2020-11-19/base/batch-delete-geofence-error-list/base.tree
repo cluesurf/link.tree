@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/batch-delete-geofence-error
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/batch-delete-geofence-error
   take form batch-delete-geofence-error
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form batch-delete-geofence-error-list, name <BatchDeleteGeofenceErrorList>

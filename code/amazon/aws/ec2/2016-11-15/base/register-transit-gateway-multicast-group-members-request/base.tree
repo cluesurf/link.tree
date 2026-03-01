@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-multicast-domain-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-multicast-domain-id
   take form transit-gateway-multicast-domain-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-network-interface-id-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-network-interface-id-list
   take form transit-gateway-network-interface-id-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form register-transit-gateway-multicast-group-members-request, name <RegisterTransitGatewayMulticastGroupMembersRequest>

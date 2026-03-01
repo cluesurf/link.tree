@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/form
+load @cluesurf/snow/googleapis.com/classroom/v1/base/form
   take form form
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/link
+load @cluesurf/snow/googleapis.com/classroom/v1/base/link
   take form link
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/shared-drive-file
+load @cluesurf/snow/googleapis.com/classroom/v1/base/shared-drive-file
   take form shared-drive-file
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/you-tube-video
+load @cluesurf/snow/googleapis.com/classroom/v1/base/you-tube-video
   take form you-tube-video
 
 form material, name <Material>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/container/v1/base/list-usable-subnetworks-response
+load @cluesurf/snow/googleapis.com/container/v1/base/list-usable-subnetworks-response
   take form list-usable-subnetworks-response
 
 boot container-projects-aggregated-usable-subnetworks-list, name <container.projects.aggregated.usableSubnetworks.list>

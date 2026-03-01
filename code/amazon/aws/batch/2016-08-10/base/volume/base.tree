@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/efs-volume-configuration
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/efs-volume-configuration
   take form efs-volume-configuration
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/host
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/host
   take form host
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form volume, name <Volume>

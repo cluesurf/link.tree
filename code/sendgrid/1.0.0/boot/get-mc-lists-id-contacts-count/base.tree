@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-mc-lists-id-contacts-count, name <GET_mc-lists-id-contacts-count>

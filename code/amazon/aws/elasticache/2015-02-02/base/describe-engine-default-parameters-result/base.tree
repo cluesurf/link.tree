@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/engine-defaults
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/engine-defaults
   take form engine-defaults
 
 form describe-engine-default-parameters-result, name <DescribeEngineDefaultParametersResult>

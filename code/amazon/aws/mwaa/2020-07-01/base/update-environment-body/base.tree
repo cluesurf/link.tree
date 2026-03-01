@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mwaa/2020-07-01/base/module-logging-configuration-input
+load @cluesurf/snow/amazonaws.com/mwaa/2020-07-01/base/module-logging-configuration-input
   take form module-logging-configuration-input
 
-load @termsurf/snow/amazonaws.com/mwaa/2020-07-01/base/security-group-list
+load @cluesurf/snow/amazonaws.com/mwaa/2020-07-01/base/security-group-list
   take form security-group-list
 
 form update-environment-body

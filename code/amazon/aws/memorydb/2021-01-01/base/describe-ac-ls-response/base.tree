@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/acl-list
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/acl-list
   take form acl-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-ac-ls-response, name <DescribeACLsResponse>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/androidmanagement/v1/base/extension-config
+load @cluesurf/snow/googleapis.com/androidmanagement/v1/base/extension-config
   take form extension-config
 
-load @termsurf/snow/googleapis.com/androidmanagement/v1/base/managed-configuration-template
+load @cluesurf/snow/googleapis.com/androidmanagement/v1/base/managed-configuration-template
   take form managed-configuration-template
 
 form application-policy, name <ApplicationPolicy>

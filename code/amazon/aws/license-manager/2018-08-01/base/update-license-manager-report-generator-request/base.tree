@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/client-request-token
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/client-request-token
   take form client-request-token
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/report-context
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/report-context
   take form report-context
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/report-frequency
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/report-frequency
   take form report-frequency
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/report-generator-name
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/report-generator-name
   take form report-generator-name
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/report-type-list
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/report-type-list
   take form report-type-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-license-manager-report-generator-request, name <UpdateLicenseManagerReportGeneratorRequest>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/rds/2013-02-12/base/boolean-optional
+load @cluesurf/snow/amazonaws.com/rds/2013-02-12/base/boolean-optional
   take form boolean-optional
 
-load @termsurf/snow/amazonaws.com/rds/2013-02-12/base/integer-optional
+load @cluesurf/snow/amazonaws.com/rds/2013-02-12/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/amazonaws.com/rds/2013-02-12/base/t-stamp
+load @cluesurf/snow/amazonaws.com/rds/2013-02-12/base/t-stamp
   take form t-stamp
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form restore-db-instance-to-point-in-time-message, name <RestoreDBInstanceToPointInTimeMessage>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/message
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/message
   take form message
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/message-variations-list
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/message-variations-list
   take form message-variations-list
 
 form message-group, name <MessageGroup>

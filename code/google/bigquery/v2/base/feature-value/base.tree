@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/bigquery/v2/base/categorical-value
+load @cluesurf/snow/googleapis.com/bigquery/v2/base/categorical-value
   take form categorical-value
 
 form feature-value, name <FeatureValue>

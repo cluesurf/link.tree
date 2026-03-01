@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/created-artifact-list
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/created-artifact-list
   take form created-artifact-list
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/token
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/token
   take form token
 
 form list-created-artifacts-result, name <ListCreatedArtifactsResult>

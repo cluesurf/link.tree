@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/global-error-response-schema
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/global-error-response-schema
   take form global-error-response-schema
 
 boot get-contactdb-segments-segment-id-recipients, name <GET_contactdb-segments-segment_id-recipients>

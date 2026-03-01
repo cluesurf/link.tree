@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/parameters-list
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/parameters-list
   take form parameters-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form db-cluster-parameter-group-details, name <DBClusterParameterGroupDetails>

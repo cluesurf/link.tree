@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/date-range-unit
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/date-range-unit
   take form date-range-unit
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form date-range, name <DateRange>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
   take form kms-key-id
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/vpc-config
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/vpc-config
   take form vpc-config
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form auto-ml-security-config, name <AutoMLSecurityConfig>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sso-oidc/2019-06-10/base/client-id
+load @cluesurf/snow/amazonaws.com/sso-oidc/2019-06-10/base/client-id
   take form client-id
 
-load @termsurf/snow/amazonaws.com/sso-oidc/2019-06-10/base/client-secret
+load @cluesurf/snow/amazonaws.com/sso-oidc/2019-06-10/base/client-secret
   take form client-secret
 
-load @termsurf/snow/amazonaws.com/sso-oidc/2019-06-10/base/uri
+load @cluesurf/snow/amazonaws.com/sso-oidc/2019-06-10/base/uri
   take form uri
 
 form start-device-authorization-request, name <StartDeviceAuthorizationRequest>

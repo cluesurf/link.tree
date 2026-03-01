@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/arn
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/profile-version
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/profile-version
   take form profile-version
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form put-signing-profile-response, name <PutSigningProfileResponse>

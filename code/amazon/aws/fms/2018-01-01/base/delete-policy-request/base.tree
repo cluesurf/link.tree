@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fms/2018-01-01/base/policy-id
+load @cluesurf/snow/amazonaws.com/fms/2018-01-01/base/policy-id
   take form policy-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form delete-policy-request, name <DeletePolicyRequest>

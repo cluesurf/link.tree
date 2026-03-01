@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/allocate-hosts-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/allocate-hosts-result
   take form allocate-hosts-result
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification
   take form tag-specification
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-allocate-hosts, name <GET_AllocateHosts>

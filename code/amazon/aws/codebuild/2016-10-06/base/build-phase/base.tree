@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/build-phase-type
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/build-phase-type
   take form build-phase-type
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/phase-contexts
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/phase-contexts
   take form phase-contexts
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/status-type
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/status-type
   take form status-type
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/timestamp
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/wrapper-long
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/wrapper-long
   take form wrapper-long
 
 form build-phase, name <BuildPhase>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/appconfig/2019-10-09/base/deployment-strategy-id
+load @cluesurf/snow/amazonaws.com/appconfig/2019-10-09/base/deployment-strategy-id
   take form deployment-strategy-id
 
-load @termsurf/snow/amazonaws.com/appconfig/2019-10-09/base/description
+load @cluesurf/snow/amazonaws.com/appconfig/2019-10-09/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/appconfig/2019-10-09/base/id
+load @cluesurf/snow/amazonaws.com/appconfig/2019-10-09/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/appconfig/2019-10-09/base/tag-map
+load @cluesurf/snow/amazonaws.com/appconfig/2019-10-09/base/tag-map
   take form tag-map
 
-load @termsurf/snow/amazonaws.com/appconfig/2019-10-09/base/version
+load @cluesurf/snow/amazonaws.com/appconfig/2019-10-09/base/version
   take form version
 
 form start-deployment-request, name <StartDeploymentRequest>

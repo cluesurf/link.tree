@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/add-prefix-list-entries
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/add-prefix-list-entries
   take form add-prefix-list-entries
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/long
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-resource-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-resource-id
   take form prefix-list-resource-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/remove-prefix-list-entries
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/remove-prefix-list-entries
   take form remove-prefix-list-entries
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form modify-managed-prefix-list-request, name <ModifyManagedPrefixListRequest>

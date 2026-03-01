@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/analytics/v3/base/profile-filter-links
+load @cluesurf/snow/googleapis.com/analytics/v3/base/profile-filter-links
   take form profile-filter-links
 
 boot analytics-management-profile-filter-links-list, name <analytics.management.profileFilterLinks.list>

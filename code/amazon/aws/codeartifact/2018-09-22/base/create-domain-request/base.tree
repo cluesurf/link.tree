@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/arn
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/tag-list
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/tag-list
   take form tag-list
 
 form create-domain-request, name <CreateDomainRequest>

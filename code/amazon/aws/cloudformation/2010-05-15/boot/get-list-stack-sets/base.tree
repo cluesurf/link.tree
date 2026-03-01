@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/list-stack-sets-output
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/list-stack-sets-output
   take form list-stack-sets-output
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-list-stack-sets, name <GET_ListStackSets>

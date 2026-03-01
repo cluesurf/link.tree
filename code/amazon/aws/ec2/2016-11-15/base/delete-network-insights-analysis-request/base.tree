@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/network-insights-analysis-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/network-insights-analysis-id
   take form network-insights-analysis-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form delete-network-insights-analysis-request, name <DeleteNetworkInsightsAnalysisRequest>

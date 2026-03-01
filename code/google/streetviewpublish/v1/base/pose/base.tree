@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/streetviewpublish/v1/base/lat-lng
+load @cluesurf/snow/googleapis.com/streetviewpublish/v1/base/lat-lng
   take form lat-lng
 
-load @termsurf/snow/googleapis.com/streetviewpublish/v1/base/level
+load @cluesurf/snow/googleapis.com/streetviewpublish/v1/base/level
   take form level
 
 form pose, name <Pose>

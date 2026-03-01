@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/pager-duty/base/log-entry-reference
+load @cluesurf/snow/pager-duty/base/log-entry-reference
   take form log-entry-reference
 
 form repeat-escalation-path-log-entry-reference, name <RepeatEscalationPathLogEntryReference>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/automation-execution-filter-key
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/automation-execution-filter-key
   take form automation-execution-filter-key
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/automation-execution-filter-value-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/automation-execution-filter-value-list
   take form automation-execution-filter-value-list
 
 form automation-execution-filter, name <AutomationExecutionFilter>

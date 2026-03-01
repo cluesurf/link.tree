@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-filter-rule-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-filter-rule-id
   take form traffic-mirror-filter-rule-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form delete-traffic-mirror-filter-rule-request, name <DeleteTrafficMirrorFilterRuleRequest>

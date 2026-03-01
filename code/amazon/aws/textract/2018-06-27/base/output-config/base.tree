@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/textract/2018-06-27/base/s3-bucket
+load @cluesurf/snow/amazonaws.com/textract/2018-06-27/base/s3-bucket
   take form s3-bucket
 
-load @termsurf/snow/amazonaws.com/textract/2018-06-27/base/s3-object-name
+load @cluesurf/snow/amazonaws.com/textract/2018-06-27/base/s3-object-name
   take form s3-object-name
 
 form output-config, name <OutputConfig>

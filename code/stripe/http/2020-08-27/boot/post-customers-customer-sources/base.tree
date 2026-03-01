@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/payment-source
+load @cluesurf/snow/stripe.com/2020-08-27/base/payment-source
   take form payment-source
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-customers-customer-sources-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-customers-customer-sources-body
   take form post-customers-customer-sources-body
 
 boot post-customers-customer-sources, name <PostCustomersCustomerSources>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/aliases
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/aliases
   take form aliases
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/price-class
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/price-class
   take form price-class
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/s3-origin
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/s3-origin
   take form s3-origin
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/streaming-logging-config
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/streaming-logging-config
   take form streaming-logging-config
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/trusted-signers
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/trusted-signers
   take form trusted-signers
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-streaming-distribution2019-03-26-body

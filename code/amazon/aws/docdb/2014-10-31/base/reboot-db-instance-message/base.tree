@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/docdb/2014-10-31/base/boolean-optional
+load @cluesurf/snow/amazonaws.com/docdb/2014-10-31/base/boolean-optional
   take form boolean-optional
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form reboot-db-instance-message, name <RebootDBInstanceMessage>

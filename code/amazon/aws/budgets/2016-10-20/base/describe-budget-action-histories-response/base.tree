@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/action-histories
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/action-histories
   take form action-histories
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/generic-string
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/generic-string
   take form generic-string
 
 form describe-budget-action-histories-response, name <DescribeBudgetActionHistoriesResponse>

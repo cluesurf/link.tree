@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/entity-id
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/entity-id
   take form entity-id
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/pagination-token
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/pagination-token
   take form pagination-token
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/qualification-status
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/qualification-status
   take form qualification-status
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/result-size
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/result-size
   take form result-size
 
 form list-workers-with-qualification-type-request, name <ListWorkersWithQualificationTypeRequest>

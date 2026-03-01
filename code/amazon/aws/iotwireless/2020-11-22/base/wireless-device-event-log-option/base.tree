@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/log-level
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/log-level
   take form log-level
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/wireless-device-event
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/wireless-device-event
   take form wireless-device-event
 
 form wireless-device-event-log-option, name <WirelessDeviceEventLogOption>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/kafka/2018-11-14/base/list-of-compatible-kafka-version
+load @cluesurf/snow/amazonaws.com/kafka/2018-11-14/base/list-of-compatible-kafka-version
   take form list-of-compatible-kafka-version
 
 form get-compatible-kafka-versions-response, name <GetCompatibleKafkaVersionsResponse>

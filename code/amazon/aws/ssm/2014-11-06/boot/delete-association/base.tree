@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/association-does-not-exist
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/association-does-not-exist
   take form association-does-not-exist
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/delete-association-result
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/delete-association-result
   take form delete-association-result
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-document
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-document
   take form invalid-document
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-instance-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-instance-id
   take form invalid-instance-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/too-many-updates
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/too-many-updates
   take form too-many-updates
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-association, name <DeleteAssociation>

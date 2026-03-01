@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/savingsplans/2019-06-28/base/list-of-strings
+load @cluesurf/snow/amazonaws.com/savingsplans/2019-06-28/base/list-of-strings
   take form list-of-strings
 
-load @termsurf/snow/amazonaws.com/savingsplans/2019-06-28/base/savings-plans-filter-name
+load @cluesurf/snow/amazonaws.com/savingsplans/2019-06-28/base/savings-plans-filter-name
   take form savings-plans-filter-name
 
 form savings-plan-filter, name <SavingsPlanFilter>

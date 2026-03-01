@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/wireless-device-statistics
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/wireless-device-statistics
   take form wireless-device-statistics
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form wireless-device-statistics-list, name <WirelessDeviceStatisticsList>

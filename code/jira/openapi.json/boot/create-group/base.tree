@@ -1,5 +1,5 @@
 
-load @termsurf/snow/jira/openapi.json/base/group
+load @cluesurf/snow/jira/openapi.json/base/group
   take form group
 
 boot create-group, name <createGroup>

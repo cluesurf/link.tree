@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/disk-info
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/disk-info
   take form disk-info
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form disk-info-list, name <DiskInfoList>

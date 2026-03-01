@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/essentialcontacts/v1/base/google-cloud-essentialcontacts-v1-contact
+load @cluesurf/snow/googleapis.com/essentialcontacts/v1/base/google-cloud-essentialcontacts-v1-contact
   take form google-cloud-essentialcontacts-v1-contact
 
 boot essentialcontacts-projects-contacts-patch, name <essentialcontacts.projects.contacts.patch>

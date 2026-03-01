@@ -1,15 +1,15 @@
 
-load @termsurf/seed/code/form/list
+load @cluesurf/seed/code/form/list
   take form list
     save form list-link-text
 
-load @termsurf/snow/code/javascript/google/maps/directions-geocoded-waypoint
+load @cluesurf/snow/code/javascript/google/maps/directions-geocoded-waypoint
   take form directions-geocoded-waypoint
 
-load @termsurf/snow/code/javascript/google/maps/directions-route
+load @cluesurf/snow/code/javascript/google/maps/directions-route
   take form directions-route
 
-load @termsurf/snow/code/javascript/google/maps/travel-mode
+load @cluesurf/snow/code/javascript/google/maps/travel-mode
   take form travel-mode
 
 form directions-result, name <google.maps.DirectionsResult>

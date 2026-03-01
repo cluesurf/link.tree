@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.4/base/proposal
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.4/base/proposal
   take form proposal
 
 boot adexchangebuyer-proposals-patch, name <adexchangebuyer.proposals.patch>

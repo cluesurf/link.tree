@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-version-history
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-version-history
   take form package-version-history
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form package-version-history-list, name <PackageVersionHistoryList>

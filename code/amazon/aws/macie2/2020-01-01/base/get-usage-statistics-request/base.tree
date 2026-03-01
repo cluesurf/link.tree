@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/list-of-usage-statistics-filter
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/list-of-usage-statistics-filter
   take form list-of-usage-statistics-filter
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/time-range
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/time-range
   take form time-range
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/usage-statistics-sort-by
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/usage-statistics-sort-by
   take form usage-statistics-sort-by
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-usage-statistics-request, name <GetUsageStatisticsRequest>

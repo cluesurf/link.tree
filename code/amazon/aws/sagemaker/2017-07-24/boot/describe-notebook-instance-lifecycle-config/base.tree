@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/describe-notebook-instance-lifecycle-config-output
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/describe-notebook-instance-lifecycle-config-output
   take form describe-notebook-instance-lifecycle-config-output
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-notebook-instance-lifecycle-config, name <DescribeNotebookInstanceLifecycleConfig>

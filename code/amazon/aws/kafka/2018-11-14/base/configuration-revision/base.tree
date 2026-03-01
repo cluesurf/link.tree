@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/kafka/2018-11-14/base/long
+load @cluesurf/snow/amazonaws.com/kafka/2018-11-14/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/kafka/2018-11-14/base/timestamp-iso8601
+load @cluesurf/snow/amazonaws.com/kafka/2018-11-14/base/timestamp-iso8601
   take form timestamp-iso8601
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form configuration-revision, name <ConfigurationRevision>

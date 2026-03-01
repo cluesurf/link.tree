@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-app-specification
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-app-specification
   take form monitoring-app-specification
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-baseline-config
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-baseline-config
   take form monitoring-baseline-config
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-environment-map
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-environment-map
   take form monitoring-environment-map
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-inputs
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-inputs
   take form monitoring-inputs
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-output-config
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-output-config
   take form monitoring-output-config
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-resources
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-resources
   take form monitoring-resources
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-stopping-condition
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-stopping-condition
   take form monitoring-stopping-condition
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/network-config
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/network-config
   take form network-config
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/role-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/role-arn
   take form role-arn
 
 form monitoring-job-definition, name <MonitoringJobDefinition>

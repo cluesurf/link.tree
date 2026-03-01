@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/jira/openapi.json/base/task-progress-bean-object
+load @cluesurf/snow/jira/openapi.json/base/task-progress-bean-object
   take form task-progress-bean-object
 
 boot delete-project-asynchronously, name <deleteProjectAsynchronously>

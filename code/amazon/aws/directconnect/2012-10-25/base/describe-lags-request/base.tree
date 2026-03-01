@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/lag-id
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/lag-id
   take form lag-id
 
 form describe-lags-request, name <DescribeLagsRequest>

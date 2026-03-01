@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/agent-ids
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/agent-ids
   take form agent-ids
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/filters
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/filters
   take form filters
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/next-token
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/next-token
   take form next-token
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form describe-agents-request, name <DescribeAgentsRequest>

@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/authorization
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/authorization
   take form authorization
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/cmaf-package-create-or-update-parameters
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/cmaf-package-create-or-update-parameters
   take form cmaf-package-create-or-update-parameters
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/dash-package
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/dash-package
   take form dash-package
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/hls-package
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/hls-package
   take form hls-package
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/list-of-string
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/list-of-string
   take form list-of-string
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/mss-package
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/mss-package
   take form mss-package
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/origination
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/origination
   take form origination
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/tags
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/tags
   take form tags
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-origin-endpoint-request, name <CreateOriginEndpointRequest>

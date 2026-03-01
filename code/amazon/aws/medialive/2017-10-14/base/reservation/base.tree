@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/double
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/offering-duration-units
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/offering-duration-units
   take form offering-duration-units
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/offering-type
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/offering-type
   take form offering-type
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/reservation-resource-specification
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/reservation-resource-specification
   take form reservation-resource-specification
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/reservation-state
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/reservation-state
   take form reservation-state
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/tags
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/tags
   take form tags
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form reservation, name <Reservation>

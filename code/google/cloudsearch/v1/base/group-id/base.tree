@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/dm-id
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/dm-id
   take form dm-id
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/space-id
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/space-id
   take form space-id
 
 form group-id, name <GroupId>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/command-plugin
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/command-plugin
   take form command-plugin
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form command-plugin-list, name <CommandPluginList>

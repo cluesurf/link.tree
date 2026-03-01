@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/organizations/2016-11-28/base/root
+load @cluesurf/snow/amazonaws.com/organizations/2016-11-28/base/root
   take form root
 
 form enable-policy-type-response, name <EnablePolicyTypeResponse>

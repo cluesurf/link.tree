@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/fleet-id-list
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/fleet-id-list
   take form fleet-id-list
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
   take form non-zero-and-max-string
 
 form list-fleets-output, name <ListFleetsOutput>

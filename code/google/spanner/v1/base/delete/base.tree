@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/spanner/v1/base/key-set
+load @cluesurf/snow/googleapis.com/spanner/v1/base/key-set
   take form key-set
 
 form delete, name <Delete>

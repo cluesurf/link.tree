@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/device-service-name
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/device-service-name
   take form device-service-name
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/transfer-option
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/transfer-option
   take form transfer-option
 
 form target-on-device-service, name <TargetOnDeviceService>

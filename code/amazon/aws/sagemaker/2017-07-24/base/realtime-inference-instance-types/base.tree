@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/production-variant-instance-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/production-variant-instance-type
   take form production-variant-instance-type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form realtime-inference-instance-types, name <RealtimeInferenceInstanceTypes>

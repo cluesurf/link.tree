@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/tagmanager/v1/base/user-access
+load @cluesurf/snow/googleapis.com/tagmanager/v1/base/user-access
   take form user-access
 
 boot tagmanager-accounts-permissions-get, name <tagmanager.accounts.permissions.get>

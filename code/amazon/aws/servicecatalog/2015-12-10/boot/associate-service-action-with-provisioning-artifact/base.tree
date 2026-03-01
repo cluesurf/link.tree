@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/associate-service-action-with-provisioning-artifact-output
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/associate-service-action-with-provisioning-artifact-output
   take form associate-service-action-with-provisioning-artifact-output
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/duplicate-resource-exception
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/duplicate-resource-exception
   take form duplicate-resource-exception
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/limit-exceeded-exception
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/limit-exceeded-exception
   take form limit-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot associate-service-action-with-provisioning-artifact, name <AssociateServiceActionWithProvisioningArtifact>

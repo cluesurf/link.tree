@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-option
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-option
   take form deployment-option
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-type
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-type
   take form deployment-type
 
 form deployment-style, name <DeploymentStyle>

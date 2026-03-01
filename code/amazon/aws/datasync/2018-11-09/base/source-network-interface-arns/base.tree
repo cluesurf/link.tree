@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/network-interface-arn
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/network-interface-arn
   take form network-interface-arn
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form source-network-interface-arns, name <SourceNetworkInterfaceArns>

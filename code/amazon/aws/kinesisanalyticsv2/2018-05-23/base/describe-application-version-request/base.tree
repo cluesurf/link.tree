@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kinesisanalyticsv2/2018-05-23/base/application-name
+load @cluesurf/snow/amazonaws.com/kinesisanalyticsv2/2018-05-23/base/application-name
   take form application-name
 
-load @termsurf/snow/amazonaws.com/kinesisanalyticsv2/2018-05-23/base/application-version-id
+load @cluesurf/snow/amazonaws.com/kinesisanalyticsv2/2018-05-23/base/application-version-id
   take form application-version-id
 
 form describe-application-version-request, name <DescribeApplicationVersionRequest>

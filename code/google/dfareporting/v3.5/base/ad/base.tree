@@ -1,44 +1,44 @@
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/click-through-url
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/click-through-url
   take form click-through-url
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/click-through-url-suffix-properties
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/click-through-url-suffix-properties
   take form click-through-url-suffix-properties
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/creative-rotation
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/creative-rotation
   take form creative-rotation
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/day-part-targeting
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/day-part-targeting
   take form day-part-targeting
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/default-click-through-event-tag-properties
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/default-click-through-event-tag-properties
   take form default-click-through-event-tag-properties
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/delivery-schedule
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/delivery-schedule
   take form delivery-schedule
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/dimension-value
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/dimension-value
   take form dimension-value
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/geo-targeting
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/geo-targeting
   take form geo-targeting
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/key-value-targeting-expression
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/key-value-targeting-expression
   take form key-value-targeting-expression
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/language-targeting
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/language-targeting
   take form language-targeting
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/last-modified-info
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/last-modified-info
   take form last-modified-info
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/list-targeting-expression
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/list-targeting-expression
   take form list-targeting-expression
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/size
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/size
   take form size
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/technology-targeting
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/technology-targeting
   take form technology-targeting
 
 form ad, name <Ad>

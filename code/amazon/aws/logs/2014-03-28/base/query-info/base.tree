@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/log-group-name
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/log-group-name
   take form log-group-name
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/query-id
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/query-id
   take form query-id
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/query-status
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/query-status
   take form query-status
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/query-string
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/query-string
   take form query-string
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/timestamp
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/timestamp
   take form timestamp
 
 form query-info, name <QueryInfo>

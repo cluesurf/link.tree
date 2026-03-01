@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/list-skills-response
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/list-skills-response
   take form list-skills-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-skills, name <ListSkills>

@@ -1,83 +1,83 @@
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/destination-settings
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/destination-settings
   take form destination-settings
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/double-min0-max2147483647
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/double-min0-max2147483647
   take form double-min0-max2147483647
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-audio-only-header
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-audio-only-header
   take form hls-audio-only-header
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-caption-language-setting
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-caption-language-setting
   take form hls-caption-language-setting
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-client-cache
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-client-cache
   take form hls-client-cache
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-codec-specification
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-codec-specification
   take form hls-codec-specification
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-directory-structure
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-directory-structure
   take form hls-directory-structure
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-encryption-settings
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-encryption-settings
   take form hls-encryption-settings
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-image-based-trick-play
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-image-based-trick-play
   take form hls-image-based-trick-play
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-manifest-compression
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-manifest-compression
   take form hls-manifest-compression
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-manifest-duration-format
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-manifest-duration-format
   take form hls-manifest-duration-format
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-output-selection
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-output-selection
   take form hls-output-selection
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-program-date-time
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-program-date-time
   take form hls-program-date-time
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-segment-control
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-segment-control
   take form hls-segment-control
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-segment-length-control
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-segment-length-control
   take form hls-segment-length-control
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-stream-inf-resolution
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-stream-inf-resolution
   take form hls-stream-inf-resolution
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-target-duration-compatibility-mode
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-target-duration-compatibility-mode
   take form hls-target-duration-compatibility-mode
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-timed-metadata-id3-frame
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-timed-metadata-id3-frame
   take form hls-timed-metadata-id3-frame
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min-negative2147483648-max2147483647
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min-negative2147483648-max2147483647
   take form integer-min-negative2147483648-max2147483647
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min0-max2147483647
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min0-max2147483647
   take form integer-min0-max2147483647
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min0-max3600
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min0-max3600
   take form integer-min0-max3600
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min1-max2147483647
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min1-max2147483647
   take form integer-min1-max2147483647
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/list-of-hls-ad-markers
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/list-of-hls-ad-markers
   take form list-of-hls-ad-markers
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/list-of-hls-additional-manifest
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/list-of-hls-additional-manifest
   take form list-of-hls-additional-manifest
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/list-of-hls-caption-language-mapping
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/list-of-hls-caption-language-mapping
   take form list-of-hls-caption-language-mapping
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/string-pattern-s3
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/string-pattern-s3
   take form string-pattern-s3
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form hls-group-settings, name <HlsGroupSettings>

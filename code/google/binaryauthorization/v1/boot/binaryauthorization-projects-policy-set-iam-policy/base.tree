@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/binaryauthorization/v1/base/iam-policy
+load @cluesurf/snow/googleapis.com/binaryauthorization/v1/base/iam-policy
   take form iam-policy
 
 boot binaryauthorization-projects-policy-set-iam-policy, name <binaryauthorization.projects.policy.setIamPolicy>

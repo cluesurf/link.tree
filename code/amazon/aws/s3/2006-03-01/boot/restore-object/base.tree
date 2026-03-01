@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/object-already-in-active-tier-error
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/object-already-in-active-tier-error
   take form object-already-in-active-tier-error
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/restore-object-body
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/restore-object-body
   take form restore-object-body
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/restore-object-output
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/restore-object-output
   take form restore-object-output
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot restore-object, name <RestoreObject>

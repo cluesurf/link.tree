@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/auto-scaling-policy-description
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/auto-scaling-policy-description
   take form auto-scaling-policy-description
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/boolean-object
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/boolean-object
   take form boolean-object
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/configuration-list
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/configuration-list
   take form configuration-list
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/ebs-block-device-list
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/ebs-block-device-list
   take form ebs-block-device-list
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-group-id
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-group-id
   take form instance-group-id
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-group-status
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-group-status
   take form instance-group-status
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-group-type
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-group-type
   take form instance-group-type
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-type
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-type
   take form instance-type
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/long
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/market-type
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/market-type
   take form market-type
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/shrink-policy
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/shrink-policy
   take form shrink-policy
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string-max-len256
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string-max-len256
   take form xml-string-max-len256
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form instance-group, name <InstanceGroup>

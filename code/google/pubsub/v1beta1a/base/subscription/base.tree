@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/pubsub/v1beta1a/base/push-config
+load @cluesurf/snow/googleapis.com/pubsub/v1beta1a/base/push-config
   take form push-config
 
 form subscription, name <Subscription>

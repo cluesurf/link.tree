@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/compute/v1/base/interconnect-diagnostics
+load @cluesurf/snow/googleapis.com/compute/v1/base/interconnect-diagnostics
   take form interconnect-diagnostics
 
 form interconnects-get-diagnostics-response, name <InterconnectsGetDiagnosticsResponse>

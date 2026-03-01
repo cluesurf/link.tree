@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/mq/2017-11-27/base/list-of-configuration
+load @cluesurf/snow/amazonaws.com/mq/2017-11-27/base/list-of-configuration
   take form list-of-configuration
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-configurations-response, name <ListConfigurationsResponse>

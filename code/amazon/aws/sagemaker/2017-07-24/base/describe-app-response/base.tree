@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/app-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/app-arn
   take form app-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/app-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/app-name
   take form app-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/app-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/app-status
   take form app-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/app-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/app-type
   take form app-type
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/creation-time
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/creation-time
   take form creation-time
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/domain-id
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/domain-id
   take form domain-id
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/failure-reason
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/failure-reason
   take form failure-reason
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/resource-spec
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/resource-spec
   take form resource-spec
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/user-profile-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/user-profile-name
   take form user-profile-name
 
 form describe-app-response, name <DescribeAppResponse>

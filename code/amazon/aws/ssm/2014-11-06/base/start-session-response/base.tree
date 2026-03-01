@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/session-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/session-id
   take form session-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/stream-url
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/stream-url
   take form stream-url
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/token-value
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/token-value
   take form token-value
 
 form start-session-response, name <StartSessionResponse>

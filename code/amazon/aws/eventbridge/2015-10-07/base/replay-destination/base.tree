@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/arn
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/replay-destination-filters
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/replay-destination-filters
   take form replay-destination-filters
 
 form replay-destination, name <ReplayDestination>

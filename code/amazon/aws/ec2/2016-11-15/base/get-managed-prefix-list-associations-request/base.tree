@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/get-managed-prefix-list-associations-max-results
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/get-managed-prefix-list-associations-max-results
   take form get-managed-prefix-list-associations-max-results
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/next-token
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-resource-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-resource-id
   take form prefix-list-resource-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form get-managed-prefix-list-associations-request, name <GetManagedPrefixListAssociationsRequest>

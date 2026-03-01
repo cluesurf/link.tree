@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/compute/beta/base/instance-properties
+load @cluesurf/snow/googleapis.com/compute/beta/base/instance-properties
   take form instance-properties
 
-load @termsurf/snow/googleapis.com/compute/beta/base/source-instance-params
+load @cluesurf/snow/googleapis.com/compute/beta/base/source-instance-params
   take form source-instance-params
 
 form instance-template, name <InstanceTemplate>

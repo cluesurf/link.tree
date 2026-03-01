@@ -1,56 +1,56 @@
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/arn
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/batch-size
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/batch-size
   take form batch-size
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/bisect-batch-on-function-error
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/bisect-batch-on-function-error
   take form bisect-batch-on-function-error
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/date
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/destination-config
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/destination-config
   take form destination-config
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/event-source-position
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/event-source-position
   take form event-source-position
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/function-arn
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/function-arn
   take form function-arn
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/function-response-type-list
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/function-response-type-list
   take form function-response-type-list
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/maximum-batching-window-in-seconds
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/maximum-batching-window-in-seconds
   take form maximum-batching-window-in-seconds
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/maximum-record-age-in-seconds
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/maximum-record-age-in-seconds
   take form maximum-record-age-in-seconds
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/maximum-retry-attempts-event-source-mapping
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/maximum-retry-attempts-event-source-mapping
   take form maximum-retry-attempts-event-source-mapping
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/parallelization-factor
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/parallelization-factor
   take form parallelization-factor
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/queues
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/queues
   take form queues
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/self-managed-event-source
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/self-managed-event-source
   take form self-managed-event-source
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/source-access-configurations
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/source-access-configurations
   take form source-access-configurations
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/topics
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/topics
   take form topics
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/tumbling-window-in-seconds
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/tumbling-window-in-seconds
   take form tumbling-window-in-seconds
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form event-source-mapping-configuration, name <EventSourceMappingConfiguration>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/fitness/v1/base/list-data-point-changes-response
+load @cluesurf/snow/googleapis.com/fitness/v1/base/list-data-point-changes-response
   take form list-data-point-changes-response
 
 boot fitness-users-data-sources-data-point-changes-list, name <fitness.users.dataSources.dataPointChanges.list>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-execution-id
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-execution-id
   take form pipeline-execution-id
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-name
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-name
   take form pipeline-name
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/stop-pipeline-execution-reason
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/stop-pipeline-execution-reason
   take form stop-pipeline-execution-reason
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form stop-pipeline-execution-input, name <StopPipelineExecutionInput>

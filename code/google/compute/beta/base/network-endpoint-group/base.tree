@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/compute/beta/base/network-endpoint-group-app-engine
+load @cluesurf/snow/googleapis.com/compute/beta/base/network-endpoint-group-app-engine
   take form network-endpoint-group-app-engine
 
-load @termsurf/snow/googleapis.com/compute/beta/base/network-endpoint-group-cloud-function
+load @cluesurf/snow/googleapis.com/compute/beta/base/network-endpoint-group-cloud-function
   take form network-endpoint-group-cloud-function
 
-load @termsurf/snow/googleapis.com/compute/beta/base/network-endpoint-group-cloud-run
+load @cluesurf/snow/googleapis.com/compute/beta/base/network-endpoint-group-cloud-run
   take form network-endpoint-group-cloud-run
 
-load @termsurf/snow/googleapis.com/compute/beta/base/network-endpoint-group-lb-network-endpoint-group
+load @cluesurf/snow/googleapis.com/compute/beta/base/network-endpoint-group-lb-network-endpoint-group
   take form network-endpoint-group-lb-network-endpoint-group
 
-load @termsurf/snow/googleapis.com/compute/beta/base/network-endpoint-group-serverless-deployment
+load @cluesurf/snow/googleapis.com/compute/beta/base/network-endpoint-group-serverless-deployment
   take form network-endpoint-group-serverless-deployment
 
 form network-endpoint-group, name <NetworkEndpointGroup>

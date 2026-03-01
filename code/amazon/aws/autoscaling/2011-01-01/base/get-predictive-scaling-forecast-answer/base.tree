@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/capacity-forecast
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/capacity-forecast
   take form capacity-forecast
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/load-forecasts
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/load-forecasts
   take form load-forecasts
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/timestamp-type
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/timestamp-type
   take form timestamp-type
 
 form get-predictive-scaling-forecast-answer, name <GetPredictiveScalingForecastAnswer>

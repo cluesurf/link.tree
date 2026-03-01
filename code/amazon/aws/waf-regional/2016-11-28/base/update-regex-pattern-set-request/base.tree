@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/change-token
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/change-token
   take form change-token
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/regex-pattern-set-updates
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/regex-pattern-set-updates
   take form regex-pattern-set-updates
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/resource-id
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/resource-id
   take form resource-id
 
 form update-regex-pattern-set-request, name <UpdateRegexPatternSetRequest>

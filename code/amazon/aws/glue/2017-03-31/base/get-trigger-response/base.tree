@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/trigger
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/trigger
   take form trigger
 
 form get-trigger-response, name <GetTriggerResponse>

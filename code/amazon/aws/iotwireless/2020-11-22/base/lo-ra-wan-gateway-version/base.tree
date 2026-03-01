@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/model
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/model
   take form model
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/package-version
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/package-version
   take form package-version
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/station
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/station
   take form station
 
 form lo-ra-wan-gateway-version, name <LoRaWANGatewayVersion>

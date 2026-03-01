@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/cluster-not-found-fault
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/cluster-not-found-fault
   take form cluster-not-found-fault
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/increase-replication-factor-response
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/increase-replication-factor-response
   take form increase-replication-factor-response
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/insufficient-cluster-capacity-fault
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/insufficient-cluster-capacity-fault
   take form insufficient-cluster-capacity-fault
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/invalid-cluster-state-fault
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/invalid-cluster-state-fault
   take form invalid-cluster-state-fault
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/invalid-parameter-combination-exception
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/invalid-parameter-combination-exception
   take form invalid-parameter-combination-exception
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/invalid-parameter-value-exception
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/invalid-parameter-value-exception
   take form invalid-parameter-value-exception
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/invalid-vpc-network-state-fault
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/invalid-vpc-network-state-fault
   take form invalid-vpc-network-state-fault
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/node-quota-for-cluster-exceeded-fault
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/node-quota-for-cluster-exceeded-fault
   take form node-quota-for-cluster-exceeded-fault
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/node-quota-for-customer-exceeded-fault
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/node-quota-for-customer-exceeded-fault
   take form node-quota-for-customer-exceeded-fault
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/service-linked-role-not-found-fault
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/service-linked-role-not-found-fault
   take form service-linked-role-not-found-fault
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot increase-replication-factor, name <IncreaseReplicationFactor>

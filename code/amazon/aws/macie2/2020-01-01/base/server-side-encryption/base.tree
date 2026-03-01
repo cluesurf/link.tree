@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/encryption-type
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/encryption-type
   take form encryption-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form server-side-encryption, name <ServerSideEncryption>

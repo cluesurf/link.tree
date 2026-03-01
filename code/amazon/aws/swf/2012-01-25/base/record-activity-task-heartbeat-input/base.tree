@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/limited-data
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/limited-data
   take form limited-data
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/task-token
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/task-token
   take form task-token
 
 form record-activity-task-heartbeat-input, name <RecordActivityTaskHeartbeatInput>

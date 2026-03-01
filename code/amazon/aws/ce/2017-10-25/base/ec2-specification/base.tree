@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/offering-class
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/offering-class
   take form offering-class
 
 form ec2-specification, name <EC2Specification>

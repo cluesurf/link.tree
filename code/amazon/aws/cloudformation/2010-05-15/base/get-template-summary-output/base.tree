@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/capabilities
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/capabilities
   take form capabilities
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/capabilities-reason
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/capabilities-reason
   take form capabilities-reason
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/description
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/metadata
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/metadata
   take form metadata
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter-declarations
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter-declarations
   take form parameter-declarations
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-identifier-summaries
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-identifier-summaries
   take form resource-identifier-summaries
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-types
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-types
   take form resource-types
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/transforms-list
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/transforms-list
   take form transforms-list
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/version
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/version
   take form version
 
 form get-template-summary-output, name <GetTemplateSummaryOutput>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/datapipeline/2012-10-29/base/error-message
+load @cluesurf/snow/amazonaws.com/datapipeline/2012-10-29/base/error-message
   take form error-message
 
-load @termsurf/snow/amazonaws.com/datapipeline/2012-10-29/base/task-id
+load @cluesurf/snow/amazonaws.com/datapipeline/2012-10-29/base/task-id
   take form task-id
 
-load @termsurf/snow/amazonaws.com/datapipeline/2012-10-29/base/task-status
+load @cluesurf/snow/amazonaws.com/datapipeline/2012-10-29/base/task-status
   take form task-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form set-task-status-input, name <SetTaskStatusInput>

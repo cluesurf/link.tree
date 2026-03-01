@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/protective-equipment-person-ids
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/protective-equipment-person-ids
   take form protective-equipment-person-ids
 
 form protective-equipment-summary, name <ProtectiveEquipmentSummary>

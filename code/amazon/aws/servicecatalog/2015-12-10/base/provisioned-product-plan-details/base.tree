@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/created-time
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/created-time
   take form created-time
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/id
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/notification-arns
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/notification-arns
   take form notification-arns
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioned-product-name
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioned-product-name
   take form provisioned-product-name
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioned-product-plan-name
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioned-product-plan-name
   take form provisioned-product-plan-name
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioned-product-plan-status
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioned-product-plan-status
   take form provisioned-product-plan-status
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioned-product-plan-type
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioned-product-plan-type
   take form provisioned-product-plan-type
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/status-message
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/status-message
   take form status-message
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tags
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tags
   take form tags
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/update-provisioning-parameters
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/update-provisioning-parameters
   take form update-provisioning-parameters
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/updated-time
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/updated-time
   take form updated-time
 
 form provisioned-product-plan-details, name <ProvisionedProductPlanDetails>

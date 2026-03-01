@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/non-partner-event-bus-name
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/non-partner-event-bus-name
   take form non-partner-event-bus-name
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/statement-id
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/statement-id
   take form statement-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form remove-permission-request, name <RemovePermissionRequest>

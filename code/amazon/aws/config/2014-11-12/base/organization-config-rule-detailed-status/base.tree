@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/member-account-status
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/member-account-status
   take form member-account-status
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form organization-config-rule-detailed-status, name <OrganizationConfigRuleDetailedStatus>

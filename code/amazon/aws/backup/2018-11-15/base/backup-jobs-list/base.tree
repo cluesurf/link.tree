@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/backup-job
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/backup-job
   take form backup-job
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form backup-jobs-list, name <BackupJobsList>

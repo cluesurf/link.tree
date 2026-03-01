@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/secretsmanager/2017-10-17/base/automatically-rotate-after-days-type
+load @cluesurf/snow/amazonaws.com/secretsmanager/2017-10-17/base/automatically-rotate-after-days-type
   take form automatically-rotate-after-days-type
 
 form rotation-rules-type, name <RotationRulesType>

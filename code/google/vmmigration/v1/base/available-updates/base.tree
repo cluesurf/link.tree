@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/vmmigration/v1/base/appliance-version
+load @cluesurf/snow/googleapis.com/vmmigration/v1/base/appliance-version
   take form appliance-version
 
 form available-updates, name <AvailableUpdates>

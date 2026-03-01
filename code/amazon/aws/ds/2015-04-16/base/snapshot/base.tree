@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/directory-id
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/directory-id
   take form directory-id
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/snapshot-id
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/snapshot-id
   take form snapshot-id
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/snapshot-name
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/snapshot-name
   take form snapshot-name
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/snapshot-status
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/snapshot-status
   take form snapshot-status
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/snapshot-type
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/snapshot-type
   take form snapshot-type
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/start-time
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/start-time
   take form start-time
 
 form snapshot, name <Snapshot>

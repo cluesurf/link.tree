@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/elastic-gpus
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/elastic-gpus
   take form elastic-gpus
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form elastic-gpu-set, name <ElasticGpuSet>

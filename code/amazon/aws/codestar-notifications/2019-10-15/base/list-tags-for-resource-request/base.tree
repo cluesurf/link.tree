@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/codestar-notifications/2019-10-15/base/notification-rule-arn
+load @cluesurf/snow/amazonaws.com/codestar-notifications/2019-10-15/base/notification-rule-arn
   take form notification-rule-arn
 
 form list-tags-for-resource-request, name <ListTagsForResourceRequest>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/account-id
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/job-data
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/job-data
   take form job-data
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/job-id
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/job-id
   take form job-id
 
 form job-details, name <JobDetails>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/docs/v1/base/dimension
+load @cluesurf/snow/googleapis.com/docs/v1/base/dimension
   take form dimension
 
 form positioned-object-positioning, name <PositionedObjectPositioning>

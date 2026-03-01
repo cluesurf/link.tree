@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/cloud9/2017-09-23/base/environment-id
+load @cluesurf/snow/amazonaws.com/cloud9/2017-09-23/base/environment-id
   take form environment-id
 
-load @termsurf/snow/amazonaws.com/cloud9/2017-09-23/base/permissions
+load @cluesurf/snow/amazonaws.com/cloud9/2017-09-23/base/permissions
   take form permissions
 
-load @termsurf/snow/amazonaws.com/cloud9/2017-09-23/base/timestamp
+load @cluesurf/snow/amazonaws.com/cloud9/2017-09-23/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/cloud9/2017-09-23/base/user-arn
+load @cluesurf/snow/amazonaws.com/cloud9/2017-09-23/base/user-arn
   take form user-arn
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form environment-member, name <EnvironmentMember>

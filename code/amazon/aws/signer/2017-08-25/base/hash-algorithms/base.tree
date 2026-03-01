@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/hash-algorithm
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/hash-algorithm
   take form hash-algorithm
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form hash-algorithms, name <HashAlgorithms>

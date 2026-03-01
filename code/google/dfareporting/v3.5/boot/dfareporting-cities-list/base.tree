@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.5/base/cities-list-response
+load @cluesurf/snow/googleapis.com/dfareporting/v3.5/base/cities-list-response
   take form cities-list-response
 
 boot dfareporting-cities-list, name <dfareporting.cities.list>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/room-skill-parameter
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/room-skill-parameter
   take form room-skill-parameter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form room-skill-parameters, name <RoomSkillParameters>

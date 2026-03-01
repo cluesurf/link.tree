@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/code
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/code
   take form code
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/ota-update-error-message
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/ota-update-error-message
   take form ota-update-error-message
 
 form error-info, name <ErrorInfo>

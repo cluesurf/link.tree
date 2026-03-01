@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/http-headers
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/http-headers
   take form http-headers
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/http-query-string
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/http-query-string
   take form http-query-string
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/mqtt-client-id
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/mqtt-client-id
   take form mqtt-client-id
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/mqtt-password
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/mqtt-password
   take form mqtt-password
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/mqtt-username
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/mqtt-username
   take form mqtt-username
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/server-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/server-name
   take form server-name
 
 form test-invoke-authorizer-body

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-interruption-behavior
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-interruption-behavior
   take form instance-interruption-behavior
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-type
   take form spot-instance-type
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form launch-template-spot-market-options-request, name <LaunchTemplateSpotMarketOptionsRequest>

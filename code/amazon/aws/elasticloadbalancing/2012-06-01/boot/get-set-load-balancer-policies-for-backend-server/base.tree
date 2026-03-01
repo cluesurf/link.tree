@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-not-found-exception
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-not-found-exception
   take form access-point-not-found-exception
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/invalid-configuration-request-exception
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/invalid-configuration-request-exception
   take form invalid-configuration-request-exception
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/policy-name
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/policy-name
   take form policy-name
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/policy-not-found-exception
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/policy-not-found-exception
   take form policy-not-found-exception
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/set-load-balancer-policies-for-backend-server-output
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/set-load-balancer-policies-for-backend-server-output
   take form set-load-balancer-policies-for-backend-server-output
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-set-load-balancer-policies-for-backend-server, name <GET_SetLoadBalancerPoliciesForBackendServer>

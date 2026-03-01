@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/float
+load @cluesurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/float
   take form float
 
-load @termsurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/image-source
+load @cluesurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/image-source
   take form image-source
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form detect-anomaly-result, name <DetectAnomalyResult>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/thumbnail-details
+load @cluesurf/snow/googleapis.com/youtube/v3/base/thumbnail-details
   take form thumbnail-details
 
 form search-result-snippet, name <SearchResultSnippet>

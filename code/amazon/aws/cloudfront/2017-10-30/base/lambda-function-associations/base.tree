@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/lambda-function-association-list
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/lambda-function-association-list
   take form lambda-function-association-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form lambda-function-associations, name <LambdaFunctionAssociations>

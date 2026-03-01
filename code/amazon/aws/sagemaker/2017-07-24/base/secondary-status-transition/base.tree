@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/secondary-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/secondary-status
   take form secondary-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/status-message
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/status-message
   take form status-message
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
 form secondary-status-transition, name <SecondaryStatusTransition>

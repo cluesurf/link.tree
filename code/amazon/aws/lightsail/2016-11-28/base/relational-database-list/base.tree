@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database
   take form relational-database
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form relational-database-list, name <RelationalDatabaseList>

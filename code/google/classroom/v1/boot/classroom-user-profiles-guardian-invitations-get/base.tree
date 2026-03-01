@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/guardian-invitation
+load @cluesurf/snow/googleapis.com/classroom/v1/base/guardian-invitation
   take form guardian-invitation
 
 boot classroom-user-profiles-guardian-invitations-get, name <classroom.userProfiles.guardianInvitations.get>

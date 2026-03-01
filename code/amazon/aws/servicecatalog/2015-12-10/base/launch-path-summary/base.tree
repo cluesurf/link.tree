@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/constraint-summaries
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/constraint-summaries
   take form constraint-summaries
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/id
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/portfolio-name
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/portfolio-name
   take form portfolio-name
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tags
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tags
   take form tags
 
 form launch-path-summary, name <LaunchPathSummary>

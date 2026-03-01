@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/tagmanager/v2/base/client
+load @cluesurf/snow/googleapis.com/tagmanager/v2/base/client
   take form client
 
 form revert-client-response, name <RevertClientResponse>

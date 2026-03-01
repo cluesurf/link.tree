@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2018-11-05/base/event-type
+load @cluesurf/snow/amazonaws.com/cloudfront/2018-11-05/base/event-type
   take form event-type
 
-load @termsurf/snow/amazonaws.com/cloudfront/2018-11-05/base/lambda-function-arn
+load @cluesurf/snow/amazonaws.com/cloudfront/2018-11-05/base/lambda-function-arn
   take form lambda-function-arn
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form lambda-function-association, name <LambdaFunctionAssociation>

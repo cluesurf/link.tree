@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/custom-image
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/custom-image
   take form custom-image
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form custom-images, name <CustomImages>

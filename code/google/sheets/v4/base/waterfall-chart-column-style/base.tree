@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/color
+load @cluesurf/snow/googleapis.com/sheets/v4/base/color
   take form color
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/color-style
+load @cluesurf/snow/googleapis.com/sheets/v4/base/color-style
   take form color-style
 
 form waterfall-chart-column-style, name <WaterfallChartColumnStyle>

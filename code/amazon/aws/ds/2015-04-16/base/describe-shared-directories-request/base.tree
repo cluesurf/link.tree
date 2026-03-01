@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/directory-id
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/directory-id
   take form directory-id
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/directory-ids
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/directory-ids
   take form directory-ids
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/limit
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/limit
   take form limit
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/next-token
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/next-token
   take form next-token
 
 form describe-shared-directories-request, name <DescribeSharedDirectoriesRequest>

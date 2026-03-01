@@ -1,20 +1,20 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/deleted-recipient
+load @cluesurf/snow/stripe.com/2020-08-27/base/deleted-recipient
   take form deleted-recipient
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/get-recipients-id-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/get-recipients-id-body
   take form get-recipients-id-body
 
-load @termsurf/snow/stripe.com/2020-08-27/base/recipient
+load @cluesurf/snow/stripe.com/2020-08-27/base/recipient
   take form recipient
 
 boot get-recipients-id, name <GetRecipientsId>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/jobs/v4/base/commute-info
+load @cluesurf/snow/googleapis.com/jobs/v4/base/commute-info
   take form commute-info
 
-load @termsurf/snow/googleapis.com/jobs/v4/base/job
+load @cluesurf/snow/googleapis.com/jobs/v4/base/job
   take form job
 
 form matching-job, name <MatchingJob>

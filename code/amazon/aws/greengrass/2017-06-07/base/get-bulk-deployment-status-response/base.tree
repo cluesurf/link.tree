@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bulk-deployment-metrics
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bulk-deployment-metrics
   take form bulk-deployment-metrics
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bulk-deployment-status
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bulk-deployment-status
   take form bulk-deployment-status
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/error-details
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/error-details
   take form error-details
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/tags
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/tags
   take form tags
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-bulk-deployment-status-response, name <GetBulkDeploymentStatusResponse>

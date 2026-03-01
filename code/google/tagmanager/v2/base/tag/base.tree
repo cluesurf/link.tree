@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/tagmanager/v2/base/parameter
+load @cluesurf/snow/googleapis.com/tagmanager/v2/base/parameter
   take form parameter
 
-load @termsurf/snow/googleapis.com/tagmanager/v2/base/tag-consent-setting
+load @cluesurf/snow/googleapis.com/tagmanager/v2/base/tag-consent-setting
   take form tag-consent-setting
 
 form tag, name <Tag>

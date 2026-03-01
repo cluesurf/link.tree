@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/session-list
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/session-list
   take form session-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-sessions-result, name <DescribeSessionsResult>

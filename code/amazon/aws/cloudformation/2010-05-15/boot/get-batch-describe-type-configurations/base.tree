@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/batch-describe-type-configurations-output
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/batch-describe-type-configurations-output
   take form batch-describe-type-configurations-output
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/cfn-registry-exception
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/cfn-registry-exception
   take form cfn-registry-exception
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-configuration-identifier
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-configuration-identifier
   take form type-configuration-identifier
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-configuration-not-found-exception
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-configuration-not-found-exception
   take form type-configuration-not-found-exception
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-batch-describe-type-configurations, name <GET_BatchDescribeTypeConfigurations>

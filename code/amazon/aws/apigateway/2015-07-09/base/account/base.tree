@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/list-of-string
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/list-of-string
   take form list-of-string
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/throttle-settings
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/throttle-settings
   take form throttle-settings
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form account, name <Account>

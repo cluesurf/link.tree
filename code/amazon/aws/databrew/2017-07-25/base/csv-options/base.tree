@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/delimiter
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/delimiter
   take form delimiter
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/header-row
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/header-row
   take form header-row
 
 form csv-options, name <CsvOptions>

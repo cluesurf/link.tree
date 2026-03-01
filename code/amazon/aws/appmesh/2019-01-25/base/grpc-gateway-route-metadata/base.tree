@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/appmesh/2019-01-25/base/grpc-metadata-match-method
+load @cluesurf/snow/amazonaws.com/appmesh/2019-01-25/base/grpc-metadata-match-method
   take form grpc-metadata-match-method
 
-load @termsurf/snow/amazonaws.com/appmesh/2019-01-25/base/header-name
+load @cluesurf/snow/amazonaws.com/appmesh/2019-01-25/base/header-name
   take form header-name
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form grpc-gateway-route-metadata, name <GrpcGatewayRouteMetadata>

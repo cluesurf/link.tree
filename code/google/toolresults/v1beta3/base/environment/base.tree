@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/toolresults/v1beta3/base/merged-result
+load @cluesurf/snow/googleapis.com/toolresults/v1beta3/base/merged-result
   take form merged-result
 
-load @termsurf/snow/googleapis.com/toolresults/v1beta3/base/results-storage
+load @cluesurf/snow/googleapis.com/toolresults/v1beta3/base/results-storage
   take form results-storage
 
-load @termsurf/snow/googleapis.com/toolresults/v1beta3/base/timestamp
+load @cluesurf/snow/googleapis.com/toolresults/v1beta3/base/timestamp
   take form timestamp
 
 form environment, name <Environment>

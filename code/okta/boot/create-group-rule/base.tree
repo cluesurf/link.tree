@@ -1,5 +1,5 @@
 
-load @termsurf/snow/okta/base/group-rule
+load @cluesurf/snow/okta/base/group-rule
   take form group-rule
 
 boot create-group-rule, name <createGroupRule>

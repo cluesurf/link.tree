@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/setting-name
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/setting-name
   take form setting-name
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-account-settings-request, name <ListAccountSettingsRequest>

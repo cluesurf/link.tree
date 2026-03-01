@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/apikeys/v2/base/v2-restrictions
+load @cluesurf/snow/googleapis.com/apikeys/v2/base/v2-restrictions
   take form v2-restrictions
 
 form v2-key, name <V2Key>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/blacklist-item-name
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/blacklist-item-name
   take form blacklist-item-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form blacklist-item-names, name <BlacklistItemNames>

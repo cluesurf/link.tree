@@ -1,21 +1,21 @@
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/land/code/javascript/base/native-void
+load @cluesurf/land/code/javascript/base/native-void
   take form native-void
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/drawing/drawing-manager-options
+load @cluesurf/snow/code/javascript/google/maps/drawing/drawing-manager-options
   take form drawing-manager-options
 
-load @termsurf/snow/code/javascript/google/maps/drawing/overlay-type
+load @cluesurf/snow/code/javascript/google/maps/drawing/overlay-type
   take form overlay-type
 
-load @termsurf/snow/code/javascript/google/maps/map
+load @cluesurf/snow/code/javascript/google/maps/map
   take form map
 
 form drawing-manager, name <google.maps.drawing.DrawingManager>

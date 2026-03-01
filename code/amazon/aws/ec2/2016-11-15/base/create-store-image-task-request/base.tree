@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/image-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/image-id
   take form image-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/s3-object-tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/s3-object-tag-list
   take form s3-object-tag-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-store-image-task-request, name <CreateStoreImageTaskRequest>

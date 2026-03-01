@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/metric-name
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/metric-name
   take form metric-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form metric-names, name <MetricNames>

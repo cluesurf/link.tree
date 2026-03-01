@@ -1,5 +1,5 @@
 
-load @termsurf/snow/jira/openapi.json/base/fields
+load @cluesurf/snow/jira/openapi.json/base/fields
   take form fields
 
 form linked-issue, name <LinkedIssue>

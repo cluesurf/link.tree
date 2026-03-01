@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/osconfig/v1/base/list-inventories-response
+load @cluesurf/snow/googleapis.com/osconfig/v1/base/list-inventories-response
   take form list-inventories-response
 
 boot osconfig-projects-locations-instances-inventories-list, name <osconfig.projects.locations.instances.inventories.list>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/phone-number-order-list
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/phone-number-order-list
   take form phone-number-order-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-phone-number-orders-response, name <ListPhoneNumberOrdersResponse>

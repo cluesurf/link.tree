@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/datacatalog/v1/base/google-cloud-datacatalog-v1-entry-group
+load @cluesurf/snow/googleapis.com/datacatalog/v1/base/google-cloud-datacatalog-v1-entry-group
   take form google-cloud-datacatalog-v1-entry-group
 
 boot datacatalog-projects-locations-entry-groups-create, name <datacatalog.projects.locations.entryGroups.create>

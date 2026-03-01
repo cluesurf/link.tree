@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/automation-execution-not-found-exception
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/automation-execution-not-found-exception
   take form automation-execution-not-found-exception
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/get-automation-execution-result
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/get-automation-execution-result
   take form get-automation-execution-result
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-automation-execution, name <GetAutomationExecution>

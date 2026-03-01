@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/disassociate-vpc-comment
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/disassociate-vpc-comment
   take form disassociate-vpc-comment
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/vpc
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/vpc
   take form vpc
 
 form disassociate-vpc-from-hosted-zone-request, name <DisassociateVPCFromHostedZoneRequest>

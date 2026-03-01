@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/double-range-list
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/double-range-list
   take form double-range-list
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/range-list
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/range-list
   take form range-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form valid-storage-options, name <ValidStorageOptions>

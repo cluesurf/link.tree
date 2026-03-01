@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/address-attribute-name
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/address-attribute-name
   take form address-attribute-name
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/address-max-results
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/address-max-results
   take form address-max-results
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/allocation-ids
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/allocation-ids
   take form allocation-ids
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/next-token
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/next-token
   take form next-token
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form describe-addresses-attribute-request, name <DescribeAddressesAttributeRequest>

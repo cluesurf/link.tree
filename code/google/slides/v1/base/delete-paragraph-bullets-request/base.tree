@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/range
+load @cluesurf/snow/googleapis.com/slides/v1/base/range
   take form range
 
-load @termsurf/snow/googleapis.com/slides/v1/base/table-cell-location
+load @cluesurf/snow/googleapis.com/slides/v1/base/table-cell-location
   take form table-cell-location
 
 form delete-paragraph-bullets-request, name <DeleteParagraphBulletsRequest>

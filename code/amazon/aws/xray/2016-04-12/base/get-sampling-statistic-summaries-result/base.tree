@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/sampling-statistic-summary-list
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/sampling-statistic-summary-list
   take form sampling-statistic-summary-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-sampling-statistic-summaries-result, name <GetSamplingStatisticSummariesResult>

@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/polly/2016-06-10/base/alphabet
+load @cluesurf/snow/amazonaws.com/polly/2016-06-10/base/alphabet
   take form alphabet
 
-load @termsurf/snow/amazonaws.com/polly/2016-06-10/base/language-code
+load @cluesurf/snow/amazonaws.com/polly/2016-06-10/base/language-code
   take form language-code
 
-load @termsurf/snow/amazonaws.com/polly/2016-06-10/base/last-modified
+load @cluesurf/snow/amazonaws.com/polly/2016-06-10/base/last-modified
   take form last-modified
 
-load @termsurf/snow/amazonaws.com/polly/2016-06-10/base/lexemes-count
+load @cluesurf/snow/amazonaws.com/polly/2016-06-10/base/lexemes-count
   take form lexemes-count
 
-load @termsurf/snow/amazonaws.com/polly/2016-06-10/base/lexicon-arn
+load @cluesurf/snow/amazonaws.com/polly/2016-06-10/base/lexicon-arn
   take form lexicon-arn
 
-load @termsurf/snow/amazonaws.com/polly/2016-06-10/base/size
+load @cluesurf/snow/amazonaws.com/polly/2016-06-10/base/size
   take form size
 
 form lexicon-attributes, name <LexiconAttributes>

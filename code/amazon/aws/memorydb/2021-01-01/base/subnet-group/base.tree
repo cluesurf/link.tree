@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/subnet-list
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/subnet-list
   take form subnet-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form subnet-group, name <SubnetGroup>

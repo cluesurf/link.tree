@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/realtimebidding/v1alpha/base/bidding-function
+load @cluesurf/snow/googleapis.com/realtimebidding/v1alpha/base/bidding-function
   take form bidding-function
 
 boot realtimebidding-bidders-bidding-functions-create, name <realtimebidding.bidders.biddingFunctions.create>

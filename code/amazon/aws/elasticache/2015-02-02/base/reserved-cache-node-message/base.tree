@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/reserved-cache-node-list
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/reserved-cache-node-list
   take form reserved-cache-node-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form reserved-cache-node-message, name <ReservedCacheNodeMessage>

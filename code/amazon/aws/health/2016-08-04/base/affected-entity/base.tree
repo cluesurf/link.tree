@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/account-id
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/entity-arn
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/entity-arn
   take form entity-arn
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/entity-status-code
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/entity-status-code
   take form entity-status-code
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/entity-url
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/entity-url
   take form entity-url
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/entity-value
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/entity-value
   take form entity-value
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/event-arn
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/event-arn
   take form event-arn
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/tag-set
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/tag-set
   take form tag-set
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/timestamp
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/timestamp
   take form timestamp
 
 form affected-entity, name <AffectedEntity>

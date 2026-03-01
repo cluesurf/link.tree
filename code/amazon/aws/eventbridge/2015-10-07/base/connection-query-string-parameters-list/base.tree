@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/connection-query-string-parameter
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/connection-query-string-parameter
   take form connection-query-string-parameter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form connection-query-string-parameters-list, name <ConnectionQueryStringParametersList>

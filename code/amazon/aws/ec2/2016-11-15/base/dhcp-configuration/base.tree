@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/dhcp-configuration-value-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/dhcp-configuration-value-list
   take form dhcp-configuration-value-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form dhcp-configuration, name <DhcpConfiguration>

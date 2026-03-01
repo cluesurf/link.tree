@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-id
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-id
   take form anomaly-id
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-limit
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-limit
   take form anomaly-limit
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-reported-time-range
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-reported-time-range
   take form anomaly-reported-time-range
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-severity
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-severity
   take form anomaly-severity
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-source-details
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-source-details
   take form anomaly-source-details
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-status
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-status
   take form anomaly-status
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-time-range
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/anomaly-time-range
   take form anomaly-time-range
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/insight-id
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/insight-id
   take form insight-id
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/prediction-time-range
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/prediction-time-range
   take form prediction-time-range
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/resource-collection
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/resource-collection
   take form resource-collection
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/timestamp
   take form timestamp
 
 form proactive-anomaly-summary, name <ProactiveAnomalySummary>

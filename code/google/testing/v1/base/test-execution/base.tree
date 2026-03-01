@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/testing/v1/base/environment
+load @cluesurf/snow/googleapis.com/testing/v1/base/environment
   take form environment
 
-load @termsurf/snow/googleapis.com/testing/v1/base/shard
+load @cluesurf/snow/googleapis.com/testing/v1/base/shard
   take form shard
 
-load @termsurf/snow/googleapis.com/testing/v1/base/test-details
+load @cluesurf/snow/googleapis.com/testing/v1/base/test-details
   take form test-details
 
-load @termsurf/snow/googleapis.com/testing/v1/base/test-specification
+load @cluesurf/snow/googleapis.com/testing/v1/base/test-specification
   take form test-specification
 
-load @termsurf/snow/googleapis.com/testing/v1/base/tool-results-step
+load @cluesurf/snow/googleapis.com/testing/v1/base/tool-results-step
   take form tool-results-step
 
 form test-execution, name <TestExecution>

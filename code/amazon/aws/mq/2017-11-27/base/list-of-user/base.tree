@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mq/2017-11-27/base/user
+load @cluesurf/snow/amazonaws.com/mq/2017-11-27/base/user
   take form user
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-user, name <__listOfUser>

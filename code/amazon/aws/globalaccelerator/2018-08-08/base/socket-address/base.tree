@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/generic-string
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/generic-string
   take form generic-string
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/port-number
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/port-number
   take form port-number
 
 form socket-address, name <SocketAddress>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/directory-id
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/directory-id
   take form directory-id
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/notes
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/notes
   take form notes
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/share-method
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/share-method
   take form share-method
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/share-target
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/share-target
   take form share-target
 
 form share-directory-request, name <ShareDirectoryRequest>

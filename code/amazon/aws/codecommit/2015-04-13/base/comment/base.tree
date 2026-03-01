@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/arn
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/caller-reactions
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/caller-reactions
   take form caller-reactions
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/client-request-token
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/client-request-token
   take form client-request-token
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/comment-id
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/comment-id
   take form comment-id
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/content
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/content
   take form content
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/creation-date
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/creation-date
   take form creation-date
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/is-comment-deleted
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/is-comment-deleted
   take form is-comment-deleted
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/last-modified-date
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/last-modified-date
   take form last-modified-date
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/reaction-counts-map
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/reaction-counts-map
   take form reaction-counts-map
 
 form comment, name <Comment>

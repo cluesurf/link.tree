@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rds/2013-01-10/base/db-snapshot
+load @cluesurf/snow/amazonaws.com/rds/2013-01-10/base/db-snapshot
   take form db-snapshot
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form db-snapshot-list, name <DBSnapshotList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/docs/v1/base/document
+load @cluesurf/snow/googleapis.com/docs/v1/base/document
   take form document
 
 boot docs-documents-get, name <docs.documents.get>

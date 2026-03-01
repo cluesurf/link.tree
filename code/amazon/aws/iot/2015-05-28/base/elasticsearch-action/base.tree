@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/aws-arn
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/aws-arn
   take form aws-arn
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/elasticsearch-endpoint
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/elasticsearch-endpoint
   take form elasticsearch-endpoint
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/elasticsearch-id
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/elasticsearch-id
   take form elasticsearch-id
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/elasticsearch-index
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/elasticsearch-index
   take form elasticsearch-index
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/elasticsearch-type
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/elasticsearch-type
   take form elasticsearch-type
 
 form elasticsearch-action, name <ElasticsearchAction>

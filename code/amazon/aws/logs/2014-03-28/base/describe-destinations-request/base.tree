@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/describe-limit
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/describe-limit
   take form describe-limit
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/destination-name
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/destination-name
   take form destination-name
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/next-token
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/next-token
   take form next-token
 
 form describe-destinations-request, name <DescribeDestinationsRequest>

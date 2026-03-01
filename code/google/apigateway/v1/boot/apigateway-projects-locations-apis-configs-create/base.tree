@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/apigateway/v1/base/apigateway-operation
+load @cluesurf/snow/googleapis.com/apigateway/v1/base/apigateway-operation
   take form apigateway-operation
 
 boot apigateway-projects-locations-apis-configs-create, name <apigateway.projects.locations.apis.configs.create>

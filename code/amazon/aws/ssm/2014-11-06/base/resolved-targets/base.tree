@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/target-parameter-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/target-parameter-list
   take form target-parameter-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form resolved-targets, name <ResolvedTargets>

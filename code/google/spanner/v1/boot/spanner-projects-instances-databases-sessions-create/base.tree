@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/spanner/v1/base/session
+load @cluesurf/snow/googleapis.com/spanner/v1/base/session
   take form session
 
 boot spanner-projects-instances-databases-sessions-create, name <spanner.projects.instances.databases.sessions.create>

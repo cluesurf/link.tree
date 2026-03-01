@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/appengine/v1/base/domain-mapping
+load @cluesurf/snow/googleapis.com/appengine/v1/base/domain-mapping
   take form domain-mapping
 
 boot appengine-apps-domain-mappings-get, name <appengine.apps.domainMappings.get>

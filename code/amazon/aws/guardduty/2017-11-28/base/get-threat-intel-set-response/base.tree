@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/location
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/location
   take form location
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/name
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/tag-map
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/tag-map
   take form tag-map
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/threat-intel-set-format
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/threat-intel-set-format
   take form threat-intel-set-format
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/threat-intel-set-status
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/threat-intel-set-status
   take form threat-intel-set-status
 
 form get-threat-intel-set-response, name <GetThreatIntelSetResponse>

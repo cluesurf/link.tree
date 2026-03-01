@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/ip-permission-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/ip-permission-list
   take form ip-permission-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form security-group, name <SecurityGroup>

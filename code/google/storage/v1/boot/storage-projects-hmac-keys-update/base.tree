@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/storage/v1/base/hmac-key-metadata
+load @cluesurf/snow/googleapis.com/storage/v1/base/hmac-key-metadata
   take form hmac-key-metadata
 
 boot storage-projects-hmac-keys-update, name <storage.projects.hmacKeys.update>

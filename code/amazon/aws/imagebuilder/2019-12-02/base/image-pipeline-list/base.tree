@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/image-pipeline
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/image-pipeline
   take form image-pipeline
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form image-pipeline-list, name <ImagePipelineList>

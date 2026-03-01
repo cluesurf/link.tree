@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-description
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-description
   take form entity-description
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/project-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/project-arn
   take form project-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/project-entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/project-entity-name
   take form project-entity-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/project-id
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/project-id
   take form project-id
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/project-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/project-status
   take form project-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/service-catalog-provisioned-product-details
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/service-catalog-provisioned-product-details
   take form service-catalog-provisioned-product-details
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/service-catalog-provisioning-details
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/service-catalog-provisioning-details
   take form service-catalog-provisioning-details
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/tag-list
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/user-context
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/user-context
   take form user-context
 
 form project, name <Project>

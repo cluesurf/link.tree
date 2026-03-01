@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-destination
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-destination
   take form inventory-destination
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-filter
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-filter
   take form inventory-filter
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-id
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-id
   take form inventory-id
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-included-object-versions
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-included-object-versions
   take form inventory-included-object-versions
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-optional-fields
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-optional-fields
   take form inventory-optional-fields
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-schedule
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-schedule
   take form inventory-schedule
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/is-enabled
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/is-enabled
   take form is-enabled
 
 form put-bucket-inventory-configuration-body

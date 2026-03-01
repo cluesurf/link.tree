@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/call-as
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/call-as
   take form call-as
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/client-request-token
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/client-request-token
   take form client-request-token
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/stack-id-list
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/stack-id-list
   take form stack-id-list
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/stack-set-name-or-id
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/stack-set-name-or-id
   take form stack-set-name-or-id
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/stack-set-operation-preferences
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/stack-set-operation-preferences
   take form stack-set-operation-preferences
 
 form import-stacks-to-stack-set-input, name <ImportStacksToStackSetInput>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-resource-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-resource-id
   take form prefix-list-resource-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/route-table-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/route-table-id
   take form route-table-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form delete-route-request, name <DeleteRouteRequest>

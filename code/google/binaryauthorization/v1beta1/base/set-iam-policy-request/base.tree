@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/binaryauthorization/v1beta1/base/iam-policy
+load @cluesurf/snow/googleapis.com/binaryauthorization/v1beta1/base/iam-policy
   take form iam-policy
 
 form set-iam-policy-request, name <SetIamPolicyRequest>

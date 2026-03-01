@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/agent-id
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/agent-id
   take form agent-id
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/ami-id
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/ami-id
   take form ami-id
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/auto-scaling-group
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/auto-scaling-group
   take form auto-scaling-group
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/hostname
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/hostname
   take form hostname
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/ipv4-address-list
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/ipv4-address-list
   take form ipv4-address-list
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/network-interfaces
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/network-interfaces
   take form network-interfaces
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/numeric-version
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/numeric-version
   take form numeric-version
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/tags
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/tags
   take form tags
 
 form asset-attributes, name <AssetAttributes>

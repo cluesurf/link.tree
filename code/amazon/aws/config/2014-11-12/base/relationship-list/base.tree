@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/relationship
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/relationship
   take form relationship
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form relationship-list, name <RelationshipList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/dns-name
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/dns-name
   take form dns-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form delegation-set-name-servers, name <DelegationSetNameServers>

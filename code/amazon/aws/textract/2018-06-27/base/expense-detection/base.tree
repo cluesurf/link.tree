@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/textract/2018-06-27/base/geometry
+load @cluesurf/snow/amazonaws.com/textract/2018-06-27/base/geometry
   take form geometry
 
-load @termsurf/snow/amazonaws.com/textract/2018-06-27/base/percent
+load @cluesurf/snow/amazonaws.com/textract/2018-06-27/base/percent
   take form percent
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form expense-detection, name <ExpenseDetection>

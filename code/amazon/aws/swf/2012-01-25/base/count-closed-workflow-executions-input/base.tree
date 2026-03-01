@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/close-status-filter
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/close-status-filter
   take form close-status-filter
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/domain-name
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/execution-time-filter
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/execution-time-filter
   take form execution-time-filter
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/tag-filter
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/tag-filter
   take form tag-filter
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/workflow-execution-filter
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/workflow-execution-filter
   take form workflow-execution-filter
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/workflow-type-filter
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/workflow-type-filter
   take form workflow-type-filter
 
 form count-closed-workflow-executions-input, name <CountClosedWorkflowExecutionsInput>

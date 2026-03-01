@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/efs-authorization-config-iam
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/efs-authorization-config-iam
   take form efs-authorization-config-iam
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form efs-authorization-config, name <EFSAuthorizationConfig>

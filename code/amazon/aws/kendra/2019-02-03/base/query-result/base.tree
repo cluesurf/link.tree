@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/facet-result-list
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/facet-result-list
   take form facet-result-list
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/query-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/query-id
   take form query-id
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/query-result-item-list
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/query-result-item-list
   take form query-result-item-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form query-result, name <QueryResult>

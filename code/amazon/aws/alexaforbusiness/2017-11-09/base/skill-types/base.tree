@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/skill-store-type
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/skill-store-type
   take form skill-store-type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form skill-types, name <SkillTypes>

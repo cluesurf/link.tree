@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/validation-output
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/validation-output
   take form validation-output
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form validation-output-list, name <ValidationOutputList>

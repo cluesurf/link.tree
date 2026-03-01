@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/run/v2/base/google-cloud-run-v2-list-revisions-response
+load @cluesurf/snow/googleapis.com/run/v2/base/google-cloud-run-v2-list-revisions-response
   take form google-cloud-run-v2-list-revisions-response
 
 boot run-projects-locations-services-revisions-list, name <run.projects.locations.services.revisions.list>

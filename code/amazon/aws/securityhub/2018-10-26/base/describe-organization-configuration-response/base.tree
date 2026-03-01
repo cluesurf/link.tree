@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form describe-organization-configuration-response, name <DescribeOrganizationConfigurationResponse>

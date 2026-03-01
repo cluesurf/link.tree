@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/iot1click-devices/2018-05-14/base/internal-failure-exception
+load @cluesurf/snow/amazonaws.com/iot1click-devices/2018-05-14/base/internal-failure-exception
   take form internal-failure-exception
 
-load @termsurf/snow/amazonaws.com/iot1click-devices/2018-05-14/base/invalid-request-exception
+load @cluesurf/snow/amazonaws.com/iot1click-devices/2018-05-14/base/invalid-request-exception
   take form invalid-request-exception
 
-load @termsurf/snow/amazonaws.com/iot1click-devices/2018-05-14/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/iot1click-devices/2018-05-14/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 boot untag-resource, name <UntagResource>

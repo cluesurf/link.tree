@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/pager-duty/base/user-reference
+load @cluesurf/snow/pager-duty/base/user-reference
   take form user-reference
 
 form user, name <User>

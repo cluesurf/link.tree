@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/container/v1beta1/base/cluster
+load @cluesurf/snow/googleapis.com/container/v1beta1/base/cluster
   take form cluster
 
 form create-cluster-request, name <CreateClusterRequest>

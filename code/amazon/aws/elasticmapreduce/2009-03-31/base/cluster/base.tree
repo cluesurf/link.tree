@@ -1,56 +1,56 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/application-list
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/application-list
   take form application-list
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/arn-type
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/arn-type
   take form arn-type
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/cluster-id
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/cluster-id
   take form cluster-id
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/cluster-status
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/cluster-status
   take form cluster-status
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/configuration-list
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/configuration-list
   take form configuration-list
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/ec2-instance-attributes
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/ec2-instance-attributes
   take form ec2-instance-attributes
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-collection-type
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-collection-type
   take form instance-collection-type
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/kerberos-attributes
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/kerberos-attributes
   take form kerberos-attributes
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/optional-arn-type
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/optional-arn-type
   take form optional-arn-type
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/placement-group-config-list
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/placement-group-config-list
   take form placement-group-config-list
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/repo-upgrade-on-boot
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/repo-upgrade-on-boot
   take form repo-upgrade-on-boot
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/scale-down-behavior
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/scale-down-behavior
   take form scale-down-behavior
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/tag-list
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string
   take form xml-string
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string-max-len256
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string-max-len256
   take form xml-string-max-len256
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form cluster, name <Cluster>

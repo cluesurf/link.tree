@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/event-id
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/event-id
   take form event-id
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/lambda-function-timeout-type
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/lambda-function-timeout-type
   take form lambda-function-timeout-type
 
 form lambda-function-timed-out-event-attributes, name <LambdaFunctionTimedOutEventAttributes>

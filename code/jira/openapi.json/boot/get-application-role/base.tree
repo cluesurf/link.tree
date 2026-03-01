@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/jira/openapi.json/base/application-role
+load @cluesurf/snow/jira/openapi.json/base/application-role
   take form application-role
 
 boot get-application-role, name <getApplicationRole>

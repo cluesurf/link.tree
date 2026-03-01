@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/archive-description
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/archive-description
   take form archive-description
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/archive-name
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/archive-name
   take form archive-name
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/event-pattern
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/event-pattern
   take form event-pattern
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/retention-days
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/retention-days
   take form retention-days
 
 form update-archive-request, name <UpdateArchiveRequest>

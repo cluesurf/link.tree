@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/profile-time
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/profile-time
   take form profile-time
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form profile-times, name <ProfileTimes>

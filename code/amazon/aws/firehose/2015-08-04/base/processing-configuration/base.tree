@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/boolean-object
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/boolean-object
   take form boolean-object
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/processor-list
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/processor-list
   take form processor-list
 
 form processing-configuration, name <ProcessingConfiguration>

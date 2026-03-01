@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/chat/v1/base/form-action
+load @cluesurf/snow/googleapis.com/chat/v1/base/form-action
   take form form-action
 
-load @termsurf/snow/googleapis.com/chat/v1/base/open-link
+load @cluesurf/snow/googleapis.com/chat/v1/base/open-link
   take form open-link
 
 form on-click, name <OnClick>

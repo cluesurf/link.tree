@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/activity-type
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/activity-type
   take form activity-type
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/resource-contention-fault
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/resource-contention-fault
   take form resource-contention-fault
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/scaling-activity-in-progress-fault
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/scaling-activity-in-progress-fault
   take form scaling-activity-in-progress-fault
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-terminate-instance-in-auto-scaling-group, name <POST_TerminateInstanceInAutoScalingGroup>

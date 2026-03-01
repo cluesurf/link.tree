@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/artifactregistry/v1beta2/base/list-packages-response
+load @cluesurf/snow/googleapis.com/artifactregistry/v1beta2/base/list-packages-response
   take form list-packages-response
 
 boot artifactregistry-projects-locations-repositories-packages-list, name <artifactregistry.projects.locations.repositories.packages.list>

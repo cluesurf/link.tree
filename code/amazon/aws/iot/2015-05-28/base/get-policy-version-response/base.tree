@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/date-type
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/date-type
   take form date-type
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/generation-id
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/generation-id
   take form generation-id
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/is-default-version
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/is-default-version
   take form is-default-version
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/policy-arn
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/policy-arn
   take form policy-arn
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/policy-document
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/policy-document
   take form policy-document
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/policy-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/policy-name
   take form policy-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/policy-version-id
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/policy-version-id
   take form policy-version-id
 
 form get-policy-version-response, name <GetPolicyVersionResponse>

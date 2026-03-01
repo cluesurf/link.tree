@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancers
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancers
   take form load-balancers
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/marker
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/marker
   take form marker
 
 form describe-load-balancers-output, name <DescribeLoadBalancersOutput>

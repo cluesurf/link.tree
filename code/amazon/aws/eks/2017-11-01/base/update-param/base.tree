@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/eks/2017-11-01/base/update-param-type
+load @cluesurf/snow/amazonaws.com/eks/2017-11-01/base/update-param-type
   take form update-param-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-param, name <UpdateParam>

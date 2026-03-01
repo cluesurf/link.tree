@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/connection-http-parameters
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/connection-http-parameters
   take form connection-http-parameters
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/connection-o-auth-http-method
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/connection-o-auth-http-method
   take form connection-o-auth-http-method
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/https-endpoint
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/https-endpoint
   take form https-endpoint
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/update-connection-o-auth-client-request-parameters
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/update-connection-o-auth-client-request-parameters
   take form update-connection-o-auth-client-request-parameters
 
 form update-connection-o-auth-request-parameters, name <UpdateConnectionOAuthRequestParameters>

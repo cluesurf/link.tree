@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.3/base/pretargeting-config
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.3/base/pretargeting-config
   take form pretargeting-config
 
 boot adexchangebuyer-pretargeting-config-update, name <adexchangebuyer.pretargetingConfig.update>

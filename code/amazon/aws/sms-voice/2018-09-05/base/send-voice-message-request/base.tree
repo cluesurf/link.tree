@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sms-voice/2018-09-05/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/sms-voice/2018-09-05/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/sms-voice/2018-09-05/base/voice-message-content
+load @cluesurf/snow/amazonaws.com/sms-voice/2018-09-05/base/voice-message-content
   take form voice-message-content
 
-load @termsurf/snow/amazonaws.com/sms-voice/2018-09-05/base/word-characters-with-delimiters
+load @cluesurf/snow/amazonaws.com/sms-voice/2018-09-05/base/word-characters-with-delimiters
   take form word-characters-with-delimiters
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form send-voice-message-request, name <SendVoiceMessageRequest>

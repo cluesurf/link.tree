@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-template-action-start-after
+load @cluesurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-template-action-start-after
   take form experiment-template-action-start-after
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form experiment-template-action-start-after-list, name <ExperimentTemplateActionStartAfterList>

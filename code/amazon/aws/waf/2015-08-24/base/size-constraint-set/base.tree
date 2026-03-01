@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/resource-id
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/resource-id
   take form resource-id
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/resource-name
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/size-constraints
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/size-constraints
   take form size-constraints
 
 form size-constraint-set, name <SizeConstraintSet>

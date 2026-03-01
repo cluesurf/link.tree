@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-domain-name
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-domain-name
   take form invalid-domain-name
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-input
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-input
   take form invalid-input
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/list-hosted-zones-by-name-response
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/list-hosted-zones-by-name-response
   take form list-hosted-zones-by-name-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-hosted-zones-by-name, name <ListHostedZonesByName>

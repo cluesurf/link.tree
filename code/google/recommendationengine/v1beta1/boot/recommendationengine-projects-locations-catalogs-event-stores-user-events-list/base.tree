@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/recommendationengine/v1beta1/base/google-cloud-recommendationengine-v1beta1-list-user-events-response
+load @cluesurf/snow/googleapis.com/recommendationengine/v1beta1/base/google-cloud-recommendationengine-v1beta1-list-user-events-response
   take form google-cloud-recommendationengine-v1beta1-list-user-events-response
 
 boot recommendationengine-projects-locations-catalogs-event-stores-user-events-list, name <recommendationengine.projects.locations.catalogs.eventStores.userEvents.list>

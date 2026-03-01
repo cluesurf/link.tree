@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/availability-zone
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/availability-zone
   take form availability-zone
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/subnet-outpost
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/subnet-outpost
   take form subnet-outpost
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form subnet, name <Subnet>

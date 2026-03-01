@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/remote-access-allowed
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/remote-access-allowed
   take form remote-access-allowed
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/role
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/role
   take form role
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/user-arn
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/user-arn
   take form user-arn
 
 form update-team-member-result, name <UpdateTeamMemberResult>

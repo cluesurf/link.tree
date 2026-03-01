@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/salesforce-chatter-feed-include-filter-type
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/salesforce-chatter-feed-include-filter-type
   take form salesforce-chatter-feed-include-filter-type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form salesforce-chatter-feed-include-filter-types, name <SalesforceChatterFeedIncludeFilterTypes>

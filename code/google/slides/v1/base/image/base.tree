@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/image-properties
+load @cluesurf/snow/googleapis.com/slides/v1/base/image-properties
   take form image-properties
 
-load @termsurf/snow/googleapis.com/slides/v1/base/placeholder
+load @cluesurf/snow/googleapis.com/slides/v1/base/placeholder
   take form placeholder
 
 form image, name <Image>

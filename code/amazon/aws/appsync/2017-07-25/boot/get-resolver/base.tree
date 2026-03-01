@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/appsync/2017-07-25/base/concurrent-modification-exception
+load @cluesurf/snow/amazonaws.com/appsync/2017-07-25/base/concurrent-modification-exception
   take form concurrent-modification-exception
 
-load @termsurf/snow/amazonaws.com/appsync/2017-07-25/base/get-resolver-response
+load @cluesurf/snow/amazonaws.com/appsync/2017-07-25/base/get-resolver-response
   take form get-resolver-response
 
-load @termsurf/snow/amazonaws.com/appsync/2017-07-25/base/not-found-exception
+load @cluesurf/snow/amazonaws.com/appsync/2017-07-25/base/not-found-exception
   take form not-found-exception
 
-load @termsurf/snow/amazonaws.com/appsync/2017-07-25/base/unauthorized-exception
+load @cluesurf/snow/amazonaws.com/appsync/2017-07-25/base/unauthorized-exception
   take form unauthorized-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-resolver, name <GetResolver>

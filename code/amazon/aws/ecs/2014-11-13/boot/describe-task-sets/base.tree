@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/client-exception
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/client-exception
   take form client-exception
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/cluster-not-found-exception
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/cluster-not-found-exception
   take form cluster-not-found-exception
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/describe-task-sets-response
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/describe-task-sets-response
   take form describe-task-sets-response
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/invalid-parameter-exception
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/invalid-parameter-exception
   take form invalid-parameter-exception
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/server-exception
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/server-exception
   take form server-exception
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/service-not-active-exception
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/service-not-active-exception
   take form service-not-active-exception
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/service-not-found-exception
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/service-not-found-exception
   take form service-not-found-exception
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/unsupported-feature-exception
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/unsupported-feature-exception
   take form unsupported-feature-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-task-sets, name <DescribeTaskSets>

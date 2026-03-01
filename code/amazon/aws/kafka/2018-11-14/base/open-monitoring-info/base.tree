@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/kafka/2018-11-14/base/prometheus-info
+load @cluesurf/snow/amazonaws.com/kafka/2018-11-14/base/prometheus-info
   take form prometheus-info
 
 form open-monitoring-info, name <OpenMonitoringInfo>

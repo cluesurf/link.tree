@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/vision/v1/base/list-product-sets-response
+load @cluesurf/snow/googleapis.com/vision/v1/base/list-product-sets-response
   take form list-product-sets-response
 
 boot vision-projects-locations-product-sets-list, name <vision.projects.locations.productSets.list>

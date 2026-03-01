@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/aws-location
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/aws-location
   take form aws-location
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/date-time
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/device-state
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/device-state
   take form device-state
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/location
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/location
   take form location
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/tag-list
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form device, name <Device>

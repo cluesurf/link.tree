@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/send-message-batch-result-entry
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/send-message-batch-result-entry
   take form send-message-batch-result-entry
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form send-message-batch-result-entry-list, name <SendMessageBatchResultEntryList>

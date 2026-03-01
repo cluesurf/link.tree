@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/compute/v1/base/operation
+load @cluesurf/snow/googleapis.com/compute/v1/base/operation
   take form operation
 
 boot compute-reservations-update, name <compute.reservations.update>

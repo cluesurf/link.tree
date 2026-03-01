@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/tpu/v2alpha1/base/generate-service-identity-response
+load @cluesurf/snow/googleapis.com/tpu/v2alpha1/base/generate-service-identity-response
   take form generate-service-identity-response
 
 boot tpu-projects-locations-generate-service-identity, name <tpu.projects.locations.generateServiceIdentity>

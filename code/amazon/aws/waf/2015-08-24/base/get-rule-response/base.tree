@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/rule
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/rule
   take form rule
 
 form get-rule-response, name <GetRuleResponse>

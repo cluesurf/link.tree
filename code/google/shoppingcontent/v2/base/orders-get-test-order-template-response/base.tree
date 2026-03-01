@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/shoppingcontent/v2/base/test-order
+load @cluesurf/snow/googleapis.com/shoppingcontent/v2/base/test-order
   take form test-order
 
 form orders-get-test-order-template-response, name <OrdersGetTestOrderTemplateResponse>

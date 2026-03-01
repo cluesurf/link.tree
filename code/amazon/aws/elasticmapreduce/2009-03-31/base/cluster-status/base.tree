@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/cluster-state
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/cluster-state
   take form cluster-state
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/cluster-state-change-reason
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/cluster-state-change-reason
   take form cluster-state-change-reason
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/cluster-timeline
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/cluster-timeline
   take form cluster-timeline
 
 form cluster-status, name <ClusterStatus>

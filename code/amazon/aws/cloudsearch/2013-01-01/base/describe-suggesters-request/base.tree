@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2013-01-01/base/domain-name
+load @cluesurf/snow/amazonaws.com/cloudsearch/2013-01-01/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2013-01-01/base/standard-name-list
+load @cluesurf/snow/amazonaws.com/cloudsearch/2013-01-01/base/standard-name-list
   take form standard-name-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form describe-suggesters-request, name <DescribeSuggestersRequest>

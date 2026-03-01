@@ -1,8 +1,8 @@
 
-load @termsurf/snow/jira/openapi.json/base/error-collection
+load @cluesurf/snow/jira/openapi.json/base/error-collection
   take form error-collection
 
-load @termsurf/snow/jira/openapi.json/base/sanitized-jql-queries
+load @cluesurf/snow/jira/openapi.json/base/sanitized-jql-queries
   take form sanitized-jql-queries
 
 boot sanitise-jql-queries, name <sanitiseJqlQueries>

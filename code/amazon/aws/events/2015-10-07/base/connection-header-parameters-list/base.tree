@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/connection-header-parameter
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/connection-header-parameter
   take form connection-header-parameter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form connection-header-parameters-list, name <ConnectionHeaderParametersList>

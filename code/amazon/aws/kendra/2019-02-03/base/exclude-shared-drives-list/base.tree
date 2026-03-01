@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/shared-drive-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/shared-drive-id
   take form shared-drive-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form exclude-shared-drives-list, name <ExcludeSharedDrivesList>

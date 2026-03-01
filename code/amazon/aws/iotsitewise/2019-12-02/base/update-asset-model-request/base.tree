@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-model-composite-models
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-model-composite-models
   take form asset-model-composite-models
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-model-hierarchies
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-model-hierarchies
   take form asset-model-hierarchies
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-model-properties
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-model-properties
   take form asset-model-properties
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/client-token
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/description
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/name
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/name
   take form name
 
 form update-asset-model-request, name <UpdateAssetModelRequest>

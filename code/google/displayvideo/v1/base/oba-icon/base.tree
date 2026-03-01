@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/dimensions
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/dimensions
   take form dimensions
 
 form oba-icon, name <ObaIcon>

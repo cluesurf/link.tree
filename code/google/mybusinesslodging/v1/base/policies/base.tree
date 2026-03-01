@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/payment-options
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/payment-options
   take form payment-options
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/time-of-day
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/time-of-day
   take form time-of-day
 
 form policies, name <Policies>

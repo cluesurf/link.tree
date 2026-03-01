@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/association-status
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/association-status
   take form association-status
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/aws-account
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/aws-account
   take form aws-account
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/connection-identifier
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/connection-identifier
   take form connection-identifier
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/non-empty-string
   take form non-empty-string
 
 form connection-alias-association, name <ConnectionAliasAssociation>

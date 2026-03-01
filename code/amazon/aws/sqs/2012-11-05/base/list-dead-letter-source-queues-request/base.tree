@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/boxed-integer
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/boxed-integer
   take form boxed-integer
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/token
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/token
   take form token
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-dead-letter-source-queues-request, name <ListDeadLetterSourceQueuesRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/capability-namespace
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/capability-namespace
   take form capability-namespace
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/capability-sync-status
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/capability-sync-status
   take form capability-sync-status
 
 form update-gateway-capability-configuration-response, name <UpdateGatewayCapabilityConfigurationResponse>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/container-service-metric-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/container-service-metric-name
   take form container-service-metric-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-datapoint-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-datapoint-list
   take form metric-datapoint-list
 
 form get-container-service-metric-data-result, name <GetContainerServiceMetricDataResult>

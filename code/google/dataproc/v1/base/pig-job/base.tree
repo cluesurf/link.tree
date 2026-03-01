@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/dataproc/v1/base/logging-config
+load @cluesurf/snow/googleapis.com/dataproc/v1/base/logging-config
   take form logging-config
 
-load @termsurf/snow/googleapis.com/dataproc/v1/base/query-list
+load @cluesurf/snow/googleapis.com/dataproc/v1/base/query-list
   take form query-list
 
 form pig-job, name <PigJob>

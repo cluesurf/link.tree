@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2020-05-31/base/function-stage
+load @cluesurf/snow/amazonaws.com/cloudfront/2020-05-31/base/function-stage
   take form function-stage
 
-load @termsurf/snow/amazonaws.com/cloudfront/2020-05-31/base/timestamp
+load @cluesurf/snow/amazonaws.com/cloudfront/2020-05-31/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form function-metadata, name <FunctionMetadata>

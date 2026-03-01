@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/redaction-output
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/redaction-output
   take form redaction-output
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/redaction-type
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/redaction-type
   take form redaction-type
 
 form content-redaction, name <ContentRedaction>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/remotebuildexecution/v1alpha/base/build-bazel-remote-execution-v2-digest
+load @cluesurf/snow/googleapis.com/remotebuildexecution/v1alpha/base/build-bazel-remote-execution-v2-digest
   take form build-bazel-remote-execution-v2-digest
 
-load @termsurf/snow/googleapis.com/remotebuildexecution/v1alpha/base/build-bazel-remote-execution-v2-executed-action-metadata
+load @cluesurf/snow/googleapis.com/remotebuildexecution/v1alpha/base/build-bazel-remote-execution-v2-executed-action-metadata
   take form build-bazel-remote-execution-v2-executed-action-metadata
 
 form build-bazel-remote-execution-v2-action-result, name <BuildBazelRemoteExecutionV2ActionResult>

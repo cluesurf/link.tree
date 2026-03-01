@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/remediation-exception
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/remediation-exception
   take form remediation-exception
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form remediation-exceptions, name <RemediationExceptions>

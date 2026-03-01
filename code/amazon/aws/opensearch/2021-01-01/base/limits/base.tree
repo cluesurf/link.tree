@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/additional-limit-list
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/additional-limit-list
   take form additional-limit-list
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/instance-limits
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/instance-limits
   take form instance-limits
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/storage-type-list
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/storage-type-list
   take form storage-type-list
 
 form limits, name <Limits>

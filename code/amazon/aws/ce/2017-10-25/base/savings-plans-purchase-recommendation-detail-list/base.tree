@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/savings-plans-purchase-recommendation-detail
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/savings-plans-purchase-recommendation-detail
   take form savings-plans-purchase-recommendation-detail
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form savings-plans-purchase-recommendation-detail-list, name <SavingsPlansPurchaseRecommendationDetailList>

@@ -1,44 +1,44 @@
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/attestation-authority
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/attestation-authority
   take form attestation-authority
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/basis
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/basis
   take form basis
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/build-type
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/build-type
   take form build-type
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/compliance-note
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/compliance-note
   take form compliance-note
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/deployable
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/deployable
   take form deployable
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/discovery
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/discovery
   take form discovery
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/document-note
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/document-note
   take form document-note
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/dsse-attestation-note
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/dsse-attestation-note
   take form dsse-attestation-note
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/file-note
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/file-note
   take form file-note
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/package
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/package
   take form package
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/package-info-note
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/package-info-note
   take form package-info-note
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/relationship-note
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/relationship-note
   take form relationship-note
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/upgrade-note
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/upgrade-note
   take form upgrade-note
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1alpha1/base/vulnerability-type
+load @cluesurf/snow/googleapis.com/containeranalysis/v1alpha1/base/vulnerability-type
   take form vulnerability-type
 
 form note, name <Note>

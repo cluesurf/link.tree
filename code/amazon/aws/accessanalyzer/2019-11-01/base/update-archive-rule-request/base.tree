@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/accessanalyzer/2019-11-01/base/filter-criteria-map
+load @cluesurf/snow/amazonaws.com/accessanalyzer/2019-11-01/base/filter-criteria-map
   take form filter-criteria-map
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-archive-rule-request, name <UpdateArchiveRuleRequest>

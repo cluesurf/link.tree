@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/application-autoscaling/2016-02-06/base/resource-id-max-len1600
+load @cluesurf/snow/amazonaws.com/application-autoscaling/2016-02-06/base/resource-id-max-len1600
   take form resource-id-max-len1600
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form resource-ids-max-len1600, name <ResourceIdsMaxLen1600>

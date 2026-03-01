@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/data-pre-processing-configuration
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/data-pre-processing-configuration
   take form data-pre-processing-configuration
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/dataset-identifier
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/dataset-identifier
   take form dataset-identifier
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/dataset-schema
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/dataset-schema
   take form dataset-schema
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/iam-role-arn
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/iam-role-arn
   take form iam-role-arn
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/idempotence-token
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/idempotence-token
   take form idempotence-token
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/labels-input-configuration
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/labels-input-configuration
   take form labels-input-configuration
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/model-name
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/model-name
   take form model-name
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/name-or-arn
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/name-or-arn
   take form name-or-arn
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/off-condition
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/off-condition
   take form off-condition
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/timestamp
   take form timestamp
 
 form create-model-request, name <CreateModelRequest>

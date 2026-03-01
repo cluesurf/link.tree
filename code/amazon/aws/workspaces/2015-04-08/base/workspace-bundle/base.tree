@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/bundle-id
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/bundle-id
   take form bundle-id
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/bundle-owner
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/bundle-owner
   take form bundle-owner
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/compute-type
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/compute-type
   take form compute-type
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/description
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/root-storage
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/root-storage
   take form root-storage
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/timestamp
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/user-storage
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/user-storage
   take form user-storage
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/workspace-image-id
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/workspace-image-id
   take form workspace-image-id
 
 form workspace-bundle, name <WorkspaceBundle>

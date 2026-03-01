@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/jira/openapi.json/base/priority
+load @cluesurf/snow/jira/openapi.json/base/priority
   take form priority
 
 boot get-priority, name <getPriority>

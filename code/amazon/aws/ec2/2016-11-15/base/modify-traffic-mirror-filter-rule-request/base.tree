@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-direction
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-direction
   take form traffic-direction
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-filter-rule-field-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-filter-rule-field-list
   take form traffic-mirror-filter-rule-field-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-filter-rule-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-filter-rule-id
   take form traffic-mirror-filter-rule-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-port-range-request
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-port-range-request
   take form traffic-mirror-port-range-request
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-rule-action
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-rule-action
   take form traffic-mirror-rule-action
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form modify-traffic-mirror-filter-rule-request, name <ModifyTrafficMirrorFilterRuleRequest>

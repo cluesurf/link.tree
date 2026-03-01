@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/delete-file-entry
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/delete-file-entry
   take form delete-file-entry
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form delete-file-entries, name <DeleteFileEntries>

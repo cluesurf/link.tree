@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/encryption-type
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/encryption-type
   take form encryption-type
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/key-id
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/key-id
   take form key-id
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-name
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-name
   take form stream-name
 
 form start-stream-encryption-input, name <StartStreamEncryptionInput>

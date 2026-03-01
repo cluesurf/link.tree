@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/bulk-publish-status
+load @cluesurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/bulk-publish-status
   take form bulk-publish-status
 
-load @termsurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/date
+load @cluesurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/identity-pool-id
+load @cluesurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/identity-pool-id
   take form identity-pool-id
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-bulk-publish-details-response, name <GetBulkPublishDetailsResponse>

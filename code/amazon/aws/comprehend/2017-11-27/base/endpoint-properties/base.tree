@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/any-length-string
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/any-length-string
   take form any-length-string
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/comprehend-endpoint-arn
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/comprehend-endpoint-arn
   take form comprehend-endpoint-arn
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/comprehend-model-arn
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/comprehend-model-arn
   take form comprehend-model-arn
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/endpoint-status
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/endpoint-status
   take form endpoint-status
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/iam-role-arn
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/iam-role-arn
   take form iam-role-arn
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/inference-units-integer
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/inference-units-integer
   take form inference-units-integer
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/timestamp
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/timestamp
   take form timestamp
 
 form endpoint-properties, name <EndpointProperties>

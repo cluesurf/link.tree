@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/blogger/v3/base/post
+load @cluesurf/snow/googleapis.com/blogger/v3/base/post
   take form post
 
-load @termsurf/snow/googleapis.com/blogger/v3/base/post-per-user-info
+load @cluesurf/snow/googleapis.com/blogger/v3/base/post-per-user-info
   take form post-per-user-info
 
 form post-user-info, name <PostUserInfo>

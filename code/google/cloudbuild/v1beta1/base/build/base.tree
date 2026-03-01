@@ -1,26 +1,26 @@
 
-load @termsurf/snow/googleapis.com/cloudbuild/v1beta1/base/artifacts
+load @cluesurf/snow/googleapis.com/cloudbuild/v1beta1/base/artifacts
   take form artifacts
 
-load @termsurf/snow/googleapis.com/cloudbuild/v1beta1/base/build-approval
+load @cluesurf/snow/googleapis.com/cloudbuild/v1beta1/base/build-approval
   take form build-approval
 
-load @termsurf/snow/googleapis.com/cloudbuild/v1beta1/base/build-options
+load @cluesurf/snow/googleapis.com/cloudbuild/v1beta1/base/build-options
   take form build-options
 
-load @termsurf/snow/googleapis.com/cloudbuild/v1beta1/base/failure-info
+load @cluesurf/snow/googleapis.com/cloudbuild/v1beta1/base/failure-info
   take form failure-info
 
-load @termsurf/snow/googleapis.com/cloudbuild/v1beta1/base/results
+load @cluesurf/snow/googleapis.com/cloudbuild/v1beta1/base/results
   take form results
 
-load @termsurf/snow/googleapis.com/cloudbuild/v1beta1/base/secrets
+load @cluesurf/snow/googleapis.com/cloudbuild/v1beta1/base/secrets
   take form secrets
 
-load @termsurf/snow/googleapis.com/cloudbuild/v1beta1/base/source
+load @cluesurf/snow/googleapis.com/cloudbuild/v1beta1/base/source
   take form source
 
-load @termsurf/snow/googleapis.com/cloudbuild/v1beta1/base/source-provenance
+load @cluesurf/snow/googleapis.com/cloudbuild/v1beta1/base/source-provenance
   take form source-provenance
 
 form build, name <Build>

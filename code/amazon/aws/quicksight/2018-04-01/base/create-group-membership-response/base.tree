@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/group-member
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/group-member
   take form group-member
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/status-code
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/status-code
   take form status-code
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-group-membership-response, name <CreateGroupMembershipResponse>

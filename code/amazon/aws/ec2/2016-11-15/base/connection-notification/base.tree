@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/connection-notification-state
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/connection-notification-state
   take form connection-notification-state
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/connection-notification-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/connection-notification-type
   take form connection-notification-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/value-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/value-string-list
   take form value-string-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form connection-notification, name <ConnectionNotification>

@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/arn
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-name
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-name
   take form cost-category-name
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-processing-status-list
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-processing-status-list
   take form cost-category-processing-status-list
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-rule-version
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-rule-version
   take form cost-category-rule-version
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-rules-list
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-rules-list
   take form cost-category-rules-list
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-split-charge-rules-list
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-split-charge-rules-list
   take form cost-category-split-charge-rules-list
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-value
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-value
   take form cost-category-value
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/zoned-date-time
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/zoned-date-time
   take form zoned-date-time
 
 form cost-category, name <CostCategory>

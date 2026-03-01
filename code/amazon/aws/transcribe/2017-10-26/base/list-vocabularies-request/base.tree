@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/max-results
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/max-results
   take form max-results
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/next-token
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-name
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-name
   take form vocabulary-name
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-state
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-state
   take form vocabulary-state
 
 form list-vocabularies-request, name <ListVocabulariesRequest>

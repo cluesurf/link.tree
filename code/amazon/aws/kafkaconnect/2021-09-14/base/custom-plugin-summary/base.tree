@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/custom-plugin-revision-summary
+load @cluesurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/custom-plugin-revision-summary
   take form custom-plugin-revision-summary
 
-load @termsurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/custom-plugin-state
+load @cluesurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/custom-plugin-state
   take form custom-plugin-state
 
-load @termsurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/timestamp-iso8601
+load @cluesurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/timestamp-iso8601
   take form timestamp-iso8601
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form custom-plugin-summary, name <CustomPluginSummary>

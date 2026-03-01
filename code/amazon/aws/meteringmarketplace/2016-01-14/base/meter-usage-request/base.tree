@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/meteringmarketplace/2016-01-14/base/product-code
+load @cluesurf/snow/amazonaws.com/meteringmarketplace/2016-01-14/base/product-code
   take form product-code
 
-load @termsurf/snow/amazonaws.com/meteringmarketplace/2016-01-14/base/timestamp
+load @cluesurf/snow/amazonaws.com/meteringmarketplace/2016-01-14/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/meteringmarketplace/2016-01-14/base/usage-allocations
+load @cluesurf/snow/amazonaws.com/meteringmarketplace/2016-01-14/base/usage-allocations
   take form usage-allocations
 
-load @termsurf/snow/amazonaws.com/meteringmarketplace/2016-01-14/base/usage-dimension
+load @cluesurf/snow/amazonaws.com/meteringmarketplace/2016-01-14/base/usage-dimension
   take form usage-dimension
 
-load @termsurf/snow/amazonaws.com/meteringmarketplace/2016-01-14/base/usage-quantity
+load @cluesurf/snow/amazonaws.com/meteringmarketplace/2016-01-14/base/usage-quantity
   take form usage-quantity
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form meter-usage-request, name <MeterUsageRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/allowed-node-group-id
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/allowed-node-group-id
   take form allowed-node-group-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form node-groups-to-remove-list, name <NodeGroupsToRemoveList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/fleets
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/fleets
   take form fleets
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/pagination-token
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/pagination-token
   take form pagination-token
 
 form list-fleets-response, name <ListFleetsResponse>

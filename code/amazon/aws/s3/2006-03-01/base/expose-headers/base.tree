@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/expose-header
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/expose-header
   take form expose-header
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form expose-headers, name <ExposeHeaders>

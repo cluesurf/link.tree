@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/distribution-config
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/distribution-config
   take form distribution-config
 
 form update-distribution-request, name <UpdateDistributionRequest>

@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/activation-description
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/activation-description
   take form activation-description
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/default-instance-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/default-instance-name
   take form default-instance-name
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/expiration-date
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/expiration-date
   take form expiration-date
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/iam-role
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/iam-role
   take form iam-role
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/registration-limit
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/registration-limit
   take form registration-limit
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/tag-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/tag-list
   take form tag-list
 
 form create-activation-request, name <CreateActivationRequest>

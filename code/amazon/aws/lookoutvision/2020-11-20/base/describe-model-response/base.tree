@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-description
+load @cluesurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-description
   take form model-description
 
 form describe-model-response, name <DescribeModelResponse>

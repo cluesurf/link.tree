@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/gmail/v1/base/filter-action
+load @cluesurf/snow/googleapis.com/gmail/v1/base/filter-action
   take form filter-action
 
-load @termsurf/snow/googleapis.com/gmail/v1/base/filter-criteria
+load @cluesurf/snow/googleapis.com/gmail/v1/base/filter-criteria
   take form filter-criteria
 
 form filter, name <Filter>

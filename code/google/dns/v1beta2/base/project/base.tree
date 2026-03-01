@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/dns/v1beta2/base/quota
+load @cluesurf/snow/googleapis.com/dns/v1beta2/base/quota
   take form quota
 
 form project, name <Project>

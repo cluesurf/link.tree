@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/service-setting-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/service-setting-id
   take form service-setting-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/service-setting-value
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/service-setting-value
   take form service-setting-value
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form service-setting, name <ServiceSetting>

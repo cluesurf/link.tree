@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
   take form kms-key-id
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/transform-instance-count
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/transform-instance-count
   take form transform-instance-count
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/transform-instance-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/transform-instance-type
   take form transform-instance-type
 
 form transform-resources, name <TransformResources>

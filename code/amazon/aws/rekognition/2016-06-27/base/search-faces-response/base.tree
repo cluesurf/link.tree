@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/face-id
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/face-id
   take form face-id
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/face-match-list
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/face-match-list
   take form face-match-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form search-faces-response, name <SearchFacesResponse>

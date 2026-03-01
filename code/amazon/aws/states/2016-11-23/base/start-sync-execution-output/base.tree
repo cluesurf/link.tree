@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/arn
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/billing-details
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/billing-details
   take form billing-details
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/cloud-watch-events-execution-data-details
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/cloud-watch-events-execution-data-details
   take form cloud-watch-events-execution-data-details
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/name
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-cause
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-cause
   take form sensitive-cause
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-data
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-data
   take form sensitive-data
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-error
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-error
   take form sensitive-error
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/sync-execution-status
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/sync-execution-status
   take form sync-execution-status
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/timestamp
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/trace-header
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/trace-header
   take form trace-header
 
 form start-sync-execution-output, name <StartSyncExecutionOutput>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-configuration-map
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-configuration-map
   take form action-configuration-map
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-namespace
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-namespace
   take form action-namespace
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-type-id
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-type-id
   take form action-type-id
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/artifact-detail-list
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/artifact-detail-list
   take form artifact-detail-list
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/aws-region-name
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/aws-region-name
   take form aws-region-name
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/resolved-action-configuration-map
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/resolved-action-configuration-map
   take form resolved-action-configuration-map
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/role-arn
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/role-arn
   take form role-arn
 
 form action-execution-input, name <ActionExecutionInput>

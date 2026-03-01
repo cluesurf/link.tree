@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/datalabeling/v1beta1/base/google-cloud-datalabeling-v1beta1-evaluation-job
+load @cluesurf/snow/googleapis.com/datalabeling/v1beta1/base/google-cloud-datalabeling-v1beta1-evaluation-job
   take form google-cloud-datalabeling-v1beta1-evaluation-job
 
 boot datalabeling-projects-evaluation-jobs-create, name <datalabeling.projects.evaluationJobs.create>

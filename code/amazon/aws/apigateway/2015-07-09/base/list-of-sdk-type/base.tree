@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/sdk-type
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/sdk-type
   take form sdk-type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-sdk-type, name <ListOfSdkType>

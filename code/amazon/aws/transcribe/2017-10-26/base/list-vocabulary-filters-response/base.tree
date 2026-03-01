@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/next-token
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-filters
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-filters
   take form vocabulary-filters
 
 form list-vocabulary-filters-response, name <ListVocabularyFiltersResponse>

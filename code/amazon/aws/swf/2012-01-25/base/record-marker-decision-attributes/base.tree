@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/data
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/data
   take form data
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/marker-name
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/marker-name
   take form marker-name
 
 form record-marker-decision-attributes, name <RecordMarkerDecisionAttributes>

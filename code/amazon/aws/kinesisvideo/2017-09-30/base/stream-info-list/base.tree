@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kinesisvideo/2017-09-30/base/stream-info
+load @cluesurf/snow/amazonaws.com/kinesisvideo/2017-09-30/base/stream-info
   take form stream-info
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form stream-info-list, name <StreamInfoList>

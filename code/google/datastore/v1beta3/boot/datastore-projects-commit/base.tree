@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/datastore/v1beta3/base/commit-response
+load @cluesurf/snow/googleapis.com/datastore/v1beta3/base/commit-response
   take form commit-response
 
 boot datastore-projects-commit, name <datastore.projects.commit>

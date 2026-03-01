@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dns/v1/base/dns-key
+load @cluesurf/snow/googleapis.com/dns/v1/base/dns-key
   take form dns-key
 
 boot dns-dns-keys-get, name <dns.dnsKeys.get>

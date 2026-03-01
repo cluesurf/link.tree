@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/partial-failure
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/partial-failure
   take form partial-failure
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form batch-failures, name <BatchFailures>

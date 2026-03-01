@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/doubleclickbidmanager/v1.1/base/query
+load @cluesurf/snow/googleapis.com/doubleclickbidmanager/v1.1/base/query
   take form query
 
 boot doubleclickbidmanager-queries-getquery, name <doubleclickbidmanager.queries.getquery>

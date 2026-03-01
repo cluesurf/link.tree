@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/locale
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/locale
   take form locale
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/max-results-lower-range
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/max-results-lower-range
   take form max-results-lower-range
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/next-token
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/organization-entity-filters-list
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/organization-entity-filters-list
   take form organization-entity-filters-list
 
 form describe-affected-entities-for-organization-request, name <DescribeAffectedEntitiesForOrganizationRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-history
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-history
   take form upgrade-history
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form upgrade-history-list, name <UpgradeHistoryList>

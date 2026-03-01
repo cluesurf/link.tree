@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/migration-summary
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/migration-summary
   take form migration-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form migration-summary-list, name <MigrationSummaryList>

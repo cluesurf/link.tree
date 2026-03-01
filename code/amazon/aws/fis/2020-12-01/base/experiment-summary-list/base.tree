@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-summary
+load @cluesurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-summary
   take form experiment-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form experiment-summary-list, name <ExperimentSummaryList>

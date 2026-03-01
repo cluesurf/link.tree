@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/compute/beta/base/image
+load @cluesurf/snow/googleapis.com/compute/beta/base/image
   take form image
 
 boot compute-images-get-from-family, name <compute.images.getFromFamily>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/servicecontrol/v1/base/peer
+load @cluesurf/snow/googleapis.com/servicecontrol/v1/base/peer
   take form peer
 
-load @termsurf/snow/googleapis.com/servicecontrol/v1/base/request
+load @cluesurf/snow/googleapis.com/servicecontrol/v1/base/request
   take form request
 
 form request-metadata, name <RequestMetadata>

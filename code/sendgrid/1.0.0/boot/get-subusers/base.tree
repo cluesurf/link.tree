@@ -1,17 +1,17 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/global-error-response-schema
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/global-error-response-schema
   take form global-error-response-schema
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/subuser
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/subuser
   take form subuser
 
 boot get-subusers, name <GET_subusers>

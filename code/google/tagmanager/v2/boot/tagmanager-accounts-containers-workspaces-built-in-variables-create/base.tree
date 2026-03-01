@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/tagmanager/v2/base/create-built-in-variable-response
+load @cluesurf/snow/googleapis.com/tagmanager/v2/base/create-built-in-variable-response
   take form create-built-in-variable-response
 
 boot tagmanager-accounts-containers-workspaces-built-in-variables-create, name <tagmanager.accounts.containers.workspaces.built_in_variables.create>

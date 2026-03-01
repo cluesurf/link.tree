@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudchannel/v1/base/google-cloud-channel-v1-list-subscribers-response
+load @cluesurf/snow/googleapis.com/cloudchannel/v1/base/google-cloud-channel-v1-list-subscribers-response
   take form google-cloud-channel-v1-list-subscribers-response
 
 boot cloudchannel-accounts-list-subscribers, name <cloudchannel.accounts.listSubscribers>

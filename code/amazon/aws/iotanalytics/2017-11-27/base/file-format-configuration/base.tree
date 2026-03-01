@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/json-configuration
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/json-configuration
   take form json-configuration
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/parquet-configuration
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/parquet-configuration
   take form parquet-configuration
 
 form file-format-configuration, name <FileFormatConfiguration>

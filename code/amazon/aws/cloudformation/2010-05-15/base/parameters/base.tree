@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter
   take form parameter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form parameters, name <Parameters>

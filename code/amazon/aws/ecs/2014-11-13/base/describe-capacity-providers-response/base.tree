@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/capacity-providers
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/capacity-providers
   take form capacity-providers
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/failures
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/failures
   take form failures
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-capacity-providers-response, name <DescribeCapacityProvidersResponse>

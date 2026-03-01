@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androidenterprise/v1/base/app-restrictions-schema
+load @cluesurf/snow/googleapis.com/androidenterprise/v1/base/app-restrictions-schema
   take form app-restrictions-schema
 
 boot androidenterprise-products-get-app-restrictions-schema, name <androidenterprise.products.getAppRestrictionsSchema>

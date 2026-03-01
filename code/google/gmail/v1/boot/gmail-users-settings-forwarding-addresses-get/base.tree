@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/gmail/v1/base/forwarding-address
+load @cluesurf/snow/googleapis.com/gmail/v1/base/forwarding-address
   take form forwarding-address
 
 boot gmail-users-settings-forwarding-addresses-get, name <gmail.users.settings.forwardingAddresses.get>

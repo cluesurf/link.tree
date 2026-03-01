@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/output-log-event
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/output-log-event
   take form output-log-event
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form output-log-events, name <OutputLogEvents>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/organization-conformance-pack-status
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/organization-conformance-pack-status
   take form organization-conformance-pack-status
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form organization-conformance-pack-statuses, name <OrganizationConformancePackStatuses>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/finding-ids
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/finding-ids
   take form finding-ids
 
 form unarchive-findings-request, name <UnarchiveFindingsRequest>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/kinesis-video-signaling/2019-12-04/base/password
+load @cluesurf/snow/amazonaws.com/kinesis-video-signaling/2019-12-04/base/password
   take form password
 
-load @termsurf/snow/amazonaws.com/kinesis-video-signaling/2019-12-04/base/ttl
+load @cluesurf/snow/amazonaws.com/kinesis-video-signaling/2019-12-04/base/ttl
   take form ttl
 
-load @termsurf/snow/amazonaws.com/kinesis-video-signaling/2019-12-04/base/uris
+load @cluesurf/snow/amazonaws.com/kinesis-video-signaling/2019-12-04/base/uris
   take form uris
 
-load @termsurf/snow/amazonaws.com/kinesis-video-signaling/2019-12-04/base/username
+load @cluesurf/snow/amazonaws.com/kinesis-video-signaling/2019-12-04/base/username
   take form username
 
 form ice-server, name <IceServer>

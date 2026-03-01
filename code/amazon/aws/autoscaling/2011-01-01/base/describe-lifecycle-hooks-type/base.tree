@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/lifecycle-hook-names
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/lifecycle-hook-names
   take form lifecycle-hook-names
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string-max-len255
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string-max-len255
   take form xml-string-max-len255
 
 form describe-lifecycle-hooks-type, name <DescribeLifecycleHooksType>

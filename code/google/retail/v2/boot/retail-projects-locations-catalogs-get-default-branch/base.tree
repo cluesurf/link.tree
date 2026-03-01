@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/retail/v2/base/google-cloud-retail-v2-get-default-branch-response
+load @cluesurf/snow/googleapis.com/retail/v2/base/google-cloud-retail-v2-get-default-branch-response
   take form google-cloud-retail-v2-get-default-branch-response
 
 boot retail-projects-locations-catalogs-get-default-branch, name <retail.projects.locations.catalogs.getDefaultBranch>

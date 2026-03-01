@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/entity-id
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/entity-id
   take form entity-id
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/entity-name
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/entity-name
   take form entity-name
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/s3-url
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/s3-url
   take form s3-url
 
 form create-batch-prediction-input, name <CreateBatchPredictionInput>

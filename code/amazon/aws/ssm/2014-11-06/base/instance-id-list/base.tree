@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/instance-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/instance-id
   take form instance-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form instance-id-list, name <InstanceIdList>

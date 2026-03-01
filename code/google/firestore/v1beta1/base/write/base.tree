@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/document
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/document
   take form document
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/document-mask
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/document-mask
   take form document-mask
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/document-transform
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/document-transform
   take form document-transform
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/precondition
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/precondition
   take form precondition
 
 form write, name <Write>

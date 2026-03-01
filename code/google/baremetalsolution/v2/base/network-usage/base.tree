@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/baremetalsolution/v2/base/network
+load @cluesurf/snow/googleapis.com/baremetalsolution/v2/base/network
   take form network
 
 form network-usage, name <NetworkUsage>

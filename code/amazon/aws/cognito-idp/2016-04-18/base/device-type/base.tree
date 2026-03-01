@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/attribute-list-type
+load @cluesurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/attribute-list-type
   take form attribute-list-type
 
-load @termsurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/date-type
+load @cluesurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/date-type
   take form date-type
 
-load @termsurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/device-key-type
+load @cluesurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/device-key-type
   take form device-key-type
 
 form device-type, name <DeviceType>

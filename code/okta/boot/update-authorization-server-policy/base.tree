@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/okta/base/authorization-server-policy
+load @cluesurf/snow/okta/base/authorization-server-policy
   take form authorization-server-policy
 
 boot update-authorization-server-policy, name <updateAuthorizationServerPolicy>

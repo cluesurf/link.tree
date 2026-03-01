@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
   take form kms-key-id
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
   take form s3-uri
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/sns-topic-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/sns-topic-arn
   take form sns-topic-arn
 
 form labeling-job-output-config, name <LabelingJobOutputConfig>

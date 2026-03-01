@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/permissions
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/permissions
   take form permissions
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/policy-size-bytes
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/policy-size-bytes
   take form policy-size-bytes
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-profile-permissions-response, name <ListProfilePermissionsResponse>

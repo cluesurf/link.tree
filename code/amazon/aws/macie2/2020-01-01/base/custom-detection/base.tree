@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/long
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/occurrences
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/occurrences
   take form occurrences
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form custom-detection, name <CustomDetection>

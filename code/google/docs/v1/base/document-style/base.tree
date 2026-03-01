@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/docs/v1/base/background
+load @cluesurf/snow/googleapis.com/docs/v1/base/background
   take form background
 
-load @termsurf/snow/googleapis.com/docs/v1/base/dimension
+load @cluesurf/snow/googleapis.com/docs/v1/base/dimension
   take form dimension
 
-load @termsurf/snow/googleapis.com/docs/v1/base/size
+load @cluesurf/snow/googleapis.com/docs/v1/base/size
   take form size
 
 form document-style, name <DocumentStyle>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/bulk-email-status
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/bulk-email-status
   take form bulk-email-status
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/error
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/error
   take form error
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/message-id
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/message-id
   take form message-id
 
 form bulk-email-destination-status, name <BulkEmailDestinationStatus>

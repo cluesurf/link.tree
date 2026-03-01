@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/client-token
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/directory-alias
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/directory-alias
   take form directory-alias
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/directory-id
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/directory-id
   take form directory-id
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/directory-type
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/directory-type
   take form directory-type
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/inbound-calls-enabled
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/inbound-calls-enabled
   take form inbound-calls-enabled
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/outbound-calls-enabled
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/outbound-calls-enabled
   take form outbound-calls-enabled
 
 form create-instance-request, name <CreateInstanceRequest>

@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/auth-exception
+load @cluesurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/auth-exception
   take form auth-exception
 
-load @termsurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/ec2-instance-not-found-exception
+load @cluesurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/ec2-instance-not-found-exception
   take form ec2-instance-not-found-exception
 
-load @termsurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/ec2-instance-type-invalid-exception
+load @cluesurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/ec2-instance-type-invalid-exception
   take form ec2-instance-type-invalid-exception
 
-load @termsurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/invalid-args-exception
+load @cluesurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/invalid-args-exception
   take form invalid-args-exception
 
-load @termsurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/send-serial-console-ssh-public-key-response
+load @cluesurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/send-serial-console-ssh-public-key-response
   take form send-serial-console-ssh-public-key-response
 
-load @termsurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/serial-console-access-disabled-exception
+load @cluesurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/serial-console-access-disabled-exception
   take form serial-console-access-disabled-exception
 
-load @termsurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/serial-console-session-limit-exceeded-exception
+load @cluesurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/serial-console-session-limit-exceeded-exception
   take form serial-console-session-limit-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/serial-console-session-unavailable-exception
+load @cluesurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/serial-console-session-unavailable-exception
   take form serial-console-session-unavailable-exception
 
-load @termsurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/service-exception
+load @cluesurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/service-exception
   take form service-exception
 
-load @termsurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/throttling-exception
+load @cluesurf/snow/amazonaws.com/ec2-instance-connect/2018-04-02/base/throttling-exception
   take form throttling-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot send-serial-console-ssh-public-key, name <SendSerialConsoleSSHPublicKey>

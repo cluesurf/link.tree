@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/double
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/long
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/long
   take form long
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form restore-status, name <RestoreStatus>

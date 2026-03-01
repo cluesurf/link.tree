@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/arn
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/kinesis-configuration
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/kinesis-configuration
   take form kinesis-configuration
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/stream-name
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/stream-name
   take form stream-name
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/tags
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/tags
   take form tags
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/timestamp
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/timestamp
   take form timestamp
 
 form stream-journal-to-kinesis-request, name <StreamJournalToKinesisRequest>

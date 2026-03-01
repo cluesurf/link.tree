@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/clouddebugger/v2/base/debuggee
+load @cluesurf/snow/googleapis.com/clouddebugger/v2/base/debuggee
   take form debuggee
 
 form register-debuggee-request, name <RegisterDebuggeeRequest>

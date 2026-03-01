@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-rule-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-rule-list
   take form security-group-rule-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form authorize-security-group-egress-result, name <AuthorizeSecurityGroupEgressResult>

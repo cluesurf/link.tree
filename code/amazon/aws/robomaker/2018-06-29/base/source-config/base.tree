@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/architecture
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/architecture
   take form architecture
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/s3-bucket
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/s3-bucket
   take form s3-bucket
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/s3-key
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/s3-key
   take form s3-key
 
 form source-config, name <SourceConfig>

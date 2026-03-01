@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/datastore/v1beta3/base/property-reference
+load @cluesurf/snow/googleapis.com/datastore/v1beta3/base/property-reference
   take form property-reference
 
-load @termsurf/snow/googleapis.com/datastore/v1beta3/base/value
+load @cluesurf/snow/googleapis.com/datastore/v1beta3/base/value
   take form value
 
 form property-filter, name <PropertyFilter>

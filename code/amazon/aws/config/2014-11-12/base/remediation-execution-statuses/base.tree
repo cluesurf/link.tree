@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/remediation-execution-status
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/remediation-execution-status
   take form remediation-execution-status
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form remediation-execution-statuses, name <RemediationExecutionStatuses>

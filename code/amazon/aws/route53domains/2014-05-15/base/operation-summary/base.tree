@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/operation-id
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/operation-id
   take form operation-id
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/operation-status
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/operation-status
   take form operation-status
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/operation-type
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/operation-type
   take form operation-type
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/timestamp
   take form timestamp
 
 form operation-summary, name <OperationSummary>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/capture-mode
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/capture-mode
   take form capture-mode
 
 form capture-option, name <CaptureOption>

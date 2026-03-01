@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-config-name
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-config-name
   take form deployment-config-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form deployment-configs-list, name <DeploymentConfigsList>

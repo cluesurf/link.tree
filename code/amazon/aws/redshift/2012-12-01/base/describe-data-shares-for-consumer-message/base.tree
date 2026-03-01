@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/data-share-status-for-consumer
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/data-share-status-for-consumer
   take form data-share-status-for-consumer
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/integer-optional
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-data-shares-for-consumer-message, name <DescribeDataSharesForConsumerMessage>

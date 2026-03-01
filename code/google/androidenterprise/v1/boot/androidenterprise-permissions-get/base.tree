@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androidenterprise/v1/base/permission
+load @cluesurf/snow/googleapis.com/androidenterprise/v1/base/permission
   take form permission
 
 boot androidenterprise-permissions-get, name <androidenterprise.permissions.get>

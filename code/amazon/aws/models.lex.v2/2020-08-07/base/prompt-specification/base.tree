@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/boxed-boolean
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/boxed-boolean
   take form boxed-boolean
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/message-groups-list
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/message-groups-list
   take form message-groups-list
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/prompt-max-retries
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/prompt-max-retries
   take form prompt-max-retries
 
 form prompt-specification, name <PromptSpecification>

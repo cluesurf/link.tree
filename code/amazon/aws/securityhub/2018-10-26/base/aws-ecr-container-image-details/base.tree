@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string-list
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string-list
   take form non-empty-string-list
 
 form aws-ecr-container-image-details, name <AwsEcrContainerImageDetails>

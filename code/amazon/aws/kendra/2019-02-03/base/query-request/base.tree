@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/attribute-filter
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/attribute-filter
   take form attribute-filter
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/document-attribute-key-list
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/document-attribute-key-list
   take form document-attribute-key-list
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/document-relevance-override-configuration-list
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/document-relevance-override-configuration-list
   take form document-relevance-override-configuration-list
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/facet-list
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/facet-list
   take form facet-list
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/index-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/index-id
   take form index-id
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/query-result-type
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/query-result-type
   take form query-result-type
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/query-text
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/query-text
   take form query-text
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/sorting-configuration
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/sorting-configuration
   take form sorting-configuration
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/user-context
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/user-context
   take form user-context
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/visitor-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/visitor-id
   take form visitor-id
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form query-request, name <QueryRequest>

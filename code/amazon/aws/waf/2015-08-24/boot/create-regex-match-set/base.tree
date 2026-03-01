@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/create-regex-match-set-response
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/create-regex-match-set-response
   take form create-regex-match-set-response
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/waf-disallowed-name-exception
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/waf-disallowed-name-exception
   take form waf-disallowed-name-exception
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/waf-internal-error-exception
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/waf-internal-error-exception
   take form waf-internal-error-exception
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/waf-limits-exceeded-exception
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/waf-limits-exceeded-exception
   take form waf-limits-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/waf-stale-data-exception
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/waf-stale-data-exception
   take form waf-stale-data-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot create-regex-match-set, name <CreateRegexMatchSet>

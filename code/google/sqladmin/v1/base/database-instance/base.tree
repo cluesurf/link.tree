@@ -1,26 +1,26 @@
 
-load @termsurf/snow/googleapis.com/sqladmin/v1/base/disk-encryption-configuration
+load @cluesurf/snow/googleapis.com/sqladmin/v1/base/disk-encryption-configuration
   take form disk-encryption-configuration
 
-load @termsurf/snow/googleapis.com/sqladmin/v1/base/disk-encryption-status
+load @cluesurf/snow/googleapis.com/sqladmin/v1/base/disk-encryption-status
   take form disk-encryption-status
 
-load @termsurf/snow/googleapis.com/sqladmin/v1/base/on-premises-configuration
+load @cluesurf/snow/googleapis.com/sqladmin/v1/base/on-premises-configuration
   take form on-premises-configuration
 
-load @termsurf/snow/googleapis.com/sqladmin/v1/base/replica-configuration
+load @cluesurf/snow/googleapis.com/sqladmin/v1/base/replica-configuration
   take form replica-configuration
 
-load @termsurf/snow/googleapis.com/sqladmin/v1/base/settings
+load @cluesurf/snow/googleapis.com/sqladmin/v1/base/settings
   take form settings
 
-load @termsurf/snow/googleapis.com/sqladmin/v1/base/sql-out-of-disk-report
+load @cluesurf/snow/googleapis.com/sqladmin/v1/base/sql-out-of-disk-report
   take form sql-out-of-disk-report
 
-load @termsurf/snow/googleapis.com/sqladmin/v1/base/sql-scheduled-maintenance
+load @cluesurf/snow/googleapis.com/sqladmin/v1/base/sql-scheduled-maintenance
   take form sql-scheduled-maintenance
 
-load @termsurf/snow/googleapis.com/sqladmin/v1/base/ssl-cert
+load @cluesurf/snow/googleapis.com/sqladmin/v1/base/ssl-cert
   take form ssl-cert
 
 form database-instance, name <DatabaseInstance>

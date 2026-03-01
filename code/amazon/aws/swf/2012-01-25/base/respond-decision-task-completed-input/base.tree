@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/data
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/data
   take form data
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/decision-list
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/decision-list
   take form decision-list
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/task-token
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/task-token
   take form task-token
 
 form respond-decision-task-completed-input, name <RespondDecisionTaskCompletedInput>

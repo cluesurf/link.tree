@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/protective-equipment-persons
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/protective-equipment-persons
   take form protective-equipment-persons
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/protective-equipment-summary
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/protective-equipment-summary
   take form protective-equipment-summary
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form detect-protective-equipment-response, name <DetectProtectiveEquipmentResponse>

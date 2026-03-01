@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/bigquery/v2/base/query-parameter-type
+load @cluesurf/snow/googleapis.com/bigquery/v2/base/query-parameter-type
   take form query-parameter-type
 
 form query-parameter-type, name <QueryParameterType>

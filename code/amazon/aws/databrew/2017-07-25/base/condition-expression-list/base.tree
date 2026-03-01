@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/condition-expression
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/condition-expression
   take form condition-expression
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form condition-expression-list, name <ConditionExpressionList>

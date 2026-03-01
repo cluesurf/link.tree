@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/sso-integration
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/sso-integration
   take form sso-integration
 
 boot get-sso-integrations-id, name <GET_sso-integrations-id>

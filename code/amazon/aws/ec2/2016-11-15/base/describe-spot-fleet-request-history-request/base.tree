@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-spot-fleet-request-history-max-results
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-spot-fleet-request-history-max-results
   take form describe-spot-fleet-request-history-max-results
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/event-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/event-type
   take form event-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-fleet-request-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-fleet-request-id
   take form spot-fleet-request-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-spot-fleet-request-history-request, name <DescribeSpotFleetRequestHistoryRequest>

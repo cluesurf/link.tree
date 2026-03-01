@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/history-event-execution-data-details
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/history-event-execution-data-details
   take form history-event-execution-data-details
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/name
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-data
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-data
   take form sensitive-data
 
 form state-entered-event-details, name <StateEnteredEventDetails>

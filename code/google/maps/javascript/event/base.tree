@@ -1,27 +1,27 @@
 
-load @termsurf/land/code/javascript/base/function
+load @cluesurf/land/code/javascript/base/function
   take form function
 
-load @termsurf/land/code/javascript/base/native-any
+load @cluesurf/land/code/javascript/base/native-any
   take form native-any
 
-load @termsurf/land/code/javascript/base/native-boolean
+load @cluesurf/land/code/javascript/base/native-boolean
   take form native-boolean
 
-load @termsurf/land/code/javascript/base/native-object
+load @cluesurf/land/code/javascript/base/native-object
   take form native-object
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/land/code/javascript/base/native-void
+load @cluesurf/land/code/javascript/base/native-void
   take form native-void
 
-load @termsurf/seed/code/form/list
+load @cluesurf/seed/code/form/list
   take form list
     save form list-link-text
 
-load @termsurf/snow/code/javascript/google/maps/maps-event-listener
+load @cluesurf/snow/code/javascript/google/maps/maps-event-listener
   take form maps-event-listener
 
 task add-dom-listener, name <addDomListener>

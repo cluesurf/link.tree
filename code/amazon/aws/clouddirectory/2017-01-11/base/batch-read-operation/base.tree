@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-get-link-attributes
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-get-link-attributes
   take form batch-get-link-attributes
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-get-object-attributes
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-get-object-attributes
   take form batch-get-object-attributes
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-get-object-information
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-get-object-information
   take form batch-get-object-information
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-attached-indices
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-attached-indices
   take form batch-list-attached-indices
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-incoming-typed-links
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-incoming-typed-links
   take form batch-list-incoming-typed-links
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-index
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-index
   take form batch-list-index
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-object-attributes
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-object-attributes
   take form batch-list-object-attributes
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-object-children
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-object-children
   take form batch-list-object-children
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-object-parent-paths
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-object-parent-paths
   take form batch-list-object-parent-paths
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-object-parents
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-object-parents
   take form batch-list-object-parents
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-object-policies
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-object-policies
   take form batch-list-object-policies
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-outgoing-typed-links
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-outgoing-typed-links
   take form batch-list-outgoing-typed-links
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-policy-attachments
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-list-policy-attachments
   take form batch-list-policy-attachments
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-lookup-policy
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/batch-lookup-policy
   take form batch-lookup-policy
 
 form batch-read-operation, name <BatchReadOperation>

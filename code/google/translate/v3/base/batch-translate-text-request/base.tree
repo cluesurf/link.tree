@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/translate/v3/base/output-config
+load @cluesurf/snow/googleapis.com/translate/v3/base/output-config
   take form output-config
 
 form batch-translate-text-request, name <BatchTranslateTextRequest>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-alias
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-alias
   take form contact-alias
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-type
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-type
   take form contact-type
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/max-results
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/max-results
   take form max-results
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/pagination-token
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/pagination-token
   take form pagination-token
 
 form list-contacts-request, name <ListContactsRequest>

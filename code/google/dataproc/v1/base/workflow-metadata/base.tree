@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/dataproc/v1/base/cluster-operation
+load @cluesurf/snow/googleapis.com/dataproc/v1/base/cluster-operation
   take form cluster-operation
 
-load @termsurf/snow/googleapis.com/dataproc/v1/base/workflow-graph
+load @cluesurf/snow/googleapis.com/dataproc/v1/base/workflow-graph
   take form workflow-graph
 
 form workflow-metadata, name <WorkflowMetadata>

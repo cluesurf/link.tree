@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/accept
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/accept
   take form accept
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/assembly-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/assembly-type
   take form assembly-type
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
   take form kms-key-id
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
   take form s3-uri
 
 form transform-output, name <TransformOutput>

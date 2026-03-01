@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/issues-detected
+load @cluesurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/issues-detected
   take form issues-detected
 
-load @termsurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/offset-millis
+load @cluesurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/offset-millis
   take form offset-millis
 
-load @termsurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/participant-id
+load @cluesurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/participant-id
   take form participant-id
 
-load @termsurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/participant-role
+load @cluesurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/participant-role
   take form participant-role
 
-load @termsurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/sentiment-value
+load @cluesurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/sentiment-value
   take form sentiment-value
 
-load @termsurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/transcript-content
+load @cluesurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/transcript-content
   take form transcript-content
 
-load @termsurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/transcript-id
+load @cluesurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/transcript-id
   take form transcript-id
 
 form transcript, name <Transcript>

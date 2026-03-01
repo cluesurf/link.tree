@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/migration-task-name
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/migration-task-name
   take form migration-task-name
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/progress-percent
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/progress-percent
   take form progress-percent
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/progress-update-stream
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/progress-update-stream
   take form progress-update-stream
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/status
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/status
   take form status
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/status-detail
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/status-detail
   take form status-detail
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/update-date-time
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/update-date-time
   take form update-date-time
 
 form migration-task-summary, name <MigrationTaskSummary>

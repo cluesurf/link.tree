@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/file-system-association-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/file-system-association-arn
   take form file-system-association-arn
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/file-system-association-id
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/file-system-association-id
   take form file-system-association-id
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/file-system-association-status
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/file-system-association-status
   take form file-system-association-status
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/gateway-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/gateway-arn
   take form gateway-arn
 
 form file-system-association-summary, name <FileSystemAssociationSummary>

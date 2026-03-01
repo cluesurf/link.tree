@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/id
+load @cluesurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/selection-key
+load @cluesurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/selection-key
   take form selection-key
 
-load @termsurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/string-with-length-between1-and128
+load @cluesurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/string-with-length-between1-and128
   take form string-with-length-between1-and128
 
 form create-api-mapping-request, name <CreateApiMappingRequest>

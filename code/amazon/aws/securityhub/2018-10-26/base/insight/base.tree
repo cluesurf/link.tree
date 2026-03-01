@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-security-finding-filters
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-security-finding-filters
   take form aws-security-finding-filters
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
   take form non-empty-string
 
 form insight, name <Insight>

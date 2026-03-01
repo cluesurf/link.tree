@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/category-properties
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/category-properties
   take form category-properties
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form category-properties-list, name <CategoryPropertiesList>

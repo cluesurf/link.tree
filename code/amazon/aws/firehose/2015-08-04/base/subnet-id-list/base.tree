@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/non-empty-string-without-whitespace
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/non-empty-string-without-whitespace
   take form non-empty-string-without-whitespace
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form subnet-id-list, name <SubnetIdList>

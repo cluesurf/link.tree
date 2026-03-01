@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/delete-associated-conditional-forwarder
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/delete-associated-conditional-forwarder
   take form delete-associated-conditional-forwarder
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/trust-id
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/trust-id
   take form trust-id
 
 form delete-trust-request, name <DeleteTrustRequest>

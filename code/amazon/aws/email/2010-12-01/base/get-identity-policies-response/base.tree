@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/policy-map
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/policy-map
   take form policy-map
 
 form get-identity-policies-response, name <GetIdentityPoliciesResponse>

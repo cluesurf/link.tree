@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/fpga-device-info-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/fpga-device-info-list
   take form fpga-device-info-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/total-fpga-memory
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/total-fpga-memory
   take form total-fpga-memory
 
 form fpga-info, name <FpgaInfo>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/entity-details
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/entity-details
   take form entity-details
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form entity-details-list-type, name <entityDetailsListType>

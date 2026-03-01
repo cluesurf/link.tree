@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/add-on-request
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/add-on-request
   take form add-on-request
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
 form enable-add-on-request, name <EnableAddOnRequest>

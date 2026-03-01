@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-audio-duration
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-audio-duration
   take form cmfc-audio-duration
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-audio-track-type
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-audio-track-type
   take form cmfc-audio-track-type
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-descriptive-video-service-flag
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-descriptive-video-service-flag
   take form cmfc-descriptive-video-service-flag
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-i-frame-only-manifest
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-i-frame-only-manifest
   take form cmfc-i-frame-only-manifest
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-scte35-esam
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-scte35-esam
   take form cmfc-scte35-esam
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-scte35-source
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/cmfc-scte35-source
   take form cmfc-scte35-source
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form cmfc-settings, name <CmfcSettings>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/delete-resources-by-external-id-output
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/delete-resources-by-external-id-output
   take form delete-resources-by-external-id-output
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-resources-by-external-id, name <DeleteResourcesByExternalId>

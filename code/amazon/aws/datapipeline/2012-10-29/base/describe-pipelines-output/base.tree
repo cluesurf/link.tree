@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/datapipeline/2012-10-29/base/pipeline-description-list
+load @cluesurf/snow/amazonaws.com/datapipeline/2012-10-29/base/pipeline-description-list
   take form pipeline-description-list
 
 form describe-pipelines-output, name <DescribePipelinesOutput>

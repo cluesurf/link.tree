@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/eventarc/v1/base/pubsub
+load @cluesurf/snow/googleapis.com/eventarc/v1/base/pubsub
   take form pubsub
 
 form transport, name <Transport>

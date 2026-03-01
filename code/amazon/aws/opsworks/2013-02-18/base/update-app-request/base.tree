@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/app-attributes
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/app-attributes
   take form app-attributes
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/app-type
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/app-type
   take form app-type
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/data-sources
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/data-sources
   take form data-sources
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/environment-variables
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/environment-variables
   take form environment-variables
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/source
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/source
   take form source
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/ssl-configuration
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/ssl-configuration
   take form ssl-configuration
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/strings
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/strings
   take form strings
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-app-request, name <UpdateAppRequest>

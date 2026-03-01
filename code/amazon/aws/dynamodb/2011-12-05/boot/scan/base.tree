@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/provisioned-throughput-exceeded-exception
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/provisioned-throughput-exceeded-exception
   take form provisioned-throughput-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/request-limit-exceeded
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/request-limit-exceeded
   take form request-limit-exceeded
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/scan-output
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/scan-output
   take form scan-output
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot scan, name <Scan>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudresourcemanager/v2/base/folder
+load @cluesurf/snow/googleapis.com/cloudresourcemanager/v2/base/folder
   take form folder
 
 boot cloudresourcemanager-folders-get, name <cloudresourcemanager.folders.get>

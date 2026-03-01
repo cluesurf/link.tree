@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/cloudidentity/v1beta1/base/operation
+load @cluesurf/snow/googleapis.com/cloudidentity/v1beta1/base/operation
   take form operation
 
 boot cloudidentity-devices-create, name <cloudidentity.devices.create>

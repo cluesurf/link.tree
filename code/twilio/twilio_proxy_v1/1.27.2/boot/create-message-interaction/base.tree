@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/twilio.com/twilio_proxy_v1/1.27.2/base/create-message-interaction-body
+load @cluesurf/snow/twilio.com/twilio_proxy_v1/1.27.2/base/create-message-interaction-body
   take form create-message-interaction-body
 
-load @termsurf/snow/twilio.com/twilio_proxy_v1/1.27.2/base/proxy-v1-service-session-participant-message-interaction
+load @cluesurf/snow/twilio.com/twilio_proxy_v1/1.27.2/base/proxy-v1-service-session-participant-message-interaction
   take form proxy-v1-service-session-participant-message-interaction
 
 boot create-message-interaction, name <CreateMessageInteraction>

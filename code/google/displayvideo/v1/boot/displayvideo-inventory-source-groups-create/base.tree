@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/inventory-source-group
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/inventory-source-group
   take form inventory-source-group
 
 boot displayvideo-inventory-source-groups-create, name <displayvideo.inventorySourceGroups.create>

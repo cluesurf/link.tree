@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecr/2015-09-21/base/encryption-type
+load @cluesurf/snow/amazonaws.com/ecr/2015-09-21/base/encryption-type
   take form encryption-type
 
-load @termsurf/snow/amazonaws.com/ecr/2015-09-21/base/kms-key
+load @cluesurf/snow/amazonaws.com/ecr/2015-09-21/base/kms-key
   take form kms-key
 
 form encryption-configuration, name <EncryptionConfiguration>

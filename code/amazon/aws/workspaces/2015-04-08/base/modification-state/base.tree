@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/modification-resource-enum
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/modification-resource-enum
   take form modification-resource-enum
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/modification-state-enum
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/modification-state-enum
   take form modification-state-enum
 
 form modification-state, name <ModificationState>

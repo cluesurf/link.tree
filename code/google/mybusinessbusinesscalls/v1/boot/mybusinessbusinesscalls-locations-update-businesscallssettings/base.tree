@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/mybusinessbusinesscalls/v1/base/business-calls-settings
+load @cluesurf/snow/googleapis.com/mybusinessbusinesscalls/v1/base/business-calls-settings
   take form business-calls-settings
 
 boot mybusinessbusinesscalls-locations-update-businesscallssettings, name <mybusinessbusinesscalls.locations.updateBusinesscallssettings>

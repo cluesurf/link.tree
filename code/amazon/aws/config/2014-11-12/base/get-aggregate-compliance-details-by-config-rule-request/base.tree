@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/account-id
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/aws-region
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/aws-region
   take form aws-region
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/compliance-type
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/compliance-type
   take form compliance-type
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-name
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-name
   take form config-rule-name
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/configuration-aggregator-name
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/configuration-aggregator-name
   take form configuration-aggregator-name
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/limit
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/limit
   take form limit
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/next-token
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/next-token
   take form next-token
 
 form get-aggregate-compliance-details-by-config-rule-request, name <GetAggregateComplianceDetailsByConfigRuleRequest>

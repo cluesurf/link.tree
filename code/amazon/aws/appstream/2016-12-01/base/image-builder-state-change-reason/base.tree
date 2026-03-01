@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/image-builder-state-change-reason-code
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/image-builder-state-change-reason-code
   take form image-builder-state-change-reason-code
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form image-builder-state-change-reason, name <ImageBuilderStateChangeReason>

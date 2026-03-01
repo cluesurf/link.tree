@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/source
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/source
   take form source
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-source, name <__listOfSource>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/sqladmin/v1/base/backup-run
+load @cluesurf/snow/googleapis.com/sqladmin/v1/base/backup-run
   take form backup-run
 
 boot sql-backup-runs-get, name <sql.backupRuns.get>

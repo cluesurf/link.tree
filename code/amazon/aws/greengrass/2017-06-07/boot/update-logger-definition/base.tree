@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/update-logger-definition-body
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/update-logger-definition-body
   take form update-logger-definition-body
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/update-logger-definition-response
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/update-logger-definition-response
   take form update-logger-definition-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot update-logger-definition, name <UpdateLoggerDefinition>

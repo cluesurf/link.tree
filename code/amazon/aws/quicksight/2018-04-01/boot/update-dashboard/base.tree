@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/conflict-exception
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/conflict-exception
   take form conflict-exception
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/internal-failure-exception
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/internal-failure-exception
   take form internal-failure-exception
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/invalid-parameter-value-exception
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/invalid-parameter-value-exception
   take form invalid-parameter-value-exception
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/limit-exceeded-exception
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/limit-exceeded-exception
   take form limit-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/throttling-exception
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/throttling-exception
   take form throttling-exception
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/unsupported-user-edition-exception
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/unsupported-user-edition-exception
   take form unsupported-user-edition-exception
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/update-dashboard-body
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/update-dashboard-body
   take form update-dashboard-body
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/update-dashboard-response
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/update-dashboard-response
   take form update-dashboard-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot update-dashboard, name <UpdateDashboard>

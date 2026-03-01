@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/address-attribute-name
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/address-attribute-name
   take form address-attribute-name
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/allocation-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/allocation-id
   take form allocation-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form reset-address-attribute-request, name <ResetAddressAttributeRequest>

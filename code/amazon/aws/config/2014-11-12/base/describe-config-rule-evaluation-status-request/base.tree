@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-names
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-names
   take form config-rule-names
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/rule-limit
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/rule-limit
   take form rule-limit
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-config-rule-evaluation-status-request, name <DescribeConfigRuleEvaluationStatusRequest>

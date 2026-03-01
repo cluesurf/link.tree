@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/configuration-item-type
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/configuration-item-type
   take form configuration-item-type
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/filters
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/filters
   take form filters
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/next-token
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/order-by-list
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/order-by-list
   take form order-by-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form list-configurations-request, name <ListConfigurationsRequest>

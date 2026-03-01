@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/androidpublisher/v2/base/device-metadata
+load @cluesurf/snow/googleapis.com/androidpublisher/v2/base/device-metadata
   take form device-metadata
 
-load @termsurf/snow/googleapis.com/androidpublisher/v2/base/timestamp
+load @cluesurf/snow/googleapis.com/androidpublisher/v2/base/timestamp
   take form timestamp
 
 form user-comment, name <UserComment>

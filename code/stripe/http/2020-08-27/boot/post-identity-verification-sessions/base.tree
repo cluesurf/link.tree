@@ -1,11 +1,11 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/identity-verification-session
+load @cluesurf/snow/stripe.com/2020-08-27/base/identity-verification-session
   take form identity-verification-session
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-identity-verification-sessions-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-identity-verification-sessions-body
   take form post-identity-verification-sessions-body
 
 boot post-identity-verification-sessions, name <PostIdentityVerificationSessions>

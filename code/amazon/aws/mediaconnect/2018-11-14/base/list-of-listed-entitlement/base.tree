@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/listed-entitlement
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/listed-entitlement
   take form listed-entitlement
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-listed-entitlement, name <__listOfListedEntitlement>

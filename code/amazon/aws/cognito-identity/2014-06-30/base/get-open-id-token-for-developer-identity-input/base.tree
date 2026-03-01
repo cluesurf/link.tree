@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-id
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-id
   take form identity-id
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-id
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-id
   take form identity-pool-id
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/logins-map
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/logins-map
   take form logins-map
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/principal-tags
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/principal-tags
   take form principal-tags
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/token-duration
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/token-duration
   take form token-duration
 
 form get-open-id-token-for-developer-identity-input, name <GetOpenIdTokenForDeveloperIdentityInput>

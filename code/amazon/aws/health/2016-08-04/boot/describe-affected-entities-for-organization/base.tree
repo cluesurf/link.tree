@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/describe-affected-entities-for-organization-response
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/describe-affected-entities-for-organization-response
   take form describe-affected-entities-for-organization-response
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/invalid-pagination-token
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/invalid-pagination-token
   take form invalid-pagination-token
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/unsupported-locale
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/unsupported-locale
   take form unsupported-locale
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-affected-entities-for-organization, name <DescribeAffectedEntitiesForOrganization>

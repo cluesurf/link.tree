@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/az
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/az
   take form az
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/eni-id
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/eni-id
   take form eni-id
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hsm-arn
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hsm-arn
   take form hsm-arn
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hsm-serial-number
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hsm-serial-number
   take form hsm-serial-number
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hsm-status
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hsm-status
   take form hsm-status
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/iam-role-arn
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/iam-role-arn
   take form iam-role-arn
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/ip-address
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/ip-address
   take form ip-address
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/partition-list
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/partition-list
   take form partition-list
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/ssh-key
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/ssh-key
   take form ssh-key
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/subnet-id
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/subnet-id
   take form subnet-id
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/subscription-type
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/subscription-type
   take form subscription-type
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/timestamp
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/vpc-id
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/vpc-id
   take form vpc-id
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-hsm-response, name <DescribeHsmResponse>

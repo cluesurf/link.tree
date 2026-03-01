@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel
   take form channel
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel-statistics
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel-statistics
   take form channel-statistics
 
 form describe-channel-response, name <DescribeChannelResponse>

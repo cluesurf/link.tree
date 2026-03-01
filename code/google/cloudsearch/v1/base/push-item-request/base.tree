@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/debug-options
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/debug-options
   take form debug-options
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/push-item
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/push-item
   take form push-item
 
 form push-item-request, name <PushItemRequest>

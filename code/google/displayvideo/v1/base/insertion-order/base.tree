@@ -1,20 +1,20 @@
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/bidding-strategy
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/bidding-strategy
   take form bidding-strategy
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/frequency-cap
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/frequency-cap
   take form frequency-cap
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/insertion-order-budget
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/insertion-order-budget
   take form insertion-order-budget
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/integration-details
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/integration-details
   take form integration-details
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/pacing
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/pacing
   take form pacing
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/performance-goal
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/performance-goal
   take form performance-goal
 
 form insertion-order, name <InsertionOrder>

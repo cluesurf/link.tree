@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel-name
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel-name
   take form channel-name
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/messages
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/messages
   take form messages
 
 form batch-put-message-request, name <BatchPutMessageRequest>

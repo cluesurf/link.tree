@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/serverlessrepo/2017-09-08/base/application-policy-statement
+load @cluesurf/snow/amazonaws.com/serverlessrepo/2017-09-08/base/application-policy-statement
   take form application-policy-statement
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-application-policy-statement, name <__listOfApplicationPolicyStatement>

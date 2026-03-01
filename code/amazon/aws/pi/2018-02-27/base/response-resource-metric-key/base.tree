@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/pi/2018-02-27/base/dimension-map
+load @cluesurf/snow/amazonaws.com/pi/2018-02-27/base/dimension-map
   take form dimension-map
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form response-resource-metric-key, name <ResponseResourceMetricKey>

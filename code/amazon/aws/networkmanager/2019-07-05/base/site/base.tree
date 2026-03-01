@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/date-time
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/location
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/location
   take form location
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/site-state
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/site-state
   take form site-state
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/tag-list
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form site, name <Site>

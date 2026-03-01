@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/key-value-pair
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/key-value-pair
   take form key-value-pair
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form environment-variables, name <EnvironmentVariables>

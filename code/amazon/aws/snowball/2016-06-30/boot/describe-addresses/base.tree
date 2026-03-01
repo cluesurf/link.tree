@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/describe-addresses-result
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/describe-addresses-result
   take form describe-addresses-result
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/invalid-next-token-exception
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/invalid-next-token-exception
   take form invalid-next-token-exception
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/invalid-resource-exception
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/invalid-resource-exception
   take form invalid-resource-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-addresses, name <DescribeAddresses>

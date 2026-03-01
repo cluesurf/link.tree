@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/filter-rule
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/filter-rule
   take form filter-rule
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form filter-list, name <FilterList>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/arn
+load @cluesurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/metric-set-description
+load @cluesurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/metric-set-description
   take form metric-set-description
 
-load @termsurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/metric-set-name
+load @cluesurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/metric-set-name
   take form metric-set-name
 
-load @termsurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/tag-map
+load @cluesurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/tag-map
   take form tag-map
 
-load @termsurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/timestamp
+load @cluesurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/timestamp
   take form timestamp
 
 form metric-set-summary, name <MetricSetSummary>

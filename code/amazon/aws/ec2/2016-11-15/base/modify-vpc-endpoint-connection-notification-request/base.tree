@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/connection-notification-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/connection-notification-id
   take form connection-notification-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/value-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/value-string-list
   take form value-string-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form modify-vpc-endpoint-connection-notification-request, name <ModifyVpcEndpointConnectionNotificationRequest>

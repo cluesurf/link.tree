@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/accept-language
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/accept-language
   take form accept-language
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/execution-parameter-map
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/execution-parameter-map
   take form execution-parameter-map
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/id
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/idempotency-token
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/idempotency-token
   take form idempotency-token
 
 form execute-provisioned-product-service-action-input, name <ExecuteProvisionedProductServiceActionInput>

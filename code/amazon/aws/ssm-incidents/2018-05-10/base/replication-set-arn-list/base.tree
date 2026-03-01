@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/arn
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/arn
   take form arn
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form replication-set-arn-list, name <ReplicationSetArnList>

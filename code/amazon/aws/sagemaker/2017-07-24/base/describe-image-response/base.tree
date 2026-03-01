@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/failure-reason
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/failure-reason
   take form failure-reason
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-arn
   take form image-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-description
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-description
   take form image-description
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-display-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-display-name
   take form image-display-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-name
   take form image-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-status
   take form image-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/role-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
 form describe-image-response, name <DescribeImageResponse>

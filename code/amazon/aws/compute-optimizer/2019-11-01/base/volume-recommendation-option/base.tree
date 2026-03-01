@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/performance-risk
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/performance-risk
   take form performance-risk
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/rank
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/rank
   take form rank
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/volume-configuration
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/volume-configuration
   take form volume-configuration
 
 form volume-recommendation-option, name <VolumeRecommendationOption>

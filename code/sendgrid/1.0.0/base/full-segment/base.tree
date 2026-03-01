@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/segment-summary
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/segment-summary
   take form segment-summary
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/segment-write-v2
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/segment-write-v2
   take form segment-write-v2
 
 form full-segment, name <full-segment>

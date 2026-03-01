@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification-list
   take form tag-specification-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/volume-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/volume-id
   take form volume-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-snapshot-request, name <CreateSnapshotRequest>

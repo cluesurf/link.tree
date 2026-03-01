@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/datamigration/v1/base/vm-creation-config
+load @cluesurf/snow/googleapis.com/datamigration/v1/base/vm-creation-config
   take form vm-creation-config
 
-load @termsurf/snow/googleapis.com/datamigration/v1/base/vm-selection-config
+load @cluesurf/snow/googleapis.com/datamigration/v1/base/vm-selection-config
   take form vm-selection-config
 
 form generate-ssh-script-request, name <GenerateSshScriptRequest>

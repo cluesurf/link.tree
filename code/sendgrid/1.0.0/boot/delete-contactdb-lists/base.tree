@@ -1,8 +1,8 @@
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/delete-contactdb-lists-body
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/delete-contactdb-lists-body
   take form delete-contactdb-lists-body
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/global-error-response-schema
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/global-error-response-schema
   take form global-error-response-schema
 
 boot delete-contactdb-lists, name <DELETE_contactdb-lists>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/weekly-auto-scaling-schedule
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/weekly-auto-scaling-schedule
   take form weekly-auto-scaling-schedule
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form time-based-auto-scaling-configuration, name <TimeBasedAutoScalingConfiguration>

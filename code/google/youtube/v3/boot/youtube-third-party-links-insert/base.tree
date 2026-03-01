@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/third-party-link
+load @cluesurf/snow/googleapis.com/youtube/v3/base/third-party-link
   take form third-party-link
 
 boot youtube-third-party-links-insert, name <youtube.thirdPartyLinks.insert>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/target-resource
+load @cluesurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/target-resource
   take form target-resource
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form dns-target-resource, name <DNSTargetResource>

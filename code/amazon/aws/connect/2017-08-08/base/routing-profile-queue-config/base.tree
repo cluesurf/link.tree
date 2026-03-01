@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/delay
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/delay
   take form delay
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/priority
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/priority
   take form priority
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/routing-profile-queue-reference
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/routing-profile-queue-reference
   take form routing-profile-queue-reference
 
 form routing-profile-queue-config, name <RoutingProfileQueueConfig>

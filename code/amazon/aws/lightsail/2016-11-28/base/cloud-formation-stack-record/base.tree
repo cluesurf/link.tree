@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/cloud-formation-stack-record-source-info-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/cloud-formation-stack-record-source-info-list
   take form cloud-formation-stack-record-source-info-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/destination-info
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/destination-info
   take form destination-info
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/iso-date
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/iso-date
   take form iso-date
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/record-state
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/record-state
   take form record-state
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-location
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-location
   take form resource-location
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-type
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-type
   take form resource-type
 
 form cloud-formation-stack-record, name <CloudFormationStackRecord>

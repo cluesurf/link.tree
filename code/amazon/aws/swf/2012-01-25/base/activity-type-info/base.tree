@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/activity-type
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/activity-type
   take form activity-type
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/description
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/registration-status
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/registration-status
   take form registration-status
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/timestamp
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/timestamp
   take form timestamp
 
 form activity-type-info, name <ActivityTypeInfo>

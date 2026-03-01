@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioning-artifact-output
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioning-artifact-output
   take form provisioning-artifact-output
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form provisioning-artifact-outputs, name <ProvisioningArtifactOutputs>

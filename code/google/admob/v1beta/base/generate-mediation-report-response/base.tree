@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/admob/v1beta/base/report-footer
+load @cluesurf/snow/googleapis.com/admob/v1beta/base/report-footer
   take form report-footer
 
-load @termsurf/snow/googleapis.com/admob/v1beta/base/report-header
+load @cluesurf/snow/googleapis.com/admob/v1beta/base/report-header
   take form report-header
 
-load @termsurf/snow/googleapis.com/admob/v1beta/base/report-row
+load @cluesurf/snow/googleapis.com/admob/v1beta/base/report-row
   take form report-row
 
 form generate-mediation-report-response, name <GenerateMediationReportResponse>

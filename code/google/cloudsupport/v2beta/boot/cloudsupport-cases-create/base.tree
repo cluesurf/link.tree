@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudsupport/v2beta/base/case
+load @cluesurf/snow/googleapis.com/cloudsupport/v2beta/base/case
   take form case
 
 boot cloudsupport-cases-create, name <cloudsupport.cases.create>

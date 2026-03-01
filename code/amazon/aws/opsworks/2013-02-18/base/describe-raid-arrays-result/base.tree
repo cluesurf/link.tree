@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/raid-arrays
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/raid-arrays
   take form raid-arrays
 
 form describe-raid-arrays-result, name <DescribeRaidArraysResult>

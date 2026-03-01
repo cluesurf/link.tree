@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/cdi-input-specification
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/cdi-input-specification
   take form cdi-input-specification
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/channel-class
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/channel-class
   take form channel-class
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/channel-state
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/channel-state
   take form channel-state
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/input-specification
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/input-specification
   take form input-specification
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/list-of-channel-egress-endpoint
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/list-of-channel-egress-endpoint
   take form list-of-channel-egress-endpoint
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/list-of-input-attachment
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/list-of-input-attachment
   take form list-of-input-attachment
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/list-of-output-destination
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/list-of-output-destination
   take form list-of-output-destination
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/log-level
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/log-level
   take form log-level
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/tags
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/tags
   take form tags
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/vpc-output-settings-description
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/vpc-output-settings-description
   take form vpc-output-settings-description
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form channel-summary, name <ChannelSummary>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/jira/openapi.json/base/screen
+load @cluesurf/snow/jira/openapi.json/base/screen
   take form screen
 
 boot create-screen, name <createScreen>

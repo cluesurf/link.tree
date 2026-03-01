@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/kafka/2018-11-14/base/broker-logs
+load @cluesurf/snow/amazonaws.com/kafka/2018-11-14/base/broker-logs
   take form broker-logs
 
 form logging-info, name <LoggingInfo>

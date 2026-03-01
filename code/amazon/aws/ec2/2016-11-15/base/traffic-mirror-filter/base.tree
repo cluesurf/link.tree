@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-filter-rule-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-filter-rule-list
   take form traffic-mirror-filter-rule-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-network-service-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/traffic-mirror-network-service-list
   take form traffic-mirror-network-service-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form traffic-mirror-filter, name <TrafficMirrorFilter>

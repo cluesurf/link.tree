@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/modify-transit-gateway-vpc-attachment-request-options
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/modify-transit-gateway-vpc-attachment-request-options
   take form modify-transit-gateway-vpc-attachment-request-options
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-attachment-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-attachment-id
   take form transit-gateway-attachment-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-subnet-id-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-subnet-id-list
   take form transit-gateway-subnet-id-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form modify-transit-gateway-vpc-attachment-request, name <ModifyTransitGatewayVpcAttachmentRequest>

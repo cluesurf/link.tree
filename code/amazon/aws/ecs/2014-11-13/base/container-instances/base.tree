@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/container-instance
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/container-instance
   take form container-instance
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form container-instances, name <ContainerInstances>

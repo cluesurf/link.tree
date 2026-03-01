@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/gateway-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/gateway-arn
   take form gateway-arn
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-arn
   take form tape-arn
 
 form cancel-archival-input, name <CancelArchivalInput>

@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/address-id
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/address-id
   take form address-id
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/cluster-id
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/cluster-id
   take form cluster-id
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/job-resource
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/job-resource
   take form job-resource
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/notification
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/notification
   take form notification
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/on-device-service-configuration
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/on-device-service-configuration
   take form on-device-service-configuration
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/role-arn
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/shipping-option
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/shipping-option
   take form shipping-option
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-cluster-request, name <UpdateClusterRequest>

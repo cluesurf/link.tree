@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/create-subscription-definition-body
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/create-subscription-definition-body
   take form create-subscription-definition-body
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/create-subscription-definition-response
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/create-subscription-definition-response
   take form create-subscription-definition-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot create-subscription-definition, name <CreateSubscriptionDefinition>

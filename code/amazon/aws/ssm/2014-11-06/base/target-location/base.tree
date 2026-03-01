@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/accounts
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/accounts
   take form accounts
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/execution-role-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/execution-role-name
   take form execution-role-name
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/max-concurrency
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/max-concurrency
   take form max-concurrency
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/max-errors
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/max-errors
   take form max-errors
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/regions
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/regions
   take form regions
 
 form target-location, name <TargetLocation>

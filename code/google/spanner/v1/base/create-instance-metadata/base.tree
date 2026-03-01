@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/spanner/v1/base/instance
+load @cluesurf/snow/googleapis.com/spanner/v1/base/instance
   take form instance
 
 form create-instance-metadata, name <CreateInstanceMetadata>

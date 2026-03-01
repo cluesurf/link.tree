@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/message
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/message
   take form message
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/raw-message
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/raw-message
   take form raw-message
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/template
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/template
   take form template
 
 form email-content, name <EmailContent>

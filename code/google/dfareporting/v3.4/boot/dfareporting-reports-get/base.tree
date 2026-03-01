@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.4/base/report
+load @cluesurf/snow/googleapis.com/dfareporting/v3.4/base/report
   take form report
 
 boot dfareporting-reports-get, name <dfareporting.reports.get>

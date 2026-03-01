@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/compute
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/compute
   take form compute
 
 form compute-type, name <ComputeType>

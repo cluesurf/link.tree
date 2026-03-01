@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/subnet-ipv6-cidr-block-association
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/subnet-ipv6-cidr-block-association
   take form subnet-ipv6-cidr-block-association
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form associate-subnet-cidr-block-result, name <AssociateSubnetCidrBlockResult>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/transcoder/v1/base/job-config
+load @cluesurf/snow/googleapis.com/transcoder/v1/base/job-config
   take form job-config
 
-load @termsurf/snow/googleapis.com/transcoder/v1/base/status
+load @cluesurf/snow/googleapis.com/transcoder/v1/base/status
   take form status
 
 form job, name <Job>

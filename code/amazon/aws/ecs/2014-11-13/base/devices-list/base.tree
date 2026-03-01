@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/device
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/device
   take form device
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form devices-list, name <DevicesList>

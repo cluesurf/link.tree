@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/content
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/content
   take form content
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/date-time
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/incident-id
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/incident-id
   take form incident-id
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/public-content
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/public-content
   take form public-content
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/public-subject
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/public-subject
   take form public-subject
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/sender
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/sender
   take form sender
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/ssm-contacts-arn
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/ssm-contacts-arn
   take form ssm-contacts-arn
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/subject
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/subject
   take form subject
 
 form describe-page-result, name <DescribePageResult>

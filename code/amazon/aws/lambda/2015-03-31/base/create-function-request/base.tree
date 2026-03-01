@@ -1,62 +1,62 @@
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/code-signing-config-arn
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/code-signing-config-arn
   take form code-signing-config-arn
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/dead-letter-config
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/dead-letter-config
   take form dead-letter-config
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/description
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/environment
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/environment
   take form environment
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/file-system-config-list
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/file-system-config-list
   take form file-system-config-list
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/function-code
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/function-code
   take form function-code
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/function-name
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/function-name
   take form function-name
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/handler
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/handler
   take form handler
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/image-config
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/image-config
   take form image-config
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/kms-key-arn
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/kms-key-arn
   take form kms-key-arn
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/layer-list
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/layer-list
   take form layer-list
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/memory-size
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/memory-size
   take form memory-size
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/package-type
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/package-type
   take form package-type
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/role-arn
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/runtime
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/runtime
   take form runtime
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/tags
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/tags
   take form tags
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/timeout
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/timeout
   take form timeout
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/tracing-config
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/tracing-config
   take form tracing-config
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/vpc-config
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/vpc-config
   take form vpc-config
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form create-function-request, name <CreateFunctionRequest>

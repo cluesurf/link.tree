@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/package-id
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/package-id
   take form package-id
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/package-version-history-list
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/package-version-history-list
   take form package-version-history-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-package-version-history-response, name <GetPackageVersionHistoryResponse>

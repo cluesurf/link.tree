@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/neptune/2014-10-31/base/db-engine-version-list
+load @cluesurf/snow/amazonaws.com/neptune/2014-10-31/base/db-engine-version-list
   take form db-engine-version-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form db-engine-version-message, name <DBEngineVersionMessage>

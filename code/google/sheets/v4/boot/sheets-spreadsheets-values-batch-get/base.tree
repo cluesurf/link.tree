@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/batch-get-values-response
+load @cluesurf/snow/googleapis.com/sheets/v4/base/batch-get-values-response
   take form batch-get-values-response
 
 boot sheets-spreadsheets-values-batch-get, name <sheets.spreadsheets.values.batchGet>

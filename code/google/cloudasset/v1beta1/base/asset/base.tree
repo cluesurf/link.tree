@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/cloudasset/v1beta1/base/google-identity-accesscontextmanager-v1-access-level
+load @cluesurf/snow/googleapis.com/cloudasset/v1beta1/base/google-identity-accesscontextmanager-v1-access-level
   take form google-identity-accesscontextmanager-v1-access-level
 
-load @termsurf/snow/googleapis.com/cloudasset/v1beta1/base/google-identity-accesscontextmanager-v1-access-policy
+load @cluesurf/snow/googleapis.com/cloudasset/v1beta1/base/google-identity-accesscontextmanager-v1-access-policy
   take form google-identity-accesscontextmanager-v1-access-policy
 
-load @termsurf/snow/googleapis.com/cloudasset/v1beta1/base/google-identity-accesscontextmanager-v1-service-perimeter
+load @cluesurf/snow/googleapis.com/cloudasset/v1beta1/base/google-identity-accesscontextmanager-v1-service-perimeter
   take form google-identity-accesscontextmanager-v1-service-perimeter
 
-load @termsurf/snow/googleapis.com/cloudasset/v1beta1/base/policy
+load @cluesurf/snow/googleapis.com/cloudasset/v1beta1/base/policy
   take form policy
 
-load @termsurf/snow/googleapis.com/cloudasset/v1beta1/base/resource
+load @cluesurf/snow/googleapis.com/cloudasset/v1beta1/base/resource
   take form resource
 
 form asset, name <Asset>

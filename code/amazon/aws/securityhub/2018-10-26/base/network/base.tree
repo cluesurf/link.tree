@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/network-direction
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/network-direction
   take form network-direction
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/port-range
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/port-range
   take form port-range
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form network, name <Network>

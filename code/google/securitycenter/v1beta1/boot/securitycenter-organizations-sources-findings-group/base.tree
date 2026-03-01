@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/securitycenter/v1beta1/base/group-findings-response
+load @cluesurf/snow/googleapis.com/securitycenter/v1beta1/base/group-findings-response
   take form group-findings-response
 
 boot securitycenter-organizations-sources-findings-group, name <securitycenter.organizations.sources.findings.group>

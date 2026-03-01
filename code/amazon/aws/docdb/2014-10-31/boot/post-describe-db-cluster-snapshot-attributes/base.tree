@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/docdb/2014-10-31/base/db-cluster-snapshot-not-found-fault
+load @cluesurf/snow/amazonaws.com/docdb/2014-10-31/base/db-cluster-snapshot-not-found-fault
   take form db-cluster-snapshot-not-found-fault
 
-load @termsurf/snow/amazonaws.com/docdb/2014-10-31/base/describe-db-cluster-snapshot-attributes-result
+load @cluesurf/snow/amazonaws.com/docdb/2014-10-31/base/describe-db-cluster-snapshot-attributes-result
   take form describe-db-cluster-snapshot-attributes-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-describe-db-cluster-snapshot-attributes, name <POST_DescribeDBClusterSnapshotAttributes>

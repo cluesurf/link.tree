@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/backup
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/backup
   take form backup
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form backups, name <Backups>

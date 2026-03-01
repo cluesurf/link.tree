@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/arn
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/created-by
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/created-by
   take form created-by
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/cron-expression
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/cron-expression
   take form cron-expression
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/date
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/job-name-list
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/job-name-list
   take form job-name-list
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/last-modified-by
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/last-modified-by
   take form last-modified-by
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/schedule-name
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/schedule-name
   take form schedule-name
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/tag-map
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/tag-map
   take form tag-map
 
 form describe-schedule-response, name <DescribeScheduleResponse>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecr-public/2020-10-30/base/layer-digest
+load @cluesurf/snow/amazonaws.com/ecr-public/2020-10-30/base/layer-digest
   take form layer-digest
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form layer-digest-list, name <LayerDigestList>

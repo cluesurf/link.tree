@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/delete-ip-set-response
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/delete-ip-set-response
   take form delete-ip-set-response
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/internal-server-error-exception
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/internal-server-error-exception
   take form internal-server-error-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-ip-set, name <DeleteIPSet>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/chat/v1/base/message
+load @cluesurf/snow/googleapis.com/chat/v1/base/message
   take form message
 
 boot chat-spaces-messages-create, name <chat.spaces.messages.create>

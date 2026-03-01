@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/frauddetector/2019-11-15/base/variables-max-results
+load @cluesurf/snow/amazonaws.com/frauddetector/2019-11-15/base/variables-max-results
   take form variables-max-results
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-variables-request, name <GetVariablesRequest>

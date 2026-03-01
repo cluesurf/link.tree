@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/container-repository-service
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/container-repository-service
   take form container-repository-service
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/instance-block-device-mappings
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/instance-block-device-mappings
   take form instance-block-device-mappings
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/non-empty-string
   take form non-empty-string
 
 form create-container-recipe-body

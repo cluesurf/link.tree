@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediatailor/2018-04-23/base/schedule-entry
+load @cluesurf/snow/amazonaws.com/mediatailor/2018-04-23/base/schedule-entry
   take form schedule-entry
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-schedule-entry, name <__listOfScheduleEntry>

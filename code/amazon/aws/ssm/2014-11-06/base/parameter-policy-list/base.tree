@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-inline-policy
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-inline-policy
   take form parameter-inline-policy
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form parameter-policy-list, name <ParameterPolicyList>

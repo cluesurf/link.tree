@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/synthetics/2017-10-11/base/base-screenshots
+load @cluesurf/snow/amazonaws.com/synthetics/2017-10-11/base/base-screenshots
   take form base-screenshots
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form visual-reference-input, name <VisualReferenceInput>

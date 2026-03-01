@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appsync/2017-07-25/base/additional-authentication-provider
+load @cluesurf/snow/amazonaws.com/appsync/2017-07-25/base/additional-authentication-provider
   take form additional-authentication-provider
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form additional-authentication-providers, name <AdditionalAuthenticationProviders>

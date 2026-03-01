@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/dimension
+load @cluesurf/snow/googleapis.com/slides/v1/base/dimension
   take form dimension
 
-load @termsurf/snow/googleapis.com/slides/v1/base/line-connection
+load @cluesurf/snow/googleapis.com/slides/v1/base/line-connection
   take form line-connection
 
-load @termsurf/snow/googleapis.com/slides/v1/base/line-fill
+load @cluesurf/snow/googleapis.com/slides/v1/base/line-fill
   take form line-fill
 
-load @termsurf/snow/googleapis.com/slides/v1/base/link
+load @cluesurf/snow/googleapis.com/slides/v1/base/link
   take form link
 
 form line-properties, name <LineProperties>

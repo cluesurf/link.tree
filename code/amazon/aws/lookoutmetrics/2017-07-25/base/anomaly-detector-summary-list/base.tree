@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/anomaly-detector-summary
+load @cluesurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/anomaly-detector-summary
   take form anomaly-detector-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form anomaly-detector-summary-list, name <AnomalyDetectorSummaryList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-info
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-info
   take form vocabulary-info
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form vocabularies, name <Vocabularies>

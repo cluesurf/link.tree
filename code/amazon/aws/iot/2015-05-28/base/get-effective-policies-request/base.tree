@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/cognito-identity-pool-id
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/cognito-identity-pool-id
   take form cognito-identity-pool-id
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/principal
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/principal
   take form principal
 
 form get-effective-policies-request, name <GetEffectivePoliciesRequest>

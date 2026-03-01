@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/automl/v1beta1/base/document
+load @cluesurf/snow/googleapis.com/automl/v1beta1/base/document
   take form document
 
-load @termsurf/snow/googleapis.com/automl/v1beta1/base/image
+load @cluesurf/snow/googleapis.com/automl/v1beta1/base/image
   take form image
 
-load @termsurf/snow/googleapis.com/automl/v1beta1/base/row
+load @cluesurf/snow/googleapis.com/automl/v1beta1/base/row
   take form row
 
-load @termsurf/snow/googleapis.com/automl/v1beta1/base/text-snippet
+load @cluesurf/snow/googleapis.com/automl/v1beta1/base/text-snippet
   take form text-snippet
 
 form example-payload, name <ExamplePayload>

@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/account-id
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/arn
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/created-by
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/created-by
   take form created-by
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/dataset-name
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/dataset-name
   take form dataset-name
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/date
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/format-options
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/format-options
   take form format-options
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/input
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/input
   take form input
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/input-format
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/input-format
   take form input-format
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/last-modified-by
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/last-modified-by
   take form last-modified-by
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/path-options
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/path-options
   take form path-options
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/source
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/source
   take form source
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/tag-map
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/tag-map
   take form tag-map
 
 form dataset, name <Dataset>

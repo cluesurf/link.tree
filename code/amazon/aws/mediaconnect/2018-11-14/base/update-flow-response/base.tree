@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/flow
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/flow
   take form flow
 
 form update-flow-response, name <UpdateFlowResponse>

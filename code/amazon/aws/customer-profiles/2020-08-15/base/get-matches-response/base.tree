@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/matches-list
+load @cluesurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/matches-list
   take form matches-list
 
-load @termsurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/matches-number
+load @cluesurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/matches-number
   take form matches-number
 
-load @termsurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/token
+load @cluesurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/token
   take form token
 
 form get-matches-response, name <GetMatchesResponse>

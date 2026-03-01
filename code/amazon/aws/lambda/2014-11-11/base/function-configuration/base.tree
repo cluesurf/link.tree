@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/description
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/function-arn
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/function-arn
   take form function-arn
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/function-name
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/function-name
   take form function-name
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/handler
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/handler
   take form handler
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/long
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/memory-size
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/memory-size
   take form memory-size
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/mode
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/mode
   take form mode
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/role-arn
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/runtime
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/runtime
   take form runtime
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/timeout
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/timeout
   take form timeout
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/timestamp
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form function-configuration, name <FunctionConfiguration>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-resize-policy
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-resize-policy
   take form instance-resize-policy
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form shrink-policy, name <ShrinkPolicy>

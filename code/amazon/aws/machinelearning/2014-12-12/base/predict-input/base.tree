@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/entity-id
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/entity-id
   take form entity-id
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/record
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/record
   take form record
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/vip-url
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/vip-url
   take form vip-url
 
 form predict-input, name <PredictInput>

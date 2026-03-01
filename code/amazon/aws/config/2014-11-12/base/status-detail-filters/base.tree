@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/account-id
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/member-account-rule-status
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/member-account-rule-status
   take form member-account-rule-status
 
 form status-detail-filters, name <StatusDetailFilters>

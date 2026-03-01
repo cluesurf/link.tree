@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/engine-attribute
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/engine-attribute
   take form engine-attribute
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form engine-attributes, name <EngineAttributes>

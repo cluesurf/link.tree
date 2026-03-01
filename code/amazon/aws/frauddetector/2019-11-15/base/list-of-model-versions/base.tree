@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/frauddetector/2019-11-15/base/model-version
+load @cluesurf/snow/amazonaws.com/frauddetector/2019-11-15/base/model-version
   take form model-version
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-model-versions, name <ListOfModelVersions>

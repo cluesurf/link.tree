@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database-blueprint
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database-blueprint
   take form relational-database-blueprint
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form relational-database-blueprint-list, name <RelationalDatabaseBlueprintList>

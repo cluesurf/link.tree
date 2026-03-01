@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/interconnect
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/interconnect
   take form interconnect
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form interconnect-list, name <InterconnectList>

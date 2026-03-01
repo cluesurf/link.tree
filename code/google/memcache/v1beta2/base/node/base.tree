@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/memcache/v1beta2/base/memcache-parameters
+load @cluesurf/snow/googleapis.com/memcache/v1beta2/base/memcache-parameters
   take form memcache-parameters
 
 form node, name <Node>

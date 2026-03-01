@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/default-value
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/default-value
   take form default-value
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/description
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/no-echo
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/no-echo
   take form no-echo
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/parameter-constraints
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/parameter-constraints
   take form parameter-constraints
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/parameter-key
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/parameter-key
   take form parameter-key
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/parameter-type
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/parameter-type
   take form parameter-type
 
 form provisioning-artifact-parameter, name <ProvisioningArtifactParameter>

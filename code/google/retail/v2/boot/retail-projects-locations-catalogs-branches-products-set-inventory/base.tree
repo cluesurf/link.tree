@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/retail/v2/base/google-longrunning-operation
+load @cluesurf/snow/googleapis.com/retail/v2/base/google-longrunning-operation
   take form google-longrunning-operation
 
 boot retail-projects-locations-catalogs-branches-products-set-inventory, name <retail.projects.locations.catalogs.branches.products.setInventory>

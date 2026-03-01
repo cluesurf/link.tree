@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/logical-resource-ids
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/logical-resource-ids
   take form logical-resource-ids
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-identifiers
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-identifiers
   take form resource-identifiers
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-type
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-type
   take form resource-type
 
 form resource-identifier-summary, name <ResourceIdentifierSummary>

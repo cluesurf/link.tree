@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/rules-package
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/rules-package
   take form rules-package
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form rules-package-list, name <RulesPackageList>

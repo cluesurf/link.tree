@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/ml/v1/base/google-cloud-ml-v1-list-versions-response
+load @cluesurf/snow/googleapis.com/ml/v1/base/google-cloud-ml-v1-list-versions-response
   take form google-cloud-ml-v1-list-versions-response
 
 boot ml-projects-models-versions-list, name <ml.projects.models.versions.list>

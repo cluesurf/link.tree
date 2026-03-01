@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/concurrent-modification
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/concurrent-modification
   take form concurrent-modification
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/delete-traffic-policy-response
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/delete-traffic-policy-response
   take form delete-traffic-policy-response
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-input
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-input
   take form invalid-input
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/no-such-traffic-policy
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/no-such-traffic-policy
   take form no-such-traffic-policy
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/traffic-policy-in-use
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/traffic-policy-in-use
   take form traffic-policy-in-use
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-traffic-policy, name <DeleteTrafficPolicy>

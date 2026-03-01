@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/long
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-resource-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-resource-id
   take form prefix-list-resource-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-state
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-state
   take form prefix-list-state
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/resource-arn
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/resource-arn
   take form resource-arn
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form managed-prefix-list, name <ManagedPrefixList>

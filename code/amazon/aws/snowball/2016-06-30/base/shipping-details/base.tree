@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/shipment
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/shipment
   take form shipment
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/shipping-option
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/shipping-option
   take form shipping-option
 
 form shipping-details, name <ShippingDetails>

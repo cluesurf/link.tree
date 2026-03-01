@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-endpoint-status
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-endpoint-status
   take form client-vpn-endpoint-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-client-vpn-endpoint-result, name <CreateClientVpnEndpointResult>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/arn
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/backup-vault-name
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/backup-vault-name
   take form backup-vault-name
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/timestamp
   take form timestamp
 
 form create-backup-vault-output, name <CreateBackupVaultOutput>

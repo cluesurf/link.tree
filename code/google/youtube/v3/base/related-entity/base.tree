@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/entity
+load @cluesurf/snow/googleapis.com/youtube/v3/base/entity
   take form entity
 
 form related-entity, name <RelatedEntity>

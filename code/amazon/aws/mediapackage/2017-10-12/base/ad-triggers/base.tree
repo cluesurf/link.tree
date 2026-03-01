@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/ad-triggers-element
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/ad-triggers-element
   take form ad-triggers-element
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form ad-triggers, name <AdTriggers>

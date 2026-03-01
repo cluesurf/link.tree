@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-association-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-association-set
   take form prefix-list-association-set
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-managed-prefix-list-associations-result, name <GetManagedPrefixListAssociationsResult>

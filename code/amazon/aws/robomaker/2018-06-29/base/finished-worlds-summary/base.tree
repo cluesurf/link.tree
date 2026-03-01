@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/arns
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/arns
   take form arns
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/failure-summary
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/failure-summary
   take form failure-summary
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form finished-worlds-summary, name <FinishedWorldsSummary>

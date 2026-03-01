@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/get-operation-detail-response
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/get-operation-detail-response
   take form get-operation-detail-response
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/invalid-input
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/invalid-input
   take form invalid-input
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-operation-detail, name <GetOperationDetail>

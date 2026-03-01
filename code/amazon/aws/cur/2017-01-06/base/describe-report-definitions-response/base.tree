@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cur/2017-01-06/base/generic-string
+load @cluesurf/snow/amazonaws.com/cur/2017-01-06/base/generic-string
   take form generic-string
 
-load @termsurf/snow/amazonaws.com/cur/2017-01-06/base/report-definition-list
+load @cluesurf/snow/amazonaws.com/cur/2017-01-06/base/report-definition-list
   take form report-definition-list
 
 form describe-report-definitions-response, name <DescribeReportDefinitionsResponse>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/offset-millis
+load @cluesurf/snow/amazonaws.com/connect-contact-lens/2020-08-21/base/offset-millis
   take form offset-millis
 
 form point-of-interest, name <PointOfInterest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/artifactregistry/v1/base/upload-apt-artifact-media-response
+load @cluesurf/snow/googleapis.com/artifactregistry/v1/base/upload-apt-artifact-media-response
   take form upload-apt-artifact-media-response
 
 boot artifactregistry-projects-locations-repositories-apt-artifacts-upload, name <artifactregistry.projects.locations.repositories.aptArtifacts.upload>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/integer-optional
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/subnet-group-name-list
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/subnet-group-name-list
   take form subnet-group-name-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-subnet-groups-request, name <DescribeSubnetGroupsRequest>

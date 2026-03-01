@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/integrate-services
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/integrate-services
   take form integrate-services
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-flow-log-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-flow-log-id
   take form vpc-flow-log-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-flow-logs-integration-template-request, name <GetFlowLogsIntegrationTemplateRequest>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/network-acl-association-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/network-acl-association-list
   take form network-acl-association-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/network-acl-entry-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/network-acl-entry-list
   take form network-acl-entry-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form network-acl, name <NetworkAcl>

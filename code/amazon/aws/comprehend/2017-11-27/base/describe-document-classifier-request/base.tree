@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/document-classifier-arn
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/document-classifier-arn
   take form document-classifier-arn
 
 form describe-document-classifier-request, name <DescribeDocumentClassifierRequest>

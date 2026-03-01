@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/training-job-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/training-job-arn
   take form training-job-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/training-job-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/training-job-name
   take form training-job-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/training-job-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/training-job-status
   take form training-job-status
 
 form training-job-summary, name <TrainingJobSummary>

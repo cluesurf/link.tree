@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/ops-item-identity
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/ops-item-identity
   take form ops-item-identity
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form ops-item-event-summary, name <OpsItemEventSummary>

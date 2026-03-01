@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/asset-type
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/asset-type
   take form asset-type
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/description
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/map-of-string
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/map-of-string
   take form map-of-string
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/name
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/name
   take form name
 
 form create-data-set-request, name <CreateDataSetRequest>

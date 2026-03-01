@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/acm-pca/2017-08-22/base/string253
+load @cluesurf/snow/amazonaws.com/acm-pca/2017-08-22/base/string253
   take form string253
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form ocsp-configuration, name <OcspConfiguration>

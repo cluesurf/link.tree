@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/storagetransfer/v1/base/google-service-account
+load @cluesurf/snow/googleapis.com/storagetransfer/v1/base/google-service-account
   take form google-service-account
 
 boot storagetransfer-google-service-accounts-get, name <storagetransfer.googleServiceAccounts.get>

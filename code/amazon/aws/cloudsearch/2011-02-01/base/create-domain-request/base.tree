@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/domain-name
+load @cluesurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/domain-name
   take form domain-name
 
 form create-domain-request, name <CreateDomainRequest>

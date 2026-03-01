@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/servers
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/servers
   take form servers
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-servers-response, name <DescribeServersResponse>

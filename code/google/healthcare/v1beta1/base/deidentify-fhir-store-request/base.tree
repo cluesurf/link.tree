@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/healthcare/v1beta1/base/deidentify-config
+load @cluesurf/snow/googleapis.com/healthcare/v1beta1/base/deidentify-config
   take form deidentify-config
 
-load @termsurf/snow/googleapis.com/healthcare/v1beta1/base/fhir-filter
+load @cluesurf/snow/googleapis.com/healthcare/v1beta1/base/fhir-filter
   take form fhir-filter
 
 form deidentify-fhir-store-request, name <DeidentifyFhirStoreRequest>

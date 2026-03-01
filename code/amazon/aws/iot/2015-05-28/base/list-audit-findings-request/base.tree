@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/audit-check-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/audit-check-name
   take form audit-check-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/audit-task-id
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/audit-task-id
   take form audit-task-id
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/list-suppressed-findings
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/list-suppressed-findings
   take form list-suppressed-findings
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/max-results
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/max-results
   take form max-results
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/next-token
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/resource-identifier
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/resource-identifier
   take form resource-identifier
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/timestamp
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/timestamp
   take form timestamp
 
 form list-audit-findings-request, name <ListAuditFindingsRequest>

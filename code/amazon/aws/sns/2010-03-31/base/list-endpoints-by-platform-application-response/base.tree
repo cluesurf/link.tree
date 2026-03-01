@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sns/2010-03-31/base/list-of-endpoints
+load @cluesurf/snow/amazonaws.com/sns/2010-03-31/base/list-of-endpoints
   take form list-of-endpoints
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-endpoints-by-platform-application-response, name <ListEndpointsByPlatformApplicationResponse>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/deploymentmanager/v2beta/base/deployment-update
+load @cluesurf/snow/googleapis.com/deploymentmanager/v2beta/base/deployment-update
   take form deployment-update
 
-load @termsurf/snow/googleapis.com/deploymentmanager/v2beta/base/operation
+load @cluesurf/snow/googleapis.com/deploymentmanager/v2beta/base/operation
   take form operation
 
-load @termsurf/snow/googleapis.com/deploymentmanager/v2beta/base/target-configuration
+load @cluesurf/snow/googleapis.com/deploymentmanager/v2beta/base/target-configuration
   take form target-configuration
 
 form deployment, name <Deployment>

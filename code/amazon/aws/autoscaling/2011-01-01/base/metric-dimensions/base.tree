@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/metric-dimension
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/metric-dimension
   take form metric-dimension
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form metric-dimensions, name <MetricDimensions>

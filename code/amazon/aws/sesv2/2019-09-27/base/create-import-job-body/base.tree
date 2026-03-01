@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/contact-list-destination
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/contact-list-destination
   take form contact-list-destination
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/data-format
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/data-format
   take form data-format
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/s3-url
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/s3-url
   take form s3-url
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/suppression-list-destination
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/suppression-list-destination
   take form suppression-list-destination
 
 form create-import-job-body

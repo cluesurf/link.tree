@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/document-change
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/document-change
   take form document-change
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/document-delete
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/document-delete
   take form document-delete
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/document-remove
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/document-remove
   take form document-remove
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/existence-filter
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/existence-filter
   take form existence-filter
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/target-change
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/target-change
   take form target-change
 
 form listen-response, name <ListenResponse>

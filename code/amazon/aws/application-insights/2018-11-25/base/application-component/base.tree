@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/application-insights/2018-11-25/base/component-name
+load @cluesurf/snow/amazonaws.com/application-insights/2018-11-25/base/component-name
   take form component-name
 
-load @termsurf/snow/amazonaws.com/application-insights/2018-11-25/base/detected-workload
+load @cluesurf/snow/amazonaws.com/application-insights/2018-11-25/base/detected-workload
   take form detected-workload
 
-load @termsurf/snow/amazonaws.com/application-insights/2018-11-25/base/monitor
+load @cluesurf/snow/amazonaws.com/application-insights/2018-11-25/base/monitor
   take form monitor
 
-load @termsurf/snow/amazonaws.com/application-insights/2018-11-25/base/os-type
+load @cluesurf/snow/amazonaws.com/application-insights/2018-11-25/base/os-type
   take form os-type
 
-load @termsurf/snow/amazonaws.com/application-insights/2018-11-25/base/remarks
+load @cluesurf/snow/amazonaws.com/application-insights/2018-11-25/base/remarks
   take form remarks
 
-load @termsurf/snow/amazonaws.com/application-insights/2018-11-25/base/resource-type
+load @cluesurf/snow/amazonaws.com/application-insights/2018-11-25/base/resource-type
   take form resource-type
 
-load @termsurf/snow/amazonaws.com/application-insights/2018-11-25/base/tier
+load @cluesurf/snow/amazonaws.com/application-insights/2018-11-25/base/tier
   take form tier
 
 form application-component, name <ApplicationComponent>

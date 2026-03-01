@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/run/v1/base/service
+load @cluesurf/snow/googleapis.com/run/v1/base/service
   take form service
 
 boot run-namespaces-services-get, name <run.namespaces.services.get>

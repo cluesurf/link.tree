@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/description
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/no-echo
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/no-echo
   take form no-echo
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter-key
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter-key
   take form parameter-key
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter-value
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter-value
   take form parameter-value
 
 form template-parameter, name <TemplateParameter>

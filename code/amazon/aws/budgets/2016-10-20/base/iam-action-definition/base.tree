@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/groups
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/groups
   take form groups
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/policy-arn
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/policy-arn
   take form policy-arn
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/roles
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/roles
   take form roles
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/users
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/users
   take form users
 
 form iam-action-definition, name <IamActionDefinition>

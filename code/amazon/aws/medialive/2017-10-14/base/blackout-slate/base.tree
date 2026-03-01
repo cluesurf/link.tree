@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/blackout-slate-network-end-blackout
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/blackout-slate-network-end-blackout
   take form blackout-slate-network-end-blackout
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/blackout-slate-state
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/blackout-slate-state
   take form blackout-slate-state
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/input-location
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/input-location
   take form input-location
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/string-min34-max34
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/string-min34-max34
   take form string-min34-max34
 
 form blackout-slate, name <BlackoutSlate>

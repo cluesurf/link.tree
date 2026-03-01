@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kafka/2018-11-14/base/client-broker
+load @cluesurf/snow/amazonaws.com/kafka/2018-11-14/base/client-broker
   take form client-broker
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form encryption-in-transit, name <EncryptionInTransit>

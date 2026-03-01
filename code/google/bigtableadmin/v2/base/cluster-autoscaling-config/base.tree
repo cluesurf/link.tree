@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/bigtableadmin/v2/base/autoscaling-limits
+load @cluesurf/snow/googleapis.com/bigtableadmin/v2/base/autoscaling-limits
   take form autoscaling-limits
 
-load @termsurf/snow/googleapis.com/bigtableadmin/v2/base/autoscaling-targets
+load @cluesurf/snow/googleapis.com/bigtableadmin/v2/base/autoscaling-targets
   take form autoscaling-targets
 
 form cluster-autoscaling-config, name <ClusterAutoscalingConfig>

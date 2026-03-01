@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/basic-filter
+load @cluesurf/snow/googleapis.com/sheets/v4/base/basic-filter
   take form basic-filter
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/sheet-properties
+load @cluesurf/snow/googleapis.com/sheets/v4/base/sheet-properties
   take form sheet-properties
 
 form sheet, name <Sheet>

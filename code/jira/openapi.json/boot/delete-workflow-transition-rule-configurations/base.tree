@@ -1,8 +1,8 @@
 
-load @termsurf/snow/jira/openapi.json/base/error-collection
+load @cluesurf/snow/jira/openapi.json/base/error-collection
   take form error-collection
 
-load @termsurf/snow/jira/openapi.json/base/workflow-transition-rules-update-errors
+load @cluesurf/snow/jira/openapi.json/base/workflow-transition-rules-update-errors
   take form workflow-transition-rules-update-errors
 
 boot delete-workflow-transition-rule-configurations, name <deleteWorkflowTransitionRuleConfigurations>

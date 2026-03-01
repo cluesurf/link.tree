@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/metric-type
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/metric-type
   take form metric-type
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/thread-states
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/thread-states
   take form thread-states
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form frame-metric, name <FrameMetric>

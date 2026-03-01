@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/filter-value
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/filter-value
   take form filter-value
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form filter-values, name <FilterValues>

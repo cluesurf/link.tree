@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/domain-name
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/email
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/email
   take form email
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form resend-contact-reachability-email-response, name <ResendContactReachabilityEmailResponse>

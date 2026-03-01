@@ -1,37 +1,37 @@
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/land/code/javascript/base/native-void
+load @cluesurf/land/code/javascript/base/native-void
   take form native-void
 
-load @termsurf/land/code/javascript/base/promise
+load @cluesurf/land/code/javascript/base/promise
   take form promise
 
-load @termsurf/seed/code/form/list
+load @cluesurf/seed/code/form/list
   take form list
     save form list-link-text
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/elevation-result
+load @cluesurf/snow/code/javascript/google/maps/elevation-result
   take form elevation-result
 
-load @termsurf/snow/code/javascript/google/maps/elevation-status
+load @cluesurf/snow/code/javascript/google/maps/elevation-status
   take form elevation-status
 
-load @termsurf/snow/code/javascript/google/maps/location-elevation-request
+load @cluesurf/snow/code/javascript/google/maps/location-elevation-request
   take form location-elevation-request
 
-load @termsurf/snow/code/javascript/google/maps/location-elevation-response
+load @cluesurf/snow/code/javascript/google/maps/location-elevation-response
   take form location-elevation-response
 
-load @termsurf/snow/code/javascript/google/maps/path-elevation-request
+load @cluesurf/snow/code/javascript/google/maps/path-elevation-request
   take form path-elevation-request
 
-load @termsurf/snow/code/javascript/google/maps/path-elevation-response
+load @cluesurf/snow/code/javascript/google/maps/path-elevation-response
   take form path-elevation-response
 
 form elevation-service, name <google.maps.ElevationService>

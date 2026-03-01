@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/boxed-integer
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/boxed-integer
   take form boxed-integer
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/launch-type
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/launch-type
   take form launch-type
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/scheduling-strategy
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/scheduling-strategy
   take form scheduling-strategy
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-services-request, name <ListServicesRequest>

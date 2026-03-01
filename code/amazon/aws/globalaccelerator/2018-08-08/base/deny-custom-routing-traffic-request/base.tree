@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/destination-addresses
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/destination-addresses
   take form destination-addresses
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/destination-ports
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/destination-ports
   take form destination-ports
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/generic-boolean
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/generic-boolean
   take form generic-boolean
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/generic-string
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/generic-string
   take form generic-string
 
 form deny-custom-routing-traffic-request, name <DenyCustomRoutingTrafficRequest>

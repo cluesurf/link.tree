@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/create-transit-gateway-connect-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/create-transit-gateway-connect-result
   take form create-transit-gateway-connect-result
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/protocol-value
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/protocol-value
   take form protocol-value
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification
   take form tag-specification
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-create-transit-gateway-connect, name <GET_CreateTransitGatewayConnect>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/internal-exception
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/internal-exception
   take form internal-exception
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/operation-disabled-exception
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/operation-disabled-exception
   take form operation-disabled-exception
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/put-partner-events-response
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/put-partner-events-response
   take form put-partner-events-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot put-partner-events, name <PutPartnerEvents>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/content/v2/base/delivery-time
+load @cluesurf/snow/googleapis.com/content/v2/base/delivery-time
   take form delivery-time
 
-load @termsurf/snow/googleapis.com/content/v2/base/minimum-order-value-table
+load @cluesurf/snow/googleapis.com/content/v2/base/minimum-order-value-table
   take form minimum-order-value-table
 
-load @termsurf/snow/googleapis.com/content/v2/base/pickup-carrier-service
+load @cluesurf/snow/googleapis.com/content/v2/base/pickup-carrier-service
   take form pickup-carrier-service
 
-load @termsurf/snow/googleapis.com/content/v2/base/price
+load @cluesurf/snow/googleapis.com/content/v2/base/price
   take form price
 
 form service, name <Service>

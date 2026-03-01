@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-network-interface-association
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-network-interface-association
   take form instance-network-interface-association
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form instance-private-ip-address, name <InstancePrivateIpAddress>

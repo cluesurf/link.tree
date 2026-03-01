@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/boolean-optional
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/boolean-optional
   take form boolean-optional
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/cache-cluster-id-list
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/cache-cluster-id-list
   take form cache-cluster-id-list
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/integer-optional
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/replication-group-id-list
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/replication-group-id-list
   take form replication-group-id-list
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/service-update-status-list
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/service-update-status-list
   take form service-update-status-list
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/time-range-filter
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/time-range-filter
   take form time-range-filter
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/update-action-status-list
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/update-action-status-list
   take form update-action-status-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-update-actions-message, name <DescribeUpdateActionsMessage>

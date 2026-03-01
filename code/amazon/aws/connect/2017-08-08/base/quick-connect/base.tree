@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/arn
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/quick-connect-config
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/quick-connect-config
   take form quick-connect-config
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/quick-connect-description
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/quick-connect-description
   take form quick-connect-description
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/quick-connect-id
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/quick-connect-id
   take form quick-connect-id
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/quick-connect-name
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/quick-connect-name
   take form quick-connect-name
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/tag-map
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/tag-map
   take form tag-map
 
 form quick-connect, name <QuickConnect>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/completed-part
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/completed-part
   take form completed-part
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form completed-part-list, name <CompletedPartList>

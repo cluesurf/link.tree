@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/code-hook-specification
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/code-hook-specification
   take form code-hook-specification
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form bot-alias-locale-settings, name <BotAliasLocaleSettings>

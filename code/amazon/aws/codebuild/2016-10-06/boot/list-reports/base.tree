@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/invalid-input-exception
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/invalid-input-exception
   take form invalid-input-exception
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/list-reports-output
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/list-reports-output
   take form list-reports-output
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-reports, name <ListReports>

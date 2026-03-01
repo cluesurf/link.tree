@@ -1,77 +1,77 @@
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/address-family
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/address-family
   take form address-family
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/amazon-address
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/amazon-address
   take form amazon-address
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/asn
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/asn
   take form asn
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/aws-device-v2
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/aws-device-v2
   take form aws-device-v2
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/aws-logical-device-id
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/aws-logical-device-id
   take form aws-logical-device-id
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/bgp-auth-key
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/bgp-auth-key
   take form bgp-auth-key
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/bgp-peer-list
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/bgp-peer-list
   take form bgp-peer-list
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/connection-id
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/connection-id
   take form connection-id
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/customer-address
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/customer-address
   take form customer-address
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/direct-connect-gateway-id
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/direct-connect-gateway-id
   take form direct-connect-gateway-id
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/jumbo-frame-capable
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/jumbo-frame-capable
   take form jumbo-frame-capable
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/location-code
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/location-code
   take form location-code
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/long-asn
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/long-asn
   take form long-asn
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/mtu
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/mtu
   take form mtu
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/owner-account
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/owner-account
   take form owner-account
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/region
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/region
   take form region
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/route-filter-prefix-list
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/route-filter-prefix-list
   take form route-filter-prefix-list
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/router-config
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/router-config
   take form router-config
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/tag-list
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-gateway-id
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-gateway-id
   take form virtual-gateway-id
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-id
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-id
   take form virtual-interface-id
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-name
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-name
   take form virtual-interface-name
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-state
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-state
   take form virtual-interface-state
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-type
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-type
   take form virtual-interface-type
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/vlan
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/vlan
   take form vlan
 
 form virtual-interface, name <VirtualInterface>

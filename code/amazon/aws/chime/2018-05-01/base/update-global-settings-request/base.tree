@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/business-calling-settings
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/business-calling-settings
   take form business-calling-settings
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/voice-connector-settings
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/voice-connector-settings
   take form voice-connector-settings
 
 form update-global-settings-request, name <UpdateGlobalSettingsRequest>

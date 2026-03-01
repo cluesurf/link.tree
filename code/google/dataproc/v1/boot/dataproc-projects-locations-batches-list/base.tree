@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dataproc/v1/base/list-batches-response
+load @cluesurf/snow/googleapis.com/dataproc/v1/base/list-batches-response
   take form list-batches-response
 
 boot dataproc-projects-locations-batches-list, name <dataproc.projects.locations.batches.list>

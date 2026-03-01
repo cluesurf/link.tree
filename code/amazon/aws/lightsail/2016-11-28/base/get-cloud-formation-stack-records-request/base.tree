@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-cloud-formation-stack-records-request, name <GetCloudFormationStackRecordsRequest>

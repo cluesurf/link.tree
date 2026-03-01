@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/personalize-runtime/2018-05-22/base/predicted-item
+load @cluesurf/snow/amazonaws.com/personalize-runtime/2018-05-22/base/predicted-item
   take form predicted-item
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form item-list, name <ItemList>

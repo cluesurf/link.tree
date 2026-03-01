@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/column-metadata
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/column-metadata
   take form column-metadata
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form metadata, name <Metadata>

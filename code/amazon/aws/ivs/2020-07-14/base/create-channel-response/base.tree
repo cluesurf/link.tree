@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ivs/2020-07-14/base/channel
+load @cluesurf/snow/amazonaws.com/ivs/2020-07-14/base/channel
   take form channel
 
-load @termsurf/snow/amazonaws.com/ivs/2020-07-14/base/stream-key
+load @cluesurf/snow/amazonaws.com/ivs/2020-07-14/base/stream-key
   take form stream-key
 
 form create-channel-response, name <CreateChannelResponse>

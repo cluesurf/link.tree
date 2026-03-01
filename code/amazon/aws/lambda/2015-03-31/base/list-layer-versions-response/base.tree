@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/layer-versions-list
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/layer-versions-list
   take form layer-versions-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-layer-versions-response, name <ListLayerVersionsResponse>

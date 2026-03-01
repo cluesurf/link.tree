@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-description
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-description
   take form experiment-description
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-entity-name
   take form experiment-entity-name
 
 form update-experiment-request, name <UpdateExperimentRequest>

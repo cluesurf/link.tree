@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/comparison-operator
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/comparison-operator
   take form comparison-operator
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/metric-dimension-list
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/metric-dimension-list
   take form metric-dimension-list
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/non-negative-double
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/non-negative-double
   take form non-negative-double
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/statistic
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/statistic
   take form statistic
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/unit
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/unit
   take form unit
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form cloud-watch-alarm-definition, name <CloudWatchAlarmDefinition>

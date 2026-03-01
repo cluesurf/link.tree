@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot1click-projects/2018-05-14/base/description
+load @cluesurf/snow/amazonaws.com/iot1click-projects/2018-05-14/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/iot1click-projects/2018-05-14/base/placement-template
+load @cluesurf/snow/amazonaws.com/iot1click-projects/2018-05-14/base/placement-template
   take form placement-template
 
 form update-project-request, name <UpdateProjectRequest>

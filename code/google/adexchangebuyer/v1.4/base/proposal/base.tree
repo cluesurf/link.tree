@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.4/base/buyer
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.4/base/buyer
   take form buyer
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.4/base/private-data
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.4/base/private-data
   take form private-data
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.4/base/seller
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.4/base/seller
   take form seller
 
 form proposal, name <Proposal>

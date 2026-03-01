@@ -1,8 +1,8 @@
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng
+load @cluesurf/snow/code/javascript/google/maps/lat-lng
   take form lat-lng
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-bounds
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-bounds
   take form lat-lng-bounds
 
 form place-geometry, name <google.maps.places.PlaceGeometry>

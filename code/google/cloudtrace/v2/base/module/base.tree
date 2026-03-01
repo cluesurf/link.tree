@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/cloudtrace/v2/base/truncatable-string
+load @cluesurf/snow/googleapis.com/cloudtrace/v2/base/truncatable-string
   take form truncatable-string
 
 form module, name <Module>

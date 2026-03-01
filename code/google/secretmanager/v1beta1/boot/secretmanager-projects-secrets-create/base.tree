@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/secretmanager/v1beta1/base/secret
+load @cluesurf/snow/googleapis.com/secretmanager/v1beta1/base/secret
   take form secret
 
 boot secretmanager-projects-secrets-create, name <secretmanager.projects.secrets.create>

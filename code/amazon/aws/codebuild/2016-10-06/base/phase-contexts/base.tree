@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/phase-context
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/phase-context
   take form phase-context
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form phase-contexts, name <PhaseContexts>

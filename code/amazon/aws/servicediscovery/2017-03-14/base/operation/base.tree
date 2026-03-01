@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/code
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/code
   take form code
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/message
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/message
   take form message
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/operation-id
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/operation-id
   take form operation-id
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/operation-status
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/operation-status
   take form operation-status
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/operation-targets-map
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/operation-targets-map
   take form operation-targets-map
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/operation-type
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/operation-type
   take form operation-type
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/timestamp
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/timestamp
   take form timestamp
 
 form operation, name <Operation>

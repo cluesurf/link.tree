@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appmesh/2019-01-25/base/virtual-node-list
+load @cluesurf/snow/amazonaws.com/appmesh/2019-01-25/base/virtual-node-list
   take form virtual-node-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-virtual-nodes-output, name <ListVirtualNodesOutput>

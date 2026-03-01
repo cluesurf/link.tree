@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/in-progress-timeout-in-minutes
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/in-progress-timeout-in-minutes
   take form in-progress-timeout-in-minutes
 
 form timeout-config, name <TimeoutConfig>

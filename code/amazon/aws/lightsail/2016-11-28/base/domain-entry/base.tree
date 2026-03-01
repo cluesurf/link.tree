@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-entry-options
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-entry-options
   take form domain-entry-options
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-entry-type
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-entry-type
   take form domain-entry-type
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form domain-entry, name <DomainEntry>

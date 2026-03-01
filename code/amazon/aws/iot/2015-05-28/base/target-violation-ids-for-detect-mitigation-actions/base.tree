@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/violation-id
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/violation-id
   take form violation-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form target-violation-ids-for-detect-mitigation-actions, name <TargetViolationIdsForDetectMitigationActions>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/router-bgp
+load @cluesurf/snow/googleapis.com/compute/alpha/base/router-bgp
   take form router-bgp
 
 form router, name <Router>

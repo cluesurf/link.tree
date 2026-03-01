@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ram/2018-01-04/base/service-name-and-resource-type
+load @cluesurf/snow/amazonaws.com/ram/2018-01-04/base/service-name-and-resource-type
   take form service-name-and-resource-type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form service-name-and-resource-type-list, name <ServiceNameAndResourceTypeList>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androidmanagement/v1/base/enterprise
+load @cluesurf/snow/googleapis.com/androidmanagement/v1/base/enterprise
   take form enterprise
 
 boot androidmanagement-enterprises-create, name <androidmanagement.enterprises.create>

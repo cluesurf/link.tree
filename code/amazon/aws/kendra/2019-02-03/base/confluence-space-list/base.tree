@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/confluence-space-identifier
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/confluence-space-identifier
   take form confluence-space-identifier
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form confluence-space-list, name <ConfluenceSpaceList>

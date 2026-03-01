@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/domain-list
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/domain-list
   take form domain-list
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/resource-identifier
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/resource-identifier
   take form resource-identifier
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/storage-connector-type
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/storage-connector-type
   take form storage-connector-type
 
 form storage-connector, name <StorageConnector>

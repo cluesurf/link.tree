@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/field
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/field
   take form field
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form field-list, name <FieldList>

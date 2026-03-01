@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/chat/v1/base/button
+load @cluesurf/snow/googleapis.com/chat/v1/base/button
   take form button
 
-load @termsurf/snow/googleapis.com/chat/v1/base/on-click
+load @cluesurf/snow/googleapis.com/chat/v1/base/on-click
   take form on-click
 
 form key-value, name <KeyValue>

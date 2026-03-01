@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/map-entry
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/map-entry
   take form map-entry
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/map-target
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/map-target
   take form map-target
 
 form home-directory-map-entry, name <HomeDirectoryMapEntry>

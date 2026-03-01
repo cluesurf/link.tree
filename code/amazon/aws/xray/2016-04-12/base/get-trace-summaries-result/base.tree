@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-long
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-long
   take form nullable-long
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/trace-summary-list
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/trace-summary-list
   take form trace-summary-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-trace-summaries-result, name <GetTraceSummariesResult>

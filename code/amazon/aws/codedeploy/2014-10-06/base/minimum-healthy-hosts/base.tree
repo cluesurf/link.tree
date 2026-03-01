@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/minimum-healthy-hosts-type
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/minimum-healthy-hosts-type
   take form minimum-healthy-hosts-type
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/minimum-healthy-hosts-value
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/minimum-healthy-hosts-value
   take form minimum-healthy-hosts-value
 
 form minimum-healthy-hosts, name <MinimumHealthyHosts>

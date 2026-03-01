@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/jira/openapi.json/base/workflow-scheme
+load @cluesurf/snow/jira/openapi.json/base/workflow-scheme
   take form workflow-scheme
 
 boot update-workflow-scheme, name <updateWorkflowScheme>

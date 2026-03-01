@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-description
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-description
   take form source-description
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-frequency
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-frequency
   take form source-frequency
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-keyword
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-keyword
   take form source-keyword
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-name
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-name
   take form source-name
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-set-up-option
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-set-up-option
   take form source-set-up-option
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-type
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/source-type
   take form source-type
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/troubleshooting-text
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/troubleshooting-text
   take form troubleshooting-text
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/uuid
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/uuid
   take form uuid
 
 form control-mapping-source, name <ControlMappingSource>

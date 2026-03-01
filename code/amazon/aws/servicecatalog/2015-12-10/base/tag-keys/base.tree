@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tag-key
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tag-key
   take form tag-key
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form tag-keys, name <TagKeys>

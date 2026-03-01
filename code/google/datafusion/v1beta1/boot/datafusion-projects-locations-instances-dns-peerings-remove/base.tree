@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/datafusion/v1beta1/base/remove-dns-peering-response
+load @cluesurf/snow/googleapis.com/datafusion/v1beta1/base/remove-dns-peering-response
   take form remove-dns-peering-response
 
 boot datafusion-projects-locations-instances-dns-peerings-remove, name <datafusion.projects.locations.instances.dnsPeerings.remove>

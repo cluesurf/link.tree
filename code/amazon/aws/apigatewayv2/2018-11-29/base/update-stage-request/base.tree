@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/access-log-settings
+load @cluesurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/access-log-settings
   take form access-log-settings
 
-load @termsurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/id
+load @cluesurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/route-settings
+load @cluesurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/route-settings
   take form route-settings
 
-load @termsurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/route-settings-map
+load @cluesurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/route-settings-map
   take form route-settings-map
 
-load @termsurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/stage-variables-map
+load @cluesurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/stage-variables-map
   take form stage-variables-map
 
-load @termsurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/string-with-length-between0-and1024
+load @cluesurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/string-with-length-between0-and1024
   take form string-with-length-between0-and1024
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form update-stage-request, name <UpdateStageRequest>

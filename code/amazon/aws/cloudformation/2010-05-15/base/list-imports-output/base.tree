@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/imports
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/imports
   take form imports
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/next-token
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/next-token
   take form next-token
 
 form list-imports-output, name <ListImportsOutput>

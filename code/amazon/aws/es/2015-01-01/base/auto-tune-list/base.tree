@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/auto-tune
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/auto-tune
   take form auto-tune
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form auto-tune-list, name <AutoTuneList>

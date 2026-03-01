@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/instances
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/instances
   take form instances
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/parents
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/parents
   take form parents
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/percent
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/percent
   take form percent
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form label, name <Label>

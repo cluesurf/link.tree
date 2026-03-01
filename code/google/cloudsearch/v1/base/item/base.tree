@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/item-acl
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/item-acl
   take form item-acl
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/item-content
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/item-content
   take form item-content
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/item-metadata
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/item-metadata
   take form item-metadata
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/item-status
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/item-status
   take form item-status
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/item-structured-data
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/item-structured-data
   take form item-structured-data
 
 form item, name <Item>

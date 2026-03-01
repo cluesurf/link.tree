@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/parameter-name-value-list
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/parameter-name-value-list
   take form parameter-name-value-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-parameter-group-request, name <UpdateParameterGroupRequest>

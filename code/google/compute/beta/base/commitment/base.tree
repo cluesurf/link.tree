@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/compute/beta/base/license-resource-commitment
+load @cluesurf/snow/googleapis.com/compute/beta/base/license-resource-commitment
   take form license-resource-commitment
 
 form commitment, name <Commitment>

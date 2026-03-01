@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/attachment-set
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/attachment-set
   take form attachment-set
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/case-id
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/case-id
   take form case-id
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/communication-body
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/communication-body
   take form communication-body
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/submitted-by
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/submitted-by
   take form submitted-by
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/time-created
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/time-created
   take form time-created
 
 form communication, name <Communication>

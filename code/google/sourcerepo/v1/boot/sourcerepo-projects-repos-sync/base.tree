@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/sourcerepo/v1/base/operation
+load @cluesurf/snow/googleapis.com/sourcerepo/v1/base/operation
   take form operation
 
 boot sourcerepo-projects-repos-sync, name <sourcerepo.projects.repos.sync>

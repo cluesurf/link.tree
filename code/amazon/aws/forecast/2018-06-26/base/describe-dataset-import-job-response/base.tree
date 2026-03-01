@@ -1,41 +1,41 @@
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/arn
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/data-source
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/data-source
   take form data-source
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/double
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/field-statistics
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/field-statistics
   take form field-statistics
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/geolocation-format
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/geolocation-format
   take form geolocation-format
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/long
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/message
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/message
   take form message
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/name
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/status
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/status
   take form status
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/time-zone
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/time-zone
   take form time-zone
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/timestamp
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/timestamp-format
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/timestamp-format
   take form timestamp-format
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/use-geolocation-for-time-zone
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/use-geolocation-for-time-zone
   take form use-geolocation-for-time-zone
 
 form describe-dataset-import-job-response, name <DescribeDatasetImportJobResponse>

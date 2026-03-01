@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/describe-destinations-response
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/describe-destinations-response
   take form describe-destinations-response
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/invalid-parameter-exception
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/invalid-parameter-exception
   take form invalid-parameter-exception
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/service-unavailable-exception
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/service-unavailable-exception
   take form service-unavailable-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-destinations, name <DescribeDestinations>

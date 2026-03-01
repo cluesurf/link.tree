@@ -1,23 +1,23 @@
 
-load @termsurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-annotation-boundary
+load @cluesurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-annotation-boundary
   take form google-cloud-contactcenterinsights-v1-annotation-boundary
 
-load @termsurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-answer-feedback
+load @cluesurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-answer-feedback
   take form google-cloud-contactcenterinsights-v1-answer-feedback
 
-load @termsurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-article-suggestion-data
+load @cluesurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-article-suggestion-data
   take form google-cloud-contactcenterinsights-v1-article-suggestion-data
 
-load @termsurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-dialogflow-interaction-data
+load @cluesurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-dialogflow-interaction-data
   take form google-cloud-contactcenterinsights-v1-dialogflow-interaction-data
 
-load @termsurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-faq-answer-data
+load @cluesurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-faq-answer-data
   take form google-cloud-contactcenterinsights-v1-faq-answer-data
 
-load @termsurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-smart-compose-suggestion-data
+load @cluesurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-smart-compose-suggestion-data
   take form google-cloud-contactcenterinsights-v1-smart-compose-suggestion-data
 
-load @termsurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-smart-reply-data
+load @cluesurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-smart-reply-data
   take form google-cloud-contactcenterinsights-v1-smart-reply-data
 
 form google-cloud-contactcenterinsights-v1-runtime-annotation, name <GoogleCloudContactcenterinsightsV1RuntimeAnnotation>

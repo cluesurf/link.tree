@@ -1,50 +1,50 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/architecture-values
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/architecture-values
   take form architecture-values
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/disk-image
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/disk-image
   take form disk-image
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/import-instance-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/import-instance-result
   take form import-instance-result
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-type
   take form instance-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/placement
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/placement
   take form placement
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-id-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-id-string-list
   take form security-group-id-string-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-string-list
   take form security-group-string-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/shutdown-behavior
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/shutdown-behavior
   take form shutdown-behavior
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/subnet-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/subnet-id
   take form subnet-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/user-data
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/user-data
   take form user-data
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 boot get-import-instance, name <GET_ImportInstance>

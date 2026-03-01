@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.4/base/buyer
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.4/base/buyer
   take form buyer
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.4/base/deal-terms
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.4/base/deal-terms
   take form deal-terms
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.4/base/delivery-control
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.4/base/delivery-control
   take form delivery-control
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.4/base/publisher-provided-forecast
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.4/base/publisher-provided-forecast
   take form publisher-provided-forecast
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.4/base/seller
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.4/base/seller
   take form seller
 
 form product, name <Product>

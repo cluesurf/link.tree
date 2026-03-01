@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/jobs/v3p1beta1/base/application-info
+load @cluesurf/snow/googleapis.com/jobs/v3p1beta1/base/application-info
   take form application-info
 
-load @termsurf/snow/googleapis.com/jobs/v3p1beta1/base/compensation-info
+load @cluesurf/snow/googleapis.com/jobs/v3p1beta1/base/compensation-info
   take form compensation-info
 
-load @termsurf/snow/googleapis.com/jobs/v3p1beta1/base/job-derived-info
+load @cluesurf/snow/googleapis.com/jobs/v3p1beta1/base/job-derived-info
   take form job-derived-info
 
-load @termsurf/snow/googleapis.com/jobs/v3p1beta1/base/processing-options
+load @cluesurf/snow/googleapis.com/jobs/v3p1beta1/base/processing-options
   take form processing-options
 
 form job, name <Job>

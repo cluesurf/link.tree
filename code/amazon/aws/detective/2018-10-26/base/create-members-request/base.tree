@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/detective/2018-10-26/base/account-list
+load @cluesurf/snow/amazonaws.com/detective/2018-10-26/base/account-list
   take form account-list
 
-load @termsurf/snow/amazonaws.com/detective/2018-10-26/base/email-message
+load @cluesurf/snow/amazonaws.com/detective/2018-10-26/base/email-message
   take form email-message
 
-load @termsurf/snow/amazonaws.com/detective/2018-10-26/base/graph-arn
+load @cluesurf/snow/amazonaws.com/detective/2018-10-26/base/graph-arn
   take form graph-arn
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form create-members-request, name <CreateMembersRequest>

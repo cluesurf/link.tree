@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/iam-session-arn
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/iam-session-arn
   take form iam-session-arn
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/iam-user-arn
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/iam-user-arn
   take form iam-user-arn
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/instance-arn
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/instance-arn
   take form instance-arn
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/instance-name
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/instance-name
   take form instance-name
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/tag-list
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/timestamp
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/timestamp
   take form timestamp
 
 form instance-info, name <InstanceInfo>

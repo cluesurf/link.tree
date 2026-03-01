@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/pi/2018-02-27/base/metric-query
+load @cluesurf/snow/amazonaws.com/pi/2018-02-27/base/metric-query
   take form metric-query
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form metric-query-list, name <MetricQueryList>

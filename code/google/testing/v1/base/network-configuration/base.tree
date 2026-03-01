@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/testing/v1/base/traffic-rule
+load @cluesurf/snow/googleapis.com/testing/v1/base/traffic-rule
   take form traffic-rule
 
 form network-configuration, name <NetworkConfiguration>

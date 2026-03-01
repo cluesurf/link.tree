@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/adsense/v1.4/base/alerts
+load @cluesurf/snow/googleapis.com/adsense/v1.4/base/alerts
   take form alerts
 
 boot adsense-alerts-list, name <adsense.alerts.list>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/property-name
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/property-name
   take form property-name
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/requires-recreation
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/requires-recreation
   take form requires-recreation
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-attribute
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-attribute
   take form resource-attribute
 
 form resource-target-definition, name <ResourceTargetDefinition>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/failed-resource
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/failed-resource
   take form failed-resource
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form failed-resource-list, name <FailedResourceList>

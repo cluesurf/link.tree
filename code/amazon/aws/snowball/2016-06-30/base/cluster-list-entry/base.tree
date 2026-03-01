@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/cluster-state
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/cluster-state
   take form cluster-state
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/timestamp
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form cluster-list-entry, name <ClusterListEntry>

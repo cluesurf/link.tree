@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/healthlake/2017-07-01/base/describe-fhir-import-job-response
+load @cluesurf/snow/amazonaws.com/healthlake/2017-07-01/base/describe-fhir-import-job-response
   take form describe-fhir-import-job-response
 
-load @termsurf/snow/amazonaws.com/healthlake/2017-07-01/base/internal-server-exception
+load @cluesurf/snow/amazonaws.com/healthlake/2017-07-01/base/internal-server-exception
   take form internal-server-exception
 
-load @termsurf/snow/amazonaws.com/healthlake/2017-07-01/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/healthlake/2017-07-01/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/amazonaws.com/healthlake/2017-07-01/base/throttling-exception
+load @cluesurf/snow/amazonaws.com/healthlake/2017-07-01/base/throttling-exception
   take form throttling-exception
 
-load @termsurf/snow/amazonaws.com/healthlake/2017-07-01/base/validation-exception
+load @cluesurf/snow/amazonaws.com/healthlake/2017-07-01/base/validation-exception
   take form validation-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-fhir-import-job, name <DescribeFHIRImportJob>

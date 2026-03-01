@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/pricing-plan
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/pricing-plan
   take form pricing-plan
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/resource-description
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/resource-description
   take form resource-description
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-tracker-request, name <UpdateTrackerRequest>

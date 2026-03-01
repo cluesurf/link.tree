@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/cm-hybrid-config
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/cm-hybrid-config
   take form cm-hybrid-config
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/third-party-only-config
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/third-party-only-config
   take form third-party-only-config
 
 form advertiser-ad-server-config, name <AdvertiserAdServerConfig>

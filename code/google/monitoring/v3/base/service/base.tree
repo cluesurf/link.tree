@@ -1,23 +1,23 @@
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/app-engine
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/app-engine
   take form app-engine
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/cloud-endpoints
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/cloud-endpoints
   take form cloud-endpoints
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/cluster-istio
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/cluster-istio
   take form cluster-istio
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/custom
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/custom
   take form custom
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/istio-canonical-service
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/istio-canonical-service
   take form istio-canonical-service
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/mesh-istio
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/mesh-istio
   take form mesh-istio
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/telemetry
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/telemetry
   take form telemetry
 
 form service, name <Service>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/androidpublisher/v2/base/apk-binary
+load @cluesurf/snow/googleapis.com/androidpublisher/v2/base/apk-binary
   take form apk-binary
 
 form apk, name <Apk>

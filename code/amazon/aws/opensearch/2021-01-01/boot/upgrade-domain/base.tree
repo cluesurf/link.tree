@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/base-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/base-exception
   take form base-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/disabled-operation-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/disabled-operation-exception
   take form disabled-operation-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/internal-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/internal-exception
   take form internal-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/resource-already-exists-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/resource-already-exists-exception
   take form resource-already-exists-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/upgrade-domain-body
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/upgrade-domain-body
   take form upgrade-domain-body
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/upgrade-domain-response
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/upgrade-domain-response
   take form upgrade-domain-response
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/validation-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/validation-exception
   take form validation-exception
 
 boot upgrade-domain, name <UpgradeDomain>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/manifest-layout
+load @cluesurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/manifest-layout
   take form manifest-layout
 
-load @termsurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/profile
+load @cluesurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/profile
   take form profile
 
-load @termsurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/stream-selection
+load @cluesurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/stream-selection
   take form stream-selection
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form dash-manifest, name <DashManifest>

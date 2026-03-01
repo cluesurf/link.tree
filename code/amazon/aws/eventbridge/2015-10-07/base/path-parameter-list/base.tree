@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/path-parameter
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/path-parameter
   take form path-parameter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form path-parameter-list, name <PathParameterList>

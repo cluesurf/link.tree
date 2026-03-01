@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/bad-request
+load @cluesurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/bad-request
   take form bad-request
 
-load @termsurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/dependency-timeout
+load @cluesurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/dependency-timeout
   take form dependency-timeout
 
-load @termsurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/mount-target-not-found
+load @cluesurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/mount-target-not-found
   take form mount-target-not-found
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-mount-target, name <DeleteMountTarget>

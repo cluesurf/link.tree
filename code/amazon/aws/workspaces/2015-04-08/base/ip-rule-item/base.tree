@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/ip-rule
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/ip-rule
   take form ip-rule
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/ip-rule-desc
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/ip-rule-desc
   take form ip-rule-desc
 
 form ip-rule-item, name <IpRuleItem>

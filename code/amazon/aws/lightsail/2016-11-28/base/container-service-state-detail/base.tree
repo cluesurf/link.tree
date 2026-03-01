@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/container-service-state-detail-code
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/container-service-state-detail-code
   take form container-service-state-detail-code
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form container-service-state-detail, name <ContainerServiceStateDetail>

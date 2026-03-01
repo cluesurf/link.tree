@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/hls-manifest
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/hls-manifest
   take form hls-manifest
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-hls-manifest, name <__listOfHlsManifest>

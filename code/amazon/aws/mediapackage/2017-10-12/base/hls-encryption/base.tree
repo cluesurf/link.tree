@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/encryption-method
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/encryption-method
   take form encryption-method
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/speke-key-provider
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/speke-key-provider
   take form speke-key-provider
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form hls-encryption, name <HlsEncryption>

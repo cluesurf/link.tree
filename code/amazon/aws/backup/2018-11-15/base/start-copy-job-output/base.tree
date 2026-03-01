@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form start-copy-job-output, name <StartCopyJobOutput>

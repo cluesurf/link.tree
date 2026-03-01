@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-identifier-property-key
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-identifier-property-key
   take form resource-identifier-property-key
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form resource-identifiers, name <ResourceIdentifiers>

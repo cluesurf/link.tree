@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/encryption-status
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/encryption-status
   take form encryption-status
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/encryption-type
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/encryption-type
   take form encryption-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form encryption-config, name <EncryptionConfig>

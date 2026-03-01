@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/node-group
+load @cluesurf/snow/googleapis.com/compute/alpha/base/node-group
   take form node-group
 
 boot compute-node-groups-get, name <compute.nodeGroups.get>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/ops-metadata-filter
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/ops-metadata-filter
   take form ops-metadata-filter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form ops-metadata-filter-list, name <OpsMetadataFilterList>

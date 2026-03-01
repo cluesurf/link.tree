@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/action-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/action-arn
   take form action-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/action-source
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/action-source
   take form action-source
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/action-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/action-status
   take form action-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-description
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-description
   take form experiment-description
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-entity-name
   take form experiment-entity-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/lineage-entity-parameters
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/lineage-entity-parameters
   take form lineage-entity-parameters
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metadata-properties
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metadata-properties
   take form metadata-properties
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/string256
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/string256
   take form string256
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/user-context
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/user-context
   take form user-context
 
 form describe-action-response, name <DescribeActionResponse>

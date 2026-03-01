@@ -1,53 +1,53 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/capabilities
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/capabilities
   take form capabilities
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/change-set-name
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/change-set-name
   take form change-set-name
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/change-set-type
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/change-set-type
   take form change-set-type
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/client-token
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/description
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/include-nested-stacks
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/include-nested-stacks
   take form include-nested-stacks
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/notification-ar-ns
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/notification-ar-ns
   take form notification-ar-ns
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameters
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameters
   take form parameters
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-types
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resource-types
   take form resource-types
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resources-to-import
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/resources-to-import
   take form resources-to-import
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/role-arn
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/rollback-configuration
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/rollback-configuration
   take form rollback-configuration
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/stack-name-or-id
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/stack-name-or-id
   take form stack-name-or-id
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/tags
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/tags
   take form tags
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/template-body
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/template-body
   take form template-body
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/template-url
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/template-url
   take form template-url
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/use-previous-template
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/use-previous-template
   take form use-previous-template
 
 form create-change-set-input, name <CreateChangeSetInput>

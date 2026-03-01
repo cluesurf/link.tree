@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/apprunner/2020-05-15/base/app-runner-resource-arn
+load @cluesurf/snow/amazonaws.com/apprunner/2020-05-15/base/app-runner-resource-arn
   take form app-runner-resource-arn
 
-load @termsurf/snow/amazonaws.com/apprunner/2020-05-15/base/connection-name
+load @cluesurf/snow/amazonaws.com/apprunner/2020-05-15/base/connection-name
   take form connection-name
 
-load @termsurf/snow/amazonaws.com/apprunner/2020-05-15/base/connection-status
+load @cluesurf/snow/amazonaws.com/apprunner/2020-05-15/base/connection-status
   take form connection-status
 
-load @termsurf/snow/amazonaws.com/apprunner/2020-05-15/base/provider-type
+load @cluesurf/snow/amazonaws.com/apprunner/2020-05-15/base/provider-type
   take form provider-type
 
-load @termsurf/snow/amazonaws.com/apprunner/2020-05-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/apprunner/2020-05-15/base/timestamp
   take form timestamp
 
 form connection-summary, name <ConnectionSummary>

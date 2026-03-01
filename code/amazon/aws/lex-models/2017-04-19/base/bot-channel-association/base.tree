@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/alias-name
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/alias-name
   take form alias-name
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/bot-channel-name
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/bot-channel-name
   take form bot-channel-name
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/bot-name
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/bot-name
   take form bot-name
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/channel-configuration-map
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/channel-configuration-map
   take form channel-configuration-map
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/channel-status
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/channel-status
   take form channel-status
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/channel-type
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/channel-type
   take form channel-type
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/description
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/timestamp
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form bot-channel-association, name <BotChannelAssociation>

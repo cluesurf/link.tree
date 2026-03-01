@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/attributes
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/attributes
   take form attributes
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-attributes-response, name <ListAttributesResponse>

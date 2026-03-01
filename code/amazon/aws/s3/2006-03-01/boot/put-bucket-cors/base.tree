@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/put-bucket-cors-body
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/put-bucket-cors-body
   take form put-bucket-cors-body
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot put-bucket-cors, name <PutBucketCors>

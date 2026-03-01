@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/urns
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/urns
   take form urns
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/version
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/version
   take form version
 
 form get-entities-request, name <GetEntitiesRequest>

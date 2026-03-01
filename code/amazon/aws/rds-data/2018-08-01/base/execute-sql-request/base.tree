@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/arn
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/db-name
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/db-name
   take form db-name
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/sql-statement
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/sql-statement
   take form sql-statement
 
 form execute-sql-request, name <ExecuteSqlRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/cluster-list
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/cluster-list
   take form cluster-list
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/unprocessed-cluster-list
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/unprocessed-cluster-list
   take form unprocessed-cluster-list
 
 form batch-update-cluster-response, name <BatchUpdateClusterResponse>

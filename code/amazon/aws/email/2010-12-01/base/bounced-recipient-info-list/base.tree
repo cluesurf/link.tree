@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/bounced-recipient-info
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/bounced-recipient-info
   take form bounced-recipient-info
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form bounced-recipient-info-list, name <BouncedRecipientInfoList>

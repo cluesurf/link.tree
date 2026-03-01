@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/tpu/v2alpha1/base/runtime-version
+load @cluesurf/snow/googleapis.com/tpu/v2alpha1/base/runtime-version
   take form runtime-version
 
 boot tpu-projects-locations-runtime-versions-get, name <tpu.projects.locations.runtimeVersions.get>

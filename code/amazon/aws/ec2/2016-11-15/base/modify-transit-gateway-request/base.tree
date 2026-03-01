@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/modify-transit-gateway-options
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/modify-transit-gateway-options
   take form modify-transit-gateway-options
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-id
   take form transit-gateway-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form modify-transit-gateway-request, name <ModifyTransitGatewayRequest>

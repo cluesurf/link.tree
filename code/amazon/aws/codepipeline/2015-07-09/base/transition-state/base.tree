@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/disabled-reason
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/disabled-reason
   take form disabled-reason
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/enabled
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/enabled
   take form enabled
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/last-changed-at
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/last-changed-at
   take form last-changed-at
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/last-changed-by
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/last-changed-by
   take form last-changed-by
 
 form transition-state, name <TransitionState>

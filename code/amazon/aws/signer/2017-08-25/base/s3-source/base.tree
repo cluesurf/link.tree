@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/bucket-name
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/bucket-name
   take form bucket-name
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/key
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/key
   take form key
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/version
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/version
   take form version
 
 form s3-source, name <S3Source>

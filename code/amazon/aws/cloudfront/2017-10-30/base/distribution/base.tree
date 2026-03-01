@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/active-trusted-signers
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/active-trusted-signers
   take form active-trusted-signers
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/distribution-config
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/distribution-config
   take form distribution-config
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/timestamp
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form distribution, name <Distribution>

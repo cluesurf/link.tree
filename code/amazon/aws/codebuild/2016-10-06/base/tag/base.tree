@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/key-input
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/key-input
   take form key-input
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/value-input
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/value-input
   take form value-input
 
 form tag, name <Tag>

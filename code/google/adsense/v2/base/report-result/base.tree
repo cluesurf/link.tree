@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/adsense/v2/base/date
+load @cluesurf/snow/googleapis.com/adsense/v2/base/date
   take form date
 
-load @termsurf/snow/googleapis.com/adsense/v2/base/row
+load @cluesurf/snow/googleapis.com/adsense/v2/base/row
   take form row
 
 form report-result, name <ReportResult>

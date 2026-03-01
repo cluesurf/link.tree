@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/continuous-backups-status
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/continuous-backups-status
   take form continuous-backups-status
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/point-in-time-recovery-description
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/point-in-time-recovery-description
   take form point-in-time-recovery-description
 
 form continuous-backups-description, name <ContinuousBackupsDescription>

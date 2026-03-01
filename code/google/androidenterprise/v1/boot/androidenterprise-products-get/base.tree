@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androidenterprise/v1/base/product
+load @cluesurf/snow/googleapis.com/androidenterprise/v1/base/product
   take form product
 
 boot androidenterprise-products-get, name <androidenterprise.products.get>

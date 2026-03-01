@@ -1,26 +1,26 @@
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/date-time-iso8601
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/date-time-iso8601
   take form date-time-iso8601
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/model-build-status
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/model-build-status
   take form model-build-status
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ac
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ac
   take form sid-ac
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ua
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ua
   take form sid-ua
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ug
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ug
   take form sid-ug
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/url
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/url
   take form url
 
 form preview-understand-assistant-model-build, name <preview.understand.assistant.model_build>

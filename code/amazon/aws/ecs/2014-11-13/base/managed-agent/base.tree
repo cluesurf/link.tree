@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/managed-agent-name
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/managed-agent-name
   take form managed-agent-name
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/timestamp
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form managed-agent, name <ManagedAgent>

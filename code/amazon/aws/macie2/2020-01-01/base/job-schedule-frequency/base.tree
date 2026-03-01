@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/daily-schedule
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/daily-schedule
   take form daily-schedule
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/monthly-schedule
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/monthly-schedule
   take form monthly-schedule
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/weekly-schedule
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/weekly-schedule
   take form weekly-schedule
 
 form job-schedule-frequency, name <JobScheduleFrequency>

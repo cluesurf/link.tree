@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/mime-type
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/mime-type
   take form mime-type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form exclude-mime-types-list, name <ExcludeMimeTypesList>

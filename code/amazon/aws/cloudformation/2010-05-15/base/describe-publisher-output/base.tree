@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/identity-provider
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/identity-provider
   take form identity-provider
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/publisher-id
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/publisher-id
   take form publisher-id
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/publisher-profile
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/publisher-profile
   take form publisher-profile
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/publisher-status
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/publisher-status
   take form publisher-status
 
 form describe-publisher-output, name <DescribePublisherOutput>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/app-image-config-details
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/app-image-config-details
   take form app-image-config-details
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form app-image-config-list, name <AppImageConfigList>

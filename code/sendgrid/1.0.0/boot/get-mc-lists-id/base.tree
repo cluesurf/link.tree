@@ -1,20 +1,20 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/contact-details2
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/contact-details2
   take form contact-details2
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/error
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/error
   take form error
 
 boot get-mc-lists-id, name <GET_mc-lists-id>

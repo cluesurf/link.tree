@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/rds/2013-09-09/base/db-instance
+load @cluesurf/snow/amazonaws.com/rds/2013-09-09/base/db-instance
   take form db-instance
 
 form reboot-db-instance-result, name <RebootDBInstanceResult>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/solid-fill
+load @cluesurf/snow/googleapis.com/slides/v1/base/solid-fill
   take form solid-fill
 
 form shape-background-fill, name <ShapeBackgroundFill>

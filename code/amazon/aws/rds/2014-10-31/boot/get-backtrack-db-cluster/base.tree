@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/db-cluster-backtrack
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/db-cluster-backtrack
   take form db-cluster-backtrack
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/db-cluster-not-found-fault
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/db-cluster-not-found-fault
   take form db-cluster-not-found-fault
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/invalid-db-cluster-state-fault
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/invalid-db-cluster-state-fault
   take form invalid-db-cluster-state-fault
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-backtrack-db-cluster, name <GET_BacktrackDBCluster>

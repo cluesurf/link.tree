@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/client-request-token
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/client-request-token
   take form client-request-token
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/project-arn
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/project-arn
   take form project-arn
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/project-id
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/project-id
   take form project-id
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/project-template-id
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/project-template-id
   take form project-template-id
 
 form create-project-result, name <CreateProjectResult>

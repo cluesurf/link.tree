@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/delivery-stream-name
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/delivery-stream-name
   take form delivery-stream-name
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/describe-delivery-stream-input-limit
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/describe-delivery-stream-input-limit
   take form describe-delivery-stream-input-limit
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/destination-id
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/destination-id
   take form destination-id
 
 form describe-delivery-stream-input, name <DescribeDeliveryStreamInput>

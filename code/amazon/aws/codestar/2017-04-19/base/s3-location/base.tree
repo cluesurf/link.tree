@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/bucket-key
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/bucket-key
   take form bucket-key
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/bucket-name
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/bucket-name
   take form bucket-name
 
 form s3-location, name <S3Location>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/athena/2017-05-18/base/column-nullable
+load @cluesurf/snow/amazonaws.com/athena/2017-05-18/base/column-nullable
   take form column-nullable
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form column-info, name <ColumnInfo>

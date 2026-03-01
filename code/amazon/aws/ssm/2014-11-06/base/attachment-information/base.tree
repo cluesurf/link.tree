@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/attachment-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/attachment-name
   take form attachment-name
 
 form attachment-information, name <AttachmentInformation>

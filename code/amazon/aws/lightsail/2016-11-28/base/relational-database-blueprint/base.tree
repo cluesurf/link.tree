@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database-engine
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database-engine
   take form relational-database-engine
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form relational-database-blueprint, name <RelationalDatabaseBlueprint>

@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/arn
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/boolean-object
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/boolean-object
   take form boolean-object
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/compute-capacity-status
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/compute-capacity-status
   take form compute-capacity-status
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/domain-join-info
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/domain-join-info
   take form domain-join-info
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/fleet-errors
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/fleet-errors
   take form fleet-errors
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/fleet-state
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/fleet-state
   take form fleet-state
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/fleet-type
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/fleet-type
   take form fleet-type
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/stream-view
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/stream-view
   take form stream-view
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/vpc-config
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/vpc-config
   take form vpc-config
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form fleet, name <Fleet>

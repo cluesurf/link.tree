@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/androidpublisher/v2/base/price
+load @cluesurf/snow/googleapis.com/androidpublisher/v2/base/price
   take form price
 
 form subscription-price-change, name <SubscriptionPriceChange>

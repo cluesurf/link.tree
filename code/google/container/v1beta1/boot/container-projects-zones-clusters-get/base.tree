@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/container/v1beta1/base/cluster
+load @cluesurf/snow/googleapis.com/container/v1beta1/base/cluster
   take form cluster
 
 boot container-projects-zones-clusters-get, name <container.projects.zones.clusters.get>

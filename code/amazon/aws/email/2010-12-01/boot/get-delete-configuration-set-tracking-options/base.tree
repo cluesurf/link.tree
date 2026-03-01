@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/configuration-set-does-not-exist-exception
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/configuration-set-does-not-exist-exception
   take form configuration-set-does-not-exist-exception
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/delete-configuration-set-tracking-options-response
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/delete-configuration-set-tracking-options-response
   take form delete-configuration-set-tracking-options-response
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/tracking-options-does-not-exist-exception
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/tracking-options-does-not-exist-exception
   take form tracking-options-does-not-exist-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-delete-configuration-set-tracking-options, name <GET_DeleteConfigurationSetTrackingOptions>

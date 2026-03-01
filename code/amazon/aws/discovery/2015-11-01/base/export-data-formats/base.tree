@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/export-data-format
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/export-data-format
   take form export-data-format
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form export-data-formats, name <ExportDataFormats>

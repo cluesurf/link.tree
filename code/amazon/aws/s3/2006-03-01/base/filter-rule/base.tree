@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/filter-rule-name
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/filter-rule-name
   take form filter-rule-name
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/filter-rule-value
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/filter-rule-value
   take form filter-rule-value
 
 form filter-rule, name <FilterRule>

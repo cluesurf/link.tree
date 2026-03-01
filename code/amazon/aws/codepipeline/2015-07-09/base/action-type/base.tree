@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-configuration-property-list
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-configuration-property-list
   take form action-configuration-property-list
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-type-id
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-type-id
   take form action-type-id
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-type-settings
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-type-settings
   take form action-type-settings
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/artifact-details
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/artifact-details
   take form artifact-details
 
 form action-type, name <ActionType>

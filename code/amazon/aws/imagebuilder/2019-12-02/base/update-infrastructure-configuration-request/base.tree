@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/client-token
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/infrastructure-configuration-arn
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/infrastructure-configuration-arn
   take form infrastructure-configuration-arn
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/instance-profile-name-type
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/instance-profile-name-type
   take form instance-profile-name-type
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/instance-type-list
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/instance-type-list
   take form instance-type-list
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/logging
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/logging
   take form logging
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/nullable-boolean
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/nullable-boolean
   take form nullable-boolean
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/resource-tag-map
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/resource-tag-map
   take form resource-tag-map
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/security-group-ids
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/security-group-ids
   take form security-group-ids
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/sns-topic-arn
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/sns-topic-arn
   take form sns-topic-arn
 
 form update-infrastructure-configuration-request, name <UpdateInfrastructureConfigurationRequest>

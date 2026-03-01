@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/fault-root-cause-entity-path
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/fault-root-cause-entity-path
   take form fault-root-cause-entity-path
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-boolean
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-boolean
   take form nullable-boolean
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/service-names
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/service-names
   take form service-names
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form fault-root-cause-service, name <FaultRootCauseService>

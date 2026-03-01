@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/channel-settings
+load @cluesurf/snow/googleapis.com/youtube/v3/base/channel-settings
   take form channel-settings
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/image-settings
+load @cluesurf/snow/googleapis.com/youtube/v3/base/image-settings
   take form image-settings
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/watch-settings
+load @cluesurf/snow/googleapis.com/youtube/v3/base/watch-settings
   take form watch-settings
 
 form channel-branding-settings, name <ChannelBrandingSettings>

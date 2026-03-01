@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/budgets
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/budgets
   take form budgets
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/portfolio-detail
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/portfolio-detail
   take form portfolio-detail
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tag-option-details
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tag-option-details
   take form tag-option-details
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tags
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tags
   take form tags
 
 form describe-portfolio-output, name <DescribePortfolioOutput>

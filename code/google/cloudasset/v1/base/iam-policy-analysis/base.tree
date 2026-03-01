@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/cloudasset/v1/base/iam-policy-analysis-query
+load @cluesurf/snow/googleapis.com/cloudasset/v1/base/iam-policy-analysis-query
   take form iam-policy-analysis-query
 
 form iam-policy-analysis, name <IamPolicyAnalysis>

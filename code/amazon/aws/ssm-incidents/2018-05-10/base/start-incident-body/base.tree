@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/arn
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/incident-source
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/incident-source
   take form incident-source
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/raw-data
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/raw-data
   take form raw-data
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/timestamp
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/timestamp
   take form timestamp
 
 form start-incident-body

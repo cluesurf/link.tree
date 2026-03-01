@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/attach-vpn-gateway-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/attach-vpn-gateway-result
   take form attach-vpn-gateway-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-attach-vpn-gateway, name <POST_AttachVpnGateway>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/list-guardians-response
+load @cluesurf/snow/googleapis.com/classroom/v1/base/list-guardians-response
   take form list-guardians-response
 
 boot classroom-user-profiles-guardians-list, name <classroom.userProfiles.guardians.list>

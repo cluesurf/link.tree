@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appmesh/2018-10-01/base/weighted-target
+load @cluesurf/snow/amazonaws.com/appmesh/2018-10-01/base/weighted-target
   take form weighted-target
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form weighted-targets, name <WeightedTargets>

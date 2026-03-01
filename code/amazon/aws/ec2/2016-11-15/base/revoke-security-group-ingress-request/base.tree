@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/ip-permission-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/ip-permission-list
   take form ip-permission-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-id
   take form security-group-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-name
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-name
   take form security-group-name
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-rule-id-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-rule-id-list
   take form security-group-rule-id-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form revoke-security-group-ingress-request, name <RevokeSecurityGroupIngressRequest>

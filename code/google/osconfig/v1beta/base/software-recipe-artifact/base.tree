@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/osconfig/v1beta/base/software-recipe-artifact-gcs
+load @cluesurf/snow/googleapis.com/osconfig/v1beta/base/software-recipe-artifact-gcs
   take form software-recipe-artifact-gcs
 
-load @termsurf/snow/googleapis.com/osconfig/v1beta/base/software-recipe-artifact-remote
+load @cluesurf/snow/googleapis.com/osconfig/v1beta/base/software-recipe-artifact-remote
   take form software-recipe-artifact-remote
 
 form software-recipe-artifact, name <SoftwareRecipeArtifact>

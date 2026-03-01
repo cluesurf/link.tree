@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iot-data/2015-05-28/base/payload
+load @cluesurf/snow/amazonaws.com/iot-data/2015-05-28/base/payload
   take form payload
 
-load @termsurf/snow/amazonaws.com/iot-data/2015-05-28/base/qos
+load @cluesurf/snow/amazonaws.com/iot-data/2015-05-28/base/qos
   take form qos
 
-load @termsurf/snow/amazonaws.com/iot-data/2015-05-28/base/timestamp
+load @cluesurf/snow/amazonaws.com/iot-data/2015-05-28/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/iot-data/2015-05-28/base/topic
+load @cluesurf/snow/amazonaws.com/iot-data/2015-05-28/base/topic
   take form topic
 
 form get-retained-message-response, name <GetRetainedMessageResponse>

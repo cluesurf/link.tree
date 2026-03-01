@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sts/2011-06-15/base/assumed-role-user
+load @cluesurf/snow/amazonaws.com/sts/2011-06-15/base/assumed-role-user
   take form assumed-role-user
 
-load @termsurf/snow/amazonaws.com/sts/2011-06-15/base/credentials
+load @cluesurf/snow/amazonaws.com/sts/2011-06-15/base/credentials
   take form credentials
 
-load @termsurf/snow/amazonaws.com/sts/2011-06-15/base/non-negative-integer-type
+load @cluesurf/snow/amazonaws.com/sts/2011-06-15/base/non-negative-integer-type
   take form non-negative-integer-type
 
-load @termsurf/snow/amazonaws.com/sts/2011-06-15/base/source-identity-type
+load @cluesurf/snow/amazonaws.com/sts/2011-06-15/base/source-identity-type
   take form source-identity-type
 
 form assume-role-response, name <AssumeRoleResponse>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/entity-type
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/entity-type
   take form entity-type
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/float
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/float
   take form float
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form entity, name <Entity>

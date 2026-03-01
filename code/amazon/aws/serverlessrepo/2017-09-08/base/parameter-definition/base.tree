@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/serverlessrepo/2017-09-08/base/list-of-string
+load @cluesurf/snow/amazonaws.com/serverlessrepo/2017-09-08/base/list-of-string
   take form list-of-string
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form parameter-definition, name <ParameterDefinition>

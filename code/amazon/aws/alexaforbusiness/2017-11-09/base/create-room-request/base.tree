@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/arn
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/client-request-token
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/client-request-token
   take form client-request-token
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/provider-calendar-id
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/provider-calendar-id
   take form provider-calendar-id
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/room-description
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/room-description
   take form room-description
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/room-name
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/room-name
   take form room-name
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/tag-list
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/tag-list
   take form tag-list
 
 form create-room-request, name <CreateRoomRequest>

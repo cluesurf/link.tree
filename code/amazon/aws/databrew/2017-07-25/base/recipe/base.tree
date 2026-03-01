@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/arn
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/created-by
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/created-by
   take form created-by
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/date
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/last-modified-by
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/last-modified-by
   take form last-modified-by
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/project-name
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/project-name
   take form project-name
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/published-by
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/published-by
   take form published-by
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/recipe-description
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/recipe-description
   take form recipe-description
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/recipe-name
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/recipe-name
   take form recipe-name
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/recipe-step-list
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/recipe-step-list
   take form recipe-step-list
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/recipe-version
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/recipe-version
   take form recipe-version
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/tag-map
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/tag-map
   take form tag-map
 
 form recipe, name <Recipe>

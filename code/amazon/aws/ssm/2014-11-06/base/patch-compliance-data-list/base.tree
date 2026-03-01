@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-compliance-data
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-compliance-data
   take form patch-compliance-data
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form patch-compliance-data-list, name <PatchComplianceDataList>

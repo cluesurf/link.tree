@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/job-state-list
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/job-state-list
   take form job-state-list
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/sns-topic-arn
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/sns-topic-arn
   take form sns-topic-arn
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form notification, name <Notification>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecr/2015-09-21/base/batched-operation-layer-digest
+load @cluesurf/snow/amazonaws.com/ecr/2015-09-21/base/batched-operation-layer-digest
   take form batched-operation-layer-digest
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form batched-operation-layer-digest-list, name <BatchedOperationLayerDigestList>

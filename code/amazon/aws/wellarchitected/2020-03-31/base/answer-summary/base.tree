@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/answer-reason
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/answer-reason
   take form answer-reason
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/choice-answer-summaries
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/choice-answer-summaries
   take form choice-answer-summaries
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/choices
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/choices
   take form choices
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/is-applicable
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/is-applicable
   take form is-applicable
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/pillar-id
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/pillar-id
   take form pillar-id
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/question-id
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/question-id
   take form question-id
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/question-title
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/question-title
   take form question-title
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/risk
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/risk
   take form risk
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/selected-choices
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/selected-choices
   take form selected-choices
 
 form answer-summary, name <AnswerSummary>

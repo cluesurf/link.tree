@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/validation-message
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/validation-message
   take form validation-message
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form validation-messages-list, name <ValidationMessagesList>

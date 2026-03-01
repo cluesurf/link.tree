@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/instance-definition
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/instance-definition
   take form instance-definition
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form instance-definitions, name <InstanceDefinitions>

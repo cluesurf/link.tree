@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/known-gender
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/known-gender
   take form known-gender
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/urls
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/urls
   take form urls
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-celebrity-info-response, name <GetCelebrityInfoResponse>

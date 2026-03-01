@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudsearchdomain/2013-01-01/base/long
+load @cluesurf/snow/amazonaws.com/cloudsearchdomain/2013-01-01/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/cloudsearchdomain/2013-01-01/base/suggestions
+load @cluesurf/snow/amazonaws.com/cloudsearchdomain/2013-01-01/base/suggestions
   take form suggestions
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form suggest-model, name <SuggestModel>

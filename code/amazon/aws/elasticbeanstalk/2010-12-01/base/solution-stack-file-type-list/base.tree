@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/file-type-extension
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/file-type-extension
   take form file-type-extension
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form solution-stack-file-type-list, name <SolutionStackFileTypeList>

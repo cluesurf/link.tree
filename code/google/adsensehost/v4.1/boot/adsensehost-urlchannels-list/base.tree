@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/adsensehost/v4.1/base/url-channels
+load @cluesurf/snow/googleapis.com/adsensehost/v4.1/base/url-channels
   take form url-channels
 
 boot adsensehost-urlchannels-list, name <adsensehost.urlchannels.list>

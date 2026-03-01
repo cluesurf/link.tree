@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/export-server-side-encryption
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/export-server-side-encryption
   take form export-server-side-encryption
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/id
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/list-of-asset-destination-entry
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/list-of-asset-destination-entry
   take form list-of-asset-destination-entry
 
 form export-assets-to-s3-request-details, name <ExportAssetsToS3RequestDetails>

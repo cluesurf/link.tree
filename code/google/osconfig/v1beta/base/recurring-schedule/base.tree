@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/osconfig/v1beta/base/monthly-schedule
+load @cluesurf/snow/googleapis.com/osconfig/v1beta/base/monthly-schedule
   take form monthly-schedule
 
-load @termsurf/snow/googleapis.com/osconfig/v1beta/base/time-of-day
+load @cluesurf/snow/googleapis.com/osconfig/v1beta/base/time-of-day
   take form time-of-day
 
-load @termsurf/snow/googleapis.com/osconfig/v1beta/base/time-zone
+load @cluesurf/snow/googleapis.com/osconfig/v1beta/base/time-zone
   take form time-zone
 
-load @termsurf/snow/googleapis.com/osconfig/v1beta/base/weekly-schedule
+load @cluesurf/snow/googleapis.com/osconfig/v1beta/base/weekly-schedule
   take form weekly-schedule
 
 form recurring-schedule, name <RecurringSchedule>

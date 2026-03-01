@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/member-type
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/member-type
   take form member-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form delegate, name <Delegate>

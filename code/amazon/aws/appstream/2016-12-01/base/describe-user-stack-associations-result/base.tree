@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/user-stack-association-list
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/user-stack-association-list
   take form user-stack-association-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-user-stack-associations-result, name <DescribeUserStackAssociationsResult>

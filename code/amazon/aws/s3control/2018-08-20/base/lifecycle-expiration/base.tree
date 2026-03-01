@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/date
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/days
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/days
   take form days
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/expired-object-delete-marker
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/expired-object-delete-marker
   take form expired-object-delete-marker
 
 form lifecycle-expiration, name <LifecycleExpiration>

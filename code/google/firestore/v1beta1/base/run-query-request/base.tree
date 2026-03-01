@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/structured-query
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/structured-query
   take form structured-query
 
-load @termsurf/snow/googleapis.com/firestore/v1beta1/base/transaction-options
+load @cluesurf/snow/googleapis.com/firestore/v1beta1/base/transaction-options
   take form transaction-options
 
 form run-query-request, name <RunQueryRequest>

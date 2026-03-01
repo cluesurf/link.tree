@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/domains/v1alpha2/base/list-registrations-response
+load @cluesurf/snow/googleapis.com/domains/v1alpha2/base/list-registrations-response
   take form list-registrations-response
 
 boot domains-projects-locations-registrations-list, name <domains.projects.locations.registrations.list>

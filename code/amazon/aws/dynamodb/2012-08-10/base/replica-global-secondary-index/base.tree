@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/index-name
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/index-name
   take form index-name
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/provisioned-throughput-override
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/provisioned-throughput-override
   take form provisioned-throughput-override
 
 form replica-global-secondary-index, name <ReplicaGlobalSecondaryIndex>

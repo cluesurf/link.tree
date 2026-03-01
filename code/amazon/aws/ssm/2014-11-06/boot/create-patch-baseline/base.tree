@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/create-patch-baseline-result
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/create-patch-baseline-result
   take form create-patch-baseline-result
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/idempotent-parameter-mismatch
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/idempotent-parameter-mismatch
   take form idempotent-parameter-mismatch
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/resource-limit-exceeded-exception
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/resource-limit-exceeded-exception
   take form resource-limit-exceeded-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot create-patch-baseline, name <CreatePatchBaseline>

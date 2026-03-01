@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/braket/2019-09-01/base/search-devices-request-filters-list
+load @cluesurf/snow/amazonaws.com/braket/2019-09-01/base/search-devices-request-filters-list
   take form search-devices-request-filters-list
 
-load @termsurf/snow/amazonaws.com/braket/2019-09-01/base/search-devices-request-max-results-integer
+load @cluesurf/snow/amazonaws.com/braket/2019-09-01/base/search-devices-request-max-results-integer
   take form search-devices-request-max-results-integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form search-devices-request, name <SearchDevicesRequest>

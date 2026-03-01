@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/invalid-input-exception
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/invalid-input-exception
   take form invalid-input-exception
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/policy-evaluation-exception
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/policy-evaluation-exception
   take form policy-evaluation-exception
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/simulate-policy-response
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/simulate-policy-response
   take form simulate-policy-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-simulate-custom-policy, name <POST_SimulateCustomPolicy>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/grid-range
+load @cluesurf/snow/googleapis.com/sheets/v4/base/grid-range
   take form grid-range
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/source-and-destination
+load @cluesurf/snow/googleapis.com/sheets/v4/base/source-and-destination
   take form source-and-destination
 
 form auto-fill-request, name <AutoFillRequest>

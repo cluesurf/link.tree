@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/arn
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/namespace-name
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/namespace-name
   take form namespace-name
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/version
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/version
   take form version
 
 form describe-namespace-response, name <DescribeNamespaceResponse>

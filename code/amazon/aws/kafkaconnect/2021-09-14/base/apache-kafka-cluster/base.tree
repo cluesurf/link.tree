@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/vpc
+load @cluesurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/vpc
   take form vpc
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form apache-kafka-cluster, name <ApacheKafkaCluster>

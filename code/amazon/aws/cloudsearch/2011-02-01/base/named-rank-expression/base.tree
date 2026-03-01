@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/field-name
+load @cluesurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/field-name
   take form field-name
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/rank-expression
+load @cluesurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/rank-expression
   take form rank-expression
 
 form named-rank-expression, name <NamedRankExpression>

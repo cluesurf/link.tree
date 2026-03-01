@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/timestream-query/2018-11-01/base/row
+load @cluesurf/snow/amazonaws.com/timestream-query/2018-11-01/base/row
   take form row
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form row-list, name <RowList>

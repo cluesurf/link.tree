@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/compute/beta/base/allocation-specific-sku-reservation
+load @cluesurf/snow/googleapis.com/compute/beta/base/allocation-specific-sku-reservation
   take form allocation-specific-sku-reservation
 
-load @termsurf/snow/googleapis.com/compute/beta/base/share-settings
+load @cluesurf/snow/googleapis.com/compute/beta/base/share-settings
   take form share-settings
 
 form reservation, name <Reservation>

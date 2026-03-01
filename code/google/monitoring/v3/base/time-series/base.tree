@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/metric
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/metric
   take form metric
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/monitored-resource
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/monitored-resource
   take form monitored-resource
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/monitored-resource-metadata
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/monitored-resource-metadata
   take form monitored-resource-metadata
 
 form time-series, name <TimeSeries>

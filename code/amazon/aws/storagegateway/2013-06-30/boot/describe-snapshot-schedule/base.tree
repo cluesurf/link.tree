@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/describe-snapshot-schedule-output
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/describe-snapshot-schedule-output
   take form describe-snapshot-schedule-output
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/invalid-gateway-request-exception
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/invalid-gateway-request-exception
   take form invalid-gateway-request-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-snapshot-schedule, name <DescribeSnapshotSchedule>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-task-execution-spec
+load @cluesurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-task-execution-spec
   take form google-cloud-dataplex-v1-task-execution-spec
 
-load @termsurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-task-spark-task-config
+load @cluesurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-task-spark-task-config
   take form google-cloud-dataplex-v1-task-spark-task-config
 
-load @termsurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-task-trigger-spec
+load @cluesurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-task-trigger-spec
   take form google-cloud-dataplex-v1-task-trigger-spec
 
 form google-cloud-dataplex-v1-task, name <GoogleCloudDataplexV1Task>

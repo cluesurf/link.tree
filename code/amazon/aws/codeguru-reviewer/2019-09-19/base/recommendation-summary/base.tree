@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/file-path
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/file-path
   take form file-path
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/line-number
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/line-number
   take form line-number
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/recommendation-category
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/recommendation-category
   take form recommendation-category
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/recommendation-id
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/recommendation-id
   take form recommendation-id
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/rule-metadata
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/rule-metadata
   take form rule-metadata
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/severity
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/severity
   take form severity
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/text
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/text
   take form text
 
 form recommendation-summary, name <RecommendationSummary>

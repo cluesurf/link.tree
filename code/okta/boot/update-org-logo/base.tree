@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/native-file
+load @cluesurf/snow/base/native-file
   take form native-file
 
 boot update-org-logo, name <updateOrgLogo>

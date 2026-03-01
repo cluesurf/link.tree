@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/arn
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/attribute-name
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/attribute-name
   take form attribute-name
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/facet-name
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/facet-name
   take form facet-name
 
 form attribute-key, name <AttributeKey>

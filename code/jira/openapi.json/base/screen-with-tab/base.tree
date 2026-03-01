@@ -1,8 +1,8 @@
 
-load @termsurf/snow/jira/openapi.json/base/scope
+load @cluesurf/snow/jira/openapi.json/base/scope
   take form scope
 
-load @termsurf/snow/jira/openapi.json/base/screenable-tab
+load @cluesurf/snow/jira/openapi.json/base/screenable-tab
   take form screenable-tab
 
 form screen-with-tab, name <ScreenWithTab>

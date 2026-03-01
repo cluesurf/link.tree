@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/batch-read-operation
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/batch-read-operation
   take form batch-read-operation
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form batch-read-operation-list, name <BatchReadOperationList>

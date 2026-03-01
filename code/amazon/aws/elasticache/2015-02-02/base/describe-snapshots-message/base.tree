@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/boolean-optional
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/boolean-optional
   take form boolean-optional
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/integer-optional
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-snapshots-message, name <DescribeSnapshotsMessage>

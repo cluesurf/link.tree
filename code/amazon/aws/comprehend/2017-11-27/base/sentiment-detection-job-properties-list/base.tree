@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/sentiment-detection-job-properties
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/sentiment-detection-job-properties
   take form sentiment-detection-job-properties
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form sentiment-detection-job-properties-list, name <SentimentDetectionJobPropertiesList>

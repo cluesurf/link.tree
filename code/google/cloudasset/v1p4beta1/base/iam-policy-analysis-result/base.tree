@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/cloudasset/v1p4beta1/base/binding
+load @cluesurf/snow/googleapis.com/cloudasset/v1p4beta1/base/binding
   take form binding
 
-load @termsurf/snow/googleapis.com/cloudasset/v1p4beta1/base/google-cloud-asset-v1p4beta1-identity-list
+load @cluesurf/snow/googleapis.com/cloudasset/v1p4beta1/base/google-cloud-asset-v1p4beta1-identity-list
   take form google-cloud-asset-v1p4beta1-identity-list
 
 form iam-policy-analysis-result, name <IamPolicyAnalysisResult>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/outposts/2019-12-03/base/line-item-request
+load @cluesurf/snow/amazonaws.com/outposts/2019-12-03/base/line-item-request
   take form line-item-request
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form line-item-request-list-definition, name <LineItemRequestListDefinition>

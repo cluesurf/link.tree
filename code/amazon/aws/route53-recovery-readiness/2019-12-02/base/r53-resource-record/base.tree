@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form r53-resource-record, name <R53ResourceRecord>

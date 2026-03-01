@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/fis/2020-12-01/base/creation-time
+load @cluesurf/snow/amazonaws.com/fis/2020-12-01/base/creation-time
   take form creation-time
 
-load @termsurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-id
+load @cluesurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-id
   take form experiment-id
 
-load @termsurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-state
+load @cluesurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-state
   take form experiment-state
 
-load @termsurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-template-id
+load @cluesurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-template-id
   take form experiment-template-id
 
-load @termsurf/snow/amazonaws.com/fis/2020-12-01/base/tag-map
+load @cluesurf/snow/amazonaws.com/fis/2020-12-01/base/tag-map
   take form tag-map
 
 form experiment-summary, name <ExperimentSummary>

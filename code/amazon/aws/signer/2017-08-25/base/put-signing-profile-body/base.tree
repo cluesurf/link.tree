@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/certificate-arn
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/certificate-arn
   take form certificate-arn
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/image-format
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/image-format
   take form image-format
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/signing-configuration-overrides
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/signing-configuration-overrides
   take form signing-configuration-overrides
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/validity-type
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/validity-type
   take form validity-type
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form put-signing-profile-body

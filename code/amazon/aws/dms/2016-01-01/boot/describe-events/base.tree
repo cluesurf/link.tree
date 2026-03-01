@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/describe-events-response
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/describe-events-response
   take form describe-events-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-events, name <DescribeEvents>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/binaryauthorization/v1beta1/base/attestation-occurrence
+load @cluesurf/snow/googleapis.com/binaryauthorization/v1beta1/base/attestation-occurrence
   take form attestation-occurrence
 
 form validate-attestation-occurrence-request, name <ValidateAttestationOccurrenceRequest>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/arn
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/description
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/environment-account-connection-id
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/environment-account-connection-id
   take form environment-account-connection-id
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/resource-name
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/spec-contents
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/spec-contents
   take form spec-contents
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/tag-list
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/template-version-part
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/template-version-part
   take form template-version-part
 
 form create-environment-input, name <CreateEnvironmentInput>

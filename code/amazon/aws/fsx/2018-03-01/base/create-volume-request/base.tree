@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/client-request-token
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/client-request-token
   take form client-request-token
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/create-ontap-volume-configuration
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/create-ontap-volume-configuration
   take form create-ontap-volume-configuration
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/tags
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/tags
   take form tags
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-name
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-name
   take form volume-name
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-type
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-type
   take form volume-type
 
 form create-volume-request, name <CreateVolumeRequest>

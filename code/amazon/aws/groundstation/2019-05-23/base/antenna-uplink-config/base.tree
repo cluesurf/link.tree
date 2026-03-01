@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/groundstation/2019-05-23/base/eirp
+load @cluesurf/snow/amazonaws.com/groundstation/2019-05-23/base/eirp
   take form eirp
 
-load @termsurf/snow/amazonaws.com/groundstation/2019-05-23/base/uplink-spectrum-config
+load @cluesurf/snow/amazonaws.com/groundstation/2019-05-23/base/uplink-spectrum-config
   take form uplink-spectrum-config
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form antenna-uplink-config, name <AntennaUplinkConfig>

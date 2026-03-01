@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/groupssettings/v1/base/groups
+load @cluesurf/snow/googleapis.com/groupssettings/v1/base/groups
   take form groups
 
 boot groups-settings-groups-update, name <groupsSettings.groups.update>

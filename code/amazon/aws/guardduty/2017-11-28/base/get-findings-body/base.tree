@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/order-by
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/order-by
   take form order-by
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-findings-body

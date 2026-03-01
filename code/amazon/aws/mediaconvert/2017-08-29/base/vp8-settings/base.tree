@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/double-min0
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/double-min0
   take form double-min0
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min0-max47185920
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min0-max47185920
   take form integer-min0-max47185920
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min1-max2147483647
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min1-max2147483647
   take form integer-min1-max2147483647
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min1000-max1152000000
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/integer-min1000-max1152000000
   take form integer-min1000-max1152000000
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/vp8-framerate-control
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/vp8-framerate-control
   take form vp8-framerate-control
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/vp8-framerate-conversion-algorithm
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/vp8-framerate-conversion-algorithm
   take form vp8-framerate-conversion-algorithm
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/vp8-par-control
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/vp8-par-control
   take form vp8-par-control
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/vp8-quality-tuning-level
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/vp8-quality-tuning-level
   take form vp8-quality-tuning-level
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/vp8-rate-control-mode
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/vp8-rate-control-mode
   take form vp8-rate-control-mode
 
 form vp8-settings, name <Vp8Settings>

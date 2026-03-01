@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/after-time
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/after-time
   take form after-time
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/before-time
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/before-time
   take form before-time
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/case-id-list
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/case-id-list
   take form case-id-list
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/display-id
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/display-id
   take form display-id
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/include-communications
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/include-communications
   take form include-communications
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/include-resolved-cases
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/include-resolved-cases
   take form include-resolved-cases
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/language
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/language
   take form language
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/max-results
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/max-results
   take form max-results
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/next-token
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/next-token
   take form next-token
 
 form describe-cases-request, name <DescribeCasesRequest>

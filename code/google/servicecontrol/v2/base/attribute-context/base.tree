@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/servicecontrol/v2/base/api
+load @cluesurf/snow/googleapis.com/servicecontrol/v2/base/api
   take form api
 
-load @termsurf/snow/googleapis.com/servicecontrol/v2/base/peer
+load @cluesurf/snow/googleapis.com/servicecontrol/v2/base/peer
   take form peer
 
-load @termsurf/snow/googleapis.com/servicecontrol/v2/base/request
+load @cluesurf/snow/googleapis.com/servicecontrol/v2/base/request
   take form request
 
-load @termsurf/snow/googleapis.com/servicecontrol/v2/base/resource
+load @cluesurf/snow/googleapis.com/servicecontrol/v2/base/resource
   take form resource
 
-load @termsurf/snow/googleapis.com/servicecontrol/v2/base/response
+load @cluesurf/snow/googleapis.com/servicecontrol/v2/base/response
   take form response
 
 form attribute-context, name <AttributeContext>

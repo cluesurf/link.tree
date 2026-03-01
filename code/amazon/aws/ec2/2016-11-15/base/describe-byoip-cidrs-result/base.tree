@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/byoip-cidr-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/byoip-cidr-set
   take form byoip-cidr-set
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-byoip-cidrs-result, name <DescribeByoipCidrsResult>

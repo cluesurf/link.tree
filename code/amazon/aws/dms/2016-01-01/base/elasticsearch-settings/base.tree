@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/integer-optional
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form elasticsearch-settings, name <ElasticsearchSettings>

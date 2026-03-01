@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/content/v2.1/base/list-repricing-rule-reports-response
+load @cluesurf/snow/googleapis.com/content/v2.1/base/list-repricing-rule-reports-response
   take form list-repricing-rule-reports-response
 
 boot content-repricingrules-repricingreports-list, name <content.repricingrules.repricingreports.list>

@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/capacity-provider-strategy
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/capacity-provider-strategy
   take form capacity-provider-strategy
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/launch-type
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/launch-type
   take form launch-type
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/load-balancers
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/load-balancers
   take form load-balancers
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/network-configuration
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/network-configuration
   take form network-configuration
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/scale
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/scale
   take form scale
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/service-registries
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/service-registries
   take form service-registries
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/tags
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/tags
   take form tags
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-task-set-request, name <CreateTaskSetRequest>

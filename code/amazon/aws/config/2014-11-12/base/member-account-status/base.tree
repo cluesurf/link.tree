@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/account-id
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/date
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/member-account-rule-status
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/member-account-rule-status
   take form member-account-rule-status
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/string-with-char-limit64
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/string-with-char-limit64
   take form string-with-char-limit64
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form member-account-status, name <MemberAccountStatus>

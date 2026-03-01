@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/arn
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/auto-ml-override-strategy
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/auto-ml-override-strategy
   take form auto-ml-override-strategy
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/encryption-config
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/encryption-config
   take form encryption-config
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/evaluation-parameters
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/evaluation-parameters
   take form evaluation-parameters
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/featurization-config
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/featurization-config
   take form featurization-config
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/forecast-types
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/forecast-types
   take form forecast-types
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/hyper-parameter-tuning-job-config
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/hyper-parameter-tuning-job-config
   take form hyper-parameter-tuning-job-config
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/input-data-config
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/input-data-config
   take form input-data-config
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/name
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/optimization-metric
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/optimization-metric
   take form optimization-metric
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/tags
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/tags
   take form tags
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/training-parameters
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/training-parameters
   take form training-parameters
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form create-predictor-request, name <CreatePredictorRequest>

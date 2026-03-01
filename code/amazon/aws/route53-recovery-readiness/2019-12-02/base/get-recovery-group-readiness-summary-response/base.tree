@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/list-of-readiness-check-summary
+load @cluesurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/list-of-readiness-check-summary
   take form list-of-readiness-check-summary
 
-load @termsurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/readiness
+load @cluesurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/readiness
   take form readiness
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-recovery-group-readiness-summary-response, name <GetRecoveryGroupReadinessSummaryResponse>

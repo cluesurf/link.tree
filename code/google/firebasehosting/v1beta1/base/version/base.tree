@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/firebasehosting/v1beta1/base/acting-user
+load @cluesurf/snow/googleapis.com/firebasehosting/v1beta1/base/acting-user
   take form acting-user
 
-load @termsurf/snow/googleapis.com/firebasehosting/v1beta1/base/serving-config
+load @cluesurf/snow/googleapis.com/firebasehosting/v1beta1/base/serving-config
   take form serving-config
 
 form version, name <Version>

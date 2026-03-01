@@ -1,8 +1,8 @@
 
-load @termsurf/land/code/javascript/base/native-number
+load @cluesurf/land/code/javascript/base/native-number
   take form native-number
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-literal
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-literal
   take form lat-lng-literal
 
 form lat-lng-altitude-literal, name <google.maps.LatLngAltitudeLiteral>

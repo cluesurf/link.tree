@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/prefix
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/prefix
   take form prefix
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/tag-set
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/tag-set
   take form tag-set
 
 form replication-rule-and-operator, name <ReplicationRuleAndOperator>

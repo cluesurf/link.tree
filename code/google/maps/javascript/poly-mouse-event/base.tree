@@ -1,8 +1,8 @@
 
-load @termsurf/land/code/javascript/base/native-number
+load @cluesurf/land/code/javascript/base/native-number
   take form native-number
 
-load @termsurf/snow/code/javascript/google/maps/map-mouse-event
+load @cluesurf/snow/code/javascript/google/maps/map-mouse-event
   take form map-mouse-event
 
 form poly-mouse-event, name <google.maps.PolyMouseEvent>

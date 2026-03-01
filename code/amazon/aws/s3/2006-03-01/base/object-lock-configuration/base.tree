@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/object-lock-enabled
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/object-lock-enabled
   take form object-lock-enabled
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/object-lock-rule
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/object-lock-rule
   take form object-lock-rule
 
 form object-lock-configuration, name <ObjectLockConfiguration>

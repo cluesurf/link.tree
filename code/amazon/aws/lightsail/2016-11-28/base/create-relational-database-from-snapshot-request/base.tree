@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/iso-date
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/iso-date
   take form iso-date
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/tag-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-relational-database-from-snapshot-request, name <CreateRelationalDatabaseFromSnapshotRequest>

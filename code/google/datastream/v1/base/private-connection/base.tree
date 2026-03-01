@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/datastream/v1/base/error
+load @cluesurf/snow/googleapis.com/datastream/v1/base/error
   take form error
 
-load @termsurf/snow/googleapis.com/datastream/v1/base/vpc-peering-config
+load @cluesurf/snow/googleapis.com/datastream/v1/base/vpc-peering-config
   take form vpc-peering-config
 
 form private-connection, name <PrivateConnection>

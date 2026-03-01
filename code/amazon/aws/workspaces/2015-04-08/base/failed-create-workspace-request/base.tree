@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/description
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/error-type
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/error-type
   take form error-type
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/workspace-request
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/workspace-request
   take form workspace-request
 
 form failed-create-workspace-request, name <FailedCreateWorkspaceRequest>

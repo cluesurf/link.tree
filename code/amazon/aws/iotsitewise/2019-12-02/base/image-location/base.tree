@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/id
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/url
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/url
   take form url
 
 form image-location, name <ImageLocation>

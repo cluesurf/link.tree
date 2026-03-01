@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/last-audit-timestamp
+load @cluesurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/last-audit-timestamp
   take form last-audit-timestamp
 
-load @termsurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/list-of-recommendation
+load @cluesurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/list-of-recommendation
   take form list-of-recommendation
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-architecture-recommendations-response, name <GetArchitectureRecommendationsResponse>

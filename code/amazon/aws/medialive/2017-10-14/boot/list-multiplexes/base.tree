@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/bad-gateway-exception
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/bad-gateway-exception
   take form bad-gateway-exception
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/forbidden-exception
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/forbidden-exception
   take form forbidden-exception
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/gateway-timeout-exception
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/gateway-timeout-exception
   take form gateway-timeout-exception
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/internal-server-error-exception
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/internal-server-error-exception
   take form internal-server-error-exception
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/list-multiplexes-response
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/list-multiplexes-response
   take form list-multiplexes-response
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/too-many-requests-exception
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/too-many-requests-exception
   take form too-many-requests-exception
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-multiplexes, name <ListMultiplexes>

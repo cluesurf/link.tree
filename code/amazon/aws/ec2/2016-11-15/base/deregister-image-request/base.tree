@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/image-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/image-id
   take form image-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form deregister-image-request, name <DeregisterImageRequest>

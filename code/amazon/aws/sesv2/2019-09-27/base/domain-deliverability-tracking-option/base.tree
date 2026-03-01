@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/domain
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/domain
   take form domain
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/inbox-placement-tracking-option
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/inbox-placement-tracking-option
   take form inbox-placement-tracking-option
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/timestamp
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/timestamp
   take form timestamp
 
 form domain-deliverability-tracking-option, name <DomainDeliverabilityTrackingOption>

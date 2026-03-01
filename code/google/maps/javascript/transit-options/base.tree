@@ -1,22 +1,22 @@
 
-load @termsurf/land/code/javascript/base/date
+load @cluesurf/land/code/javascript/base/date
   take form date
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/seed/code/form/list
+load @cluesurf/seed/code/form/list
   take form list
     save form list-link-text
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/transit-mode
+load @cluesurf/snow/code/javascript/google/maps/transit-mode
   take form transit-mode
 
-load @termsurf/snow/code/javascript/google/maps/transit-route-preference
+load @cluesurf/snow/code/javascript/google/maps/transit-route-preference
   take form transit-route-preference
 
 form transit-options, name <google.maps.TransitOptions>

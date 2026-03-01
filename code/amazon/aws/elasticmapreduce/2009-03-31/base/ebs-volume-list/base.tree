@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/ebs-volume
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/ebs-volume
   take form ebs-volume
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form ebs-volume-list, name <EbsVolumeList>

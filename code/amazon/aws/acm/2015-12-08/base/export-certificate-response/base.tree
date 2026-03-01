@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/acm/2015-12-08/base/certificate-body
+load @cluesurf/snow/amazonaws.com/acm/2015-12-08/base/certificate-body
   take form certificate-body
 
-load @termsurf/snow/amazonaws.com/acm/2015-12-08/base/certificate-chain
+load @cluesurf/snow/amazonaws.com/acm/2015-12-08/base/certificate-chain
   take form certificate-chain
 
-load @termsurf/snow/amazonaws.com/acm/2015-12-08/base/private-key
+load @cluesurf/snow/amazonaws.com/acm/2015-12-08/base/private-key
   take form private-key
 
 form export-certificate-response, name <ExportCertificateResponse>

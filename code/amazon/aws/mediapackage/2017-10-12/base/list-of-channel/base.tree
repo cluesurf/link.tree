@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/channel
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/channel
   take form channel
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-channel, name <__listOfChannel>

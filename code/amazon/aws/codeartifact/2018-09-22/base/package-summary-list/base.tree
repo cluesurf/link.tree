@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/package-summary
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/package-summary
   take form package-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form package-summary-list, name <PackageSummaryList>

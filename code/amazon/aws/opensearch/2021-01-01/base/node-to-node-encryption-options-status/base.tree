@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/node-to-node-encryption-options
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/node-to-node-encryption-options
   take form node-to-node-encryption-options
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/option-status
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/option-status
   take form option-status
 
 form node-to-node-encryption-options-status, name <NodeToNodeEncryptionOptionsStatus>

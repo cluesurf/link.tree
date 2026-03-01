@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/amplifybackend/2020-08-11/base/backend-api-auth-type
+load @cluesurf/snow/amazonaws.com/amplifybackend/2020-08-11/base/backend-api-auth-type
   take form backend-api-auth-type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-backend-api-auth-type, name <ListOfBackendAPIAuthType>

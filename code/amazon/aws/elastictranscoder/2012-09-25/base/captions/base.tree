@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/caption-formats
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/caption-formats
   take form caption-formats
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/caption-merge-policy
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/caption-merge-policy
   take form caption-merge-policy
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/caption-sources
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/caption-sources
   take form caption-sources
 
 form captions, name <Captions>

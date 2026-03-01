@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/delete-core-definition-response
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/delete-core-definition-response
   take form delete-core-definition-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-core-definition, name <DeleteCoreDefinition>

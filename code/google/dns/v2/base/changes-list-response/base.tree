@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/dns/v2/base/response-header
+load @cluesurf/snow/googleapis.com/dns/v2/base/response-header
   take form response-header
 
 form changes-list-response, name <ChangesListResponse>

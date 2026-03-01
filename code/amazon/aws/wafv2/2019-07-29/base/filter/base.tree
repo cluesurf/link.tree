@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/wafv2/2019-07-29/base/conditions
+load @cluesurf/snow/amazonaws.com/wafv2/2019-07-29/base/conditions
   take form conditions
 
-load @termsurf/snow/amazonaws.com/wafv2/2019-07-29/base/filter-behavior
+load @cluesurf/snow/amazonaws.com/wafv2/2019-07-29/base/filter-behavior
   take form filter-behavior
 
-load @termsurf/snow/amazonaws.com/wafv2/2019-07-29/base/filter-requirement
+load @cluesurf/snow/amazonaws.com/wafv2/2019-07-29/base/filter-requirement
   take form filter-requirement
 
 form filter, name <Filter>

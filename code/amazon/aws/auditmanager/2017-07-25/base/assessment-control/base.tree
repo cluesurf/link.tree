@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-comments
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-comments
   take form control-comments
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-description
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-description
   take form control-description
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-name
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-name
   take form control-name
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-response
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-response
   take form control-response
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-status
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-status
   take form control-status
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/evidence-sources
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/evidence-sources
   take form evidence-sources
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/uuid
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/uuid
   take form uuid
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form assessment-control, name <AssessmentControl>

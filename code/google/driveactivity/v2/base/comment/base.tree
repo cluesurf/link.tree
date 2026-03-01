@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/assignment
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/assignment
   take form assignment
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/post
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/post
   take form post
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/suggestion
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/suggestion
   take form suggestion
 
 form comment, name <Comment>

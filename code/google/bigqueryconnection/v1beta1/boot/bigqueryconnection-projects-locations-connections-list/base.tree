@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/bigqueryconnection/v1beta1/base/list-connections-response
+load @cluesurf/snow/googleapis.com/bigqueryconnection/v1beta1/base/list-connections-response
   take form list-connections-response
 
 boot bigqueryconnection-projects-locations-connections-list, name <bigqueryconnection.projects.locations.connections.list>

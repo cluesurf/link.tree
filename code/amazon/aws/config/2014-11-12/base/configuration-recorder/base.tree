@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/recorder-name
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/recorder-name
   take form recorder-name
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/recording-group
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/recording-group
   take form recording-group
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form configuration-recorder, name <ConfigurationRecorder>

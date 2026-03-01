@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/destination
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/destination
   take form destination
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/port
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/port
   take form port
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/source
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/source
   take form source
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/stateful-rule-direction
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/stateful-rule-direction
   take form stateful-rule-direction
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/stateful-rule-protocol
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/stateful-rule-protocol
   take form stateful-rule-protocol
 
 form header, name <Header>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/installation-media
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/installation-media
   take form installation-media
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/installation-media-not-found-fault
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/installation-media-not-found-fault
   take form installation-media-not-found-fault
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-delete-installation-media, name <GET_DeleteInstallationMedia>

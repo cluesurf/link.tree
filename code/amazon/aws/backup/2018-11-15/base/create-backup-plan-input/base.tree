@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/backup-plan-input
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/backup-plan-input
   take form backup-plan-input
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/tags
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/tags
   take form tags
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-backup-plan-input, name <CreateBackupPlanInput>

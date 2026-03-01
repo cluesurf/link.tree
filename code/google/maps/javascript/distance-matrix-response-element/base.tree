@@ -1,14 +1,14 @@
 
-load @termsurf/snow/code/javascript/google/maps/distance
+load @cluesurf/snow/code/javascript/google/maps/distance
   take form distance
 
-load @termsurf/snow/code/javascript/google/maps/distance-matrix-element-status
+load @cluesurf/snow/code/javascript/google/maps/distance-matrix-element-status
   take form distance-matrix-element-status
 
-load @termsurf/snow/code/javascript/google/maps/duration
+load @cluesurf/snow/code/javascript/google/maps/duration
   take form duration
 
-load @termsurf/snow/code/javascript/google/maps/transit-fare
+load @cluesurf/snow/code/javascript/google/maps/transit-fare
   take form transit-fare
 
 form distance-matrix-response-element, name <google.maps.DistanceMatrixResponseElement>

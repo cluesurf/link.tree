@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/gkehub/v1alpha/base/test-iam-permissions-response
+load @cluesurf/snow/googleapis.com/gkehub/v1alpha/base/test-iam-permissions-response
   take form test-iam-permissions-response
 
 boot gkehub-projects-locations-memberships-test-iam-permissions, name <gkehub.projects.locations.memberships.testIamPermissions>

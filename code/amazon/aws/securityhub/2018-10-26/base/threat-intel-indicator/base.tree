@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/threat-intel-indicator-category
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/threat-intel-indicator-category
   take form threat-intel-indicator-category
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/threat-intel-indicator-type
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/threat-intel-indicator-type
   take form threat-intel-indicator-type
 
 form threat-intel-indicator, name <ThreatIntelIndicator>

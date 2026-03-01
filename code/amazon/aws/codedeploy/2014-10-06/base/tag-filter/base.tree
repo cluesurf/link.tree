@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/key
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/key
   take form key
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/tag-filter-type
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/tag-filter-type
   take form tag-filter-type
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/value
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/value
   take form value
 
 form tag-filter, name <TagFilter>

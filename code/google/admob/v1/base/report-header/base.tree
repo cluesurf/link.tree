@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/admob/v1/base/date-range
+load @cluesurf/snow/googleapis.com/admob/v1/base/date-range
   take form date-range
 
-load @termsurf/snow/googleapis.com/admob/v1/base/localization-settings
+load @cluesurf/snow/googleapis.com/admob/v1/base/localization-settings
   take form localization-settings
 
 form report-header, name <ReportHeader>

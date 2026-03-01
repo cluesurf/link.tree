@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/internal-service-error-exception
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/internal-service-error-exception
   take form internal-service-error-exception
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/list-signing-jobs-response
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/list-signing-jobs-response
   take form list-signing-jobs-response
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/too-many-requests-exception
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/too-many-requests-exception
   take form too-many-requests-exception
 
-load @termsurf/snow/amazonaws.com/signer/2017-08-25/base/validation-exception
+load @cluesurf/snow/amazonaws.com/signer/2017-08-25/base/validation-exception
   take form validation-exception
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-signing-jobs, name <ListSigningJobs>

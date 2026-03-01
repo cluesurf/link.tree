@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/account-aggregation-source
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/account-aggregation-source
   take form account-aggregation-source
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form account-aggregation-source-list, name <AccountAggregationSourceList>

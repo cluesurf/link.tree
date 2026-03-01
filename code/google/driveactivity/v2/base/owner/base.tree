@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/domain
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/domain
   take form domain
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/drive-reference
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/drive-reference
   take form drive-reference
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/team-drive-reference
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/team-drive-reference
   take form team-drive-reference
 
-load @termsurf/snow/googleapis.com/driveactivity/v2/base/user
+load @cluesurf/snow/googleapis.com/driveactivity/v2/base/user
   take form user
 
 form owner, name <Owner>

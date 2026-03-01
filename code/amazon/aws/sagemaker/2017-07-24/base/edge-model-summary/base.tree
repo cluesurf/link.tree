@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-version
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-version
   take form edge-version
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
   take form entity-name
 
 form edge-model-summary, name <EdgeModelSummary>

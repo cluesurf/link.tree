@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form reject-data-share-message, name <RejectDataShareMessage>

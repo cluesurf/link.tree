@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/insight-event
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/insight-event
   take form insight-event
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form insight-event-list, name <InsightEventList>

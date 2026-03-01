@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/comparison-operator
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/comparison-operator
   take form comparison-operator
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/field-to-match
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/field-to-match
   take form field-to-match
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/size
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/size
   take form size
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/text-transformation
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/text-transformation
   take form text-transformation
 
 form size-constraint, name <SizeConstraint>

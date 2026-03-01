@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/model-arn
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/model-arn
   take form model-arn
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/model-status
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/model-status
   take form model-status
 
 form create-model-response, name <CreateModelResponse>

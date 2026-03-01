@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/twilio.com/api/1.27.2/base/api-v2010-account-call-siprec
+load @cluesurf/snow/twilio.com/api/1.27.2/base/api-v2010-account-call-siprec
   take form api-v2010-account-call-siprec
 
-load @termsurf/snow/twilio.com/api/1.27.2/base/update-siprec-body
+load @cluesurf/snow/twilio.com/api/1.27.2/base/update-siprec-body
   take form update-siprec-body
 
 boot update-siprec, name <UpdateSiprec>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
 form block-size-bytes, name <BlockSizeBytes>

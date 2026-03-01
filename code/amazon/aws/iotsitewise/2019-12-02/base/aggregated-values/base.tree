@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/aggregated-value
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/aggregated-value
   take form aggregated-value
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form aggregated-values, name <AggregatedValues>

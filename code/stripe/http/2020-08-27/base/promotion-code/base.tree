@@ -1,8 +1,8 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/coupon
+load @cluesurf/snow/stripe.com/2020-08-27/base/coupon
   take form coupon
 
-load @termsurf/snow/stripe.com/2020-08-27/base/promotion-codes-resource-restrictions
+load @cluesurf/snow/stripe.com/2020-08-27/base/promotion-codes-resource-restrictions
   take form promotion-codes-resource-restrictions
 
 form promotion-code, name <promotion_code>

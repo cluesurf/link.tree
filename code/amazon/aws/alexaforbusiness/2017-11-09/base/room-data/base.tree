@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/arn
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/profile-name
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/profile-name
   take form profile-name
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/provider-calendar-id
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/provider-calendar-id
   take form provider-calendar-id
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/room-description
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/room-description
   take form room-description
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/room-name
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/room-name
   take form room-name
 
 form room-data, name <RoomData>

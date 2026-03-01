@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/eula
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/eula
   take form eula
 
 form get-eula-response, name <GetEulaResponse>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/speech/v1p1beta1/base/transcript-output-config
+load @cluesurf/snow/googleapis.com/speech/v1p1beta1/base/transcript-output-config
   take form transcript-output-config
 
 form long-running-recognize-metadata, name <LongRunningRecognizeMetadata>

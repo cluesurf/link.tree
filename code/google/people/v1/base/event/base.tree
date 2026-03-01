@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/people/v1/base/date
+load @cluesurf/snow/googleapis.com/people/v1/base/date
   take form date
 
-load @termsurf/snow/googleapis.com/people/v1/base/field-metadata
+load @cluesurf/snow/googleapis.com/people/v1/base/field-metadata
   take form field-metadata
 
 form event, name <Event>

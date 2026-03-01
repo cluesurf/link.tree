@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudbilling/v1/base/test-iam-permissions-response
+load @cluesurf/snow/googleapis.com/cloudbilling/v1/base/test-iam-permissions-response
   take form test-iam-permissions-response
 
 boot cloudbilling-billing-accounts-test-iam-permissions, name <cloudbilling.billingAccounts.testIamPermissions>

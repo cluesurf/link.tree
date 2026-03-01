@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/next-token
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/typed-link-name-list
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/typed-link-name-list
   take form typed-link-name-list
 
 form list-typed-link-facet-names-response, name <ListTypedLinkFacetNamesResponse>

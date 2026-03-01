@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/battery-level
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/battery-level
   take form battery-level
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/device-state
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/device-state
   take form device-state
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/event
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/event
   take form event
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form sidewalk-device-metadata, name <SidewalkDeviceMetadata>

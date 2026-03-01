@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/sequence-number
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/sequence-number
   take form sequence-number
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/shard-id
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/shard-id
   take form shard-id
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/shard-iterator-type
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/shard-iterator-type
   take form shard-iterator-type
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-name
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-name
   take form stream-name
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/timestamp
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/timestamp
   take form timestamp
 
 form get-shard-iterator-input, name <GetShardIteratorInput>

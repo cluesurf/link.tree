@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/delete-plans-plan-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/delete-plans-plan-body
   take form delete-plans-plan-body
 
-load @termsurf/snow/stripe.com/2020-08-27/base/deleted-plan
+load @cluesurf/snow/stripe.com/2020-08-27/base/deleted-plan
   take form deleted-plan
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
 boot delete-plans-plan, name <DeletePlansPlan>

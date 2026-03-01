@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ram/2018-01-04/base/date-time
+load @cluesurf/snow/amazonaws.com/ram/2018-01-04/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ram/2018-01-04/base/resource-status
+load @cluesurf/snow/amazonaws.com/ram/2018-01-04/base/resource-status
   take form resource-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form resource, name <Resource>

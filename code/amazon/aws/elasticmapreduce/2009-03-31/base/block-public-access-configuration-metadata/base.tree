@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/arn-type
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/arn-type
   take form arn-type
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/date
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/date
   take form date
 
 form block-public-access-configuration-metadata, name <BlockPublicAccessConfigurationMetadata>

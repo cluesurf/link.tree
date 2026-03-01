@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/architecture
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/architecture
   take form architecture
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/id
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/name
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/tag-map
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/tag-map
   take form tag-map
 
 form create-robot-request, name <CreateRobotRequest>

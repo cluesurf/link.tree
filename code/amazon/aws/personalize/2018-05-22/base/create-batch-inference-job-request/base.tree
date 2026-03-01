@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/arn
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/batch-inference-job-config
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/batch-inference-job-config
   take form batch-inference-job-config
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/batch-inference-job-input
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/batch-inference-job-input
   take form batch-inference-job-input
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/batch-inference-job-output
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/batch-inference-job-output
   take form batch-inference-job-output
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/name
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/num-batch-results
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/num-batch-results
   take form num-batch-results
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/role-arn
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/role-arn
   take form role-arn
 
 form create-batch-inference-job-request, name <CreateBatchInferenceJobRequest>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/attributes
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/attributes
   take form attributes
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/discover-max-results
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/discover-max-results
   take form discover-max-results
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/health-status-filter
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/health-status-filter
   take form health-status-filter
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/namespace-name
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/namespace-name
   take form namespace-name
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/service-name
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/service-name
   take form service-name
 
 form discover-instances-request, name <DiscoverInstancesRequest>

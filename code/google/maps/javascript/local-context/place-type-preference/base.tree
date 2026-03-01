@@ -1,11 +1,11 @@
 
-load @termsurf/land/code/javascript/base/native-number
+load @cluesurf/land/code/javascript/base/native-number
   take form native-number
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/seed/code/form/form
+load @cluesurf/seed/code/form/form
   take form form
     save form form-link-text
 

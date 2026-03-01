@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1beta1/base/fingerprint
+load @cluesurf/snow/googleapis.com/containeranalysis/v1beta1/base/fingerprint
   take form fingerprint
 
 form basis, name <Basis>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/announcement
+load @cluesurf/snow/googleapis.com/classroom/v1/base/announcement
   take form announcement
 
 boot classroom-courses-announcements-get, name <classroom.courses.announcements.get>

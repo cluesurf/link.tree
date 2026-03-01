@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/router-status
+load @cluesurf/snow/googleapis.com/compute/alpha/base/router-status
   take form router-status
 
 form router-status-response, name <RouterStatusResponse>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/twilio.com/api/1.27.2/base/api-v2010-account-message-message-feedback
+load @cluesurf/snow/twilio.com/api/1.27.2/base/api-v2010-account-message-message-feedback
   take form api-v2010-account-message-message-feedback
 
-load @termsurf/snow/twilio.com/api/1.27.2/base/create-message-feedback-body
+load @cluesurf/snow/twilio.com/api/1.27.2/base/create-message-feedback-body
   take form create-message-feedback-body
 
 boot create-message-feedback, name <CreateMessageFeedback>

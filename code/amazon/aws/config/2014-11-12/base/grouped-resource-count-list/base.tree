@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/grouped-resource-count
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/grouped-resource-count
   take form grouped-resource-count
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form grouped-resource-count-list, name <GroupedResourceCountList>

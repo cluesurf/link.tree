@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/instance-arn
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/instance-arn
   take form instance-arn
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/metric-statistic
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/metric-statistic
   take form metric-statistic
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/period
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/period
   take form period
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/recommendation-preferences
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/recommendation-preferences
   take form recommendation-preferences
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/timestamp
   take form timestamp
 
 form get-ec2-recommendation-projected-metrics-request, name <GetEC2RecommendationProjectedMetricsRequest>

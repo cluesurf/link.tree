@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/user-stack-association
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/user-stack-association
   take form user-stack-association
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/user-stack-association-error-code
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/user-stack-association-error-code
   take form user-stack-association-error-code
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form user-stack-association-error, name <UserStackAssociationError>

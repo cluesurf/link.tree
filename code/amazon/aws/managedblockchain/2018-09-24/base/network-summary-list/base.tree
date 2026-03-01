@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/network-summary
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/network-summary
   take form network-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form network-summary-list, name <NetworkSummaryList>

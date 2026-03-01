@@ -1,11 +1,11 @@
 
-load @termsurf/land/code/javascript/base/native-any
+load @cluesurf/land/code/javascript/base/native-any
   take form native-any
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/land/code/javascript/base/native-void
+load @cluesurf/land/code/javascript/base/native-void
   take form native-void
 
 form map-type-registry, name <google.maps.MapTypeRegistry>

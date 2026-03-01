@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/blueprint-parameters
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/blueprint-parameters
   take form blueprint-parameters
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/blueprint-run-state
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/blueprint-run-state
   take form blueprint-run-state
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/id-string
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/id-string
   take form id-string
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/message-string
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/message-string
   take form message-string
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/name-string
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/name-string
   take form name-string
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/orchestration-iam-role-arn
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/orchestration-iam-role-arn
   take form orchestration-iam-role-arn
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/orchestration-name-string
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/orchestration-name-string
   take form orchestration-name-string
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/timestamp-value
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/timestamp-value
   take form timestamp-value
 
 form blueprint-run, name <BlueprintRun>

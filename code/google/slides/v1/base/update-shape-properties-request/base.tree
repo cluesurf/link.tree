@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/shape-properties
+load @cluesurf/snow/googleapis.com/slides/v1/base/shape-properties
   take form shape-properties
 
 form update-shape-properties-request, name <UpdateShapePropertiesRequest>

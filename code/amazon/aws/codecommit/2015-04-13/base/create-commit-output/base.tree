@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/files-metadata
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/files-metadata
   take form files-metadata
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/object-id
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/object-id
   take form object-id
 
 form create-commit-output, name <CreateCommitOutput>

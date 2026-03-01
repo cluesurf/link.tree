@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/internet-gateway-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/internet-gateway-list
   take form internet-gateway-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-internet-gateways-result, name <DescribeInternetGatewaysResult>

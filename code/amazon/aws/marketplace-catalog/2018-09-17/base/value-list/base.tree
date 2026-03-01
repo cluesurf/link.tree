@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/marketplace-catalog/2018-09-17/base/filter-value-content
+load @cluesurf/snow/amazonaws.com/marketplace-catalog/2018-09-17/base/filter-value-content
   take form filter-value-content
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form value-list, name <ValueList>

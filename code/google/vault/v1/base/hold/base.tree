@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/vault/v1/base/corpus-query
+load @cluesurf/snow/googleapis.com/vault/v1/base/corpus-query
   take form corpus-query
 
-load @termsurf/snow/googleapis.com/vault/v1/base/held-org-unit
+load @cluesurf/snow/googleapis.com/vault/v1/base/held-org-unit
   take form held-org-unit
 
 form hold, name <Hold>

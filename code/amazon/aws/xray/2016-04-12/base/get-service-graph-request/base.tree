@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/group-arn
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/group-arn
   take form group-arn
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/group-name
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/group-name
   take form group-name
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-service-graph-request, name <GetServiceGraphRequest>

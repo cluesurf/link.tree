@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/dataproc/v1/base/workflow-template-placement
+load @cluesurf/snow/googleapis.com/dataproc/v1/base/workflow-template-placement
   take form workflow-template-placement
 
 form workflow-template, name <WorkflowTemplate>

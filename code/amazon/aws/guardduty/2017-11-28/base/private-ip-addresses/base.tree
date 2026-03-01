@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/private-ip-address-details
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/private-ip-address-details
   take form private-ip-address-details
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form private-ip-addresses, name <PrivateIpAddresses>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/eula
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/eula
   take form eula
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form eula-list, name <EulaList>

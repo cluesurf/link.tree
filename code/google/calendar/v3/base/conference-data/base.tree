@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/calendar/v3/base/conference-parameters
+load @cluesurf/snow/googleapis.com/calendar/v3/base/conference-parameters
   take form conference-parameters
 
-load @termsurf/snow/googleapis.com/calendar/v3/base/conference-solution
+load @cluesurf/snow/googleapis.com/calendar/v3/base/conference-solution
   take form conference-solution
 
-load @termsurf/snow/googleapis.com/calendar/v3/base/create-conference-request
+load @cluesurf/snow/googleapis.com/calendar/v3/base/create-conference-request
   take form create-conference-request
 
 form conference-data, name <ConferenceData>

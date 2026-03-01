@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/honeycode/2020-03-01/base/delimited-text-import-options
+load @cluesurf/snow/amazonaws.com/honeycode/2020-03-01/base/delimited-text-import-options
   take form delimited-text-import-options
 
-load @termsurf/snow/amazonaws.com/honeycode/2020-03-01/base/destination-options
+load @cluesurf/snow/amazonaws.com/honeycode/2020-03-01/base/destination-options
   take form destination-options
 
 form import-options, name <ImportOptions>

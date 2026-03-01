@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-09-01/base/apply-method
+load @cluesurf/snow/amazonaws.com/rds/2014-09-01/base/apply-method
   take form apply-method
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form parameter, name <Parameter>

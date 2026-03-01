@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/pubsublite/v1/base/cursor
+load @cluesurf/snow/googleapis.com/pubsublite/v1/base/cursor
   take form cursor
 
 form commit-cursor-request, name <CommitCursorRequest>

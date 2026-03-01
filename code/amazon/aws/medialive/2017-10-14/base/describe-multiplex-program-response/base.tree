@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/list-of-multiplex-program-pipeline-detail
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/list-of-multiplex-program-pipeline-detail
   take form list-of-multiplex-program-pipeline-detail
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/multiplex-program-packet-identifiers-map
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/multiplex-program-packet-identifiers-map
   take form multiplex-program-packet-identifiers-map
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/multiplex-program-settings
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/multiplex-program-settings
   take form multiplex-program-settings
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-multiplex-program-response, name <DescribeMultiplexProgramResponse>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/known-gender-type
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/known-gender-type
   take form known-gender-type
 
 form known-gender, name <KnownGender>

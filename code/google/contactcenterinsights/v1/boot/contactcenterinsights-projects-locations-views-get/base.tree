@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-view
+load @cluesurf/snow/googleapis.com/contactcenterinsights/v1/base/google-cloud-contactcenterinsights-v1-view
   take form google-cloud-contactcenterinsights-v1-view
 
 boot contactcenterinsights-projects-locations-views-get, name <contactcenterinsights.projects.locations.views.get>

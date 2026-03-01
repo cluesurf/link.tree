@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/route-filter-prefix
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/route-filter-prefix
   take form route-filter-prefix
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form route-filter-prefix-list, name <RouteFilterPrefixList>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dialogflow/v2/base/google-cloud-dialogflow-v2-environment-history
+load @cluesurf/snow/googleapis.com/dialogflow/v2/base/google-cloud-dialogflow-v2-environment-history
   take form google-cloud-dialogflow-v2-environment-history
 
 boot dialogflow-projects-locations-agent-environments-get-history, name <dialogflow.projects.locations.agent.environments.getHistory>

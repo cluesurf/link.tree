@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/list-of-endpoint
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/list-of-endpoint
   take form list-of-endpoint
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-endpoints-response, name <DescribeEndpointsResponse>

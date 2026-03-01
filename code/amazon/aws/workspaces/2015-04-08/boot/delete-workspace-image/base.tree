@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/delete-workspace-image-result
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/delete-workspace-image-result
   take form delete-workspace-image-result
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/invalid-resource-state-exception
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/invalid-resource-state-exception
   take form invalid-resource-state-exception
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/resource-associated-exception
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/resource-associated-exception
   take form resource-associated-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-workspace-image, name <DeleteWorkspaceImage>

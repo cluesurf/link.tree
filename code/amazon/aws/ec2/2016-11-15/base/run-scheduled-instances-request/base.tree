@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/scheduled-instance-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/scheduled-instance-id
   take form scheduled-instance-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/scheduled-instances-launch-specification
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/scheduled-instances-launch-specification
   take form scheduled-instances-launch-specification
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form run-scheduled-instances-request, name <RunScheduledInstancesRequest>

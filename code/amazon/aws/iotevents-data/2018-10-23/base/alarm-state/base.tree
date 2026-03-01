@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/alarm-state-name
+load @cluesurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/alarm-state-name
   take form alarm-state-name
 
-load @termsurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/customer-action
+load @cluesurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/customer-action
   take form customer-action
 
-load @termsurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/rule-evaluation
+load @cluesurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/rule-evaluation
   take form rule-evaluation
 
-load @termsurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/system-event
+load @cluesurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/system-event
   take form system-event
 
 form alarm-state, name <AlarmState>

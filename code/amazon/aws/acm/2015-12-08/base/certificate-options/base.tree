@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/acm/2015-12-08/base/certificate-transparency-logging-preference
+load @cluesurf/snow/amazonaws.com/acm/2015-12-08/base/certificate-transparency-logging-preference
   take form certificate-transparency-logging-preference
 
 form certificate-options, name <CertificateOptions>

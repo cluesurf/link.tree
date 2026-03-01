@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/datastore/v1/base/allocate-ids-response
+load @cluesurf/snow/googleapis.com/datastore/v1/base/allocate-ids-response
   take form allocate-ids-response
 
 boot datastore-projects-allocate-ids, name <datastore.projects.allocateIds>

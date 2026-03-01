@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/healthcare/v1/base/schema-group
+load @cluesurf/snow/googleapis.com/healthcare/v1/base/schema-group
   take form schema-group
 
-load @termsurf/snow/googleapis.com/healthcare/v1/base/schema-segment
+load @cluesurf/snow/googleapis.com/healthcare/v1/base/schema-segment
   take form schema-segment
 
 form group-or-segment, name <GroupOrSegment>

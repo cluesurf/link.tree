@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/boxed-integer
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/boxed-integer
   take form boxed-integer
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/environment-files
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/environment-files
   take form environment-files
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/environment-variables
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/environment-variables
   take form environment-variables
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/resource-requirements
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/resource-requirements
   take form resource-requirements
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/string-list
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/string-list
   take form string-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form container-override, name <ContainerOverride>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/stateless-rule-group-reference
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/stateless-rule-group-reference
   take form stateless-rule-group-reference
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form stateless-rule-group-references, name <StatelessRuleGroupReferences>

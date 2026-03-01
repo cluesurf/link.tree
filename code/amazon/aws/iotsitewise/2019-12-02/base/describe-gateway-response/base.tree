@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/arn
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/gateway-capability-summaries
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/gateway-capability-summaries
   take form gateway-capability-summaries
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/gateway-platform
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/gateway-platform
   take form gateway-platform
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/id
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/name
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/timestamp
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/timestamp
   take form timestamp
 
 form describe-gateway-response, name <DescribeGatewayResponse>

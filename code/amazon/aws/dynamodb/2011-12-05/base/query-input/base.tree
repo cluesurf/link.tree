@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/attribute-name-list
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/attribute-name-list
   take form attribute-name-list
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/attribute-value
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/attribute-value
   take form attribute-value
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/boolean-object
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/boolean-object
   take form boolean-object
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/condition
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/condition
   take form condition
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/consistent-read
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/consistent-read
   take form consistent-read
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/key
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/key
   take form key
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/positive-integer-object
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/positive-integer-object
   take form positive-integer-object
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/table-name
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/table-name
   take form table-name
 
 form query-input, name <QueryInput>

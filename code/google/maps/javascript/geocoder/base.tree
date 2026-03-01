@@ -1,31 +1,31 @@
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/land/code/javascript/base/native-void
+load @cluesurf/land/code/javascript/base/native-void
   take form native-void
 
-load @termsurf/land/code/javascript/base/promise
+load @cluesurf/land/code/javascript/base/promise
   take form promise
 
-load @termsurf/seed/code/form/list
+load @cluesurf/seed/code/form/list
   take form list
     save form list-link-text
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/geocoder-request
+load @cluesurf/snow/code/javascript/google/maps/geocoder-request
   take form geocoder-request
 
-load @termsurf/snow/code/javascript/google/maps/geocoder-response
+load @cluesurf/snow/code/javascript/google/maps/geocoder-response
   take form geocoder-response
 
-load @termsurf/snow/code/javascript/google/maps/geocoder-result
+load @cluesurf/snow/code/javascript/google/maps/geocoder-result
   take form geocoder-result
 
-load @termsurf/snow/code/javascript/google/maps/geocoder-status
+load @cluesurf/snow/code/javascript/google/maps/geocoder-status
   take form geocoder-status
 
 form geocoder, name <google.maps.Geocoder>

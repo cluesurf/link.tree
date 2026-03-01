@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/commitment
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/commitment
   take form commitment
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/renewal-type
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/renewal-type
   take form renewal-type
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/reservation-plan-status
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/reservation-plan-status
   take form reservation-plan-status
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/timestamp-unix
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/timestamp-unix
   take form timestamp-unix
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form reservation-plan, name <ReservationPlan>

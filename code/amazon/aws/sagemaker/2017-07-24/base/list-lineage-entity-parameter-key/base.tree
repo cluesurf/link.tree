@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/string-parameter-value
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/string-parameter-value
   take form string-parameter-value
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-lineage-entity-parameter-key, name <ListLineageEntityParameterKey>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/arn-not-supported-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/arn-not-supported-exception
   take form arn-not-supported-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-arn-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-arn-exception
   take form invalid-arn-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/list-tags-for-resource-output
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/list-tags-for-resource-output
   take form list-tags-for-resource-output
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/resource-arn-required-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/resource-arn-required-exception
   take form resource-arn-required-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-tags-for-resource, name <ListTagsForResource>

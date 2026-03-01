@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/cloudfunctions/v2alpha/base/source
+load @cluesurf/snow/googleapis.com/cloudfunctions/v2alpha/base/source
   take form source
 
-load @termsurf/snow/googleapis.com/cloudfunctions/v2alpha/base/source-provenance
+load @cluesurf/snow/googleapis.com/cloudfunctions/v2alpha/base/source-provenance
   take form source-provenance
 
 form build-config, name <BuildConfig>

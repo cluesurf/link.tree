@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dataproc/v1/base/workflow-template
+load @cluesurf/snow/googleapis.com/dataproc/v1/base/workflow-template
   take form workflow-template
 
 boot dataproc-projects-regions-workflow-templates-update, name <dataproc.projects.regions.workflowTemplates.update>

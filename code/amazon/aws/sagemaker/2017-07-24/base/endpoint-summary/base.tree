@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-arn
   take form endpoint-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-name
   take form endpoint-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/endpoint-status
   take form endpoint-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
 form endpoint-summary, name <EndpointSummary>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/selfmetadata
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/selfmetadata
   take form selfmetadata
 
 form contact-details3, name <contact-details3>

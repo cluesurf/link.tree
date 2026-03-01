@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/description
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/slot-type-name
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/slot-type-name
   take form slot-type-name
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/timestamp
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/version
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/version
   take form version
 
 form slot-type-metadata, name <SlotTypeMetadata>

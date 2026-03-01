@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/synthetics/2017-10-11/base/canaries
+load @cluesurf/snow/amazonaws.com/synthetics/2017-10-11/base/canaries
   take form canaries
 
-load @termsurf/snow/amazonaws.com/synthetics/2017-10-11/base/token
+load @cluesurf/snow/amazonaws.com/synthetics/2017-10-11/base/token
   take form token
 
 form describe-canaries-response, name <DescribeCanariesResponse>

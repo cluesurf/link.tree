@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/eks/2017-11-01/base/addon-info
+load @cluesurf/snow/amazonaws.com/eks/2017-11-01/base/addon-info
   take form addon-info
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form addons, name <Addons>

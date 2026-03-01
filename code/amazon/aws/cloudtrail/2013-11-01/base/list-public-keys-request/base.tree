@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudtrail/2013-11-01/base/date
+load @cluesurf/snow/amazonaws.com/cloudtrail/2013-11-01/base/date
   take form date
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-public-keys-request, name <ListPublicKeysRequest>

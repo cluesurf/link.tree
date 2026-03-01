@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/resource-record
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/resource-record
   take form resource-record
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form resource-records, name <ResourceRecords>

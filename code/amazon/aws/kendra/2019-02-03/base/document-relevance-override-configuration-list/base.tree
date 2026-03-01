@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/document-relevance-configuration
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/document-relevance-configuration
   take form document-relevance-configuration
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form document-relevance-override-configuration-list, name <DocumentRelevanceOverrideConfigurationList>

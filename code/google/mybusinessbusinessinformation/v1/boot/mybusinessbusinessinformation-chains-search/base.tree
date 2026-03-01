@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/mybusinessbusinessinformation/v1/base/search-chains-response
+load @cluesurf/snow/googleapis.com/mybusinessbusinessinformation/v1/base/search-chains-response
   take form search-chains-response
 
 boot mybusinessbusinessinformation-chains-search, name <mybusinessbusinessinformation.chains.search>

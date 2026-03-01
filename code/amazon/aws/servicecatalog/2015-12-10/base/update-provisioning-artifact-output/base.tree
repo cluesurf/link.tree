@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioning-artifact-detail
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioning-artifact-detail
   take form provisioning-artifact-detail
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioning-artifact-info
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioning-artifact-info
   take form provisioning-artifact-info
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/status
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/status
   take form status
 
 form update-provisioning-artifact-output, name <UpdateProvisioningArtifactOutput>

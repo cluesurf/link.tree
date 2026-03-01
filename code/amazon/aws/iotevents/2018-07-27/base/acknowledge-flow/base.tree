@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/acknowledge-flow-enabled
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/acknowledge-flow-enabled
   take form acknowledge-flow-enabled
 
 form acknowledge-flow, name <AcknowledgeFlow>

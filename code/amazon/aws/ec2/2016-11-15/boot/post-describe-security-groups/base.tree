@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-security-groups-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-security-groups-result
   take form describe-security-groups-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-describe-security-groups, name <POST_DescribeSecurityGroups>

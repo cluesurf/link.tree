@@ -1,29 +1,29 @@
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/channel-audit-details
+load @cluesurf/snow/googleapis.com/youtube/v3/base/channel-audit-details
   take form channel-audit-details
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/channel-branding-settings
+load @cluesurf/snow/googleapis.com/youtube/v3/base/channel-branding-settings
   take form channel-branding-settings
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/channel-content-details
+load @cluesurf/snow/googleapis.com/youtube/v3/base/channel-content-details
   take form channel-content-details
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/channel-content-owner-details
+load @cluesurf/snow/googleapis.com/youtube/v3/base/channel-content-owner-details
   take form channel-content-owner-details
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/channel-conversion-pings
+load @cluesurf/snow/googleapis.com/youtube/v3/base/channel-conversion-pings
   take form channel-conversion-pings
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/channel-snippet
+load @cluesurf/snow/googleapis.com/youtube/v3/base/channel-snippet
   take form channel-snippet
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/channel-statistics
+load @cluesurf/snow/googleapis.com/youtube/v3/base/channel-statistics
   take form channel-statistics
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/channel-status
+load @cluesurf/snow/googleapis.com/youtube/v3/base/channel-status
   take form channel-status
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/channel-topic-details
+load @cluesurf/snow/googleapis.com/youtube/v3/base/channel-topic-details
   take form channel-topic-details
 
 form channel, name <Channel>

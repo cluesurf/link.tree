@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/textract/2018-06-27/base/block-list
+load @cluesurf/snow/amazonaws.com/textract/2018-06-27/base/block-list
   take form block-list
 
-load @termsurf/snow/amazonaws.com/textract/2018-06-27/base/document-metadata
+load @cluesurf/snow/amazonaws.com/textract/2018-06-27/base/document-metadata
   take form document-metadata
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form detect-document-text-response, name <DetectDocumentTextResponse>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/automatic-input-failover-settings
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/automatic-input-failover-settings
   take form automatic-input-failover-settings
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/input-settings
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/input-settings
   take form input-settings
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form input-attachment, name <InputAttachment>

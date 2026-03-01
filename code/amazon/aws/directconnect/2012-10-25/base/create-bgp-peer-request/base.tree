@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/new-bgp-peer
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/new-bgp-peer
   take form new-bgp-peer
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-id
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-id
   take form virtual-interface-id
 
 form create-bgp-peer-request, name <CreateBGPPeerRequest>

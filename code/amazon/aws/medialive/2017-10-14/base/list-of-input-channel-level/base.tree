@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/input-channel-level
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/input-channel-level
   take form input-channel-level
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-input-channel-level, name <__listOfInputChannelLevel>

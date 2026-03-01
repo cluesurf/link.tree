@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/upload-configuration
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/upload-configuration
   take form upload-configuration
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form upload-configurations, name <UploadConfigurations>

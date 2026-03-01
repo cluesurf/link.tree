@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/device-status-detail-code
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/device-status-detail-code
   take form device-status-detail-code
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/feature
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/feature
   take form feature
 
 form device-status-detail, name <DeviceStatusDetail>

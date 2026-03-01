@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-group-detail-list
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-group-detail-list
   take form instance-group-detail-list
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-type
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/instance-type
   take form instance-type
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/placement-type
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/placement-type
   take form placement-type
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string
   take form xml-string
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string-max-len256
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string-max-len256
   take form xml-string-max-len256
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form job-flow-instances-detail, name <JobFlowInstancesDetail>

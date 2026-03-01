@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/arn
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/hours-of-operation-id
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/hours-of-operation-id
   take form hours-of-operation-id
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/hours-of-operation-name
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/hours-of-operation-name
   take form hours-of-operation-name
 
 form hours-of-operation-summary, name <HoursOfOperationSummary>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/failed-create-workspace-requests
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/failed-create-workspace-requests
   take form failed-create-workspace-requests
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/workspace-list
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/workspace-list
   take form workspace-list
 
 form create-workspaces-result, name <CreateWorkspacesResult>

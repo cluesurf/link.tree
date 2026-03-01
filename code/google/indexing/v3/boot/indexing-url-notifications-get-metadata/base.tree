@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/indexing/v3/base/url-notification-metadata
+load @cluesurf/snow/googleapis.com/indexing/v3/base/url-notification-metadata
   take form url-notification-metadata
 
 boot indexing-url-notifications-get-metadata, name <indexing.urlNotifications.getMetadata>

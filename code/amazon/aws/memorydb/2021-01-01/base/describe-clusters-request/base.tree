@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/boolean-optional
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/boolean-optional
   take form boolean-optional
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/integer-optional
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-clusters-request, name <DescribeClustersRequest>

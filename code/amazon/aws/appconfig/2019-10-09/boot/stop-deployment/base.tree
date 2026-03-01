@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/appconfig/2019-10-09/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/appconfig/2019-10-09/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/appconfig/2019-10-09/base/deployment
+load @cluesurf/snow/amazonaws.com/appconfig/2019-10-09/base/deployment
   take form deployment
 
-load @termsurf/snow/amazonaws.com/appconfig/2019-10-09/base/internal-server-exception
+load @cluesurf/snow/amazonaws.com/appconfig/2019-10-09/base/internal-server-exception
   take form internal-server-exception
 
-load @termsurf/snow/amazonaws.com/appconfig/2019-10-09/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/appconfig/2019-10-09/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot stop-deployment, name <StopDeployment>

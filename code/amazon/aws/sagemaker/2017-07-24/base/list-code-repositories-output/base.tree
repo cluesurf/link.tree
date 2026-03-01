@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/code-repository-summary-list
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/code-repository-summary-list
   take form code-repository-summary-list
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/next-token
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/next-token
   take form next-token
 
 form list-code-repositories-output, name <ListCodeRepositoriesOutput>

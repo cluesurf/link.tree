@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/labels
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/labels
   take form labels
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/orientation-correction
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/orientation-correction
   take form orientation-correction
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form detect-labels-response, name <DetectLabelsResponse>

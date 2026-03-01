@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/snapshot-list
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/snapshot-list
   take form snapshot-list
 
 form describe-workspace-snapshots-result, name <DescribeWorkspaceSnapshotsResult>

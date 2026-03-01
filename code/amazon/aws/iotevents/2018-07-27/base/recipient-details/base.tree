@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/recipient-detail
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/recipient-detail
   take form recipient-detail
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form recipient-details, name <RecipientDetails>

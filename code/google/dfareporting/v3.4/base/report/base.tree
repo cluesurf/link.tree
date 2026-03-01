@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.4/base/activities
+load @cluesurf/snow/googleapis.com/dfareporting/v3.4/base/activities
   take form activities
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.4/base/channel-grouping
+load @cluesurf/snow/googleapis.com/dfareporting/v3.4/base/channel-grouping
   take form channel-grouping
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.4/base/custom-rich-media-events
+load @cluesurf/snow/googleapis.com/dfareporting/v3.4/base/custom-rich-media-events
   take form custom-rich-media-events
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.4/base/date-range
+load @cluesurf/snow/googleapis.com/dfareporting/v3.4/base/date-range
   take form date-range
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.4/base/dimension-value
+load @cluesurf/snow/googleapis.com/dfareporting/v3.4/base/dimension-value
   take form dimension-value
 
 form report, name <Report>

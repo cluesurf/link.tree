@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/internal-server-exception
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/internal-server-exception
   take form internal-server-exception
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/list-executions-output
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/list-executions-output
   take form list-executions-output
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/throttling-exception
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/throttling-exception
   take form throttling-exception
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/validation-exception
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/validation-exception
   take form validation-exception
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-executions, name <ListExecutions>

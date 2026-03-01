@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/generic-integer
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/generic-integer
   take form generic-integer
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/generic-string
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/generic-string
   take form generic-string
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/percent-done
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/percent-done
   take form percent-done
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/robot-deployment-step
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/robot-deployment-step
   take form robot-deployment-step
 
 form progress-detail, name <ProgressDetail>

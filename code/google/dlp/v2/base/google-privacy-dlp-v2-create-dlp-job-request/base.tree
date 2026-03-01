@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/dlp/v2/base/google-privacy-dlp-v2-inspect-job-config
+load @cluesurf/snow/googleapis.com/dlp/v2/base/google-privacy-dlp-v2-inspect-job-config
   take form google-privacy-dlp-v2-inspect-job-config
 
-load @termsurf/snow/googleapis.com/dlp/v2/base/google-privacy-dlp-v2-risk-analysis-job-config
+load @cluesurf/snow/googleapis.com/dlp/v2/base/google-privacy-dlp-v2-risk-analysis-job-config
   take form google-privacy-dlp-v2-risk-analysis-job-config
 
 form google-privacy-dlp-v2-create-dlp-job-request, name <GooglePrivacyDlpV2CreateDlpJobRequest>

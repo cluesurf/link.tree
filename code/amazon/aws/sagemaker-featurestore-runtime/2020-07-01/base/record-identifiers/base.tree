@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/value-as-string
+load @cluesurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/value-as-string
   take form value-as-string
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form record-identifiers, name <RecordIdentifiers>

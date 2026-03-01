@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/double
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/recurring-charge-list
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/recurring-charge-list
   take form recurring-charge-list
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/t-stamp
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/t-stamp
   take form t-stamp
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form reserved-cache-node, name <ReservedCacheNode>

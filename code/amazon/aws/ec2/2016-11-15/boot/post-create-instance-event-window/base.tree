@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/create-instance-event-window-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/create-instance-event-window-result
   take form create-instance-event-window-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-create-instance-event-window, name <POST_CreateInstanceEventWindow>

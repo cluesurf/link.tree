@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/crop-properties
+load @cluesurf/snow/googleapis.com/slides/v1/base/crop-properties
   take form crop-properties
 
-load @termsurf/snow/googleapis.com/slides/v1/base/link
+load @cluesurf/snow/googleapis.com/slides/v1/base/link
   take form link
 
-load @termsurf/snow/googleapis.com/slides/v1/base/outline
+load @cluesurf/snow/googleapis.com/slides/v1/base/outline
   take form outline
 
-load @termsurf/snow/googleapis.com/slides/v1/base/recolor
+load @cluesurf/snow/googleapis.com/slides/v1/base/recolor
   take form recolor
 
-load @termsurf/snow/googleapis.com/slides/v1/base/shadow
+load @cluesurf/snow/googleapis.com/slides/v1/base/shadow
   take form shadow
 
 form image-properties, name <ImageProperties>

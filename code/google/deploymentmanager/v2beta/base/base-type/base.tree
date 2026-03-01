@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/deploymentmanager/v2beta/base/credential
+load @cluesurf/snow/googleapis.com/deploymentmanager/v2beta/base/credential
   take form credential
 
-load @termsurf/snow/googleapis.com/deploymentmanager/v2beta/base/options
+load @cluesurf/snow/googleapis.com/deploymentmanager/v2beta/base/options
   take form options
 
 form base-type, name <BaseType>

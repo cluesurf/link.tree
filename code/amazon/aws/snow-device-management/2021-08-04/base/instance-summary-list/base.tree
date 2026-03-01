@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/instance-summary
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/instance-summary
   take form instance-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form instance-summary-list, name <InstanceSummaryList>

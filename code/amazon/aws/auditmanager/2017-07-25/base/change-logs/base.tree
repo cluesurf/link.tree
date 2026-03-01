@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/change-log
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/change-log
   take form change-log
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form change-logs, name <ChangeLogs>

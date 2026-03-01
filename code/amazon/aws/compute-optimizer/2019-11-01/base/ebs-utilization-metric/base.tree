@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/ebs-metric-name
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/ebs-metric-name
   take form ebs-metric-name
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/metric-statistic
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/metric-statistic
   take form metric-statistic
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/metric-value
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/metric-value
   take form metric-value
 
 form ebs-utilization-metric, name <EBSUtilizationMetric>

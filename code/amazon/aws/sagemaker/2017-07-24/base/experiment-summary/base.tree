@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-arn
   take form experiment-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-entity-name
   take form experiment-entity-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-source
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-source
   take form experiment-source
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
 form experiment-summary, name <ExperimentSummary>

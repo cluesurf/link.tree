@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/reserved-instances-offering-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/reserved-instances-offering-id
   take form reserved-instances-offering-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form reserved-instances-offering-id-string-list, name <ReservedInstancesOfferingIdStringList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sdb/2009-04-15/base/replaceable-item-list
+load @cluesurf/snow/amazonaws.com/sdb/2009-04-15/base/replaceable-item-list
   take form replaceable-item-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form batch-put-attributes-request, name <BatchPutAttributesRequest>

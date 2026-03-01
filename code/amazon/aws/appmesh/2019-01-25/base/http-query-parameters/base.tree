@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appmesh/2019-01-25/base/http-query-parameter
+load @cluesurf/snow/amazonaws.com/appmesh/2019-01-25/base/http-query-parameter
   take form http-query-parameter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form http-query-parameters, name <HttpQueryParameters>

@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/arn
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/assessment-run-notification-sns-status-code
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/assessment-run-notification-sns-status-code
   take form assessment-run-notification-sns-status-code
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/bool
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/bool
   take form bool
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/inspector-event
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/inspector-event
   take form inspector-event
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/message
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/message
   take form message
 
-load @termsurf/snow/amazonaws.com/inspector/2016-02-16/base/timestamp
+load @cluesurf/snow/amazonaws.com/inspector/2016-02-16/base/timestamp
   take form timestamp
 
 form assessment-run-notification, name <AssessmentRunNotification>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.4/base/get-orders-response
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.4/base/get-orders-response
   take form get-orders-response
 
 boot adexchangebuyer-proposals-search, name <adexchangebuyer.proposals.search>

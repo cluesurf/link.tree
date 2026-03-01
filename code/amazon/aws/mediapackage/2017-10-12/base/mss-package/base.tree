@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/mss-encryption
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/mss-encryption
   take form mss-encryption
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/stream-selection
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/stream-selection
   take form stream-selection
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form mss-package, name <MssPackage>

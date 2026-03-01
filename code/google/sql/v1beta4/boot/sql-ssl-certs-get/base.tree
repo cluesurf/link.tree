@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/sql/v1beta4/base/ssl-cert
+load @cluesurf/snow/googleapis.com/sql/v1beta4/base/ssl-cert
   take form ssl-cert
 
 boot sql-ssl-certs-get, name <sql.sslCerts.get>

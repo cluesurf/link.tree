@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/event
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/event
   take form event
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/event-description
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/event-description
   take form event-description
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/event-metadata
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/event-metadata
   take form event-metadata
 
 form event-details, name <EventDetails>

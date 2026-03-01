@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/backup-id
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/backup-id
   take form backup-id
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/backup-lifecycle
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/backup-lifecycle
   take form backup-lifecycle
 
 form delete-backup-response, name <DeleteBackupResponse>

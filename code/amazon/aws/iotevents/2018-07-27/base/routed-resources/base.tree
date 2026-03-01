@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/routed-resource
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/routed-resource
   take form routed-resource
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form routed-resources, name <RoutedResources>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/content-type
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/content-type
   take form content-type
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/generic-attachment-list
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/generic-attachment-list
   take form generic-attachment-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form response-card, name <ResponseCard>

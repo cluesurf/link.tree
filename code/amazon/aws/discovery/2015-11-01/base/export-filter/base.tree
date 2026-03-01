@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/condition
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/condition
   take form condition
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/filter-name
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/filter-name
   take form filter-name
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/filter-values
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/filter-values
   take form filter-values
 
 form export-filter, name <ExportFilter>

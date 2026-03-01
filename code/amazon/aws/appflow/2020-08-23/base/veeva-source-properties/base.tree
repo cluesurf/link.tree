@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/document-type
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/document-type
   take form document-type
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/object
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/object
   take form object
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form veeva-source-properties, name <VeevaSourceProperties>

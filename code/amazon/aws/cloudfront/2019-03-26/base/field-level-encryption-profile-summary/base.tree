@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/encryption-entities
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/encryption-entities
   take form encryption-entities
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/timestamp
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form field-level-encryption-profile-summary, name <FieldLevelEncryptionProfileSummary>

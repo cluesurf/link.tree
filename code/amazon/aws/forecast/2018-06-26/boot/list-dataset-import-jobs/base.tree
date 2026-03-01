@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/invalid-input-exception
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/invalid-input-exception
   take form invalid-input-exception
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/invalid-next-token-exception
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/invalid-next-token-exception
   take form invalid-next-token-exception
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/list-dataset-import-jobs-response
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/list-dataset-import-jobs-response
   take form list-dataset-import-jobs-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-dataset-import-jobs, name <ListDatasetImportJobs>

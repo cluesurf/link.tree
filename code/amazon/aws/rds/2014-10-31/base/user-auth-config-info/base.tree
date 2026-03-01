@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/auth-scheme
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/auth-scheme
   take form auth-scheme
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/iam-auth-mode
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/iam-auth-mode
   take form iam-auth-mode
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form user-auth-config-info, name <UserAuthConfigInfo>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/creation-info
+load @cluesurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/creation-info
   take form creation-info
 
-load @termsurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/gid
+load @cluesurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/gid
   take form gid
 
-load @termsurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/path
+load @cluesurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/path
   take form path
 
-load @termsurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/secondary-gids
+load @cluesurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/secondary-gids
   take form secondary-gids
 
-load @termsurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/uid
+load @cluesurf/snow/amazonaws.com/elasticfilesystem/2015-02-01/base/uid
   take form uid
 
 form create-access-point-body

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/network-acl-association-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/network-acl-association-id
   take form network-acl-association-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/network-acl-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/network-acl-id
   take form network-acl-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form replace-network-acl-association-request, name <ReplaceNetworkAclAssociationRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group
   take form group
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form group-list, name <GroupList>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/enabled
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/enabled
   take form enabled
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/provisioning-hook
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/provisioning-hook
   take form provisioning-hook
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/role-arn
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/tag-list
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/template-body
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/template-body
   take form template-body
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/template-description
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/template-description
   take form template-description
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/template-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/template-name
   take form template-name
 
 form create-provisioning-template-request, name <CreateProvisioningTemplateRequest>

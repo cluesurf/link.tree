@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/arn
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/security-profile-id
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/security-profile-id
   take form security-profile-id
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/security-profile-name
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/security-profile-name
   take form security-profile-name
 
 form security-profile-summary, name <SecurityProfileSummary>

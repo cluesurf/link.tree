@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/task-filter
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/task-filter
   take form task-filter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form task-filters, name <TaskFilters>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/allowed-header
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/allowed-header
   take form allowed-header
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form allowed-headers, name <AllowedHeaders>

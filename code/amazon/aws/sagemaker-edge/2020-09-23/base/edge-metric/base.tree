@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker-edge/2020-09-23/base/dimension
+load @cluesurf/snow/amazonaws.com/sagemaker-edge/2020-09-23/base/dimension
   take form dimension
 
-load @termsurf/snow/amazonaws.com/sagemaker-edge/2020-09-23/base/metric
+load @cluesurf/snow/amazonaws.com/sagemaker-edge/2020-09-23/base/metric
   take form metric
 
-load @termsurf/snow/amazonaws.com/sagemaker-edge/2020-09-23/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker-edge/2020-09-23/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/sagemaker-edge/2020-09-23/base/value
+load @cluesurf/snow/amazonaws.com/sagemaker-edge/2020-09-23/base/value
   take form value
 
 form edge-metric, name <EdgeMetric>

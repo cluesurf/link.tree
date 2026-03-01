@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-09-01/base/option
+load @cluesurf/snow/amazonaws.com/rds/2014-09-01/base/option
   take form option
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form options-list, name <OptionsList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/custom-routing-accelerator
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/custom-routing-accelerator
   take form custom-routing-accelerator
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form custom-routing-accelerators, name <CustomRoutingAccelerators>

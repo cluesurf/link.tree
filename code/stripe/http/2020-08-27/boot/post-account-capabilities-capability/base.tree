@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/capability
+load @cluesurf/snow/stripe.com/2020-08-27/base/capability
   take form capability
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-account-capabilities-capability-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-account-capabilities-capability-body
   take form post-account-capabilities-capability-body
 
 boot post-account-capabilities-capability, name <PostAccountCapabilitiesCapability>

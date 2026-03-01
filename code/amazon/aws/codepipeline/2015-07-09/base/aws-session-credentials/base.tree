@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/access-key-id
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/access-key-id
   take form access-key-id
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/secret-access-key
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/secret-access-key
   take form secret-access-key
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/session-token
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/session-token
   take form session-token
 
 form aws-session-credentials, name <AWSSessionCredentials>

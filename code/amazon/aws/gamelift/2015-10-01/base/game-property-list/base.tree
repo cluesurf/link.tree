@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-property
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-property
   take form game-property
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form game-property-list, name <GamePropertyList>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/conflict-exception
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/conflict-exception
   take form conflict-exception
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/delete-session-response
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/delete-session-response
   take form delete-session-response
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/internal-failure-exception
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/internal-failure-exception
   take form internal-failure-exception
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/limit-exceeded-exception
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/limit-exceeded-exception
   take form limit-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/not-found-exception
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/not-found-exception
   take form not-found-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-session, name <DeleteSession>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/content/v2.1/base/pos-custom-batch-response
+load @cluesurf/snow/googleapis.com/content/v2.1/base/pos-custom-batch-response
   take form pos-custom-batch-response
 
 boot content-pos-custombatch, name <content.pos.custombatch>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/datastream/v1/base/list-connection-profiles-response
+load @cluesurf/snow/googleapis.com/datastream/v1/base/list-connection-profiles-response
   take form list-connection-profiles-response
 
 boot datastream-projects-locations-connection-profiles-list, name <datastream.projects.locations.connectionProfiles.list>

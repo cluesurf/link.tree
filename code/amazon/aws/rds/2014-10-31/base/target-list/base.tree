@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/db-proxy-target
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/db-proxy-target
   take form db-proxy-target
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form target-list, name <TargetList>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/run/v1/base/revision-template
+load @cluesurf/snow/googleapis.com/run/v1/base/revision-template
   take form revision-template
 
 form service-spec, name <ServiceSpec>

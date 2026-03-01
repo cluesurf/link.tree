@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/insight-id
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/insight-id
   take form insight-id
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/insight-impact-graph-service-list
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/insight-impact-graph-service-list
   take form insight-impact-graph-service-list
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/token
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/token
   take form token
 
 form get-insight-impact-graph-result, name <GetInsightImpactGraphResult>

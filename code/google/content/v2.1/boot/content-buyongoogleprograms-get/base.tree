@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/content/v2.1/base/buy-on-google-program-status
+load @cluesurf/snow/googleapis.com/content/v2.1/base/buy-on-google-program-status
   take form buy-on-google-program-status
 
 boot content-buyongoogleprograms-get, name <content.buyongoogleprograms.get>

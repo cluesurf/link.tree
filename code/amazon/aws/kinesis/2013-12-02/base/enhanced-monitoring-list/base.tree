@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/enhanced-metrics
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/enhanced-metrics
   take form enhanced-metrics
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form enhanced-monitoring-list, name <EnhancedMonitoringList>

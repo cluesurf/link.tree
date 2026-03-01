@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/fms/2018-01-01/base/policy-compliance-status-type
+load @cluesurf/snow/amazonaws.com/fms/2018-01-01/base/policy-compliance-status-type
   take form policy-compliance-status-type
 
-load @termsurf/snow/amazonaws.com/fms/2018-01-01/base/resource-count
+load @cluesurf/snow/amazonaws.com/fms/2018-01-01/base/resource-count
   take form resource-count
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form evaluation-result, name <EvaluationResult>

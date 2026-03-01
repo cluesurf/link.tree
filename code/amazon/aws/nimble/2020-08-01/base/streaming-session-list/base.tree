@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-session
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-session
   take form streaming-session
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form streaming-session-list, name <StreamingSessionList>

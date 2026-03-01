@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/playcustomapp/v1/base/custom-app
+load @cluesurf/snow/googleapis.com/playcustomapp/v1/base/custom-app
   take form custom-app
 
 boot playcustomapp-accounts-custom-apps-create, name <playcustomapp.accounts.customApps.create>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-name
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-name
   take form access-point-name
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-not-found-exception
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-not-found-exception
   take form access-point-not-found-exception
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/describe-tags-output
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/describe-tags-output
   take form describe-tags-output
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-describe-tags, name <GET_DescribeTags>

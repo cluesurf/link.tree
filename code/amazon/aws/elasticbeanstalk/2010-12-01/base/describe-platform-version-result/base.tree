@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/platform-description
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/platform-description
   take form platform-description
 
 form describe-platform-version-result, name <DescribePlatformVersionResult>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/monitoring/v1/base/table-display-options
+load @cluesurf/snow/googleapis.com/monitoring/v1/base/table-display-options
   take form table-display-options
 
-load @termsurf/snow/googleapis.com/monitoring/v1/base/time-series-query
+load @cluesurf/snow/googleapis.com/monitoring/v1/base/time-series-query
   take form time-series-query
 
 form table-data-set, name <TableDataSet>

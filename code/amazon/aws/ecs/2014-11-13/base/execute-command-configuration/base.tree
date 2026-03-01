@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/execute-command-log-configuration
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/execute-command-log-configuration
   take form execute-command-log-configuration
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/execute-command-logging
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/execute-command-logging
   take form execute-command-logging
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form execute-command-configuration, name <ExecuteCommandConfiguration>

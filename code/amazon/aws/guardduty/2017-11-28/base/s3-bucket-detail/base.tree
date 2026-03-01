@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/default-server-side-encryption
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/default-server-side-encryption
   take form default-server-side-encryption
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/owner
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/owner
   take form owner
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/public-access
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/public-access
   take form public-access
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/tags
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/tags
   take form tags
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/timestamp
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form s3-bucket-detail, name <S3BucketDetail>

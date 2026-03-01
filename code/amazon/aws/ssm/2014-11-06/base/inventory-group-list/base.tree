@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/inventory-group
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/inventory-group
   take form inventory-group
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form inventory-group-list, name <InventoryGroupList>

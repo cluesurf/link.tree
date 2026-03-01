@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/message-body-attribute-map
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/message-body-attribute-map
   take form message-body-attribute-map
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/message-system-attribute-map
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/message-system-attribute-map
   take form message-system-attribute-map
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form message, name <Message>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/health-check-observation
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/health-check-observation
   take form health-check-observation
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form health-check-observations, name <HealthCheckObservations>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/list-courses-response
+load @cluesurf/snow/googleapis.com/classroom/v1/base/list-courses-response
   take form list-courses-response
 
 boot classroom-courses-list, name <classroom.courses.list>

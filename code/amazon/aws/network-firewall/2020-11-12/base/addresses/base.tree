@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/address
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/address
   take form address
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form addresses, name <Addresses>

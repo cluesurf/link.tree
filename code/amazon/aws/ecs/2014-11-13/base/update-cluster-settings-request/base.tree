@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/cluster-settings
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/cluster-settings
   take form cluster-settings
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-cluster-settings-request, name <UpdateClusterSettingsRequest>

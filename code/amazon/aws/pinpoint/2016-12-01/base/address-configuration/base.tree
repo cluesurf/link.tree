@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/pinpoint/2016-12-01/base/channel-type
+load @cluesurf/snow/amazonaws.com/pinpoint/2016-12-01/base/channel-type
   take form channel-type
 
-load @termsurf/snow/amazonaws.com/pinpoint/2016-12-01/base/map-of-list-of-string
+load @cluesurf/snow/amazonaws.com/pinpoint/2016-12-01/base/map-of-list-of-string
   take form map-of-list-of-string
 
-load @termsurf/snow/amazonaws.com/pinpoint/2016-12-01/base/map-of-string
+load @cluesurf/snow/amazonaws.com/pinpoint/2016-12-01/base/map-of-string
   take form map-of-string
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form address-configuration, name <AddressConfiguration>

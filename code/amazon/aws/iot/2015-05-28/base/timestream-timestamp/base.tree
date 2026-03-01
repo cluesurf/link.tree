@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/timestream-timestamp-unit
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/timestream-timestamp-unit
   take form timestream-timestamp-unit
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/timestream-timestamp-value
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/timestream-timestamp-value
   take form timestream-timestamp-value
 
 form timestream-timestamp, name <TimestreamTimestamp>

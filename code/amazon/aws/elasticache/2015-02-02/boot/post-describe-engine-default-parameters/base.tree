@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/describe-engine-default-parameters-result
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/describe-engine-default-parameters-result
   take form describe-engine-default-parameters-result
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/invalid-parameter-combination-exception
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/invalid-parameter-combination-exception
   take form invalid-parameter-combination-exception
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/invalid-parameter-value-exception
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/invalid-parameter-value-exception
   take form invalid-parameter-value-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-describe-engine-default-parameters, name <POST_DescribeEngineDefaultParameters>

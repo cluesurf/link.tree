@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/double-object
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/double-object
   take form double-object
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
   take form non-zero-and-max-string
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/string-double-map
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/string-double-map
   take form string-double-map
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/string-list
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/string-list
   take form string-list
 
 form attribute-value, name <AttributeValue>

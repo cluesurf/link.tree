@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/quality
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/quality
   take form quality
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form qualities, name <Qualities>

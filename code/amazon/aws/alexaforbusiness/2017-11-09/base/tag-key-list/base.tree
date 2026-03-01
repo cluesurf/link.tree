@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/tag-key
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/tag-key
   take form tag-key
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form tag-key-list, name <TagKeyList>

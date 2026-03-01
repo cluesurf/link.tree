@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/okta/base/application
+load @cluesurf/snow/okta/base/application
   take form application
 
 boot update-application, name <updateApplication>

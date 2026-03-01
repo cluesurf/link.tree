@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/anomaly-instances
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/anomaly-instances
   take form anomaly-instances
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/metric
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/metric
   take form metric
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form anomaly, name <Anomaly>

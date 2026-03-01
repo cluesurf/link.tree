@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/ec2-instance-id
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/ec2-instance-id
   take form ec2-instance-id
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/first-boot
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/first-boot
   take form first-boot
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/job-id
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/job-id
   take form job-id
 
 form launched-instance, name <LaunchedInstance>

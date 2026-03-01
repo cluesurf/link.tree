@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/internal-service-exception
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/internal-service-exception
   take form internal-service-exception
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/invalid-request-exception
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/invalid-request-exception
   take form invalid-request-exception
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/list-instances-response
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/list-instances-response
   take form list-instances-response
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-instances, name <ListInstances>

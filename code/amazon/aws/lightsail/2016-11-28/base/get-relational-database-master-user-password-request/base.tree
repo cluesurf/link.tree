@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database-password-version
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database-password-version
   take form relational-database-password-version
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
 form get-relational-database-master-user-password-request, name <GetRelationalDatabaseMasterUserPasswordRequest>

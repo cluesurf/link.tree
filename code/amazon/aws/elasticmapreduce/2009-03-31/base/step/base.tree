@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/action-on-failure
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/action-on-failure
   take form action-on-failure
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/hadoop-step-config
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/hadoop-step-config
   take form hadoop-step-config
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/step-id
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/step-id
   take form step-id
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/step-status
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/step-status
   take form step-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form step, name <Step>

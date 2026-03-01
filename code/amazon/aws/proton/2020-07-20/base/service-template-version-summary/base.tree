@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/description
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/resource-name
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/service-template-version-arn
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/service-template-version-arn
   take form service-template-version-arn
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/status-message
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/status-message
   take form status-message
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/template-version-part
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/template-version-part
   take form template-version-part
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/template-version-status
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/template-version-status
   take form template-version-status
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/timestamp
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/timestamp
   take form timestamp
 
 form service-template-version-summary, name <ServiceTemplateVersionSummary>

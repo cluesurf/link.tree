@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/athena/2017-05-18/base/date
+load @cluesurf/snow/amazonaws.com/athena/2017-05-18/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/athena/2017-05-18/base/statement-name
+load @cluesurf/snow/amazonaws.com/athena/2017-05-18/base/statement-name
   take form statement-name
 
 form prepared-statement-summary, name <PreparedStatementSummary>

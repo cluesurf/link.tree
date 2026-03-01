@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/get-compliance-summary-by-resource-type-response
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/get-compliance-summary-by-resource-type-response
   take form get-compliance-summary-by-resource-type-response
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/invalid-parameter-value-exception
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/invalid-parameter-value-exception
   take form invalid-parameter-value-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-compliance-summary-by-resource-type, name <GetComplianceSummaryByResourceType>

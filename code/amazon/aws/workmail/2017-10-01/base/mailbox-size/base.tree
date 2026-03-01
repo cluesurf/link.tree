@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/native-number
+load @cluesurf/snow/base/native-number
   take form native-number
 
 form mailbox-size, name <MailboxSize>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/monitoring/v1/base/list-dashboards-response
+load @cluesurf/snow/googleapis.com/monitoring/v1/base/list-dashboards-response
   take form list-dashboards-response
 
 boot monitoring-projects-dashboards-list, name <monitoring.projects.dashboards.list>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/attribute-name-list
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/attribute-name-list
   take form attribute-name-list
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/message-attribute-name-list
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/message-attribute-name-list
   take form message-attribute-name-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form receive-message-request, name <ReceiveMessageRequest>

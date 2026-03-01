@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/placement-group-name
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/placement-group-name
   take form placement-group-name
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tenancy
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tenancy
   take form tenancy
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form spot-placement, name <SpotPlacement>

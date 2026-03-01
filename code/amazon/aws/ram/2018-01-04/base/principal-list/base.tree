@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ram/2018-01-04/base/principal
+load @cluesurf/snow/amazonaws.com/ram/2018-01-04/base/principal
   take form principal
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form principal-list, name <PrincipalList>

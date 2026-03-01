@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/entity-label
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/entity-label
   take form entity-label
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-entity-labels, name <ListOfEntityLabels>

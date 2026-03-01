@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/display-name
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/display-name
   take form display-name
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/email-address
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/email-address
   take form email-address
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/id
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/type
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/type
   take form type
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/uri
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/uri
   take form uri
 
 form grantee, name <Grantee>

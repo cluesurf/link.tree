@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/servicecontrol/v1/base/attributes
+load @cluesurf/snow/googleapis.com/servicecontrol/v1/base/attributes
   take form attributes
 
-load @termsurf/snow/googleapis.com/servicecontrol/v1/base/status
+load @cluesurf/snow/googleapis.com/servicecontrol/v1/base/status
   take form status
 
-load @termsurf/snow/googleapis.com/servicecontrol/v1/base/truncatable-string
+load @cluesurf/snow/googleapis.com/servicecontrol/v1/base/truncatable-string
   take form truncatable-string
 
 form trace-span, name <TraceSpan>

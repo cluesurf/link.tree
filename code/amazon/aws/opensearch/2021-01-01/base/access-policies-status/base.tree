@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/option-status
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/option-status
   take form option-status
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/policy-document
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/policy-document
   take form policy-document
 
 form access-policies-status, name <AccessPoliciesStatus>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/valid
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/valid
   take form valid
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/validation-errors
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/validation-errors
   take form validation-errors
 
 form validate-security-profile-behaviors-response, name <ValidateSecurityProfileBehaviorsResponse>

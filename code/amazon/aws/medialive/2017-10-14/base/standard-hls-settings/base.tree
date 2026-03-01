@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/medialive/2017-10-14/base/m3u8-settings
+load @cluesurf/snow/amazonaws.com/medialive/2017-10-14/base/m3u8-settings
   take form m3u8-settings
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form standard-hls-settings, name <StandardHlsSettings>

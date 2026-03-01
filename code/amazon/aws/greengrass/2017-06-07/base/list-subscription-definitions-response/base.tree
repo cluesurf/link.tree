@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/list-of-definition-information
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/list-of-definition-information
   take form list-of-definition-information
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-subscription-definitions-response, name <ListSubscriptionDefinitionsResponse>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/books/v1/base/seriesmembership
+load @cluesurf/snow/googleapis.com/books/v1/base/seriesmembership
   take form seriesmembership
 
 boot books-series-membership-get, name <books.series.membership.get>

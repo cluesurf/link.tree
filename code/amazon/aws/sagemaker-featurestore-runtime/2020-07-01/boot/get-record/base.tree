@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/access-forbidden
+load @cluesurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/access-forbidden
   take form access-forbidden
 
-load @termsurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/feature-name
+load @cluesurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/feature-name
   take form feature-name
 
-load @termsurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/get-record-response
+load @cluesurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/get-record-response
   take form get-record-response
 
-load @termsurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/internal-failure
+load @cluesurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/internal-failure
   take form internal-failure
 
-load @termsurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/resource-not-found
+load @cluesurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/resource-not-found
   take form resource-not-found
 
-load @termsurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/service-unavailable
+load @cluesurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/service-unavailable
   take form service-unavailable
 
-load @termsurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/validation-error
+load @cluesurf/snow/amazonaws.com/sagemaker-featurestore-runtime/2020-07-01/base/validation-error
   take form validation-error
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-record, name <GetRecord>

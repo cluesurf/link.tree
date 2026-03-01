@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/frauddetector/2019-11-15/base/batch-predictions-max-page-size
+load @cluesurf/snow/amazonaws.com/frauddetector/2019-11-15/base/batch-predictions-max-page-size
   take form batch-predictions-max-page-size
 
-load @termsurf/snow/amazonaws.com/frauddetector/2019-11-15/base/identifier
+load @cluesurf/snow/amazonaws.com/frauddetector/2019-11-15/base/identifier
   take form identifier
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-batch-prediction-jobs-request, name <GetBatchPredictionJobsRequest>

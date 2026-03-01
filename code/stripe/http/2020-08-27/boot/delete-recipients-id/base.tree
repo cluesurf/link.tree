@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/delete-recipients-id-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/delete-recipients-id-body
   take form delete-recipients-id-body
 
-load @termsurf/snow/stripe.com/2020-08-27/base/deleted-recipient
+load @cluesurf/snow/stripe.com/2020-08-27/base/deleted-recipient
   take form deleted-recipient
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
 boot delete-recipients-id, name <DeleteRecipientsId>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/encryption
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/encryption
   take form encryption
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/key
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/key
   take form key
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/long-key
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/long-key
   take form long-key
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/name
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/time-offset
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/time-offset
   take form time-offset
 
 form caption-source, name <CaptionSource>

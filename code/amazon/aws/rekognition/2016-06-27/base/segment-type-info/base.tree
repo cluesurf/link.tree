@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/segment-type
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/segment-type
   take form segment-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form segment-type-info, name <SegmentTypeInfo>

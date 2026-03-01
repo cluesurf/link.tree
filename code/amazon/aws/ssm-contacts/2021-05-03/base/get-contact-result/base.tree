@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-alias
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-alias
   take form contact-alias
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-name
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-name
   take form contact-name
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-type
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-type
   take form contact-type
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/plan
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/plan
   take form plan
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/ssm-contacts-arn
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/ssm-contacts-arn
   take form ssm-contacts-arn
 
 form get-contact-result, name <GetContactResult>

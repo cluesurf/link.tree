@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/duration
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/duration
   take form duration
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/instance-action
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/instance-action
   take form instance-action
 
 form blue-instance-termination-option, name <BlueInstanceTerminationOption>

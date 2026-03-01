@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/logger-component
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/logger-component
   take form logger-component
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/logger-level
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/logger-level
   take form logger-level
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/logger-type
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/logger-type
   take form logger-type
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form logger, name <Logger>

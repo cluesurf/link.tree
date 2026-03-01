@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lakeformation/2017-03-31/base/batch-permissions-request-entry
+load @cluesurf/snow/amazonaws.com/lakeformation/2017-03-31/base/batch-permissions-request-entry
   take form batch-permissions-request-entry
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form batch-permissions-request-entry-list, name <BatchPermissionsRequestEntryList>

@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/worklink/2018-09-25/base/date-time
+load @cluesurf/snow/amazonaws.com/worklink/2018-09-25/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/worklink/2018-09-25/base/device-manufacturer
+load @cluesurf/snow/amazonaws.com/worklink/2018-09-25/base/device-manufacturer
   take form device-manufacturer
 
-load @termsurf/snow/amazonaws.com/worklink/2018-09-25/base/device-model
+load @cluesurf/snow/amazonaws.com/worklink/2018-09-25/base/device-model
   take form device-model
 
-load @termsurf/snow/amazonaws.com/worklink/2018-09-25/base/device-operating-system-name
+load @cluesurf/snow/amazonaws.com/worklink/2018-09-25/base/device-operating-system-name
   take form device-operating-system-name
 
-load @termsurf/snow/amazonaws.com/worklink/2018-09-25/base/device-operating-system-version
+load @cluesurf/snow/amazonaws.com/worklink/2018-09-25/base/device-operating-system-version
   take form device-operating-system-version
 
-load @termsurf/snow/amazonaws.com/worklink/2018-09-25/base/device-patch-level
+load @cluesurf/snow/amazonaws.com/worklink/2018-09-25/base/device-patch-level
   take form device-patch-level
 
-load @termsurf/snow/amazonaws.com/worklink/2018-09-25/base/device-status
+load @cluesurf/snow/amazonaws.com/worklink/2018-09-25/base/device-status
   take form device-status
 
-load @termsurf/snow/amazonaws.com/worklink/2018-09-25/base/username
+load @cluesurf/snow/amazonaws.com/worklink/2018-09-25/base/username
   take form username
 
 form describe-device-response, name <DescribeDeviceResponse>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/configuration-aggregator-name-list
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/configuration-aggregator-name-list
   take form configuration-aggregator-name-list
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/limit
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/limit
   take form limit
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-configuration-aggregators-request, name <DescribeConfigurationAggregatorsRequest>

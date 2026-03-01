@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/datacatalog/v1beta1/base/google-cloud-datacatalog-v1beta1-list-entry-groups-response
+load @cluesurf/snow/googleapis.com/datacatalog/v1beta1/base/google-cloud-datacatalog-v1beta1-list-entry-groups-response
   take form google-cloud-datacatalog-v1beta1-list-entry-groups-response
 
 boot datacatalog-projects-locations-entry-groups-list, name <datacatalog.projects.locations.entryGroups.list>

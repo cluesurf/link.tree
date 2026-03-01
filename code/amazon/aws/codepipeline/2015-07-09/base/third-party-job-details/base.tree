@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/nonce
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/nonce
   take form nonce
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/third-party-job-data
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/third-party-job-data
   take form third-party-job-data
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/third-party-job-id
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/third-party-job-id
   take form third-party-job-id
 
 form third-party-job-details, name <ThirdPartyJobDetails>

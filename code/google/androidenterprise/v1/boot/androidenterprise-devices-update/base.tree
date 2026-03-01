@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androidenterprise/v1/base/device
+load @cluesurf/snow/googleapis.com/androidenterprise/v1/base/device
   take form device
 
 boot androidenterprise-devices-update, name <androidenterprise.devices.update>

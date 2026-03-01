@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/baremetalsolution/v2/base/qos-policy
+load @cluesurf/snow/googleapis.com/baremetalsolution/v2/base/qos-policy
   take form qos-policy
 
 form vrf, name <VRF>

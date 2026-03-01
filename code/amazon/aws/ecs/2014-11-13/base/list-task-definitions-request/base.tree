@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/boxed-integer
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/boxed-integer
   take form boxed-integer
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/sort-order
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/sort-order
   take form sort-order
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/task-definition-status
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/task-definition-status
   take form task-definition-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-task-definitions-request, name <ListTaskDefinitionsRequest>

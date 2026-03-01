@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/resource-id
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/resource-id
   take form resource-id
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/vpc
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/vpc
   take form vpc
 
 form create-vpc-association-authorization-response, name <CreateVPCAssociationAuthorizationResponse>

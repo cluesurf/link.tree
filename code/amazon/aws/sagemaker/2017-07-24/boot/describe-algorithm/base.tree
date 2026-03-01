@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/describe-algorithm-output
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/describe-algorithm-output
   take form describe-algorithm-output
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-algorithm, name <DescribeAlgorithm>

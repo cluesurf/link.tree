@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/acm-certificate-arn
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/acm-certificate-arn
   take form acm-certificate-arn
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/authorizer-config
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/authorizer-config
   take form authorizer-config
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/domain-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/server-certificate-arns
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/server-certificate-arns
   take form server-certificate-arns
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/service-type
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/service-type
   take form service-type
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/tag-list
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/tag-list
   take form tag-list
 
 form create-domain-configuration-request, name <CreateDomainConfigurationRequest>

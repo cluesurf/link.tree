@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/float
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/float
   take form float
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/instance-platform-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/instance-platform-list
   take form instance-platform-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form bundle, name <Bundle>

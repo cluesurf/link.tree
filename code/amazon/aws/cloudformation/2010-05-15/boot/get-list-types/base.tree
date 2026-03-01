@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/category
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/category
   take form category
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/cfn-registry-exception
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/cfn-registry-exception
   take form cfn-registry-exception
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/list-types-output
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/list-types-output
   take form list-types-output
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/publisher-id
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/publisher-id
   take form publisher-id
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-name-prefix
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-name-prefix
   take form type-name-prefix
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-list-types, name <GET_ListTypes>

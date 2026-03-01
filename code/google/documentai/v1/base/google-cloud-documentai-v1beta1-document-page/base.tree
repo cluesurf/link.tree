@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/documentai/v1/base/google-cloud-documentai-v1beta1-document-page-dimension
+load @cluesurf/snow/googleapis.com/documentai/v1/base/google-cloud-documentai-v1beta1-document-page-dimension
   take form google-cloud-documentai-v1beta1-document-page-dimension
 
-load @termsurf/snow/googleapis.com/documentai/v1/base/google-cloud-documentai-v1beta1-document-page-image
+load @cluesurf/snow/googleapis.com/documentai/v1/base/google-cloud-documentai-v1beta1-document-page-image
   take form google-cloud-documentai-v1beta1-document-page-image
 
-load @termsurf/snow/googleapis.com/documentai/v1/base/google-cloud-documentai-v1beta1-document-page-layout
+load @cluesurf/snow/googleapis.com/documentai/v1/base/google-cloud-documentai-v1beta1-document-page-layout
   take form google-cloud-documentai-v1beta1-document-page-layout
 
-load @termsurf/snow/googleapis.com/documentai/v1/base/google-cloud-documentai-v1beta1-document-provenance
+load @cluesurf/snow/googleapis.com/documentai/v1/base/google-cloud-documentai-v1beta1-document-provenance
   take form google-cloud-documentai-v1beta1-document-provenance
 
 form google-cloud-documentai-v1beta1-document-page, name <GoogleCloudDocumentaiV1beta1DocumentPage>

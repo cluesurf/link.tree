@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/okta/base/brand
+load @cluesurf/snow/okta/base/brand
   take form brand
 
 boot update-brand, name <updateBrand>

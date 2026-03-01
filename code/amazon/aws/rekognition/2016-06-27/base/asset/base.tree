@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/ground-truth-manifest
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/ground-truth-manifest
   take form ground-truth-manifest
 
 form asset, name <Asset>

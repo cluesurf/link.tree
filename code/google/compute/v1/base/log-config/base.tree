@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/compute/v1/base/log-config-cloud-audit-options
+load @cluesurf/snow/googleapis.com/compute/v1/base/log-config-cloud-audit-options
   take form log-config-cloud-audit-options
 
-load @termsurf/snow/googleapis.com/compute/v1/base/log-config-counter-options
+load @cluesurf/snow/googleapis.com/compute/v1/base/log-config-counter-options
   take form log-config-counter-options
 
-load @termsurf/snow/googleapis.com/compute/v1/base/log-config-data-access-options
+load @cluesurf/snow/googleapis.com/compute/v1/base/log-config-data-access-options
   take form log-config-data-access-options
 
 form log-config, name <LogConfig>

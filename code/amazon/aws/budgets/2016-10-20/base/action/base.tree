@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/action-id
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/action-id
   take form action-id
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/action-status
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/action-status
   take form action-status
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/action-threshold
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/action-threshold
   take form action-threshold
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/action-type
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/action-type
   take form action-type
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/approval-model
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/approval-model
   take form approval-model
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/budget-name
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/budget-name
   take form budget-name
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/definition
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/definition
   take form definition
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/notification-type
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/notification-type
   take form notification-type
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/role-arn
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/subscribers
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/subscribers
   take form subscribers
 
 form action, name <Action>

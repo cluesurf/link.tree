@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/speech/v1/base/recognition-metadata
+load @cluesurf/snow/googleapis.com/speech/v1/base/recognition-metadata
   take form recognition-metadata
 
-load @termsurf/snow/googleapis.com/speech/v1/base/speaker-diarization-config
+load @cluesurf/snow/googleapis.com/speech/v1/base/speaker-diarization-config
   take form speaker-diarization-config
 
-load @termsurf/snow/googleapis.com/speech/v1/base/speech-adaptation
+load @cluesurf/snow/googleapis.com/speech/v1/base/speech-adaptation
   take form speech-adaptation
 
 form recognition-config, name <RecognitionConfig>

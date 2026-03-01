@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mwaa/2020-07-01/base/logging-enabled
+load @cluesurf/snow/amazonaws.com/mwaa/2020-07-01/base/logging-enabled
   take form logging-enabled
 
-load @termsurf/snow/amazonaws.com/mwaa/2020-07-01/base/logging-level
+load @cluesurf/snow/amazonaws.com/mwaa/2020-07-01/base/logging-level
   take form logging-level
 
 form module-logging-configuration-input, name <ModuleLoggingConfigurationInput>

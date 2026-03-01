@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/arn
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/auto-ml-result
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/auto-ml-result
   take form auto-ml-result
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/date
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/event-type
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/event-type
   take form event-type
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/name
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/perform-auto-ml
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/perform-auto-ml
   take form perform-auto-ml
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/perform-hpo
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/perform-hpo
   take form perform-hpo
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/solution-config
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/solution-config
   take form solution-config
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/solution-version-summary
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/solution-version-summary
   take form solution-version-summary
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/status
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/status
   take form status
 
 form solution, name <Solution>

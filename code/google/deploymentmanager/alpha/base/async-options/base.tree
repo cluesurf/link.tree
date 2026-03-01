@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/deploymentmanager/alpha/base/polling-options
+load @cluesurf/snow/googleapis.com/deploymentmanager/alpha/base/polling-options
   take form polling-options
 
 form async-options, name <AsyncOptions>

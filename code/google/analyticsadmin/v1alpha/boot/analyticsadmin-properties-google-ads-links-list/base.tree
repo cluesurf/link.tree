@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/analyticsadmin/v1alpha/base/google-analytics-admin-v1alpha-list-google-ads-links-response
+load @cluesurf/snow/googleapis.com/analyticsadmin/v1alpha/base/google-analytics-admin-v1alpha-list-google-ads-links-response
   take form google-analytics-admin-v1alpha-list-google-ads-links-response
 
 boot analyticsadmin-properties-google-ads-links-list, name <analyticsadmin.properties.googleAdsLinks.list>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/workdocs/2016-05-01/base/comment
+load @cluesurf/snow/amazonaws.com/workdocs/2016-05-01/base/comment
   take form comment
 
 form create-comment-response, name <CreateCommentResponse>

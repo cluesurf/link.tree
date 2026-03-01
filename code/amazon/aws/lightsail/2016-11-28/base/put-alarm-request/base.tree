@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/comparison-operator
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/comparison-operator
   take form comparison-operator
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/contact-protocols-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/contact-protocols-list
   take form contact-protocols-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/double
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/metric-name
   take form metric-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/notification-trigger-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/notification-trigger-list
   take form notification-trigger-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/treat-missing-data
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/treat-missing-data
   take form treat-missing-data
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form put-alarm-request, name <PutAlarmRequest>

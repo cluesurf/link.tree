@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/synthetics/2017-10-11/base/runtime-version
+load @cluesurf/snow/amazonaws.com/synthetics/2017-10-11/base/runtime-version
   take form runtime-version
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form runtime-version-list, name <RuntimeVersionList>

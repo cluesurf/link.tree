@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/client-request-token
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/client-request-token
   take form client-request-token
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/content
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/content
   take form content
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/filter-list
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/filter-list
   take form filter-list
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/time-to-live-in-seconds
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/time-to-live-in-seconds
   take form time-to-live-in-seconds
 
 form send-announcement-request, name <SendAnnouncementRequest>

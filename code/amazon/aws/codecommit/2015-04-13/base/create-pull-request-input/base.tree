@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/client-request-token
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/client-request-token
   take form client-request-token
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/description
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/target-list
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/target-list
   take form target-list
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/title
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/title
   take form title
 
 form create-pull-request-input, name <CreatePullRequestInput>

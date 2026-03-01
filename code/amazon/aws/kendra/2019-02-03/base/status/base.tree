@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/document-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/document-id
   take form document-id
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/document-status
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/document-status
   take form document-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form status, name <Status>

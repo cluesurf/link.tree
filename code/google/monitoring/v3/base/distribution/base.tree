@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/bucket-options
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/bucket-options
   take form bucket-options
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/range
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/range
   take form range
 
 form distribution, name <Distribution>

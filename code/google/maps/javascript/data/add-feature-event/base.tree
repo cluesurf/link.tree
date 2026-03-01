@@ -1,5 +1,5 @@
 
-load @termsurf/snow/code/javascript/google/maps/data/feature
+load @cluesurf/snow/code/javascript/google/maps/data/feature
   take form feature
 
 form add-feature-event, name <google.maps.Data.AddFeatureEvent>

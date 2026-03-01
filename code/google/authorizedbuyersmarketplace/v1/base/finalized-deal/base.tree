@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/authorizedbuyersmarketplace/v1/base/deal
+load @cluesurf/snow/googleapis.com/authorizedbuyersmarketplace/v1/base/deal
   take form deal
 
-load @termsurf/snow/googleapis.com/authorizedbuyersmarketplace/v1/base/deal-pausing-info
+load @cluesurf/snow/googleapis.com/authorizedbuyersmarketplace/v1/base/deal-pausing-info
   take form deal-pausing-info
 
-load @termsurf/snow/googleapis.com/authorizedbuyersmarketplace/v1/base/rtb-metrics
+load @cluesurf/snow/googleapis.com/authorizedbuyersmarketplace/v1/base/rtb-metrics
   take form rtb-metrics
 
 form finalized-deal, name <FinalizedDeal>

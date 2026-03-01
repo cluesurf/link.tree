@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/approval-rule-event-metadata
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/approval-rule-event-metadata
   take form approval-rule-event-metadata
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/approval-rule-overridden-event-metadata
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/approval-rule-overridden-event-metadata
   take form approval-rule-overridden-event-metadata
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/approval-state-changed-event-metadata
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/approval-state-changed-event-metadata
   take form approval-state-changed-event-metadata
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/arn
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/event-date
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/event-date
   take form event-date
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-created-event-metadata
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-created-event-metadata
   take form pull-request-created-event-metadata
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-event-type
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-event-type
   take form pull-request-event-type
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-id
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-id
   take form pull-request-id
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-merged-state-changed-event-metadata
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-merged-state-changed-event-metadata
   take form pull-request-merged-state-changed-event-metadata
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-source-reference-updated-event-metadata
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-source-reference-updated-event-metadata
   take form pull-request-source-reference-updated-event-metadata
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-status-changed-event-metadata
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/pull-request-status-changed-event-metadata
   take form pull-request-status-changed-event-metadata
 
 form pull-request-event, name <PullRequestEvent>

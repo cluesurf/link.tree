@@ -1,41 +1,41 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/currency-code-values
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/currency-code-values
   take form currency-code-values
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/float
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/float
   take form float
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-type
   take form instance-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/long
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/offering-class-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/offering-class-type
   take form offering-class-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/offering-type-values
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/offering-type-values
   take form offering-type-values
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/pricing-details-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/pricing-details-list
   take form pricing-details-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/recurring-charges-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/recurring-charges-list
   take form recurring-charges-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/ri-product-description
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/ri-product-description
   take form ri-product-description
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/scope
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/scope
   take form scope
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tenancy
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tenancy
   take form tenancy
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form reserved-instances-offering, name <ReservedInstancesOffering>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/aws-job-abort-criteria-list
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/aws-job-abort-criteria-list
   take form aws-job-abort-criteria-list
 
 form aws-job-abort-config, name <AwsJobAbortConfig>

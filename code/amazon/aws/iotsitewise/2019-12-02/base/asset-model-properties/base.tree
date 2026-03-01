@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-model-property
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-model-property
   take form asset-model-property
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form asset-model-properties, name <AssetModelProperties>

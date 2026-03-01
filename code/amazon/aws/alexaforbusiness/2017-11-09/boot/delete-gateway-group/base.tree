@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/delete-gateway-group-response
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/delete-gateway-group-response
   take form delete-gateway-group-response
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/resource-associated-exception
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/resource-associated-exception
   take form resource-associated-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-gateway-group, name <DeleteGatewayGroup>

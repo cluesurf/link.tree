@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/parameters-list
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/parameters-list
   take form parameters-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form reset-db-parameter-group-message, name <ResetDBParameterGroupMessage>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/slot-default-value-string
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/slot-default-value-string
   take form slot-default-value-string
 
 form slot-default-value, name <SlotDefaultValue>

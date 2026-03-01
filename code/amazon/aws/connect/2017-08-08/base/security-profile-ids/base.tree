@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/security-profile-id
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/security-profile-id
   take form security-profile-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form security-profile-ids, name <SecurityProfileIds>

@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ivs/2020-07-14/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/ivs/2020-07-14/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/ivs/2020-07-14/base/internal-server-exception
+load @cluesurf/snow/amazonaws.com/ivs/2020-07-14/base/internal-server-exception
   take form internal-server-exception
 
-load @termsurf/snow/amazonaws.com/ivs/2020-07-14/base/list-recording-configurations-body
+load @cluesurf/snow/amazonaws.com/ivs/2020-07-14/base/list-recording-configurations-body
   take form list-recording-configurations-body
 
-load @termsurf/snow/amazonaws.com/ivs/2020-07-14/base/list-recording-configurations-response
+load @cluesurf/snow/amazonaws.com/ivs/2020-07-14/base/list-recording-configurations-response
   take form list-recording-configurations-response
 
-load @termsurf/snow/amazonaws.com/ivs/2020-07-14/base/validation-exception
+load @cluesurf/snow/amazonaws.com/ivs/2020-07-14/base/validation-exception
   take form validation-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-recording-configurations, name <ListRecordingConfigurations>

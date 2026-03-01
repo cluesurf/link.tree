@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/pager-duty/base/alert
+load @cluesurf/snow/pager-duty/base/alert
   take form alert
 
 boot update-alert

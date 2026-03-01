@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/arn-list
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/arn-list
   take form arn-list
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/describe-images-max-results
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/describe-images-max-results
   take form describe-images-max-results
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/string-list
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/string-list
   take form string-list
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/visibility-type
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/visibility-type
   take form visibility-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-images-request, name <DescribeImagesRequest>

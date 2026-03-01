@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
 form bypass-governance-retention, name <BypassGovernanceRetention>

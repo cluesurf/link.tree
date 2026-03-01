@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/id
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/list-of-asset-source-entry
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/list-of-asset-source-entry
   take form list-of-asset-source-entry
 
 form import-assets-from-s3-response-details, name <ImportAssetsFromS3ResponseDetails>

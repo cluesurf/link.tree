@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/clouderrorreporting/v1beta1/base/http-request-context
+load @cluesurf/snow/googleapis.com/clouderrorreporting/v1beta1/base/http-request-context
   take form http-request-context
 
-load @termsurf/snow/googleapis.com/clouderrorreporting/v1beta1/base/source-location
+load @cluesurf/snow/googleapis.com/clouderrorreporting/v1beta1/base/source-location
   take form source-location
 
 form error-context, name <ErrorContext>

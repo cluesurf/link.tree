@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53resolver/2018-04-01/base/resolver-rule-association
+load @cluesurf/snow/amazonaws.com/route53resolver/2018-04-01/base/resolver-rule-association
   take form resolver-rule-association
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form resolver-rule-associations, name <ResolverRuleAssociations>

@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/execute-sql-body
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/execute-sql-body
   take form execute-sql-body
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/execute-sql-response
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/execute-sql-response
   take form execute-sql-response
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/forbidden-exception
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/forbidden-exception
   take form forbidden-exception
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/internal-server-error-exception
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/internal-server-error-exception
   take form internal-server-error-exception
 
-load @termsurf/snow/amazonaws.com/rds-data/2018-08-01/base/service-unavailable-error
+load @cluesurf/snow/amazonaws.com/rds-data/2018-08-01/base/service-unavailable-error
   take form service-unavailable-error
 
 boot execute-sql, name <ExecuteSql>

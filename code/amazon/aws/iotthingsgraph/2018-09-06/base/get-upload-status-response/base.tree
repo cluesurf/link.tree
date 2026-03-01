@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/arn
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/namespace-name
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/namespace-name
   take form namespace-name
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/string-list
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/string-list
   take form string-list
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/timestamp
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/upload-id
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/upload-id
   take form upload-id
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/upload-status
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/upload-status
   take form upload-status
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/version
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/version
   take form version
 
 form get-upload-status-response, name <GetUploadStatusResponse>

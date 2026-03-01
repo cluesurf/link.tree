@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/generic-string
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/generic-string
   take form generic-string
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/resource-details
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/resource-details
   take form resource-details
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/resource-utilization
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/resource-utilization
   take form resource-utilization
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/tag-values-list
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/tag-values-list
   take form tag-values-list
 
 form current-instance, name <CurrentInstance>

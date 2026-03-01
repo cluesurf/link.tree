@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/ebs-instance-block-device
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/ebs-instance-block-device
   take form ebs-instance-block-device
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form instance-block-device-mapping, name <InstanceBlockDeviceMapping>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/deployment-close-date-time-stamp
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/deployment-close-date-time-stamp
   take form deployment-close-date-time-stamp
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/deployment-status
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/deployment-status
   take form deployment-status
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form service-software-options, name <ServiceSoftwareOptions>

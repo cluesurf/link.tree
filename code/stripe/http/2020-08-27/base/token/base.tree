@@ -1,8 +1,8 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/bank-account
+load @cluesurf/snow/stripe.com/2020-08-27/base/bank-account
   take form bank-account
 
-load @termsurf/snow/stripe.com/2020-08-27/base/card
+load @cluesurf/snow/stripe.com/2020-08-27/base/card
   take form card
 
 form token, name <token>

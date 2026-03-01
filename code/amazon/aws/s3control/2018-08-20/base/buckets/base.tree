@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/s3-bucket-arn-string
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/s3-bucket-arn-string
   take form s3-bucket-arn-string
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form buckets, name <Buckets>

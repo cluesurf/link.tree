@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/ec2-image-id
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/ec2-image-id
   take form ec2-image-id
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-description
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-description
   take form streaming-image-description
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-name
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-name
   take form streaming-image-name
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/tags
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/tags
   take form tags
 
 form create-streaming-image-request, name <CreateStreamingImageRequest>

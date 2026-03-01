@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/comprehendmedical/2018-10-30/base/float
+load @cluesurf/snow/amazonaws.com/comprehendmedical/2018-10-30/base/float
   take form float
 
-load @termsurf/snow/amazonaws.com/comprehendmedical/2018-10-30/base/icd10-cm-attribute-type
+load @cluesurf/snow/amazonaws.com/comprehendmedical/2018-10-30/base/icd10-cm-attribute-type
   take form icd10-cm-attribute-type
 
-load @termsurf/snow/amazonaws.com/comprehendmedical/2018-10-30/base/icd10-cm-entity-type
+load @cluesurf/snow/amazonaws.com/comprehendmedical/2018-10-30/base/icd10-cm-entity-type
   take form icd10-cm-entity-type
 
-load @termsurf/snow/amazonaws.com/comprehendmedical/2018-10-30/base/icd10-cm-relationship-type
+load @cluesurf/snow/amazonaws.com/comprehendmedical/2018-10-30/base/icd10-cm-relationship-type
   take form icd10-cm-relationship-type
 
-load @termsurf/snow/amazonaws.com/comprehendmedical/2018-10-30/base/icd10-cm-trait-list
+load @cluesurf/snow/amazonaws.com/comprehendmedical/2018-10-30/base/icd10-cm-trait-list
   take form icd10-cm-trait-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form icd10-cm-attribute, name <ICD10CMAttribute>

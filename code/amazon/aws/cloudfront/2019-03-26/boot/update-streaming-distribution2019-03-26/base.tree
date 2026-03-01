@@ -1,50 +1,50 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/access-denied
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/access-denied
   take form access-denied
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/cname-already-exists
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/cname-already-exists
   take form cname-already-exists
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/illegal-update
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/illegal-update
   take form illegal-update
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/inconsistent-quantities
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/inconsistent-quantities
   take form inconsistent-quantities
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/invalid-argument
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/invalid-argument
   take form invalid-argument
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/invalid-if-match-version
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/invalid-if-match-version
   take form invalid-if-match-version
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/invalid-origin-access-identity
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/invalid-origin-access-identity
   take form invalid-origin-access-identity
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/missing-body
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/missing-body
   take form missing-body
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/no-such-streaming-distribution
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/no-such-streaming-distribution
   take form no-such-streaming-distribution
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/precondition-failed
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/precondition-failed
   take form precondition-failed
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/too-many-streaming-distribution-cnam-es
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/too-many-streaming-distribution-cnam-es
   take form too-many-streaming-distribution-cnam-es
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/too-many-trusted-signers
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/too-many-trusted-signers
   take form too-many-trusted-signers
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/trusted-signer-does-not-exist
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/trusted-signer-does-not-exist
   take form trusted-signer-does-not-exist
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/update-streaming-distribution-result
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/update-streaming-distribution-result
   take form update-streaming-distribution-result
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/update-streaming-distribution2019-03-26-body
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/update-streaming-distribution2019-03-26-body
   take form update-streaming-distribution2019-03-26-body
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot update-streaming-distribution2019-03-26, name <UpdateStreamingDistribution2019_03_26>

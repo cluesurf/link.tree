@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/schemas/2019-12-02/base/schema-version-summary
+load @cluesurf/snow/amazonaws.com/schemas/2019-12-02/base/schema-version-summary
   take form schema-version-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-schema-version-summary, name <__listOfSchemaVersionSummary>

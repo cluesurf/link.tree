@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/date
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/organization-config-rule-name
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/organization-config-rule-name
   take form organization-config-rule-name
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/organization-rule-status
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/organization-rule-status
   take form organization-rule-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form organization-config-rule-status, name <OrganizationConfigRuleStatus>

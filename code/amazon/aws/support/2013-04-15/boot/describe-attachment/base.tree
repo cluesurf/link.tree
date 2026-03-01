@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/attachment-id-not-found
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/attachment-id-not-found
   take form attachment-id-not-found
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/describe-attachment-limit-exceeded
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/describe-attachment-limit-exceeded
   take form describe-attachment-limit-exceeded
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/describe-attachment-response
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/describe-attachment-response
   take form describe-attachment-response
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-attachment, name <DescribeAttachment>

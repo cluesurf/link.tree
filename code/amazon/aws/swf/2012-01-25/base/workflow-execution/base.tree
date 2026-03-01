@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/workflow-id
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/workflow-id
   take form workflow-id
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/workflow-run-id
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/workflow-run-id
   take form workflow-run-id
 
 form workflow-execution, name <WorkflowExecution>

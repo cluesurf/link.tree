@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/arn
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/branch-name-list
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/branch-name-list
   take form branch-name-list
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/repository-trigger-custom-data
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/repository-trigger-custom-data
   take form repository-trigger-custom-data
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/repository-trigger-event-list
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/repository-trigger-event-list
   take form repository-trigger-event-list
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/repository-trigger-name
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/repository-trigger-name
   take form repository-trigger-name
 
 form repository-trigger, name <RepositoryTrigger>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/variable-name
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/variable-name
   take form variable-name
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/variable-value
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/variable-value
   take form variable-value
 
 form set-variable-action, name <SetVariableAction>

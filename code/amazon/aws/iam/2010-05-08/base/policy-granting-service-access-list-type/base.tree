@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/policy-granting-service-access
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/policy-granting-service-access
   take form policy-granting-service-access
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form policy-granting-service-access-list-type, name <policyGrantingServiceAccessListType>

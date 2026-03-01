@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/database
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/database
   take form database
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/db-user
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/db-user
   take form db-user
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/redshift-secret-manager-arn
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/redshift-secret-manager-arn
   take form redshift-secret-manager-arn
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/sql
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/sql
   take form sql
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/statement-name
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/statement-name
   take form statement-name
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form redshift-data-parameters, name <RedshiftDataParameters>

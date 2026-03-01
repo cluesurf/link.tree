@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/arn
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/backup-vault-events
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/backup-vault-events
   take form backup-vault-events
 
 form put-backup-vault-notifications-input, name <PutBackupVaultNotificationsInput>

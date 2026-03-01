@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/email-address
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/email-address
   take form email-address
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/email-status
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/email-status
   take form email-status
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/invite-status
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/invite-status
   take form invite-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form invite, name <Invite>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/alarm-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/alarm-name
   take form alarm-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/aws-arn
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/aws-arn
   take form aws-arn
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/state-reason
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/state-reason
   take form state-reason
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/state-value
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/state-value
   take form state-value
 
 form cloudwatch-alarm-action, name <CloudwatchAlarmAction>

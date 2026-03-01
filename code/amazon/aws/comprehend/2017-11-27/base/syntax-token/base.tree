@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/part-of-speech-tag
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/part-of-speech-tag
   take form part-of-speech-tag
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form syntax-token, name <SyntaxToken>

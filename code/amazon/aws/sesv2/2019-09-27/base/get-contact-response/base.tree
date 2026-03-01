@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/attributes-data
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/attributes-data
   take form attributes-data
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/contact-list-name
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/contact-list-name
   take form contact-list-name
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/email-address
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/email-address
   take form email-address
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/timestamp
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/topic-preference-list
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/topic-preference-list
   take form topic-preference-list
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/unsubscribe-all
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/unsubscribe-all
   take form unsubscribe-all
 
 form get-contact-response, name <GetContactResponse>

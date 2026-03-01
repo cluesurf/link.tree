@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/description
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/resource-name
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/rule-capacity
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/rule-capacity
   take form rule-capacity
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/rule-group
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/rule-group
   take form rule-group
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/rule-group-type
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/rule-group-type
   take form rule-group-type
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/rules-string
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/rules-string
   take form rules-string
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/tag-list
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form create-rule-group-request, name <CreateRuleGroupRequest>

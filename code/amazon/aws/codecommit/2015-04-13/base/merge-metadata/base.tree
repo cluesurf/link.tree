@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/arn
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/commit-id
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/commit-id
   take form commit-id
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/is-merged
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/is-merged
   take form is-merged
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/merge-option-type-enum
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/merge-option-type-enum
   take form merge-option-type-enum
 
 form merge-metadata, name <MergeMetadata>

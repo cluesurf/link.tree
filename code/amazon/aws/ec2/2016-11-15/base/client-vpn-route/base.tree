@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-route-status
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-route-status
   take form client-vpn-route-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form client-vpn-route, name <ClientVpnRoute>

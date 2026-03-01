@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/project-version-description
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/project-version-description
   take form project-version-description
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form project-version-descriptions, name <ProjectVersionDescriptions>

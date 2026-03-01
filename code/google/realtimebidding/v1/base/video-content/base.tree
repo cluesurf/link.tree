@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/realtimebidding/v1/base/video-metadata
+load @cluesurf/snow/googleapis.com/realtimebidding/v1/base/video-metadata
   take form video-metadata
 
 form video-content, name <VideoContent>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bulk-deployments
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bulk-deployments
   take form bulk-deployments
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-bulk-deployments-response, name <ListBulkDeploymentsResponse>

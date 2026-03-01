@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/describe-event-types-response
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/describe-event-types-response
   take form describe-event-types-response
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/invalid-pagination-token
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/invalid-pagination-token
   take form invalid-pagination-token
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/unsupported-locale
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/unsupported-locale
   take form unsupported-locale
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-event-types, name <DescribeEventTypes>

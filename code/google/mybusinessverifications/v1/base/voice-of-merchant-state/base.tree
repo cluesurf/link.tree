@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/mybusinessverifications/v1/base/comply-with-guidelines
+load @cluesurf/snow/googleapis.com/mybusinessverifications/v1/base/comply-with-guidelines
   take form comply-with-guidelines
 
-load @termsurf/snow/googleapis.com/mybusinessverifications/v1/base/resolve-ownership-conflict
+load @cluesurf/snow/googleapis.com/mybusinessverifications/v1/base/resolve-ownership-conflict
   take form resolve-ownership-conflict
 
-load @termsurf/snow/googleapis.com/mybusinessverifications/v1/base/verify
+load @cluesurf/snow/googleapis.com/mybusinessverifications/v1/base/verify
   take form verify
 
-load @termsurf/snow/googleapis.com/mybusinessverifications/v1/base/wait-for-voice-of-merchant
+load @cluesurf/snow/googleapis.com/mybusinessverifications/v1/base/wait-for-voice-of-merchant
   take form wait-for-voice-of-merchant
 
 form voice-of-merchant-state, name <VoiceOfMerchantState>

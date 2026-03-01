@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androiddeviceprovisioning/v1/base/list-vendors-response
+load @cluesurf/snow/googleapis.com/androiddeviceprovisioning/v1/base/list-vendors-response
   take form list-vendors-response
 
 boot androiddeviceprovisioning-partners-vendors-list, name <androiddeviceprovisioning.partners.vendors.list>

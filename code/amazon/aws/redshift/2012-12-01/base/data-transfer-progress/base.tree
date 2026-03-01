@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/double-optional
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/double-optional
   take form double-optional
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/long
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/long-optional
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/long-optional
   take form long-optional
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form data-transfer-progress, name <DataTransferProgress>

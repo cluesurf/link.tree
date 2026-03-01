@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/googleapis.com/content/v2/base/datafeeds-custom-batch-response
+load @cluesurf/snow/googleapis.com/content/v2/base/datafeeds-custom-batch-response
   take form datafeeds-custom-batch-response
 
 boot content-datafeeds-custombatch, name <content.datafeeds.custombatch>

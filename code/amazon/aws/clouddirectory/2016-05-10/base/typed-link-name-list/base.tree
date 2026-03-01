@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/typed-link-name
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/typed-link-name
   take form typed-link-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form typed-link-name-list, name <TypedLinkNameList>

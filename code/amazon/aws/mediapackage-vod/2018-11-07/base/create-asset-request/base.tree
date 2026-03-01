@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/tags
+load @cluesurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/tags
   take form tags
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-asset-request, name <CreateAssetRequest>

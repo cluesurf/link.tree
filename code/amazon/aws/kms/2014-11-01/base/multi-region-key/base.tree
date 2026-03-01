@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kms/2014-11-01/base/arn-type
+load @cluesurf/snow/amazonaws.com/kms/2014-11-01/base/arn-type
   take form arn-type
 
-load @termsurf/snow/amazonaws.com/kms/2014-11-01/base/region-type
+load @cluesurf/snow/amazonaws.com/kms/2014-11-01/base/region-type
   take form region-type
 
 form multi-region-key, name <MultiRegionKey>

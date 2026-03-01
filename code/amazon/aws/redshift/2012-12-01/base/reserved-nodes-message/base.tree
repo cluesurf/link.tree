@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/reserved-node-list
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/reserved-node-list
   take form reserved-node-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form reserved-nodes-message, name <ReservedNodesMessage>

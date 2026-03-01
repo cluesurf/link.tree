@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/evaluate-on-exit
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/evaluate-on-exit
   take form evaluate-on-exit
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form evaluate-on-exit-list, name <EvaluateOnExitList>

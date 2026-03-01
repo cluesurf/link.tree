@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/bucket-name
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/bucket-name
   take form bucket-name
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/encryption
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/encryption
   take form encryption
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/grants
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/grants
   take form grants
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/location-prefix
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/location-prefix
   take form location-prefix
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/object-canned-acl
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/object-canned-acl
   take form object-canned-acl
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/storage-class
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/storage-class
   take form storage-class
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/tagging
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/tagging
   take form tagging
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/user-metadata
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/user-metadata
   take form user-metadata
 
 form s3-location, name <S3Location>

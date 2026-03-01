@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-detail
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-detail
   take form contact-detail
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-number
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-number
   take form contact-number
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/dns-sec
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/dns-sec
   take form dns-sec
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/domain-name
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/domain-status-list
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/domain-status-list
   take form domain-status-list
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/email
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/email
   take form email
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/nameserver-list
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/nameserver-list
   take form nameserver-list
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/registrar-name
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/registrar-name
   take form registrar-name
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/registrar-url
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/registrar-url
   take form registrar-url
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/registrar-who-is-server
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/registrar-who-is-server
   take form registrar-who-is-server
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/registry-domain-id
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/registry-domain-id
   take form registry-domain-id
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/reseller
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/reseller
   take form reseller
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form get-domain-detail-response, name <GetDomainDetailResponse>

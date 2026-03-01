@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-actions
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-actions
   take form dataset-actions
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-arn
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-arn
   take form dataset-arn
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-content-delivery-rules
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-content-delivery-rules
   take form dataset-content-delivery-rules
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-name
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-name
   take form dataset-name
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-status
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-status
   take form dataset-status
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-triggers
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/dataset-triggers
   take form dataset-triggers
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/late-data-rules
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/late-data-rules
   take form late-data-rules
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/retention-period
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/retention-period
   take form retention-period
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/timestamp
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/versioning-configuration
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/versioning-configuration
   take form versioning-configuration
 
 form dataset, name <Dataset>

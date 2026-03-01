@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/pending-maintenance-action
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/pending-maintenance-action
   take form pending-maintenance-action
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form pending-maintenance-action-list, name <PendingMaintenanceActionList>

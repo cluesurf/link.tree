@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/arn
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/client-token
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/event-data
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/event-data
   take form event-data
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/timeline-event-type
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/timeline-event-type
   take form timeline-event-type
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/timestamp
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/timestamp
   take form timestamp
 
 form create-timeline-event-input, name <CreateTimelineEventInput>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/account-quota
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/account-quota
   take form account-quota
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form account-quota-list, name <AccountQuotaList>

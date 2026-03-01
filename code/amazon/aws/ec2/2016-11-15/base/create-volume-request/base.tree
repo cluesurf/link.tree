@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/kms-key-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/kms-key-id
   take form kms-key-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/snapshot-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/snapshot-id
   take form snapshot-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification-list
   take form tag-specification-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/volume-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/volume-type
   take form volume-type
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-volume-request, name <CreateVolumeRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/review-reply
+load @cluesurf/snow/googleapis.com/my-business/v4/base/review-reply
   take form review-reply
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/reviewer
+load @cluesurf/snow/googleapis.com/my-business/v4/base/reviewer
   take form reviewer
 
 form review, name <Review>

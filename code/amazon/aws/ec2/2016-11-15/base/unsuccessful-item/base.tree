@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/unsuccessful-item-error
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/unsuccessful-item-error
   take form unsuccessful-item-error
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form unsuccessful-item, name <UnsuccessfulItem>

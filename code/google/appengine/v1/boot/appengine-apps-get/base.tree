@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/appengine/v1/base/application
+load @cluesurf/snow/googleapis.com/appengine/v1/base/application
   take form application
 
 boot appengine-apps-get, name <appengine.apps.get>

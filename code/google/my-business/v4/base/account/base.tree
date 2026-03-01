@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/account-state
+load @cluesurf/snow/googleapis.com/my-business/v4/base/account-state
   take form account-state
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/organization-info
+load @cluesurf/snow/googleapis.com/my-business/v4/base/organization-info
   take form organization-info
 
 form account, name <Account>

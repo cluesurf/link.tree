@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter-key
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter-key
   take form parameter-key
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter-value
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/parameter-value
   take form parameter-value
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/use-previous-value
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/use-previous-value
   take form use-previous-value
 
 form parameter, name <Parameter>

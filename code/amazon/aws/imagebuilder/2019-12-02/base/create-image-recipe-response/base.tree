@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/client-token
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/image-recipe-arn
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/image-recipe-arn
   take form image-recipe-arn
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/non-empty-string
   take form non-empty-string
 
 form create-image-recipe-response, name <CreateImageRecipeResponse>

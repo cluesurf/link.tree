@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/sage-maker-pipeline-parameter
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/sage-maker-pipeline-parameter
   take form sage-maker-pipeline-parameter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form sage-maker-pipeline-parameter-list, name <SageMakerPipelineParameterList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/dashboard-name
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/dashboard-name
   take form dashboard-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form dashboard-names, name <DashboardNames>

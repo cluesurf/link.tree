@@ -1,5 +1,5 @@
 
-load @termsurf/snow/jira/openapi.json/base/user-bean-avatar-urls
+load @cluesurf/snow/jira/openapi.json/base/user-bean-avatar-urls
   take form user-bean-avatar-urls
 
 form user-bean, name <UserBean>

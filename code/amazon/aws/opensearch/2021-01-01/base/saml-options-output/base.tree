@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/integer-class
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/integer-class
   take form integer-class
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/saml-idp
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/saml-idp
   take form saml-idp
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form saml-options-output, name <SAMLOptionsOutput>

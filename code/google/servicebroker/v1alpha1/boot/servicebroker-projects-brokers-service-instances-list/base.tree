@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/servicebroker/v1alpha1/base/google-cloud-servicebroker-v1alpha1-list-service-instances-response
+load @cluesurf/snow/googleapis.com/servicebroker/v1alpha1/base/google-cloud-servicebroker-v1alpha1-list-service-instances-response
   take form google-cloud-servicebroker-v1alpha1-list-service-instances-response
 
 boot servicebroker-projects-brokers-service-instances-list, name <servicebroker.projects.brokers.service_instances.list>

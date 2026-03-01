@@ -1,11 +1,11 @@
 
-load @termsurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/application-id
+load @cluesurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/application-id
   take form application-id
 
-load @termsurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/requested-scopes
+load @cluesurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/requested-scopes
   take form requested-scopes
 
-load @termsurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/scopes-nullable
+load @cluesurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/scopes-nullable
   take form scopes-nullable
 
 form connected-application, name <ConnectedApplication>

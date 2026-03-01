@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/developer-provider-name
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/developer-provider-name
   take form developer-provider-name
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/developer-user-identifier
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/developer-user-identifier
   take form developer-user-identifier
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-id
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-id
   take form identity-id
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-id
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-id
   take form identity-pool-id
 
 form unlink-developer-identity-input, name <UnlinkDeveloperIdentityInput>

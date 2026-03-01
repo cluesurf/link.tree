@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-name
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-name
   take form pipeline-name
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-version
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-version
   take form pipeline-version
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/timestamp
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/timestamp
   take form timestamp
 
 form pipeline-summary, name <PipelineSummary>

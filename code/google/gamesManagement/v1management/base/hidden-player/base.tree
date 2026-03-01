@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/gamesManagement/v1management/base/player
+load @cluesurf/snow/googleapis.com/gamesManagement/v1management/base/player
   take form player
 
 form hidden-player, name <HiddenPlayer>

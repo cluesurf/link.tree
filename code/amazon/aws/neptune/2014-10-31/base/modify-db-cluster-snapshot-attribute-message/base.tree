@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/neptune/2014-10-31/base/attribute-value-list
+load @cluesurf/snow/amazonaws.com/neptune/2014-10-31/base/attribute-value-list
   take form attribute-value-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form modify-db-cluster-snapshot-attribute-message, name <ModifyDBClusterSnapshotAttributeMessage>

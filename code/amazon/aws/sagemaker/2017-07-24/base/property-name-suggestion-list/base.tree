@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/property-name-suggestion
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/property-name-suggestion
   take form property-name-suggestion
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form property-name-suggestion-list, name <PropertyNameSuggestionList>

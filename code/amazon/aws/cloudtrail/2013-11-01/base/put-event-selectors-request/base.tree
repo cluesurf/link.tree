@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudtrail/2013-11-01/base/advanced-event-selectors
+load @cluesurf/snow/amazonaws.com/cloudtrail/2013-11-01/base/advanced-event-selectors
   take form advanced-event-selectors
 
-load @termsurf/snow/amazonaws.com/cloudtrail/2013-11-01/base/event-selectors
+load @cluesurf/snow/amazonaws.com/cloudtrail/2013-11-01/base/event-selectors
   take form event-selectors
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form put-event-selectors-request, name <PutEventSelectorsRequest>

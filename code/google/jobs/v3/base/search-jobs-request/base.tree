@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/jobs/v3/base/histogram-facets
+load @cluesurf/snow/googleapis.com/jobs/v3/base/histogram-facets
   take form histogram-facets
 
-load @termsurf/snow/googleapis.com/jobs/v3/base/job-query
+load @cluesurf/snow/googleapis.com/jobs/v3/base/job-query
   take form job-query
 
-load @termsurf/snow/googleapis.com/jobs/v3/base/request-metadata
+load @cluesurf/snow/googleapis.com/jobs/v3/base/request-metadata
   take form request-metadata
 
 form search-jobs-request, name <SearchJobsRequest>

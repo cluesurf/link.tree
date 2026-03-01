@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/output-description
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/output-description
   take form output-description
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioning-artifact-output-key
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioning-artifact-output-key
   take form provisioning-artifact-output-key
 
 form provisioning-artifact-output, name <ProvisioningArtifactOutput>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/describe-limit
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/describe-limit
   take form describe-limit
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/filter-name
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/filter-name
   take form filter-name
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/log-group-name
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/log-group-name
   take form log-group-name
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/next-token
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/next-token
   take form next-token
 
 form describe-subscription-filters-request, name <DescribeSubscriptionFiltersRequest>

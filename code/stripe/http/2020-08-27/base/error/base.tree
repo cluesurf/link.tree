@@ -1,5 +1,5 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/api-errors
+load @cluesurf/snow/stripe.com/2020-08-27/base/api-errors
   take form api-errors
 
 form error, name <error>

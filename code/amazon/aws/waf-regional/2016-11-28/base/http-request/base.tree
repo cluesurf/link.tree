@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/country
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/country
   take form country
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/http-headers
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/http-headers
   take form http-headers
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/http-method
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/http-method
   take form http-method
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/http-version
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/http-version
   take form http-version
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/ip-string
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/ip-string
   take form ip-string
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/uri-string
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/uri-string
   take form uri-string
 
 form http-request, name <HTTPRequest>

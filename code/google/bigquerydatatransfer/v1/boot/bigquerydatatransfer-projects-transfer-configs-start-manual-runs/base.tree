@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/bigquerydatatransfer/v1/base/start-manual-transfer-runs-response
+load @cluesurf/snow/googleapis.com/bigquerydatatransfer/v1/base/start-manual-transfer-runs-response
   take form start-manual-transfer-runs-response
 
 boot bigquerydatatransfer-projects-transfer-configs-start-manual-runs, name <bigquerydatatransfer.projects.transferConfigs.startManualRuns>

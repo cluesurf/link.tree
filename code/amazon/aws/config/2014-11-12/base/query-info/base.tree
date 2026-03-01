@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/field-info-list
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/field-info-list
   take form field-info-list
 
 form query-info, name <QueryInfo>

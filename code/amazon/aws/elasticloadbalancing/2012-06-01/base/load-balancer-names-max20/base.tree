@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-name
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-name
   take form access-point-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form load-balancer-names-max20, name <LoadBalancerNamesMax20>

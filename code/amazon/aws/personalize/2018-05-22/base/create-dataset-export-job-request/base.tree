@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/arn
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/dataset-export-job-output
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/dataset-export-job-output
   take form dataset-export-job-output
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/ingestion-mode
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/ingestion-mode
   take form ingestion-mode
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/name
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/role-arn
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/role-arn
   take form role-arn
 
 form create-dataset-export-job-request, name <CreateDatasetExportJobRequest>

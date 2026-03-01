@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/variable-name
+load @cluesurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/variable-name
   take form variable-name
 
-load @termsurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/variable-value
+load @cluesurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/variable-value
   take form variable-value
 
 form variable-definition, name <VariableDefinition>

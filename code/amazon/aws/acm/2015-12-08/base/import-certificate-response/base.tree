@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/acm/2015-12-08/base/arn
+load @cluesurf/snow/amazonaws.com/acm/2015-12-08/base/arn
   take form arn
 
 form import-certificate-response, name <ImportCertificateResponse>

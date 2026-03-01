@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-association-state
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-association-state
   take form transit-gateway-association-state
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form transit-gateway-attachment-association, name <TransitGatewayAttachmentAssociation>

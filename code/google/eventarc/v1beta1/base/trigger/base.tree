@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/eventarc/v1beta1/base/destination
+load @cluesurf/snow/googleapis.com/eventarc/v1beta1/base/destination
   take form destination
 
-load @termsurf/snow/googleapis.com/eventarc/v1beta1/base/transport
+load @cluesurf/snow/googleapis.com/eventarc/v1beta1/base/transport
   take form transport
 
 form trigger, name <Trigger>

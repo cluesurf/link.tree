@@ -1,12 +1,12 @@
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/seed/code/form/form
+load @cluesurf/seed/code/form/form
   take form form
     save form form-link-text
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 

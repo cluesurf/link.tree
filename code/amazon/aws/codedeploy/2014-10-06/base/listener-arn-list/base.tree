@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/listener-arn
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/listener-arn
   take form listener-arn
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form listener-arn-list, name <ListenerArnList>

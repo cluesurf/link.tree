@@ -1,20 +1,20 @@
 
-load @termsurf/snow/googleapis.com/chat/v1/base/action-response
+load @cluesurf/snow/googleapis.com/chat/v1/base/action-response
   take form action-response
 
-load @termsurf/snow/googleapis.com/chat/v1/base/matched-url
+load @cluesurf/snow/googleapis.com/chat/v1/base/matched-url
   take form matched-url
 
-load @termsurf/snow/googleapis.com/chat/v1/base/slash-command
+load @cluesurf/snow/googleapis.com/chat/v1/base/slash-command
   take form slash-command
 
-load @termsurf/snow/googleapis.com/chat/v1/base/space
+load @cluesurf/snow/googleapis.com/chat/v1/base/space
   take form space
 
-load @termsurf/snow/googleapis.com/chat/v1/base/thread
+load @cluesurf/snow/googleapis.com/chat/v1/base/thread
   take form thread
 
-load @termsurf/snow/googleapis.com/chat/v1/base/user
+load @cluesurf/snow/googleapis.com/chat/v1/base/user
   take form user
 
 form message, name <Message>

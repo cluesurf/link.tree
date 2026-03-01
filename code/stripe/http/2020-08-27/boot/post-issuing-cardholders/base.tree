@@ -1,11 +1,11 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/issuing-cardholder
+load @cluesurf/snow/stripe.com/2020-08-27/base/issuing-cardholder
   take form issuing-cardholder
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-issuing-cardholders-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-issuing-cardholders-body
   take form post-issuing-cardholders-body
 
 boot post-issuing-cardholders, name <PostIssuingCardholders>

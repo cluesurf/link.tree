@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/eks/2017-11-01/base/boxed-boolean
+load @cluesurf/snow/amazonaws.com/eks/2017-11-01/base/boxed-boolean
   take form boxed-boolean
 
-load @termsurf/snow/amazonaws.com/eks/2017-11-01/base/log-setups
+load @cluesurf/snow/amazonaws.com/eks/2017-11-01/base/log-setups
   take form log-setups
 
-load @termsurf/snow/amazonaws.com/eks/2017-11-01/base/string-list
+load @cluesurf/snow/amazonaws.com/eks/2017-11-01/base/string-list
   take form string-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-cluster-body

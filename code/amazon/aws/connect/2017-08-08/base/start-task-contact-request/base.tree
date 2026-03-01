@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/attributes
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/attributes
   take form attributes
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/client-token
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/contact-flow-id
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/contact-flow-id
   take form contact-flow-id
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/contact-id
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/contact-id
   take form contact-id
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/contact-references
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/contact-references
   take form contact-references
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/description
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/instance-id
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/instance-id
   take form instance-id
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/name
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/name
   take form name
 
 form start-task-contact-request, name <StartTaskContactRequest>

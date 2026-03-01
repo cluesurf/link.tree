@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/ssekms
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/ssekms
   take form ssekms
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/sses3
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/sses3
   take form sses3
 
 form inventory-encryption, name <InventoryEncryption>

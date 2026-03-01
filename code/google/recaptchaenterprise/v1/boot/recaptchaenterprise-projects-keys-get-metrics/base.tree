@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/recaptchaenterprise/v1/base/google-cloud-recaptchaenterprise-v1-metrics
+load @cluesurf/snow/googleapis.com/recaptchaenterprise/v1/base/google-cloud-recaptchaenterprise-v1-metrics
   take form google-cloud-recaptchaenterprise-v1-metrics
 
 boot recaptchaenterprise-projects-keys-get-metrics, name <recaptchaenterprise.projects.keys.getMetrics>

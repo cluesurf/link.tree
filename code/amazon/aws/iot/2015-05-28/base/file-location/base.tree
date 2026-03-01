@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/s3-location
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/s3-location
   take form s3-location
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/stream
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/stream
   take form stream
 
 form file-location, name <FileLocation>

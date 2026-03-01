@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 form component-parameter-value, name <ComponentParameterValue>

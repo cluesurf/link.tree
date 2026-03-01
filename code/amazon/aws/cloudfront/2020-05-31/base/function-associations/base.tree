@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2020-05-31/base/function-association-list
+load @cluesurf/snow/amazonaws.com/cloudfront/2020-05-31/base/function-association-list
   take form function-association-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form function-associations, name <FunctionAssociations>

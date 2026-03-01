@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/dialogflow/v2/base/google-cloud-dialogflow-v2-fulfillment
+load @cluesurf/snow/googleapis.com/dialogflow/v2/base/google-cloud-dialogflow-v2-fulfillment
   take form google-cloud-dialogflow-v2-fulfillment
 
-load @termsurf/snow/googleapis.com/dialogflow/v2/base/google-cloud-dialogflow-v2-text-to-speech-settings
+load @cluesurf/snow/googleapis.com/dialogflow/v2/base/google-cloud-dialogflow-v2-text-to-speech-settings
   take form google-cloud-dialogflow-v2-text-to-speech-settings
 
 form google-cloud-dialogflow-v2-environment, name <GoogleCloudDialogflowV2Environment>

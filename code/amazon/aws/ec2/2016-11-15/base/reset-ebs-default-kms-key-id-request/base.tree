@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form reset-ebs-default-kms-key-id-request, name <ResetEbsDefaultKmsKeyIdRequest>

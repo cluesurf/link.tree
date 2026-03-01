@@ -1,41 +1,41 @@
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/algorithm
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/algorithm
   take form algorithm
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/aws-user-arn
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/aws-user-arn
   take form aws-user-arn
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/entity-id
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/entity-id
   take form entity-id
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/entity-status
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/entity-status
   take form entity-status
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/epoch-time
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/epoch-time
   take form epoch-time
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/long-type
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/long-type
   take form long-type
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/message
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/message
   take form message
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/ml-model-name
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/ml-model-name
   take form ml-model-name
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/ml-model-type
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/ml-model-type
   take form ml-model-type
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/realtime-endpoint-info
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/realtime-endpoint-info
   take form realtime-endpoint-info
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/s3-url
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/s3-url
   take form s3-url
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/score-threshold
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/score-threshold
   take form score-threshold
 
-load @termsurf/snow/amazonaws.com/machinelearning/2014-12-12/base/training-parameters
+load @cluesurf/snow/amazonaws.com/machinelearning/2014-12-12/base/training-parameters
   take form training-parameters
 
 form ml-model, name <MLModel>

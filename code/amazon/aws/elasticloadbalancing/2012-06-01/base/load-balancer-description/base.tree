@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-name
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-name
   take form access-point-name
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/availability-zones
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/availability-zones
   take form availability-zones
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/backend-server-descriptions
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/backend-server-descriptions
   take form backend-server-descriptions
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/created-time
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/created-time
   take form created-time
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/dns-name
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/dns-name
   take form dns-name
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/health-check
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/health-check
   take form health-check
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/instances
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/instances
   take form instances
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/listener-descriptions
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/listener-descriptions
   take form listener-descriptions
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/load-balancer-scheme
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/load-balancer-scheme
   take form load-balancer-scheme
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/policies
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/policies
   take form policies
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/security-groups
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/security-groups
   take form security-groups
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/source-security-group
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/source-security-group
   take form source-security-group
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/subnets
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/subnets
   take form subnets
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/vpc-id
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/vpc-id
   take form vpc-id
 
 form load-balancer-description, name <LoadBalancerDescription>

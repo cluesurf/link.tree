@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/template-body
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/template-body
   take form template-body
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/template-url
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/template-url
   take form template-url
 
 form validate-template-input, name <ValidateTemplateInput>

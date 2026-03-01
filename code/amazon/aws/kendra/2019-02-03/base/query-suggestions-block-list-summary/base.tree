@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/query-suggestions-block-list-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/query-suggestions-block-list-id
   take form query-suggestions-block-list-id
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/query-suggestions-block-list-name
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/query-suggestions-block-list-name
   take form query-suggestions-block-list-name
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/query-suggestions-block-list-status
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/query-suggestions-block-list-status
   take form query-suggestions-block-list-status
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/timestamp
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form query-suggestions-block-list-summary, name <QuerySuggestionsBlockListSummary>

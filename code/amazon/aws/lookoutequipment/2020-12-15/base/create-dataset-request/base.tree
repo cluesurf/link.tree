@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/dataset-name
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/dataset-name
   take form dataset-name
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/dataset-schema
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/dataset-schema
   take form dataset-schema
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/idempotence-token
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/idempotence-token
   take form idempotence-token
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/name-or-arn
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/name-or-arn
   take form name-or-arn
 
-load @termsurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/lookoutequipment/2020-12-15/base/tag-list
   take form tag-list
 
 form create-dataset-request, name <CreateDatasetRequest>

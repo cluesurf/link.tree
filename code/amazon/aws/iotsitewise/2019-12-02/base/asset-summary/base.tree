@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/arn
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-hierarchies
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-hierarchies
   take form asset-hierarchies
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-status
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-status
   take form asset-status
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/id
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/name
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/timestamp
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/timestamp
   take form timestamp
 
 form asset-summary, name <AssetSummary>

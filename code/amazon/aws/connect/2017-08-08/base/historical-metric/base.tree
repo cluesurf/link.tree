@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/historical-metric-name
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/historical-metric-name
   take form historical-metric-name
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/statistic
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/statistic
   take form statistic
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/threshold
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/threshold
   take form threshold
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/unit
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/unit
   take form unit
 
 form historical-metric, name <HistoricalMetric>

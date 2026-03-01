@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/jira/openapi.json/base/project-component
+load @cluesurf/snow/jira/openapi.json/base/project-component
   take form project-component
 
 boot update-component, name <updateComponent>

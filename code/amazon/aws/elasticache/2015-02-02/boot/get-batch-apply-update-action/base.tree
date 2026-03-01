@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/invalid-parameter-value-exception
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/invalid-parameter-value-exception
   take form invalid-parameter-value-exception
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/service-update-not-found-fault
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/service-update-not-found-fault
   take form service-update-not-found-fault
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/update-action-results-message
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/update-action-results-message
   take form update-action-results-message
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 boot get-batch-apply-update-action, name <GET_BatchApplyUpdateAction>

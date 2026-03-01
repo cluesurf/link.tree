@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/calories-fact
+load @cluesurf/snow/googleapis.com/my-business/v4/base/calories-fact
   take form calories-fact
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/nutrition-fact
+load @cluesurf/snow/googleapis.com/my-business/v4/base/nutrition-fact
   take form nutrition-fact
 
 form nutrition-facts, name <NutritionFacts>

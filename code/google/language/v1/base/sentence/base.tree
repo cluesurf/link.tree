@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/language/v1/base/sentiment
+load @cluesurf/snow/googleapis.com/language/v1/base/sentiment
   take form sentiment
 
-load @termsurf/snow/googleapis.com/language/v1/base/text-span
+load @cluesurf/snow/googleapis.com/language/v1/base/text-span
   take form text-span
 
 form sentence, name <Sentence>

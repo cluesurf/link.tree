@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloud9/2017-09-23/base/environment-status
+load @cluesurf/snow/amazonaws.com/cloud9/2017-09-23/base/environment-status
   take form environment-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-environment-status-result, name <DescribeEnvironmentStatusResult>

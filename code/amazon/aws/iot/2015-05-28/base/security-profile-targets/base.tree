@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/security-profile-target
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/security-profile-target
   take form security-profile-target
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form security-profile-targets, name <SecurityProfileTargets>

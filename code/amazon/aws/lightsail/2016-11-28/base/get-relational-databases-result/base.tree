@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database-list
   take form relational-database-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-relational-databases-result, name <GetRelationalDatabasesResult>

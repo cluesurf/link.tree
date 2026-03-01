@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/start-replication-task-type-value
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/start-replication-task-type-value
   take form start-replication-task-type-value
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/t-stamp
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/t-stamp
   take form t-stamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form start-replication-task-message, name <StartReplicationTaskMessage>

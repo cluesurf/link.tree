@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2013-01-01/base/analysis-options
+load @cluesurf/snow/amazonaws.com/cloudsearch/2013-01-01/base/analysis-options
   take form analysis-options
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2013-01-01/base/analysis-scheme-language
+load @cluesurf/snow/amazonaws.com/cloudsearch/2013-01-01/base/analysis-scheme-language
   take form analysis-scheme-language
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2013-01-01/base/standard-name
+load @cluesurf/snow/amazonaws.com/cloudsearch/2013-01-01/base/standard-name
   take form standard-name
 
 form analysis-scheme, name <AnalysisScheme>

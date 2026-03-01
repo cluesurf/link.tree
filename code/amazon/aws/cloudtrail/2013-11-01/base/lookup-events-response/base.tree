@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudtrail/2013-11-01/base/events-list
+load @cluesurf/snow/amazonaws.com/cloudtrail/2013-11-01/base/events-list
   take form events-list
 
-load @termsurf/snow/amazonaws.com/cloudtrail/2013-11-01/base/next-token
+load @cluesurf/snow/amazonaws.com/cloudtrail/2013-11-01/base/next-token
   take form next-token
 
 form lookup-events-response, name <LookupEventsResponse>

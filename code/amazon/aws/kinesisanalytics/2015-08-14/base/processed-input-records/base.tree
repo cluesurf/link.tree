@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kinesisanalytics/2015-08-14/base/processed-input-record
+load @cluesurf/snow/amazonaws.com/kinesisanalytics/2015-08-14/base/processed-input-record
   take form processed-input-record
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form processed-input-records, name <ProcessedInputRecords>

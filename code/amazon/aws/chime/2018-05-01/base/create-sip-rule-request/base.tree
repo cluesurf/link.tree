@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/nullable-boolean
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/nullable-boolean
   take form nullable-boolean
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-name
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-name
   take form sip-rule-name
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-target-application-list
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-target-application-list
   take form sip-rule-target-application-list
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-trigger-type
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-trigger-type
   take form sip-rule-trigger-type
 
 form create-sip-rule-request, name <CreateSipRuleRequest>

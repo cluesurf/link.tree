@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/resource-quota
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/resource-quota
   take form resource-quota
 
 form resource-quotas, name <ResourceQuotas>

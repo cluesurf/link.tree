@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/healthcare/v1/base/deidentify-config
+load @cluesurf/snow/googleapis.com/healthcare/v1/base/deidentify-config
   take form deidentify-config
 
-load @termsurf/snow/googleapis.com/healthcare/v1/base/dicom-filter-config
+load @cluesurf/snow/googleapis.com/healthcare/v1/base/dicom-filter-config
   take form dicom-filter-config
 
 form deidentify-dicom-store-request, name <DeidentifyDicomStoreRequest>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-webhook-endpoints-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-webhook-endpoints-body
   take form post-webhook-endpoints-body
 
-load @termsurf/snow/stripe.com/2020-08-27/base/webhook-endpoint
+load @cluesurf/snow/stripe.com/2020-08-27/base/webhook-endpoint
   take form webhook-endpoint
 
 boot post-webhook-endpoints, name <PostWebhookEndpoints>

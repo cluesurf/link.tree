@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/compute/v1/base/commitment
+load @cluesurf/snow/googleapis.com/compute/v1/base/commitment
   take form commitment
 
 boot compute-region-commitments-get, name <compute.regionCommitments.get>

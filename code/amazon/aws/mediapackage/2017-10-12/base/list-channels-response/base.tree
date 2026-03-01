@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/list-of-channel
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/list-of-channel
   take form list-of-channel
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-channels-response, name <ListChannelsResponse>

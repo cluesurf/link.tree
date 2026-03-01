@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/clouddebugger/v2/base/source-location
+load @cluesurf/snow/googleapis.com/clouddebugger/v2/base/source-location
   take form source-location
 
-load @termsurf/snow/googleapis.com/clouddebugger/v2/base/status-message
+load @cluesurf/snow/googleapis.com/clouddebugger/v2/base/status-message
   take form status-message
 
 form breakpoint, name <Breakpoint>

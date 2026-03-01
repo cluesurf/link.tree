@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53-recovery-control-config/2020-11-02/base/cluster-endpoint
+load @cluesurf/snow/amazonaws.com/route53-recovery-control-config/2020-11-02/base/cluster-endpoint
   take form cluster-endpoint
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-cluster-endpoint, name <__listOfClusterEndpoint>

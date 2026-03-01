@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/fleet-arn
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/fleet-arn
   take form fleet-arn
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/fleet-id
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/fleet-id
   take form fleet-id
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
   take form non-zero-and-max-string
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/vpc-peering-connection-status
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/vpc-peering-connection-status
   take form vpc-peering-connection-status
 
 form vpc-peering-connection, name <VpcPeeringConnection>

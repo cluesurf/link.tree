@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/workdocs/2016-05-01/base/folder-metadata-list
+load @cluesurf/snow/amazonaws.com/workdocs/2016-05-01/base/folder-metadata-list
   take form folder-metadata-list
 
-load @termsurf/snow/amazonaws.com/workdocs/2016-05-01/base/page-marker-type
+load @cluesurf/snow/amazonaws.com/workdocs/2016-05-01/base/page-marker-type
   take form page-marker-type
 
 form describe-root-folders-response, name <DescribeRootFoldersResponse>

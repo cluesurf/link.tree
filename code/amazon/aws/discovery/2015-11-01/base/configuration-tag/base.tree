@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/configuration-id
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/configuration-id
   take form configuration-id
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/configuration-item-type
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/configuration-item-type
   take form configuration-item-type
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/tag-key
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/tag-key
   take form tag-key
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/tag-value
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/tag-value
   take form tag-value
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/time-stamp
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/time-stamp
   take form time-stamp
 
 form configuration-tag, name <ConfigurationTag>

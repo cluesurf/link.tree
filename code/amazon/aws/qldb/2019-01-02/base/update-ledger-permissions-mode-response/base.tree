@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/arn
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/ledger-name
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/ledger-name
   take form ledger-name
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/permissions-mode
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/permissions-mode
   take form permissions-mode
 
 form update-ledger-permissions-mode-response, name <UpdateLedgerPermissionsModeResponse>

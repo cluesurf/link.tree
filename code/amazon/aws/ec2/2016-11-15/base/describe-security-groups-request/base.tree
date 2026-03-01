@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-security-groups-max-results
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-security-groups-max-results
   take form describe-security-groups-max-results
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
   take form filter-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/group-id-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/group-id-string-list
   take form group-id-string-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/group-name-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/group-name-string-list
   take form group-name-string-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-security-groups-request, name <DescribeSecurityGroupsRequest>

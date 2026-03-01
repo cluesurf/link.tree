@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/neptune/2014-10-31/base/availability-zone-list
+load @cluesurf/snow/amazonaws.com/neptune/2014-10-31/base/availability-zone-list
   take form availability-zone-list
 
-load @termsurf/snow/amazonaws.com/neptune/2014-10-31/base/double-optional
+load @cluesurf/snow/amazonaws.com/neptune/2014-10-31/base/double-optional
   take form double-optional
 
-load @termsurf/snow/amazonaws.com/neptune/2014-10-31/base/integer-optional
+load @cluesurf/snow/amazonaws.com/neptune/2014-10-31/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form orderable-db-instance-option, name <OrderableDBInstanceOption>

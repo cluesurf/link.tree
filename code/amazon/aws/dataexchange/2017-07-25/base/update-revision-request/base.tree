@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/string-min0-max16384
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/string-min0-max16384
   take form string-min0-max16384
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form update-revision-request, name <UpdateRevisionRequest>

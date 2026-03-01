@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/action-list
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/action-list
   take form action-list
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/description-string
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/description-string
   take form description-string
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/event-batching-condition
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/event-batching-condition
   take form event-batching-condition
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/generic-string
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/generic-string
   take form generic-string
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/id-string
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/id-string
   take form id-string
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/name-string
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/name-string
   take form name-string
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/predicate
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/predicate
   take form predicate
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/trigger-state
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/trigger-state
   take form trigger-state
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/trigger-type
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/trigger-type
   take form trigger-type
 
 form trigger, name <Trigger>

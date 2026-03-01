@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/domain-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/domain-type
   take form domain-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form address, name <Address>

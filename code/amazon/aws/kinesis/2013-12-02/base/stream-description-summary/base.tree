@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/consumer-count-object
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/consumer-count-object
   take form consumer-count-object
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/encryption-type
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/encryption-type
   take form encryption-type
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/enhanced-monitoring-list
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/enhanced-monitoring-list
   take form enhanced-monitoring-list
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/key-id
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/key-id
   take form key-id
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/retention-period-hours
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/retention-period-hours
   take form retention-period-hours
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/shard-count-object
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/shard-count-object
   take form shard-count-object
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-arn
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-arn
   take form stream-arn
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-name
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-name
   take form stream-name
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-status
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-status
   take form stream-status
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/timestamp
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/timestamp
   take form timestamp
 
 form stream-description-summary, name <StreamDescriptionSummary>

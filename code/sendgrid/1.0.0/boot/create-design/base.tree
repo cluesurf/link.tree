@@ -1,8 +1,8 @@
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/api-errors
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/api-errors
   take form api-errors
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/design-output
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/design-output
   take form design-output
 
 boot create-design

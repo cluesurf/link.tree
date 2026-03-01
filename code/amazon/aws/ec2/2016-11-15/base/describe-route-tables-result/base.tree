@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/route-table-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/route-table-list
   take form route-table-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-route-tables-result, name <DescribeRouteTablesResult>

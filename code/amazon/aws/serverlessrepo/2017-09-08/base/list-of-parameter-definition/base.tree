@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/serverlessrepo/2017-09-08/base/parameter-definition
+load @cluesurf/snow/amazonaws.com/serverlessrepo/2017-09-08/base/parameter-definition
   take form parameter-definition
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-parameter-definition, name <__listOfParameterDefinition>

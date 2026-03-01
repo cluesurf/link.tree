@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/privateca/v1/base/fetch-ca-certs-response
+load @cluesurf/snow/googleapis.com/privateca/v1/base/fetch-ca-certs-response
   take form fetch-ca-certs-response
 
 boot privateca-projects-locations-ca-pools-fetch-ca-certs, name <privateca.projects.locations.caPools.fetchCaCerts>

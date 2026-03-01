@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/bundle-task-error
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/bundle-task-error
   take form bundle-task-error
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/bundle-task-state
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/bundle-task-state
   take form bundle-task-state
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/storage
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/storage
   take form storage
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form bundle-task, name <BundleTask>

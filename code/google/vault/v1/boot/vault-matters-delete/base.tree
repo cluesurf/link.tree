@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/vault/v1/base/matter
+load @cluesurf/snow/googleapis.com/vault/v1/base/matter
   take form matter
 
 boot vault-matters-delete, name <vault.matters.delete>

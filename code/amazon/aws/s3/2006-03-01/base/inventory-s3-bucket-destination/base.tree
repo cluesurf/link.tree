@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/account-id
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/bucket-name
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/bucket-name
   take form bucket-name
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-encryption
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-encryption
   take form inventory-encryption
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-format
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/inventory-format
   take form inventory-format
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/prefix
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/prefix
   take form prefix
 
 form inventory-s3-bucket-destination, name <InventoryS3BucketDestination>

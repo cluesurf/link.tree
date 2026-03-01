@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/state-name
+load @cluesurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/state-name
   take form state-name
 
-load @termsurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/timers
+load @cluesurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/timers
   take form timers
 
-load @termsurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/variables
+load @cluesurf/snow/amazonaws.com/iotevents-data/2018-10-23/base/variables
   take form variables
 
 form detector-state, name <DetectorState>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/exportable-lambda-function-field
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/exportable-lambda-function-field
   take form exportable-lambda-function-field
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form exportable-lambda-function-fields, name <ExportableLambdaFunctionFields>

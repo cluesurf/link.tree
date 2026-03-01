@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/delete-marker-replication
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/delete-marker-replication
   take form delete-marker-replication
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/destination
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/destination
   take form destination
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/existing-object-replication
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/existing-object-replication
   take form existing-object-replication
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/id
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/prefix
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/prefix
   take form prefix
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/priority
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/priority
   take form priority
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/replication-rule-filter
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/replication-rule-filter
   take form replication-rule-filter
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/replication-rule-status
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/replication-rule-status
   take form replication-rule-status
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/source-selection-criteria
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/source-selection-criteria
   take form source-selection-criteria
 
 form replication-rule, name <ReplicationRule>

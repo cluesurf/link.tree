@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/access-controls
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/access-controls
   take form access-controls
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/grantee
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/grantee
   take form grantee
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/grantee-type
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/grantee-type
   take form grantee-type
 
 form permission, name <Permission>

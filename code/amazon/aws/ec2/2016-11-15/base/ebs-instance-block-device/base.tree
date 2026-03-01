@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/attachment-status
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/attachment-status
   take form attachment-status
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
   take form date-time
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form ebs-instance-block-device, name <EbsInstanceBlockDevice>

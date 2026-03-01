@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/boot-mode-values
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/boot-mode-values
   take form boot-mode-values
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/import-image-license-specification-list-response
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/import-image-license-specification-list-response
   take form import-image-license-specification-list-response
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/snapshot-detail-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/snapshot-detail-list
   take form snapshot-detail-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form import-image-task, name <ImportImageTask>

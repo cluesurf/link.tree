@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/preview-marketplace-installed-add-on
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/preview-marketplace-installed-add-on
   take form preview-marketplace-installed-add-on
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/update-installed-add-on-body
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/update-installed-add-on-body
   take form update-installed-add-on-body
 
 boot update-installed-add-on, name <UpdateInstalledAddOn>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/cloudsearchdomain/2013-01-01/base/exprs
+load @cluesurf/snow/amazonaws.com/cloudsearchdomain/2013-01-01/base/exprs
   take form exprs
 
-load @termsurf/snow/amazonaws.com/cloudsearchdomain/2013-01-01/base/fields
+load @cluesurf/snow/amazonaws.com/cloudsearchdomain/2013-01-01/base/fields
   take form fields
 
-load @termsurf/snow/amazonaws.com/cloudsearchdomain/2013-01-01/base/highlights
+load @cluesurf/snow/amazonaws.com/cloudsearchdomain/2013-01-01/base/highlights
   take form highlights
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form hit, name <Hit>

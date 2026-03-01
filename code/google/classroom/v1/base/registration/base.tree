@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/cloud-pubsub-topic
+load @cluesurf/snow/googleapis.com/classroom/v1/base/cloud-pubsub-topic
   take form cloud-pubsub-topic
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/feed
+load @cluesurf/snow/googleapis.com/classroom/v1/base/feed
   take form feed
 
 form registration, name <Registration>

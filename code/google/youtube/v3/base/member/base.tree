@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/member-snippet
+load @cluesurf/snow/googleapis.com/youtube/v3/base/member-snippet
   take form member-snippet
 
 form member, name <Member>

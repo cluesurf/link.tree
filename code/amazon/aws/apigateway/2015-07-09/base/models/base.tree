@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/list-of-model
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/list-of-model
   take form list-of-model
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form models, name <Models>

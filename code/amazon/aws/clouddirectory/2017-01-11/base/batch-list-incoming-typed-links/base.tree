@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/next-token
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/number-results
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/number-results
   take form number-results
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/object-reference
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/object-reference
   take form object-reference
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/typed-link-attribute-range-list
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/typed-link-attribute-range-list
   take form typed-link-attribute-range-list
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/typed-link-schema-and-facet-name
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/typed-link-schema-and-facet-name
   take form typed-link-schema-and-facet-name
 
 form batch-list-incoming-typed-links, name <BatchListIncomingTypedLinks>

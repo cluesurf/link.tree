@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/global-cluster
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/global-cluster
   take form global-cluster
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form global-cluster-list, name <GlobalClusterList>

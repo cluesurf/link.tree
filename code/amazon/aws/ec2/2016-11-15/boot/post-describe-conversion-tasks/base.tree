@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-conversion-tasks-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-conversion-tasks-result
   take form describe-conversion-tasks-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-describe-conversion-tasks, name <POST_DescribeConversionTasks>

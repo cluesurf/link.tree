@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/notification-with-subscribers
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/notification-with-subscribers
   take form notification-with-subscribers
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form notification-with-subscribers-list, name <NotificationWithSubscribersList>

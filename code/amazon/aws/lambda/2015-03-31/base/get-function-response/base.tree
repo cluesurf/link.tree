@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/concurrency
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/concurrency
   take form concurrency
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/function-code-location
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/function-code-location
   take form function-code-location
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/function-configuration
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/function-configuration
   take form function-configuration
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/tags
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/tags
   take form tags
 
 form get-function-response, name <GetFunctionResponse>

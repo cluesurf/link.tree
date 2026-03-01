@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/gameservices/v1/base/policy
+load @cluesurf/snow/googleapis.com/gameservices/v1/base/policy
   take form policy
 
 boot gameservices-projects-locations-game-server-deployments-set-iam-policy, name <gameservices.projects.locations.gameServerDeployments.setIamPolicy>

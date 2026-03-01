@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/data
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/data
   take form data
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/event-id
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/event-id
   take form event-id
 
 form activity-task-completed-event-attributes, name <ActivityTaskCompletedEventAttributes>

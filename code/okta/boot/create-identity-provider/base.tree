@@ -1,5 +1,5 @@
 
-load @termsurf/snow/okta/base/identity-provider
+load @cluesurf/snow/okta/base/identity-provider
   take form identity-provider
 
 boot create-identity-provider, name <createIdentityProvider>

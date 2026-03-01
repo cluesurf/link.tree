@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/create-service-response
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/create-service-response
   take form create-service-response
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/invalid-input
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/invalid-input
   take form invalid-input
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/namespace-not-found
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/namespace-not-found
   take form namespace-not-found
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/resource-limit-exceeded
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/resource-limit-exceeded
   take form resource-limit-exceeded
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/service-already-exists
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/service-already-exists
   take form service-already-exists
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/too-many-tags-exception
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/too-many-tags-exception
   take form too-many-tags-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot create-service, name <CreateService>

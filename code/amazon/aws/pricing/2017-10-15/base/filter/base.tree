@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/pricing/2017-10-15/base/filter-type
+load @cluesurf/snow/amazonaws.com/pricing/2017-10-15/base/filter-type
   take form filter-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form filter, name <Filter>

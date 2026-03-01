@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/backup-id
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/backup-id
   take form backup-id
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/backup-retention-policy
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/backup-retention-policy
   take form backup-retention-policy
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/hsm-type
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/hsm-type
   take form hsm-type
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/subnet-ids
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/subnet-ids
   take form subnet-ids
 
-load @termsurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/tag-list
+load @cluesurf/snow/amazonaws.com/cloudhsmv2/2017-04-28/base/tag-list
   take form tag-list
 
 form create-cluster-request, name <CreateClusterRequest>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/date-type
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/date-type
   take form date-type
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/service-name
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/service-name
   take form service-name
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/service-password
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/service-password
   take form service-password
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/service-specific-credential-id
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/service-specific-credential-id
   take form service-specific-credential-id
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/service-user-name
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/service-user-name
   take form service-user-name
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/status-type
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/status-type
   take form status-type
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/user-name-type
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/user-name-type
   take form user-name-type
 
 form service-specific-credential, name <ServiceSpecificCredential>

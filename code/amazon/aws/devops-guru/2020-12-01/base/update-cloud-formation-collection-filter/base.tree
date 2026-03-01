@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/update-stack-names
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/update-stack-names
   take form update-stack-names
 
 form update-cloud-formation-collection-filter, name <UpdateCloudFormationCollectionFilter>

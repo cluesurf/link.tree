@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/account-id
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/event-arn
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/event-arn
   take form event-arn
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form organization-event-details-error-item, name <OrganizationEventDetailsErrorItem>

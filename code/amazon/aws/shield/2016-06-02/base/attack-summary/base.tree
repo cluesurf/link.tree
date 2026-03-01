@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/shield/2016-06-02/base/attack-timestamp
+load @cluesurf/snow/amazonaws.com/shield/2016-06-02/base/attack-timestamp
   take form attack-timestamp
 
-load @termsurf/snow/amazonaws.com/shield/2016-06-02/base/attack-vector-description-list
+load @cluesurf/snow/amazonaws.com/shield/2016-06-02/base/attack-vector-description-list
   take form attack-vector-description-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form attack-summary, name <AttackSummary>

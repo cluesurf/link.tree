@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-network-interfaces-max-results
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-network-interfaces-max-results
   take form describe-network-interfaces-max-results
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
   take form filter-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/network-interface-id-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/network-interface-id-list
   take form network-interface-id-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-network-interfaces-request, name <DescribeNetworkInterfacesRequest>

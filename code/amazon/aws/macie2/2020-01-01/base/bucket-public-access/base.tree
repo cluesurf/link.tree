@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/bucket-permission-configuration
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/bucket-permission-configuration
   take form bucket-permission-configuration
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/effective-permission
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/effective-permission
   take form effective-permission
 
 form bucket-public-access, name <BucketPublicAccess>

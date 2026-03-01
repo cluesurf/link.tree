@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/receipt-rule-name
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/receipt-rule-name
   take form receipt-rule-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form receipt-rule-names-list, name <ReceiptRuleNamesList>

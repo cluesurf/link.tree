@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/max-records
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/max-records
   take form max-records
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/policy-names
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/policy-names
   take form policy-names
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/policy-types
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/policy-types
   take form policy-types
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string
   take form xml-string
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string-max-len255
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string-max-len255
   take form xml-string-max-len255
 
 form describe-policies-type, name <DescribePoliciesType>

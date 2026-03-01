@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/max-results
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/max-results
   take form max-results
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/next-token
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-filters
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-filters
   take form volume-filters
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-ids
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-ids
   take form volume-ids
 
 form describe-volumes-request, name <DescribeVolumesRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androidenterprise/v1/base/installs-list-response
+load @cluesurf/snow/googleapis.com/androidenterprise/v1/base/installs-list-response
   take form installs-list-response
 
 boot androidenterprise-installs-list, name <androidenterprise.installs.list>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/run/v1/base/probe
+load @cluesurf/snow/googleapis.com/run/v1/base/probe
   take form probe
 
-load @termsurf/snow/googleapis.com/run/v1/base/resource-requirements
+load @cluesurf/snow/googleapis.com/run/v1/base/resource-requirements
   take form resource-requirements
 
-load @termsurf/snow/googleapis.com/run/v1/base/security-context
+load @cluesurf/snow/googleapis.com/run/v1/base/security-context
   take form security-context
 
 form container, name <Container>

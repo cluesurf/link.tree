@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/inventory-item-schema
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/inventory-item-schema
   take form inventory-item-schema
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form inventory-item-schema-result-list, name <InventoryItemSchemaResultList>

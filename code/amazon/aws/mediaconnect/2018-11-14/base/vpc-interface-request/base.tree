@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/list-of-string
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/list-of-string
   take form list-of-string
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/network-interface-type
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/network-interface-type
   take form network-interface-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form vpc-interface-request, name <VpcInterfaceRequest>

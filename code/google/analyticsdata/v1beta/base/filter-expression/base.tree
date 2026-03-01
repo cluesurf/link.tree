@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/analyticsdata/v1beta/base/filter
+load @cluesurf/snow/googleapis.com/analyticsdata/v1beta/base/filter
   take form filter
 
-load @termsurf/snow/googleapis.com/analyticsdata/v1beta/base/filter-expression
+load @cluesurf/snow/googleapis.com/analyticsdata/v1beta/base/filter-expression
   take form filter-expression
 
-load @termsurf/snow/googleapis.com/analyticsdata/v1beta/base/filter-expression-list
+load @cluesurf/snow/googleapis.com/analyticsdata/v1beta/base/filter-expression-list
   take form filter-expression-list
 
 form filter-expression, name <FilterExpression>

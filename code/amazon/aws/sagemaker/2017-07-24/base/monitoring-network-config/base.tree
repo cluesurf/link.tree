@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/vpc-config
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/vpc-config
   take form vpc-config
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form monitoring-network-config, name <MonitoringNetworkConfig>

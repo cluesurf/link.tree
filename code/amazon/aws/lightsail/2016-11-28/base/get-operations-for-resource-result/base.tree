@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/operation-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/operation-list
   take form operation-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-operations-for-resource-result, name <GetOperationsForResourceResult>

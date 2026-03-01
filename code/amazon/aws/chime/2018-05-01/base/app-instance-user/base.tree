@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/chime-arn
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/chime-arn
   take form chime-arn
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/metadata
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/metadata
   take form metadata
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/user-name
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/user-name
   take form user-name
 
 form app-instance-user, name <AppInstanceUser>

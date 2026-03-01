@@ -1,41 +1,41 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/experiment-entity-name
   take form experiment-entity-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metadata-properties
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metadata-properties
   take form metadata-properties
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/parents
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/parents
   take form parents
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/tag-list
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-arn
   take form trial-component-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-artifacts
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-artifacts
   take form trial-component-artifacts
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-metric-summaries
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-metric-summaries
   take form trial-component-metric-summaries
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-parameters
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-parameters
   take form trial-component-parameters
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-source
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-source
   take form trial-component-source
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-source-detail
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-source-detail
   take form trial-component-source-detail
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/trial-component-status
   take form trial-component-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/user-context
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/user-context
   take form user-context
 
 form trial-component, name <TrialComponent>

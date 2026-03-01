@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/subnet
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/subnet
   take form subnet
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form subnet-list, name <SubnetList>

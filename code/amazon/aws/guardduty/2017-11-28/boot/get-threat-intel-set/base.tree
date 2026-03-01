@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/get-threat-intel-set-response
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/get-threat-intel-set-response
   take form get-threat-intel-set-response
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/internal-server-error-exception
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/internal-server-error-exception
   take form internal-server-error-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-threat-intel-set, name <GetThreatIntelSet>

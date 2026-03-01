@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/dimension
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/dimension
   take form dimension
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/extended-statistic
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/extended-statistic
   take form extended-statistic
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/get-metric-statistics-output
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/get-metric-statistics-output
   take form get-metric-statistics-output
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/internal-service-fault
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/internal-service-fault
   take form internal-service-fault
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/invalid-parameter-combination-exception
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/invalid-parameter-combination-exception
   take form invalid-parameter-combination-exception
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/invalid-parameter-value-exception
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/invalid-parameter-value-exception
   take form invalid-parameter-value-exception
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/missing-required-parameter-exception
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/missing-required-parameter-exception
   take form missing-required-parameter-exception
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/statistic
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/statistic
   take form statistic
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-get-metric-statistics, name <GET_GetMetricStatistics>

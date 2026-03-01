@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/get-domain-suggestions-response
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/get-domain-suggestions-response
   take form get-domain-suggestions-response
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/invalid-input
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/invalid-input
   take form invalid-input
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/unsupported-tld
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/unsupported-tld
   take form unsupported-tld
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-domain-suggestions, name <GetDomainSuggestions>

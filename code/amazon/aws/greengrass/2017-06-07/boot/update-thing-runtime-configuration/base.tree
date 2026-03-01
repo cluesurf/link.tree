@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/internal-server-error-exception
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/internal-server-error-exception
   take form internal-server-error-exception
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/update-thing-runtime-configuration-body
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/update-thing-runtime-configuration-body
   take form update-thing-runtime-configuration-body
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/update-thing-runtime-configuration-response
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/update-thing-runtime-configuration-response
   take form update-thing-runtime-configuration-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot update-thing-runtime-configuration, name <UpdateThingRuntimeConfiguration>

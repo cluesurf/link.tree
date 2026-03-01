@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/organizations/2016-11-28/base/handshake-id
+load @cluesurf/snow/amazonaws.com/organizations/2016-11-28/base/handshake-id
   take form handshake-id
 
 form cancel-handshake-request, name <CancelHandshakeRequest>

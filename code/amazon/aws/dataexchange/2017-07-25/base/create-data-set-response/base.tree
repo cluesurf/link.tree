@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/arn
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/asset-type
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/asset-type
   take form asset-type
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/description
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/id
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/map-of-string
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/map-of-string
   take form map-of-string
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/name
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/origin
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/origin
   take form origin
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/origin-details
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/origin-details
   take form origin-details
 
-load @termsurf/snow/amazonaws.com/dataexchange/2017-07-25/base/timestamp
+load @cluesurf/snow/amazonaws.com/dataexchange/2017-07-25/base/timestamp
   take form timestamp
 
 form create-data-set-response, name <CreateDataSetResponse>

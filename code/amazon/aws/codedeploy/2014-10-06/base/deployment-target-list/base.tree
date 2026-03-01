@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-target
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-target
   take form deployment-target
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form deployment-target-list, name <DeploymentTargetList>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/appmesh/2019-01-25/base/resource-name
+load @cluesurf/snow/amazonaws.com/appmesh/2019-01-25/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/appmesh/2019-01-25/base/route-spec
+load @cluesurf/snow/amazonaws.com/appmesh/2019-01-25/base/route-spec
   take form route-spec
 
-load @termsurf/snow/amazonaws.com/appmesh/2019-01-25/base/tag-list
+load @cluesurf/snow/amazonaws.com/appmesh/2019-01-25/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-route-input, name <CreateRouteInput>

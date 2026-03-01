@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/account-detail
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/account-detail
   take form account-detail
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/tag-map
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/tag-map
   take form tag-map
 
 form create-member-request, name <CreateMemberRequest>

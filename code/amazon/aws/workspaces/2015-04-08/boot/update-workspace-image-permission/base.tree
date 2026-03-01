@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/invalid-parameter-values-exception
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/invalid-parameter-values-exception
   take form invalid-parameter-values-exception
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/operation-not-supported-exception
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/operation-not-supported-exception
   take form operation-not-supported-exception
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/resource-unavailable-exception
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/resource-unavailable-exception
   take form resource-unavailable-exception
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/update-workspace-image-permission-result
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/update-workspace-image-permission-result
   take form update-workspace-image-permission-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot update-workspace-image-permission, name <UpdateWorkspaceImagePermission>

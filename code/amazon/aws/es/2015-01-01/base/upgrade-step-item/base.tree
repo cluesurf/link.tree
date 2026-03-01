@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/double
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/issues
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/issues
   take form issues
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-status
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-status
   take form upgrade-status
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-step
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-step
   take form upgrade-step
 
 form upgrade-step-item, name <UpgradeStepItem>

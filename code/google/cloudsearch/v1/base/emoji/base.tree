@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/custom-emoji
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/custom-emoji
   take form custom-emoji
 
 form emoji, name <Emoji>

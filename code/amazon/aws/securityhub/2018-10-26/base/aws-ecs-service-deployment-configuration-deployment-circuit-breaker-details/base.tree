@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form aws-ecs-service-deployment-configuration-deployment-circuit-breaker-details, name <AwsEcsServiceDeploymentConfigurationDeploymentCircuitBreakerDetails>

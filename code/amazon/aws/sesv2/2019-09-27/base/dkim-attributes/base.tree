@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/dkim-signing-attributes-origin
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/dkim-signing-attributes-origin
   take form dkim-signing-attributes-origin
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/dkim-status
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/dkim-status
   take form dkim-status
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/dns-token-list
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/dns-token-list
   take form dns-token-list
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/enabled
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/enabled
   take form enabled
 
 form dkim-attributes, name <DkimAttributes>

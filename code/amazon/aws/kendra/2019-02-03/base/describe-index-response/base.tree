@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/capacity-units-configuration
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/capacity-units-configuration
   take form capacity-units-configuration
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/description
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/document-metadata-configuration-list
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/document-metadata-configuration-list
   take form document-metadata-configuration-list
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/error-message
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/error-message
   take form error-message
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/index-edition
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/index-edition
   take form index-edition
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/index-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/index-id
   take form index-id
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/index-name
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/index-name
   take form index-name
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/index-statistics
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/index-statistics
   take form index-statistics
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/index-status
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/index-status
   take form index-status
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/role-arn
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/server-side-encryption-configuration
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/server-side-encryption-configuration
   take form server-side-encryption-configuration
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/timestamp
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/user-context-policy
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/user-context-policy
   take form user-context-policy
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/user-token-configuration-list
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/user-token-configuration-list
   take form user-token-configuration-list
 
 form describe-index-response, name <DescribeIndexResponse>

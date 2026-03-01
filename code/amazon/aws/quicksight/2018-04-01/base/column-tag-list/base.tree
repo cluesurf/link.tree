@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/column-tag
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/column-tag
   take form column-tag
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form column-tag-list, name <ColumnTagList>

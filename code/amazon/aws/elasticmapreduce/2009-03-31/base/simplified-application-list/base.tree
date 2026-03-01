@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/simplified-application
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/simplified-application
   take form simplified-application
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form simplified-application-list, name <SimplifiedApplicationList>

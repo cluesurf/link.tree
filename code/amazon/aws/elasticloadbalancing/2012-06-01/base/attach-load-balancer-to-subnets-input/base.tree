@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-name
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-name
   take form access-point-name
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/subnets
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/subnets
   take form subnets
 
 form attach-load-balancer-to-subnets-input, name <AttachLoadBalancerToSubnetsInput>

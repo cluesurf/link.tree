@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/arn-string
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/arn-string
   take form arn-string
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/availability-zone-string
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/availability-zone-string
   take form availability-zone-string
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/instance-type-string
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/instance-type-string
   take form instance-type-string
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/node-framework-attributes
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/node-framework-attributes
   take form node-framework-attributes
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/node-log-publishing-configuration
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/node-log-publishing-configuration
   take form node-log-publishing-configuration
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/node-status
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/node-status
   take form node-status
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/output-tag-map
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/output-tag-map
   take form output-tag-map
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/resource-id-string
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/resource-id-string
   take form resource-id-string
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/state-db-type
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/state-db-type
   take form state-db-type
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form node, name <Node>

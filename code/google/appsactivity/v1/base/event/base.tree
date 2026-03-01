@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/appsactivity/v1/base/move
+load @cluesurf/snow/googleapis.com/appsactivity/v1/base/move
   take form move
 
-load @termsurf/snow/googleapis.com/appsactivity/v1/base/rename
+load @cluesurf/snow/googleapis.com/appsactivity/v1/base/rename
   take form rename
 
-load @termsurf/snow/googleapis.com/appsactivity/v1/base/target
+load @cluesurf/snow/googleapis.com/appsactivity/v1/base/target
   take form target
 
-load @termsurf/snow/googleapis.com/appsactivity/v1/base/user
+load @cluesurf/snow/googleapis.com/appsactivity/v1/base/user
   take form user
 
 form event, name <Event>

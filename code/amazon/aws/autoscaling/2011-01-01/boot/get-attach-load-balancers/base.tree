@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/attach-load-balancers-result-type
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/attach-load-balancers-result-type
   take form attach-load-balancers-result-type
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/resource-contention-fault
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/resource-contention-fault
   take form resource-contention-fault
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/service-linked-role-failure
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/service-linked-role-failure
   take form service-linked-role-failure
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string-max-len255
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string-max-len255
   take form xml-string-max-len255
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-attach-load-balancers, name <GET_AttachLoadBalancers>

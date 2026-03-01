@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/batch-put-asset-property-error
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/batch-put-asset-property-error
   take form batch-put-asset-property-error
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form batch-put-asset-property-errors, name <BatchPutAssetPropertyErrors>

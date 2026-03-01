@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/content/v2.1/base/orderreturns-refund-operation
+load @cluesurf/snow/googleapis.com/content/v2.1/base/orderreturns-refund-operation
   take form orderreturns-refund-operation
 
-load @termsurf/snow/googleapis.com/content/v2.1/base/orderreturns-reject-operation
+load @cluesurf/snow/googleapis.com/content/v2.1/base/orderreturns-reject-operation
   take form orderreturns-reject-operation
 
 form orderreturns-return-item, name <OrderreturnsReturnItem>

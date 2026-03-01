@@ -1,11 +1,11 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/invoice
+load @cluesurf/snow/stripe.com/2020-08-27/base/invoice
   take form invoice
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-invoices-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-invoices-body
   take form post-invoices-body
 
 boot post-invoices, name <PostInvoices>

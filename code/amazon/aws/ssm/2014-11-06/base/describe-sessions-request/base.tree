@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/next-token
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/session-filter-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/session-filter-list
   take form session-filter-list
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/session-max-results
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/session-max-results
   take form session-max-results
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/session-state
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/session-state
   take form session-state
 
 form describe-sessions-request, name <DescribeSessionsRequest>

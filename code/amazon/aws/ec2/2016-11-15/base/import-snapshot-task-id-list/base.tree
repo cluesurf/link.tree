@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/import-snapshot-task-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/import-snapshot-task-id
   take form import-snapshot-task-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form import-snapshot-task-id-list, name <ImportSnapshotTaskIdList>

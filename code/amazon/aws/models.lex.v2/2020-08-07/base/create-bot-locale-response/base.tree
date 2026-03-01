@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/bot-locale-status
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/bot-locale-status
   take form bot-locale-status
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/confidence-threshold
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/confidence-threshold
   take form confidence-threshold
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/description
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/draft-bot-version
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/draft-bot-version
   take form draft-bot-version
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/id
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/locale-id
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/locale-id
   take form locale-id
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/locale-name
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/locale-name
   take form locale-name
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/timestamp
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/voice-settings
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/voice-settings
   take form voice-settings
 
 form create-bot-locale-response, name <CreateBotLocaleResponse>

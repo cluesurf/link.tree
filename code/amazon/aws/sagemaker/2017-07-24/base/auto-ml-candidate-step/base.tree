@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/candidate-step-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/candidate-step-arn
   take form candidate-step-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/candidate-step-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/candidate-step-name
   take form candidate-step-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/candidate-step-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/candidate-step-type
   take form candidate-step-type
 
 form auto-ml-candidate-step, name <AutoMLCandidateStep>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/data-pull-mode
+load @cluesurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/data-pull-mode
   take form data-pull-mode
 
-load @termsurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/date
+load @cluesurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/schedule-expression
+load @cluesurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/schedule-expression
   take form schedule-expression
 
-load @termsurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/schedule-offset
+load @cluesurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/schedule-offset
   take form schedule-offset
 
-load @termsurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/timezone
+load @cluesurf/snow/amazonaws.com/customer-profiles/2020-08-15/base/timezone
   take form timezone
 
 form scheduled-trigger-properties, name <ScheduledTriggerProperties>

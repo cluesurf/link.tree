@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/message-tag
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/message-tag
   take form message-tag
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form message-tag-list, name <MessageTagList>

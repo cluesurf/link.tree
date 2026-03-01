@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/policy-to-path
+load @cluesurf/snow/amazonaws.com/clouddirectory/2017-01-11/base/policy-to-path
   take form policy-to-path
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form policy-to-path-list, name <PolicyToPathList>

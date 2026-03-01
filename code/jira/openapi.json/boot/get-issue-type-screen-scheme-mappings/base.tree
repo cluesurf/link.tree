@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/jira/openapi.json/base/page-bean-issue-type-screen-scheme-item
+load @cluesurf/snow/jira/openapi.json/base/page-bean-issue-type-screen-scheme-item
   take form page-bean-issue-type-screen-scheme-item
 
 boot get-issue-type-screen-scheme-mappings, name <getIssueTypeScreenSchemeMappings>

@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/column-list
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/column-list
   take form column-list
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/format-string
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/format-string
   take form format-string
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/location-string
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/location-string
   take form location-string
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/name-string-list
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/name-string-list
   take form name-string-list
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/order-list
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/order-list
   take form order-list
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/parameters-map
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/parameters-map
   take form parameters-map
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/schema-reference
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/schema-reference
   take form schema-reference
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/ser-de-info
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/ser-de-info
   take form ser-de-info
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/skewed-info
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/skewed-info
   take form skewed-info
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form storage-descriptor, name <StorageDescriptor>

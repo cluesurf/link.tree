@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/organizations/2016-11-28/base/policy-summary
+load @cluesurf/snow/amazonaws.com/organizations/2016-11-28/base/policy-summary
   take form policy-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form policies, name <Policies>

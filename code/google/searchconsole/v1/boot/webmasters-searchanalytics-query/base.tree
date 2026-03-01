@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/searchconsole/v1/base/search-analytics-query-response
+load @cluesurf/snow/googleapis.com/searchconsole/v1/base/search-analytics-query-response
   take form search-analytics-query-response
 
 boot webmasters-searchanalytics-query, name <webmasters.searchanalytics.query>

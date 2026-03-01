@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/sds-config
+load @cluesurf/snow/googleapis.com/compute/alpha/base/sds-config
   take form sds-config
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/tls-certificate-paths
+load @cluesurf/snow/googleapis.com/compute/alpha/base/tls-certificate-paths
   take form tls-certificate-paths
 
 form tls-certificate-context, name <TlsCertificateContext>

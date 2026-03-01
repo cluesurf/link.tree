@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/associated-target-network-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/associated-target-network-set
   take form associated-target-network-set
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-connect-response-options
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-connect-response-options
   take form client-connect-response-options
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-authentication-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-authentication-list
   take form client-vpn-authentication-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-endpoint-status
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-endpoint-status
   take form client-vpn-endpoint-status
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-security-group-id-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-security-group-id-set
   take form client-vpn-security-group-id-set
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/connection-log-response-options
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/connection-log-response-options
   take form connection-log-response-options
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transport-protocol
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transport-protocol
   take form transport-protocol
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/value-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/value-string-list
   take form value-string-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-id
   take form vpc-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/vpn-protocol
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/vpn-protocol
   take form vpn-protocol
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form client-vpn-endpoint, name <ClientVpnEndpoint>

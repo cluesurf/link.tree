@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/cloudidentity/v1/base/dynamic-group-metadata
+load @cluesurf/snow/googleapis.com/cloudidentity/v1/base/dynamic-group-metadata
   take form dynamic-group-metadata
 
-load @termsurf/snow/googleapis.com/cloudidentity/v1/base/entity-key
+load @cluesurf/snow/googleapis.com/cloudidentity/v1/base/entity-key
   take form entity-key
 
 form group, name <Group>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/instance-group-manager-status-all-instances-config
+load @cluesurf/snow/googleapis.com/compute/alpha/base/instance-group-manager-status-all-instances-config
   take form instance-group-manager-status-all-instances-config
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/instance-group-manager-status-stateful
+load @cluesurf/snow/googleapis.com/compute/alpha/base/instance-group-manager-status-stateful
   take form instance-group-manager-status-stateful
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/instance-group-manager-status-version-target
+load @cluesurf/snow/googleapis.com/compute/alpha/base/instance-group-manager-status-version-target
   take form instance-group-manager-status-version-target
 
 form instance-group-manager-status, name <InstanceGroupManagerStatus>

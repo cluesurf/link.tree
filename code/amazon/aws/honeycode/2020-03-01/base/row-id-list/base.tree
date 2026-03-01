@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/honeycode/2020-03-01/base/row-id
+load @cluesurf/snow/amazonaws.com/honeycode/2020-03-01/base/row-id
   take form row-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form row-id-list, name <RowIdList>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/arn
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/timestamp
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/urn
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/urn
   take form urn
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/version
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/version
   take form version
 
 form system-template-summary, name <SystemTemplateSummary>

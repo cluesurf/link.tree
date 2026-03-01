@@ -1,17 +1,17 @@
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/object
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/object
   take form object
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ac
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ac
   take form sid-ac
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-de
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-de
   take form sid-de
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/url
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/url
   take form url
 
 form preview-wireless-sim-usage, name <preview.wireless.sim.usage>

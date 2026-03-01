@@ -1,83 +1,83 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/block-device-mapping
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/block-device-mapping
   take form block-device-mapping
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-preference
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-preference
   take form capacity-reservation-preference
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-target
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-target
   take form capacity-reservation-target
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/elastic-gpu-specification
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/elastic-gpu-specification
   take form elastic-gpu-specification
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/elastic-inference-accelerator
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/elastic-inference-accelerator
   take form elastic-inference-accelerator
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/http-tokens-state
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/http-tokens-state
   take form http-tokens-state
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-ipv6-address
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-ipv6-address
   take form instance-ipv6-address
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-metadata-endpoint-state
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-metadata-endpoint-state
   take form instance-metadata-endpoint-state
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-metadata-protocol-state
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-metadata-protocol-state
   take form instance-metadata-protocol-state
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-network-interface-specification
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-network-interface-specification
   take form instance-network-interface-specification
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/launch-template-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/launch-template-id
   take form launch-template-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/license-configuration-request
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/license-configuration-request
   take form license-configuration-request
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/market-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/market-type
   take form market-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/reservation
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/reservation
   take form reservation
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-id
   take form security-group-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-name
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/security-group-name
   take form security-group-name
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-market-options
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-market-options
   take form spot-market-options
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification
   take form tag-specification
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tenancy
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tenancy
   take form tenancy
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 boot get-run-instances, name <GET_RunInstances>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/domain-name
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/domain-user-name
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/domain-user-name
   take form domain-user-name
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/domain-user-password
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/domain-user-password
   take form domain-user-password
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/gateway-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/gateway-arn
   take form gateway-arn
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/hosts
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/hosts
   take form hosts
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/organizational-unit
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/organizational-unit
   take form organizational-unit
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/timeout-in-seconds
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/timeout-in-seconds
   take form timeout-in-seconds
 
 form join-domain-input, name <JoinDomainInput>

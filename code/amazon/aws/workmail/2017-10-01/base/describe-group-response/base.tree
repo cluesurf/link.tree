@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/email-address
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/email-address
   take form email-address
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/entity-state
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/entity-state
   take form entity-state
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/group-name
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/group-name
   take form group-name
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/work-mail-identifier
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/work-mail-identifier
   take form work-mail-identifier
 
 form describe-group-response, name <DescribeGroupResponse>

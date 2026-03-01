@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/pubsublite/v1/base/partition-config
+load @cluesurf/snow/googleapis.com/pubsublite/v1/base/partition-config
   take form partition-config
 
-load @termsurf/snow/googleapis.com/pubsublite/v1/base/reservation-config
+load @cluesurf/snow/googleapis.com/pubsublite/v1/base/reservation-config
   take form reservation-config
 
-load @termsurf/snow/googleapis.com/pubsublite/v1/base/retention-config
+load @cluesurf/snow/googleapis.com/pubsublite/v1/base/retention-config
   take form retention-config
 
 form topic, name <Topic>

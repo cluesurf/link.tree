@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/ecs-service
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/ecs-service
   take form ecs-service
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form ecs-service-list, name <ECSServiceList>

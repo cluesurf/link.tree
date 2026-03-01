@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/firebasedynamiclinks/v1/base/google-play-analytics
+load @cluesurf/snow/googleapis.com/firebasedynamiclinks/v1/base/google-play-analytics
   take form google-play-analytics
 
-load @termsurf/snow/googleapis.com/firebasedynamiclinks/v1/base/i-tunes-connect-analytics
+load @cluesurf/snow/googleapis.com/firebasedynamiclinks/v1/base/i-tunes-connect-analytics
   take form i-tunes-connect-analytics
 
 form analytics-info, name <AnalyticsInfo>

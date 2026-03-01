@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/description
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/error-message
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/error-message
   take form error-message
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/faq-file-format
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/faq-file-format
   take form faq-file-format
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/faq-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/faq-id
   take form faq-id
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/faq-name
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/faq-name
   take form faq-name
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/faq-status
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/faq-status
   take form faq-status
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/index-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/index-id
   take form index-id
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/role-arn
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/s3-path
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/s3-path
   take form s3-path
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/timestamp
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/timestamp
   take form timestamp
 
 form describe-faq-response, name <DescribeFaqResponse>

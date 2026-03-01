@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/action-type
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/action-type
   take form action-type
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/resources
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/resources
   take form resources
 
 form auth-info, name <AuthInfo>

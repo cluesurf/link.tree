@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/mirror/v1/base/attachments-list-response
+load @cluesurf/snow/googleapis.com/mirror/v1/base/attachments-list-response
   take form attachments-list-response
 
 boot mirror-timeline-attachments-list, name <mirror.timeline.attachments.list>

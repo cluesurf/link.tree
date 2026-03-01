@@ -1,47 +1,47 @@
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/acm-cert-arn
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/acm-cert-arn
   take form acm-cert-arn
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/configuration-overrides
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/configuration-overrides
   take form configuration-overrides
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/date
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/endpoint-arn
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/endpoint-arn
   take form endpoint-arn
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/endpoint-state
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/endpoint-state
   take form endpoint-state
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/endpoint-type
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/endpoint-type
   take form endpoint-type
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/failure-reason
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/failure-reason
   take form failure-reason
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/iam-role-arn
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/iam-role-arn
   take form iam-role-arn
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/release-label
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/release-label
   take form release-label
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/resource-id-string
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/resource-id-string
   take form resource-id-string
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/resource-name-string
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/resource-name-string
   take form resource-name-string
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/string256
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/string256
   take form string256
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/subnet-ids
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/subnet-ids
   take form subnet-ids
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/tag-map
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/tag-map
   take form tag-map
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/uri-string
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/uri-string
   take form uri-string
 
 form endpoint, name <Endpoint>

@@ -1,11 +1,11 @@
 
-load @termsurf/land/code/javascript/base/native-undefined
+load @cluesurf/land/code/javascript/base/native-undefined
   take form native-undefined
 
-load @termsurf/land/code/javascript/stripejs/source/acceptance
+load @cluesurf/land/code/javascript/stripejs/source/acceptance
   take form acceptance
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 

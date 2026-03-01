@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/cloud-hsm-service-exception
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/cloud-hsm-service-exception
   take form cloud-hsm-service-exception
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/modify-luna-client-response
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/modify-luna-client-response
   take form modify-luna-client-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot modify-luna-client, name <ModifyLunaClient>

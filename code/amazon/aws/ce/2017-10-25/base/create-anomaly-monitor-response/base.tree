@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/generic-string
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/generic-string
   take form generic-string
 
 form create-anomaly-monitor-response, name <CreateAnomalyMonitorResponse>

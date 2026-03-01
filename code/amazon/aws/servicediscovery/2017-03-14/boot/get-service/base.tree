@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/get-service-response
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/get-service-response
   take form get-service-response
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/invalid-input
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/invalid-input
   take form invalid-input
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/service-not-found
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/service-not-found
   take form service-not-found
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-service, name <GetService>

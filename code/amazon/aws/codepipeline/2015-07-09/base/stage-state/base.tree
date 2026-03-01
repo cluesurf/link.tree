@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-state-list
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-state-list
   take form action-state-list
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/stage-execution
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/stage-execution
   take form stage-execution
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/stage-name
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/stage-name
   take form stage-name
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/transition-state
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/transition-state
   take form transition-state
 
 form stage-state, name <StageState>

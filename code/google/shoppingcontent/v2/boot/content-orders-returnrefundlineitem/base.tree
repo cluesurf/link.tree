@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/shoppingcontent/v2/base/orders-return-refund-line-item-response
+load @cluesurf/snow/googleapis.com/shoppingcontent/v2/base/orders-return-refund-line-item-response
   take form orders-return-refund-line-item-response
 
 boot content-orders-returnrefundlineitem, name <content.orders.returnrefundlineitem>

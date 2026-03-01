@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/activity-id
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/activity-id
   take form activity-id
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/event-id
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/event-id
   take form event-id
 
 form activity-task-cancel-requested-event-attributes, name <ActivityTaskCancelRequestedEventAttributes>

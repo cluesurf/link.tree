@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-asset-status
+load @cluesurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-asset-status
   take form google-cloud-dataplex-v1-asset-status
 
-load @termsurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-lake-metastore
+load @cluesurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-lake-metastore
   take form google-cloud-dataplex-v1-lake-metastore
 
-load @termsurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-lake-metastore-status
+load @cluesurf/snow/googleapis.com/dataplex/v1/base/google-cloud-dataplex-v1-lake-metastore-status
   take form google-cloud-dataplex-v1-lake-metastore-status
 
 form google-cloud-dataplex-v1-lake, name <GoogleCloudDataplexV1Lake>

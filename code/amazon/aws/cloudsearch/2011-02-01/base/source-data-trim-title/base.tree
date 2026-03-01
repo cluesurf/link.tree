@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/field-name
+load @cluesurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/field-name
   take form field-name
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/field-value
+load @cluesurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/field-value
   take form field-value
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/language
+load @cluesurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/language
   take form language
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form source-data-trim-title, name <SourceDataTrimTitle>

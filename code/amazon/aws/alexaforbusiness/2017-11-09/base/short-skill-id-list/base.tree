@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/skill-id
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/skill-id
   take form skill-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form short-skill-id-list, name <ShortSkillIdList>

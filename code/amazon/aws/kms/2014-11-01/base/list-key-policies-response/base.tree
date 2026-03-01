@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/kms/2014-11-01/base/boolean-type
+load @cluesurf/snow/amazonaws.com/kms/2014-11-01/base/boolean-type
   take form boolean-type
 
-load @termsurf/snow/amazonaws.com/kms/2014-11-01/base/marker-type
+load @cluesurf/snow/amazonaws.com/kms/2014-11-01/base/marker-type
   take form marker-type
 
-load @termsurf/snow/amazonaws.com/kms/2014-11-01/base/policy-name-list
+load @cluesurf/snow/amazonaws.com/kms/2014-11-01/base/policy-name-list
   take form policy-name-list
 
 form list-key-policies-response, name <ListKeyPoliciesResponse>

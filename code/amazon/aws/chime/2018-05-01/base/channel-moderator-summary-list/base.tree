@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/channel-moderator-summary
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/channel-moderator-summary
   take form channel-moderator-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form channel-moderator-summary-list, name <ChannelModeratorSummaryList>

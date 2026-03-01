@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/compliance-types
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/compliance-types
   take form compliance-types
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-names
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-names
   take form config-rule-names
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-compliance-by-config-rule-request, name <DescribeComplianceByConfigRuleRequest>

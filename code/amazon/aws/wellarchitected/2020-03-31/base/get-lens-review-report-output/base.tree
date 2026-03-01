@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/lens-review-report
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/lens-review-report
   take form lens-review-report
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/milestone-number
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/milestone-number
   take form milestone-number
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/workload-id
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/workload-id
   take form workload-id
 
 form get-lens-review-report-output, name <GetLensReviewReportOutput>

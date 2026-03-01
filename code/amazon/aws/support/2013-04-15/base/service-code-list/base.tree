@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/service-code
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/service-code
   take form service-code
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form service-code-list, name <ServiceCodeList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/jira/openapi.json/base/history-metadata
+load @cluesurf/snow/jira/openapi.json/base/history-metadata
   take form history-metadata
 
-load @termsurf/snow/jira/openapi.json/base/issue-transition
+load @cluesurf/snow/jira/openapi.json/base/issue-transition
   take form issue-transition
 
 form issue-update-details, name <IssueUpdateDetails>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/generate-access-logs-body
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/generate-access-logs-body
   take form generate-access-logs-body
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/generate-access-logs-result
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/generate-access-logs-result
   take form generate-access-logs-result
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/internal-failure-exception
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/internal-failure-exception
   take form internal-failure-exception
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/not-found-exception
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/not-found-exception
   take form not-found-exception
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/unauthorized-exception
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/unauthorized-exception
   take form unauthorized-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot generate-access-logs, name <GenerateAccessLogs>

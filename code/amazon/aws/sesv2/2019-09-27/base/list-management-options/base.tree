@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/contact-list-name
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/contact-list-name
   take form contact-list-name
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/topic-name
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/topic-name
   take form topic-name
 
 form list-management-options, name <ListManagementOptions>

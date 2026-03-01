@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/arn
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/date
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/failure-reason
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/failure-reason
   take form failure-reason
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/kms-key-arn
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/kms-key-arn
   take form kms-key-arn
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/name
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/role-arn
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/status
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/status
   take form status
 
 form dataset-group, name <DatasetGroup>

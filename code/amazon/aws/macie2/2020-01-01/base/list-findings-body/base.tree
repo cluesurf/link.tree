@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/criterion
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/criterion
   take form criterion
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/order-by
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/order-by
   take form order-by
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-findings-body

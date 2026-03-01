@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/entitlement.marketplace/2017-01-11/base/entitlement-value
+load @cluesurf/snow/amazonaws.com/entitlement.marketplace/2017-01-11/base/entitlement-value
   take form entitlement-value
 
-load @termsurf/snow/amazonaws.com/entitlement.marketplace/2017-01-11/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/entitlement.marketplace/2017-01-11/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/entitlement.marketplace/2017-01-11/base/product-code
+load @cluesurf/snow/amazonaws.com/entitlement.marketplace/2017-01-11/base/product-code
   take form product-code
 
-load @termsurf/snow/amazonaws.com/entitlement.marketplace/2017-01-11/base/timestamp
+load @cluesurf/snow/amazonaws.com/entitlement.marketplace/2017-01-11/base/timestamp
   take form timestamp
 
 form entitlement, name <Entitlement>

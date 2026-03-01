@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/pager-duty/base/contact-method
+load @cluesurf/snow/pager-duty/base/contact-method
   take form contact-method
 
 form email-contact-method, name <EmailContactMethod>

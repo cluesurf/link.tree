@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/docs/v1/base/paragraph
+load @cluesurf/snow/googleapis.com/docs/v1/base/paragraph
   take form paragraph
 
-load @termsurf/snow/googleapis.com/docs/v1/base/section-break
+load @cluesurf/snow/googleapis.com/docs/v1/base/section-break
   take form section-break
 
-load @termsurf/snow/googleapis.com/docs/v1/base/table
+load @cluesurf/snow/googleapis.com/docs/v1/base/table
   take form table
 
-load @termsurf/snow/googleapis.com/docs/v1/base/table-of-contents
+load @cluesurf/snow/googleapis.com/docs/v1/base/table-of-contents
   take form table-of-contents
 
 form structural-element, name <StructuralElement>

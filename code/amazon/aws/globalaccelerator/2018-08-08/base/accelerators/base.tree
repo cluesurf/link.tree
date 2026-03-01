@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/accelerator
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/accelerator
   take form accelerator
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form accelerators, name <Accelerators>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/compliance-summary-item
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/compliance-summary-item
   take form compliance-summary-item
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form compliance-summary-item-list, name <ComplianceSummaryItemList>

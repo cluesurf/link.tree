@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/integration
+load @cluesurf/snow/amazonaws.com/apigatewayv2/2018-11-29/base/integration
   take form integration
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-integration, name <__listOfIntegration>

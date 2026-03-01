@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/network-interface
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/network-interface
   take form network-interface
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form network-interfaces, name <NetworkInterfaces>

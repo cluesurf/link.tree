@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-id
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-id
   take form streaming-image-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form streaming-image-id-list, name <StreamingImageIdList>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/next-token
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/server-catalog-status
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/server-catalog-status
   take form server-catalog-status
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/server-list
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/server-list
   take form server-list
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/timestamp
   take form timestamp
 
 form get-servers-response, name <GetServersResponse>

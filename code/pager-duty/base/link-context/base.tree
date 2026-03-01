@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/pager-duty/base/context
+load @cluesurf/snow/pager-duty/base/context
   take form context
 
 form link-context, name <LinkContext>

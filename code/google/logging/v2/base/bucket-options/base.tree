@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/logging/v2/base/explicit
+load @cluesurf/snow/googleapis.com/logging/v2/base/explicit
   take form explicit
 
-load @termsurf/snow/googleapis.com/logging/v2/base/exponential
+load @cluesurf/snow/googleapis.com/logging/v2/base/exponential
   take form exponential
 
-load @termsurf/snow/googleapis.com/logging/v2/base/linear
+load @cluesurf/snow/googleapis.com/logging/v2/base/linear
   take form linear
 
 form bucket-options, name <BucketOptions>

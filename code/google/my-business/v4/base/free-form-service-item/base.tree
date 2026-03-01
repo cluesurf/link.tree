@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/label
+load @cluesurf/snow/googleapis.com/my-business/v4/base/label
   take form label
 
 form free-form-service-item, name <FreeFormServiceItem>

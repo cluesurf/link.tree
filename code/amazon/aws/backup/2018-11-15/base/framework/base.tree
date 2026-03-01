@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/arn
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/framework-description
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/framework-description
   take form framework-description
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/framework-name
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/framework-name
   take form framework-name
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form framework, name <Framework>

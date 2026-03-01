@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/connection-body-parameter
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/connection-body-parameter
   take form connection-body-parameter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form connection-body-parameters-list, name <ConnectionBodyParametersList>

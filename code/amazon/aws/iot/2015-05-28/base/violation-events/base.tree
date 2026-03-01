@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/violation-event
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/violation-event
   take form violation-event
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form violation-events, name <ViolationEvents>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/braket/2019-09-01/base/device-arn
+load @cluesurf/snow/amazonaws.com/braket/2019-09-01/base/device-arn
   take form device-arn
 
-load @termsurf/snow/amazonaws.com/braket/2019-09-01/base/device-status
+load @cluesurf/snow/amazonaws.com/braket/2019-09-01/base/device-status
   take form device-status
 
-load @termsurf/snow/amazonaws.com/braket/2019-09-01/base/device-type
+load @cluesurf/snow/amazonaws.com/braket/2019-09-01/base/device-type
   take form device-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form device-summary, name <DeviceSummary>

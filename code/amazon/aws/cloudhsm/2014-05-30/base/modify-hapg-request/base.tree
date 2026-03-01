@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hapg-arn
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hapg-arn
   take form hapg-arn
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/label
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/label
   take form label
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/partition-serial-list
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/partition-serial-list
   take form partition-serial-list
 
 form modify-hapg-request, name <ModifyHapgRequest>

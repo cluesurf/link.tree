@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appsync/2017-07-25/base/resolver
+load @cluesurf/snow/amazonaws.com/appsync/2017-07-25/base/resolver
   take form resolver
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form resolvers, name <Resolvers>

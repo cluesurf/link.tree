@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/accesscontextmanager/v1/base/list-service-perimeters-response
+load @cluesurf/snow/googleapis.com/accesscontextmanager/v1/base/list-service-perimeters-response
   take form list-service-perimeters-response
 
 boot accesscontextmanager-access-policies-service-perimeters-list, name <accesscontextmanager.accessPolicies.servicePerimeters.list>

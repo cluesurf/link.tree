@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/float
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/float
   take form float
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metric-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metric-name
   take form metric-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
 form metric-data, name <MetricData>

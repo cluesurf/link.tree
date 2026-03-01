@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/date
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/recorder-status
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/recorder-status
   take form recorder-status
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form configuration-recorder-status, name <ConfigurationRecorderStatus>

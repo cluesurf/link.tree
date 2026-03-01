@@ -1,20 +1,20 @@
 
-load @termsurf/snow/googleapis.com/cloudtrace/v2/base/attributes
+load @cluesurf/snow/googleapis.com/cloudtrace/v2/base/attributes
   take form attributes
 
-load @termsurf/snow/googleapis.com/cloudtrace/v2/base/links
+load @cluesurf/snow/googleapis.com/cloudtrace/v2/base/links
   take form links
 
-load @termsurf/snow/googleapis.com/cloudtrace/v2/base/stack-trace
+load @cluesurf/snow/googleapis.com/cloudtrace/v2/base/stack-trace
   take form stack-trace
 
-load @termsurf/snow/googleapis.com/cloudtrace/v2/base/status
+load @cluesurf/snow/googleapis.com/cloudtrace/v2/base/status
   take form status
 
-load @termsurf/snow/googleapis.com/cloudtrace/v2/base/time-events
+load @cluesurf/snow/googleapis.com/cloudtrace/v2/base/time-events
   take form time-events
 
-load @termsurf/snow/googleapis.com/cloudtrace/v2/base/truncatable-string
+load @cluesurf/snow/googleapis.com/cloudtrace/v2/base/truncatable-string
   take form truncatable-string
 
 form span, name <Span>

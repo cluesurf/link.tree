@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/date-time
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/failure-reason
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/failure-reason
   take form failure-reason
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/language-code
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/language-code
   take form language-code
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/media
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/media
   take form media
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/media-format
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/media-format
   take form media-format
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/media-sample-rate-hertz
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/media-sample-rate-hertz
   take form media-sample-rate-hertz
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/medical-content-identification-type
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/medical-content-identification-type
   take form medical-content-identification-type
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/medical-transcript
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/medical-transcript
   take form medical-transcript
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/medical-transcription-setting
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/medical-transcription-setting
   take form medical-transcription-setting
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/specialty
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/specialty
   take form specialty
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/tag-list
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/transcription-job-name
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/transcription-job-name
   take form transcription-job-name
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/transcription-job-status
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/transcription-job-status
   take form transcription-job-status
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/type
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/type
   take form type
 
 form medical-transcription-job, name <MedicalTranscriptionJob>

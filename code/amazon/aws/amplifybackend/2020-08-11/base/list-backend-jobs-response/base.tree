@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/amplifybackend/2020-08-11/base/list-of-backend-job-resp-obj
+load @cluesurf/snow/amazonaws.com/amplifybackend/2020-08-11/base/list-of-backend-job-resp-obj
   take form list-of-backend-job-resp-obj
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-backend-jobs-response, name <ListBackendJobsResponse>

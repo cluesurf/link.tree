@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/conflict-exception
+load @cluesurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/conflict-exception
   take form conflict-exception
 
-load @termsurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/create-attribute-group-body
+load @cluesurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/create-attribute-group-body
   take form create-attribute-group-body
 
-load @termsurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/create-attribute-group-response
+load @cluesurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/create-attribute-group-response
   take form create-attribute-group-response
 
-load @termsurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/internal-server-exception
+load @cluesurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/internal-server-exception
   take form internal-server-exception
 
-load @termsurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/service-quota-exceeded-exception
+load @cluesurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/service-quota-exceeded-exception
   take form service-quota-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/validation-exception
+load @cluesurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/validation-exception
   take form validation-exception
 
 boot create-attribute-group, name <CreateAttributeGroup>

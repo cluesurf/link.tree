@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/resource-inventory
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/resource-inventory
   take form resource-inventory
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form resource-inventory-list, name <ResourceInventoryList>

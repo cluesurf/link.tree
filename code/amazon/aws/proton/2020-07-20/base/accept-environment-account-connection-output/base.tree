@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/environment-account-connection
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/environment-account-connection
   take form environment-account-connection
 
 form accept-environment-account-connection-output, name <AcceptEnvironmentAccountConnectionOutput>

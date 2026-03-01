@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/container-properties
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/container-properties
   take form container-properties
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/job-definition-type
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/job-definition-type
   take form job-definition-type
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/job-timeout
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/job-timeout
   take form job-timeout
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/node-properties
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/node-properties
   take form node-properties
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/parameters-map
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/parameters-map
   take form parameters-map
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/platform-capability-list
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/platform-capability-list
   take form platform-capability-list
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/retry-strategy
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/retry-strategy
   take form retry-strategy
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/tagris-tags-map
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/tagris-tags-map
   take form tagris-tags-map
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form register-job-definition-request, name <RegisterJobDefinitionRequest>

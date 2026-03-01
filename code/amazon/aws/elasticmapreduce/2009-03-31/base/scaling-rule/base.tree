@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/scaling-action
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/scaling-action
   take form scaling-action
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/scaling-trigger
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/scaling-trigger
   take form scaling-trigger
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form scaling-rule, name <ScalingRule>

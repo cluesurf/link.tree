@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/sts/2011-06-15/base/get-federation-token-response
+load @cluesurf/snow/amazonaws.com/sts/2011-06-15/base/get-federation-token-response
   take form get-federation-token-response
 
-load @termsurf/snow/amazonaws.com/sts/2011-06-15/base/malformed-policy-document-exception
+load @cluesurf/snow/amazonaws.com/sts/2011-06-15/base/malformed-policy-document-exception
   take form malformed-policy-document-exception
 
-load @termsurf/snow/amazonaws.com/sts/2011-06-15/base/packed-policy-too-large-exception
+load @cluesurf/snow/amazonaws.com/sts/2011-06-15/base/packed-policy-too-large-exception
   take form packed-policy-too-large-exception
 
-load @termsurf/snow/amazonaws.com/sts/2011-06-15/base/region-disabled-exception
+load @cluesurf/snow/amazonaws.com/sts/2011-06-15/base/region-disabled-exception
   take form region-disabled-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-get-federation-token, name <POST_GetFederationToken>

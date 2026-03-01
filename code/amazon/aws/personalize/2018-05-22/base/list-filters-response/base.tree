@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/filters
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/filters
   take form filters
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/next-token
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/next-token
   take form next-token
 
 form list-filters-response, name <ListFiltersResponse>

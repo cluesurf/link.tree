@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/cluster-metadata
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/cluster-metadata
   take form cluster-metadata
 
 form describe-cluster-result, name <DescribeClusterResult>

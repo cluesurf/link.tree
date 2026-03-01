@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/additional-attribute
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/additional-attribute
   take form additional-attribute
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form additional-attributes, name <AdditionalAttributes>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/sensitive-string
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/sensitive-string
   take form sensitive-string
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form environment-error, name <EnvironmentError>

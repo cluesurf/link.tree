@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/currency-amount
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/currency-amount
   take form currency-amount
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/entity-id
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/entity-id
   take form entity-id
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/hit-review-status
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/hit-review-status
   take form hit-review-status
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/hit-status
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/hit-status
   take form hit-status
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/long
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/qualification-requirement-list
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/qualification-requirement-list
   take form qualification-requirement-list
 
-load @termsurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/timestamp
+load @cluesurf/snow/amazonaws.com/mturk-requester/2017-01-17/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form hit, name <HIT>

@@ -1,56 +1,56 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/ad-markers
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/ad-markers
   take form ad-markers
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/ad-triggers
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/ad-triggers
   take form ad-triggers
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/ads-on-delivery-restrictions
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/ads-on-delivery-restrictions
   take form ads-on-delivery-restrictions
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/cmaf-encryption
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/cmaf-encryption
   take form cmaf-encryption
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/dash-encryption
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/dash-encryption
   take form dash-encryption
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/hls-encryption
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/hls-encryption
   take form hls-encryption
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/list-of-hls-manifest-create-or-update-parameters
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/list-of-hls-manifest-create-or-update-parameters
   take form list-of-hls-manifest-create-or-update-parameters
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/list-of-period-triggers-element
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/list-of-period-triggers-element
   take form list-of-period-triggers-element
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/manifest-layout
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/manifest-layout
   take form manifest-layout
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/mss-encryption
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/mss-encryption
   take form mss-encryption
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/playlist-type
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/playlist-type
   take form playlist-type
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/profile
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/profile
   take form profile
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/segment-template-format
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/segment-template-format
   take form segment-template-format
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/stream-selection
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/stream-selection
   take form stream-selection
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/utc-timing
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/utc-timing
   take form utc-timing
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-origin-endpoint-body

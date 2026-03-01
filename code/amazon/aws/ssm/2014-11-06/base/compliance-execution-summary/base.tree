@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/compliance-execution-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/compliance-execution-id
   take form compliance-execution-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/compliance-execution-type
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/compliance-execution-type
   take form compliance-execution-type
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
   take form date-time
 
 form compliance-execution-summary, name <ComplianceExecutionSummary>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-redshift-cluster-cluster-parameter-group
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-redshift-cluster-cluster-parameter-group
   take form aws-redshift-cluster-cluster-parameter-group
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form aws-redshift-cluster-cluster-parameter-groups, name <AwsRedshiftClusterClusterParameterGroups>

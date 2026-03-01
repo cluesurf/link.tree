@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/doubleclickbidmanager/v1/base/path-query-options
+load @cluesurf/snow/googleapis.com/doubleclickbidmanager/v1/base/path-query-options
   take form path-query-options
 
 form options, name <Options>

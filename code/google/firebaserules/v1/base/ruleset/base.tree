@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/firebaserules/v1/base/metadata
+load @cluesurf/snow/googleapis.com/firebaserules/v1/base/metadata
   take form metadata
 
-load @termsurf/snow/googleapis.com/firebaserules/v1/base/source
+load @cluesurf/snow/googleapis.com/firebaserules/v1/base/source
   take form source
 
 form ruleset, name <Ruleset>

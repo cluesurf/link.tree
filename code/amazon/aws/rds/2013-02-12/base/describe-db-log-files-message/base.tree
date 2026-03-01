@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rds/2013-02-12/base/integer-optional
+load @cluesurf/snow/amazonaws.com/rds/2013-02-12/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/amazonaws.com/rds/2013-02-12/base/long
+load @cluesurf/snow/amazonaws.com/rds/2013-02-12/base/long
   take form long
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-db-log-files-message, name <DescribeDBLogFilesMessage>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/document-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/document-name
   take form document-name
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/document-reviews
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/document-reviews
   take form document-reviews
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/document-version
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/document-version
   take form document-version
 
 form update-document-metadata-request, name <UpdateDocumentMetadataRequest>

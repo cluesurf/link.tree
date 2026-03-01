@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/event-info
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/event-info
   take form event-info
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/request-id
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/request-id
   take form request-id
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/requester
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/requester
   take form requester
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/vendor-name
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/vendor-name
   take form vendor-name
 
 form request-metadata, name <RequestMetadata>

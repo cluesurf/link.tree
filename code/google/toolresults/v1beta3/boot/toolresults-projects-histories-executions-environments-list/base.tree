@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/toolresults/v1beta3/base/list-environments-response
+load @cluesurf/snow/googleapis.com/toolresults/v1beta3/base/list-environments-response
   take form list-environments-response
 
 boot toolresults-projects-histories-executions-environments-list, name <toolresults.projects.histories.executions.environments.list>

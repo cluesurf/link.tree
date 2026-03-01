@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/channel-mode
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/channel-mode
   take form channel-mode
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/channel-privacy
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/channel-privacy
   take form channel-privacy
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/chime-arn
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/chime-arn
   take form chime-arn
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/metadata
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/metadata
   take form metadata
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/non-empty-resource-name
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/non-empty-resource-name
   take form non-empty-resource-name
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/timestamp
   take form timestamp
 
 form channel-summary, name <ChannelSummary>

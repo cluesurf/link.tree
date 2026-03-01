@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/header-value-list
+load @cluesurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/header-value-list
   take form header-value-list
 
-load @termsurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/sample-rows
+load @cluesurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/sample-rows
   take form sample-rows
 
 form get-sample-data-response, name <GetSampleDataResponse>

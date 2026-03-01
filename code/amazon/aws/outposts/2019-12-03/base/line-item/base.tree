@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/outposts/2019-12-03/base/line-item-id
+load @cluesurf/snow/amazonaws.com/outposts/2019-12-03/base/line-item-id
   take form line-item-id
 
-load @termsurf/snow/amazonaws.com/outposts/2019-12-03/base/line-item-quantity
+load @cluesurf/snow/amazonaws.com/outposts/2019-12-03/base/line-item-quantity
   take form line-item-quantity
 
-load @termsurf/snow/amazonaws.com/outposts/2019-12-03/base/sku-code
+load @cluesurf/snow/amazonaws.com/outposts/2019-12-03/base/sku-code
   take form sku-code
 
-load @termsurf/snow/amazonaws.com/outposts/2019-12-03/base/status
+load @cluesurf/snow/amazonaws.com/outposts/2019-12-03/base/status
   take form status
 
 form line-item, name <LineItem>

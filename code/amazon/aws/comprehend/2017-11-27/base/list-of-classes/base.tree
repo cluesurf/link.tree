@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/comprehend/2017-11-27/base/document-class
+load @cluesurf/snow/amazonaws.com/comprehend/2017-11-27/base/document-class
   take form document-class
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-classes, name <ListOfClasses>

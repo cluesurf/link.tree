@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/environment-summary
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/environment-summary
   take form environment-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form environment-summary-list, name <EnvironmentSummaryList>

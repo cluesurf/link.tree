@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/arn
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/namespace-name
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/namespace-name
   take form namespace-name
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/namespace-properties
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/namespace-properties
   take form namespace-properties
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/namespace-type
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/namespace-type
   take form namespace-type
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/resource-count
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/resource-count
   take form resource-count
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/resource-description
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/resource-description
   take form resource-description
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/resource-id
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/resource-id
   take form resource-id
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/timestamp
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/timestamp
   take form timestamp
 
 form namespace-summary, name <NamespaceSummary>

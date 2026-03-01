@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/list-domains-response
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/list-domains-response
   take form list-domains-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-domains, name <ListDomains>

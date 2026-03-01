@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/servicenetworking/v1/base/validate-consumer-config-response
+load @cluesurf/snow/googleapis.com/servicenetworking/v1/base/validate-consumer-config-response
   take form validate-consumer-config-response
 
 boot servicenetworking-services-validate, name <servicenetworking.services.validate>

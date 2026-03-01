@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/client-id
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/client-id
   take form client-id
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/oidc-endpoint
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/oidc-endpoint
   take form oidc-endpoint
 
 form oidc-config-for-response, name <OidcConfigForResponse>

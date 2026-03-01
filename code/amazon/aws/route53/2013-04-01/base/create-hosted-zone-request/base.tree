@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/dns-name
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/dns-name
   take form dns-name
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/hosted-zone-config
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/hosted-zone-config
   take form hosted-zone-config
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/nonce
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/nonce
   take form nonce
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/resource-id
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/resource-id
   take form resource-id
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/vpc
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/vpc
   take form vpc
 
 form create-hosted-zone-request, name <CreateHostedZoneRequest>

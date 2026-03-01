@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/truck-dimensions
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/truck-dimensions
   take form truck-dimensions
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/truck-weight
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/truck-weight
   take form truck-weight
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form calculate-route-truck-mode-options, name <CalculateRouteTruckModeOptions>

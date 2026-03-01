@@ -1,14 +1,14 @@
 
-load @termsurf/land/code/javascript/base/iterable
+load @cluesurf/land/code/javascript/base/iterable
   take form iterable
 
-load @termsurf/land/code/javascript/base/native-any
+load @cluesurf/land/code/javascript/base/native-any
   take form native-any
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/snow/code/javascript/google/maps/settings
+load @cluesurf/snow/code/javascript/google/maps/settings
   take form settings
 
 form settings, name <google.maps.Settings>

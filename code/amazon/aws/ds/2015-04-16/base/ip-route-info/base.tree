@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/added-date-time
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/added-date-time
   take form added-date-time
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/cidr-ip
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/cidr-ip
   take form cidr-ip
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/description
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/directory-id
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/directory-id
   take form directory-id
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/ip-route-status-msg
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/ip-route-status-msg
   take form ip-route-status-msg
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/ip-route-status-reason
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/ip-route-status-reason
   take form ip-route-status-reason
 
 form ip-route-info, name <IpRouteInfo>

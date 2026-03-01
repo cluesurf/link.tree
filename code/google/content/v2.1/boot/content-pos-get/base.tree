@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/content/v2.1/base/pos-store
+load @cluesurf/snow/googleapis.com/content/v2.1/base/pos-store
   take form pos-store
 
 boot content-pos-get, name <content.pos.get>

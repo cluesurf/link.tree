@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/accessanalyzer/2019-11-01/base/substring
+load @cluesurf/snow/amazonaws.com/accessanalyzer/2019-11-01/base/substring
   take form substring
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form path-element, name <PathElement>

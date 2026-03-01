@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-name
   take form domain-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form domain-name-list, name <DomainNameList>

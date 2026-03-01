@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/savingsplans/2019-06-28/base/amount
+load @cluesurf/snow/amazonaws.com/savingsplans/2019-06-28/base/amount
   take form amount
 
-load @termsurf/snow/amazonaws.com/savingsplans/2019-06-28/base/client-token
+load @cluesurf/snow/amazonaws.com/savingsplans/2019-06-28/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/savingsplans/2019-06-28/base/date-time
+load @cluesurf/snow/amazonaws.com/savingsplans/2019-06-28/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/savingsplans/2019-06-28/base/savings-plan-offering-id
+load @cluesurf/snow/amazonaws.com/savingsplans/2019-06-28/base/savings-plan-offering-id
   take form savings-plan-offering-id
 
-load @termsurf/snow/amazonaws.com/savingsplans/2019-06-28/base/tag-map
+load @cluesurf/snow/amazonaws.com/savingsplans/2019-06-28/base/tag-map
   take form tag-map
 
 form create-savings-plan-request, name <CreateSavingsPlanRequest>

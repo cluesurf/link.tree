@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/okta/base/user
+load @cluesurf/snow/okta/base/user
   take form user
 
 boot partial-update-user, name <partialUpdateUser>

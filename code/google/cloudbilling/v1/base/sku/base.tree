@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/cloudbilling/v1/base/category
+load @cluesurf/snow/googleapis.com/cloudbilling/v1/base/category
   take form category
 
-load @termsurf/snow/googleapis.com/cloudbilling/v1/base/geo-taxonomy
+load @cluesurf/snow/googleapis.com/cloudbilling/v1/base/geo-taxonomy
   take form geo-taxonomy
 
 form sku, name <Sku>

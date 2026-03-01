@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hsm-arn
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hsm-arn
   take form hsm-arn
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hsm-serial-number
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/hsm-serial-number
   take form hsm-serial-number
 
 form describe-hsm-request, name <DescribeHsmRequest>

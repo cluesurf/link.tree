@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-id
   take form capacity-reservation-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/get-capacity-reservation-usage-request-max-results
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/get-capacity-reservation-usage-request-max-results
   take form get-capacity-reservation-usage-request-max-results
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-capacity-reservation-usage-request, name <GetCapacityReservationUsageRequest>

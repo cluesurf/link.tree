@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/execution-id
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/execution-id
   take form execution-id
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/execution-summary
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/execution-summary
   take form execution-summary
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/percentage
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/percentage
   take form percentage
 
 form execution-details, name <ExecutionDetails>

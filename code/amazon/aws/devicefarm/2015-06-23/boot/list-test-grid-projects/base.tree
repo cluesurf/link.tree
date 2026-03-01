@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/argument-exception
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/argument-exception
   take form argument-exception
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/internal-service-exception
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/internal-service-exception
   take form internal-service-exception
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/list-test-grid-projects-result
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/list-test-grid-projects-result
   take form list-test-grid-projects-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-test-grid-projects, name <ListTestGridProjects>

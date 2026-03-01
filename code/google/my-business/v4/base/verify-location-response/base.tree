@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/verification
+load @cluesurf/snow/googleapis.com/my-business/v4/base/verification
   take form verification
 
 form verify-location-response, name <VerifyLocationResponse>

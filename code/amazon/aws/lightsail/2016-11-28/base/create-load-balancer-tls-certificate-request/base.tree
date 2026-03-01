@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-name-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-name-list
   take form domain-name-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/tag-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/tag-list
   take form tag-list
 
 form create-load-balancer-tls-certificate-request, name <CreateLoadBalancerTlsCertificateRequest>

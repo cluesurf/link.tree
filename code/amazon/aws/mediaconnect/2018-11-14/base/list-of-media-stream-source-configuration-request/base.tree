@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/media-stream-source-configuration-request
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/media-stream-source-configuration-request
   take form media-stream-source-configuration-request
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-media-stream-source-configuration-request, name <__listOfMediaStreamSourceConfigurationRequest>

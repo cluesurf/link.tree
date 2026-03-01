@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/artifact-name
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/artifact-name
   take form artifact-name
 
 form input-artifact, name <InputArtifact>

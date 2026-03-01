@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/list-training-jobs-response
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/list-training-jobs-response
   take form list-training-jobs-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-training-jobs, name <ListTrainingJobs>

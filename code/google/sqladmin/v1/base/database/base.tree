@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/sqladmin/v1/base/sql-server-database-details
+load @cluesurf/snow/googleapis.com/sqladmin/v1/base/sql-server-database-details
   take form sql-server-database-details
 
 form database, name <Database>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/backend-connection-errors
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/backend-connection-errors
   take form backend-connection-errors
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-integer
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-integer
   take form nullable-integer
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
   take form timestamp
 
 form telemetry-record, name <TelemetryRecord>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-resource-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/prefix-list-resource-id
   take form prefix-list-resource-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-route-attachment-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-route-attachment-list
   take form transit-gateway-route-attachment-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-route-state
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-route-state
   take form transit-gateway-route-state
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-route-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-route-type
   take form transit-gateway-route-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form transit-gateway-route, name <TransitGatewayRoute>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/event-pattern
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/event-pattern
   take form event-pattern
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form test-event-pattern-request, name <TestEventPatternRequest>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/limit-exceeded-exception
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/limit-exceeded-exception
   take form limit-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/unknown-monitor-exception
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/unknown-monitor-exception
   take form unknown-monitor-exception
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/update-anomaly-monitor-response
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/update-anomaly-monitor-response
   take form update-anomaly-monitor-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot update-anomaly-monitor, name <UpdateAnomalyMonitor>

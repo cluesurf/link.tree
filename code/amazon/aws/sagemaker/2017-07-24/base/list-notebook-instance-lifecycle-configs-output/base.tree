@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/next-token
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-lifecycle-config-summary-list
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-lifecycle-config-summary-list
   take form notebook-instance-lifecycle-config-summary-list
 
 form list-notebook-instance-lifecycle-configs-output, name <ListNotebookInstanceLifecycleConfigsOutput>

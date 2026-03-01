@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/amazon-id
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/amazon-id
   take form amazon-id
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/fingerprint
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/fingerprint
   take form fingerprint
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/partner-account-arn
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/partner-account-arn
   take form partner-account-arn
 
 form sidewalk-account-info-with-fingerprint, name <SidewalkAccountInfoWithFingerprint>

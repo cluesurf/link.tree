@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/licensing/v1/base/license-assignment-list
+load @cluesurf/snow/googleapis.com/licensing/v1/base/license-assignment-list
   take form license-assignment-list
 
 boot licensing-license-assignments-list-for-product, name <licensing.licenseAssignments.listForProduct>

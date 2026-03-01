@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/schemas/2019-12-02/base/list-of-discoverer-summary
+load @cluesurf/snow/amazonaws.com/schemas/2019-12-02/base/list-of-discoverer-summary
   take form list-of-discoverer-summary
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-discoverers-response, name <ListDiscoverersResponse>

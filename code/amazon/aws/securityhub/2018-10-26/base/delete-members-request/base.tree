@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/account-id-list
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/account-id-list
   take form account-id-list
 
 form delete-members-request, name <DeleteMembersRequest>

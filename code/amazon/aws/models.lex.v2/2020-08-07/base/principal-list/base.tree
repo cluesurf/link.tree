@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/principal
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/principal
   take form principal
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form principal-list, name <PrincipalList>

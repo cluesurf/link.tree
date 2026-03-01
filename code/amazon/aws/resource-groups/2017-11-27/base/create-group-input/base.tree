@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/description
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration-list
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration-list
   take form group-configuration-list
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-name
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-name
   take form group-name
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/resource-query
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/resource-query
   take form resource-query
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/tags
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/tags
   take form tags
 
 form create-group-input, name <CreateGroupInput>

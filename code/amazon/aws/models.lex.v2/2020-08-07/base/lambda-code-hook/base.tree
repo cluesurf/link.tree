@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/code-hook-interface-version
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/code-hook-interface-version
   take form code-hook-interface-version
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/lambda-arn
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/lambda-arn
   take form lambda-arn
 
 form lambda-code-hook, name <LambdaCodeHook>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/topic
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/topic
   take form topic
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form topics, name <Topics>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/availability-zone-list
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/availability-zone-list
   take form availability-zone-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form increase-replication-factor-request, name <IncreaseReplicationFactorRequest>

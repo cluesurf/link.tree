@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/pubsub/v1/base/pull-response
+load @cluesurf/snow/googleapis.com/pubsub/v1/base/pull-response
   take form pull-response
 
 boot pubsub-projects-subscriptions-pull, name <pubsub.projects.subscriptions.pull>

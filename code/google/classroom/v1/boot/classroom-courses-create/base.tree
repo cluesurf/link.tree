@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/course
+load @cluesurf/snow/googleapis.com/classroom/v1/base/course
   take form course
 
 boot classroom-courses-create, name <classroom.courses.create>

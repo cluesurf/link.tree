@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/shoppingcontent/v2/base/amount
+load @cluesurf/snow/googleapis.com/shoppingcontent/v2/base/amount
   take form amount
 
-load @termsurf/snow/googleapis.com/shoppingcontent/v2/base/price
+load @cluesurf/snow/googleapis.com/shoppingcontent/v2/base/price
   take form price
 
-load @termsurf/snow/googleapis.com/shoppingcontent/v2/base/product-amount
+load @cluesurf/snow/googleapis.com/shoppingcontent/v2/base/product-amount
   take form product-amount
 
 form order-report-transaction, name <OrderReportTransaction>

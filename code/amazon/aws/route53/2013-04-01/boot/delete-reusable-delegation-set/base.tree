@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/delegation-set-in-use
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/delegation-set-in-use
   take form delegation-set-in-use
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/delegation-set-not-reusable
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/delegation-set-not-reusable
   take form delegation-set-not-reusable
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/delete-reusable-delegation-set-response
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/delete-reusable-delegation-set-response
   take form delete-reusable-delegation-set-response
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-input
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-input
   take form invalid-input
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/no-such-delegation-set
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/no-such-delegation-set
   take form no-such-delegation-set
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-reusable-delegation-set, name <DeleteReusableDelegationSet>

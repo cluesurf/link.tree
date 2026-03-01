@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/node-update-initiated-by
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/node-update-initiated-by
   take form node-update-initiated-by
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/node-update-status
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/node-update-status
   take form node-update-status
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/t-stamp
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/t-stamp
   take form t-stamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form node-group-member-update-status, name <NodeGroupMemberUpdateStatus>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/osconfig/v1beta/base/patch-deployment
+load @cluesurf/snow/googleapis.com/osconfig/v1beta/base/patch-deployment
   take form patch-deployment
 
 boot osconfig-projects-patch-deployments-patch, name <osconfig.projects.patchDeployments.patch>

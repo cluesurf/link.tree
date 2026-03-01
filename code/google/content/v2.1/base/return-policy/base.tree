@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/content/v2.1/base/price
+load @cluesurf/snow/googleapis.com/content/v2.1/base/price
   take form price
 
-load @termsurf/snow/googleapis.com/content/v2.1/base/return-policy-policy
+load @cluesurf/snow/googleapis.com/content/v2.1/base/return-policy-policy
   take form return-policy-policy
 
 form return-policy, name <ReturnPolicy>

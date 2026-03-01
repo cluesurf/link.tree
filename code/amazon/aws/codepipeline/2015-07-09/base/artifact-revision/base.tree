@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/artifact-name
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/artifact-name
   take form artifact-name
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/revision
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/revision
   take form revision
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/revision-change-identifier
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/revision-change-identifier
   take form revision-change-identifier
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/revision-summary
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/revision-summary
   take form revision-summary
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/timestamp
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/url
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/url
   take form url
 
 form artifact-revision, name <ArtifactRevision>

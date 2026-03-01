@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/authentication-type
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/authentication-type
   take form authentication-type
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/network-access-configuration
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/network-access-configuration
   take form network-access-configuration
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/session-connection-state
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/session-connection-state
   take form session-connection-state
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/session-state
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/session-state
   take form session-state
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/user-id
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/user-id
   take form user-id
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form session, name <Session>

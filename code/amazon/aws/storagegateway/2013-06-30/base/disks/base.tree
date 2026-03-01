@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/disk
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/disk
   take form disk
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form disks, name <Disks>

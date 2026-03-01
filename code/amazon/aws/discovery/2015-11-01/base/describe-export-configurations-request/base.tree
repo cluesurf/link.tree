@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/export-ids
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/export-ids
   take form export-ids
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/next-token
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/next-token
   take form next-token
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form describe-export-configurations-request, name <DescribeExportConfigurationsRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/organizations/2016-11-28/base/organizational-unit
+load @cluesurf/snow/amazonaws.com/organizations/2016-11-28/base/organizational-unit
   take form organizational-unit
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form organizational-units, name <OrganizationalUnits>

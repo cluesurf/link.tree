@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/groundstation/2019-05-23/base/double
+load @cluesurf/snow/amazonaws.com/groundstation/2019-05-23/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/groundstation/2019-05-23/base/eirp-units
+load @cluesurf/snow/amazonaws.com/groundstation/2019-05-23/base/eirp-units
   take form eirp-units
 
 form eirp, name <Eirp>

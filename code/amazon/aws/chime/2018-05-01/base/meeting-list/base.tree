@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/meeting
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/meeting
   take form meeting
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form meeting-list, name <MeetingList>

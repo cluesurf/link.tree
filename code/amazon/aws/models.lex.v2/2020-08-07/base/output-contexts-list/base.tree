@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/output-context
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/output-context
   take form output-context
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form output-contexts-list, name <OutputContextsList>

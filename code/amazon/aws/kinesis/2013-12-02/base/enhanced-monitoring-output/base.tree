@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/metrics-name-list
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/metrics-name-list
   take form metrics-name-list
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-name
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/stream-name
   take form stream-name
 
 form enhanced-monitoring-output, name <EnhancedMonitoringOutput>

@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/billing-mode
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/billing-mode
   take form billing-mode
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/boolean-object
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/boolean-object
   take form boolean-object
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/date
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/global-secondary-index-list
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/global-secondary-index-list
   take form global-secondary-index-list
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/local-secondary-index-list
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/local-secondary-index-list
   take form local-secondary-index-list
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/provisioned-throughput
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/provisioned-throughput
   take form provisioned-throughput
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/sse-specification
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/sse-specification
   take form sse-specification
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/table-arn
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/table-arn
   take form table-arn
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/table-name
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/table-name
   take form table-name
 
 form restore-table-to-point-in-time-input, name <RestoreTableToPointInTimeInput>

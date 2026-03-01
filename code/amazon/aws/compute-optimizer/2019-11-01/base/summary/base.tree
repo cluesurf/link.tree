@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/finding
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/finding
   take form finding
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/reason-code-summaries
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/reason-code-summaries
   take form reason-code-summaries
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/summary-value
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/summary-value
   take form summary-value
 
 form summary, name <Summary>

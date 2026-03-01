@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/automl/v1beta1/base/example-payload
+load @cluesurf/snow/googleapis.com/automl/v1beta1/base/example-payload
   take form example-payload
 
 form predict-request, name <PredictRequest>

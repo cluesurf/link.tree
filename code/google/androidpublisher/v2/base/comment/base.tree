@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/androidpublisher/v2/base/developer-comment
+load @cluesurf/snow/googleapis.com/androidpublisher/v2/base/developer-comment
   take form developer-comment
 
-load @termsurf/snow/googleapis.com/androidpublisher/v2/base/user-comment
+load @cluesurf/snow/googleapis.com/androidpublisher/v2/base/user-comment
   take form user-comment
 
 form comment, name <Comment>

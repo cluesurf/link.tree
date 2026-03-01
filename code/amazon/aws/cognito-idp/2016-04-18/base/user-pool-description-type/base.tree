@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/date-type
+load @cluesurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/date-type
   take form date-type
 
-load @termsurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/lambda-config-type
+load @cluesurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/lambda-config-type
   take form lambda-config-type
 
-load @termsurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/status-type
+load @cluesurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/status-type
   take form status-type
 
-load @termsurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/user-pool-id-type
+load @cluesurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/user-pool-id-type
   take form user-pool-id-type
 
-load @termsurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/user-pool-name-type
+load @cluesurf/snow/amazonaws.com/cognito-idp/2016-04-18/base/user-pool-name-type
   take form user-pool-name-type
 
 form user-pool-description-type, name <UserPoolDescriptionType>

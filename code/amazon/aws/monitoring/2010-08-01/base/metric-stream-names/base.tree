@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/metric-stream-name
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/metric-stream-name
   take form metric-stream-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form metric-stream-names, name <MetricStreamNames>

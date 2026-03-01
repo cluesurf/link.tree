@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/books/v1/base/books-volumes-recommended-rate-response
+load @cluesurf/snow/googleapis.com/books/v1/base/books-volumes-recommended-rate-response
   take form books-volumes-recommended-rate-response
 
 boot books-volumes-recommended-rate, name <books.volumes.recommended.rate>

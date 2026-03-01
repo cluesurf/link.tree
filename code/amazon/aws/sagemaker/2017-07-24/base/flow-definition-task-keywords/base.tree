@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/flow-definition-task-keyword
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/flow-definition-task-keyword
   take form flow-definition-task-keyword
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form flow-definition-task-keywords, name <FlowDefinitionTaskKeywords>

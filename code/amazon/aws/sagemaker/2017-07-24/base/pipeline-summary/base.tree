@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-arn
   take form pipeline-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-description
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-description
   take form pipeline-description
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-name
   take form pipeline-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/role-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
 form pipeline-summary, name <PipelineSummary>

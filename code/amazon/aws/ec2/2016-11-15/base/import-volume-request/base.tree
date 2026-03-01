@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/disk-image-detail
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/disk-image-detail
   take form disk-image-detail
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/volume-detail
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/volume-detail
   take form volume-detail
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form import-volume-request, name <ImportVolumeRequest>

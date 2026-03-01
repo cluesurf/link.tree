@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/okta/base/user-identity-provider-link-request
+load @cluesurf/snow/okta/base/user-identity-provider-link-request
   take form user-identity-provider-link-request
 
 boot link-user-to-identity-provider, name <linkUserToIdentityProvider>

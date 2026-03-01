@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dialogflow/v2beta1/base/google-cloud-dialogflow-v2beta1-analyze-content-response
+load @cluesurf/snow/googleapis.com/dialogflow/v2beta1/base/google-cloud-dialogflow-v2beta1-analyze-content-response
   take form google-cloud-dialogflow-v2beta1-analyze-content-response
 
 boot dialogflow-projects-locations-conversations-participants-analyze-content, name <dialogflow.projects.locations.conversations.participants.analyzeContent>

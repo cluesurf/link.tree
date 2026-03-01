@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/account-id
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/aws-region
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/aws-region
   take form aws-region
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/conformance-pack-compliance-type
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/conformance-pack-compliance-type
   take form conformance-pack-compliance-type
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/conformance-pack-name
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/conformance-pack-name
   take form conformance-pack-name
 
 form aggregate-conformance-pack-compliance-filters, name <AggregateConformancePackComplianceFilters>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/attachment-state-changes
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/attachment-state-changes
   take form attachment-state-changes
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form submit-attachment-state-changes-request, name <SubmitAttachmentStateChangesRequest>

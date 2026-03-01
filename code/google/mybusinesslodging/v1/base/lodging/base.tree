@@ -1,62 +1,62 @@
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/accessibility
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/accessibility
   take form accessibility
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/activities
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/activities
   take form activities
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/business
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/business
   take form business
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/connectivity
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/connectivity
   take form connectivity
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/families
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/families
   take form families
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/food-and-drink
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/food-and-drink
   take form food-and-drink
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/guest-unit-features
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/guest-unit-features
   take form guest-unit-features
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/health-and-safety
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/health-and-safety
   take form health-and-safety
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/housekeeping
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/housekeeping
   take form housekeeping
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/living-area
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/living-area
   take form living-area
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/lodging-metadata
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/lodging-metadata
   take form lodging-metadata
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/parking
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/parking
   take form parking
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/pets
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/pets
   take form pets
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/policies
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/policies
   take form policies
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/pools
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/pools
   take form pools
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/property
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/property
   take form property
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/services
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/services
   take form services
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/sustainability
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/sustainability
   take form sustainability
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/transportation
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/transportation
   take form transportation
 
-load @termsurf/snow/googleapis.com/mybusinesslodging/v1/base/wellness
+load @cluesurf/snow/googleapis.com/mybusinesslodging/v1/base/wellness
   take form wellness
 
 form lodging, name <Lodging>

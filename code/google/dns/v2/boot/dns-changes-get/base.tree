@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dns/v2/base/change
+load @cluesurf/snow/googleapis.com/dns/v2/base/change
   take form change
 
 boot dns-changes-get, name <dns.changes.get>

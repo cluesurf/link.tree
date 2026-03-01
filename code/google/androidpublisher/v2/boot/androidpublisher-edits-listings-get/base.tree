@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androidpublisher/v2/base/listing
+load @cluesurf/snow/googleapis.com/androidpublisher/v2/base/listing
   take form listing
 
 boot androidpublisher-edits-listings-get, name <androidpublisher.edits.listings.get>

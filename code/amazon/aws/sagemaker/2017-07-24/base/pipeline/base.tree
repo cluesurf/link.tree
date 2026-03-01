@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-arn
   take form pipeline-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-description
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-description
   take form pipeline-description
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-name
   take form pipeline-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/pipeline-status
   take form pipeline-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/role-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/tag-list
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/user-context
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/user-context
   take form user-context
 
 form pipeline, name <Pipeline>

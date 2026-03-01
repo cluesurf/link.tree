@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/people-suggestion
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/people-suggestion
   take form people-suggestion
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/query-suggestion
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/query-suggestion
   take form query-suggestion
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/source
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/source
   take form source
 
 form suggest-result, name <SuggestResult>

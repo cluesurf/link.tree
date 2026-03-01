@@ -1,50 +1,50 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/annotations
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/annotations
   take form annotations
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/error-root-causes
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/error-root-causes
   take form error-root-causes
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/fault-root-causes
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/fault-root-causes
   take form fault-root-causes
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/http
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/http
   take form http
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-boolean
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-boolean
   take form nullable-boolean
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-double
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-double
   take form nullable-double
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/response-time-root-causes
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/response-time-root-causes
   take form response-time-root-causes
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/service-id
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/service-id
   take form service-id
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/service-ids
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/service-ids
   take form service-ids
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/trace-availability-zones
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/trace-availability-zones
   take form trace-availability-zones
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/trace-id
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/trace-id
   take form trace-id
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/trace-instance-ids
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/trace-instance-ids
   take form trace-instance-ids
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/trace-resource-ar-ns
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/trace-resource-ar-ns
   take form trace-resource-ar-ns
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/trace-users
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/trace-users
   take form trace-users
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form trace-summary, name <TraceSummary>

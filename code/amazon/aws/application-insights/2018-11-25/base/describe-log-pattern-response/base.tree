@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/application-insights/2018-11-25/base/log-pattern
+load @cluesurf/snow/amazonaws.com/application-insights/2018-11-25/base/log-pattern
   take form log-pattern
 
-load @termsurf/snow/amazonaws.com/application-insights/2018-11-25/base/resource-group-name
+load @cluesurf/snow/amazonaws.com/application-insights/2018-11-25/base/resource-group-name
   take form resource-group-name
 
 form describe-log-pattern-response, name <DescribeLogPatternResponse>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/toolresults/v1beta3/base/test-case
+load @cluesurf/snow/googleapis.com/toolresults/v1beta3/base/test-case
   take form test-case
 
 boot toolresults-projects-histories-executions-steps-test-cases-get, name <toolresults.projects.histories.executions.steps.testCases.get>

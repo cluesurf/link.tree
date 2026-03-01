@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/date
+load @cluesurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/key-schema
+load @cluesurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/key-schema
   take form key-schema
 
-load @termsurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/shard-description-list
+load @cluesurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/shard-description-list
   take form shard-description-list
 
-load @termsurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/shard-id
+load @cluesurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/shard-id
   take form shard-id
 
-load @termsurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/stream-arn
+load @cluesurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/stream-arn
   take form stream-arn
 
-load @termsurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/stream-status
+load @cluesurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/stream-status
   take form stream-status
 
-load @termsurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/stream-view-type
+load @cluesurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/stream-view-type
   take form stream-view-type
 
-load @termsurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/table-name
+load @cluesurf/snow/amazonaws.com/streams.dynamodb/2012-08-10/base/table-name
   take form table-name
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form stream-description, name <StreamDescription>

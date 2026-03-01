@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/language/v1/base/document
+load @cluesurf/snow/googleapis.com/language/v1/base/document
   take form document
 
-load @termsurf/snow/googleapis.com/language/v1/base/features
+load @cluesurf/snow/googleapis.com/language/v1/base/features
   take form features
 
 form annotate-text-request, name <AnnotateTextRequest>

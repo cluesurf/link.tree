@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/account-id
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/arn
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/description
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/domain-name
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/repository-name
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/repository-name
   take form repository-name
 
 form repository-summary, name <RepositorySummary>

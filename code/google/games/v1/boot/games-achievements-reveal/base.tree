@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/games/v1/base/achievement-reveal-response
+load @cluesurf/snow/googleapis.com/games/v1/base/achievement-reveal-response
   take form achievement-reveal-response
 
 boot games-achievements-reveal, name <games.achievements.reveal>

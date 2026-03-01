@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/destination-type
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/destination-type
   take form destination-type
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/publishing-status
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/publishing-status
   take form publishing-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form destination, name <Destination>

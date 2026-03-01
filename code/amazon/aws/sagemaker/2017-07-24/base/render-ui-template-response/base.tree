@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/rendering-error-list
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/rendering-error-list
   take form rendering-error-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form render-ui-template-response, name <RenderUiTemplateResponse>

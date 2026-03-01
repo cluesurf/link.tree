@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/apply-pending-maintenance-action-response
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/apply-pending-maintenance-action-response
   take form apply-pending-maintenance-action-response
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/resource-not-found-fault
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/resource-not-found-fault
   take form resource-not-found-fault
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot apply-pending-maintenance-action, name <ApplyPendingMaintenanceAction>

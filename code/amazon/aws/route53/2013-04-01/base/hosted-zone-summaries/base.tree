@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/hosted-zone-summary
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/hosted-zone-summary
   take form hosted-zone-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form hosted-zone-summaries, name <HostedZoneSummaries>

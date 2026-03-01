@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/cloudtasks/v2beta3/base/app-engine-http-queue
+load @cluesurf/snow/googleapis.com/cloudtasks/v2beta3/base/app-engine-http-queue
   take form app-engine-http-queue
 
-load @termsurf/snow/googleapis.com/cloudtasks/v2beta3/base/queue-stats
+load @cluesurf/snow/googleapis.com/cloudtasks/v2beta3/base/queue-stats
   take form queue-stats
 
-load @termsurf/snow/googleapis.com/cloudtasks/v2beta3/base/rate-limits
+load @cluesurf/snow/googleapis.com/cloudtasks/v2beta3/base/rate-limits
   take form rate-limits
 
-load @termsurf/snow/googleapis.com/cloudtasks/v2beta3/base/retry-config
+load @cluesurf/snow/googleapis.com/cloudtasks/v2beta3/base/retry-config
   take form retry-config
 
-load @termsurf/snow/googleapis.com/cloudtasks/v2beta3/base/stackdriver-logging-config
+load @cluesurf/snow/googleapis.com/cloudtasks/v2beta3/base/stackdriver-logging-config
   take form stackdriver-logging-config
 
 form queue, name <Queue>

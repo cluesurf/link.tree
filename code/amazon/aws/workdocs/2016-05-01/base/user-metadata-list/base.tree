@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/workdocs/2016-05-01/base/user-metadata
+load @cluesurf/snow/amazonaws.com/workdocs/2016-05-01/base/user-metadata
   take form user-metadata
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form user-metadata-list, name <UserMetadataList>

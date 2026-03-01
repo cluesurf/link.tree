@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/container-properties
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/container-properties
   take form container-properties
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form node-range-property, name <NodeRangeProperty>

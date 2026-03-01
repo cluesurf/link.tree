@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/glacier/2012-06-01/base/long
+load @cluesurf/snow/amazonaws.com/glacier/2012-06-01/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/glacier/2012-06-01/base/part-list
+load @cluesurf/snow/amazonaws.com/glacier/2012-06-01/base/part-list
   take form part-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-parts-output, name <ListPartsOutput>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/vmmigration/v1/base/vm-utilization-metrics
+load @cluesurf/snow/googleapis.com/vmmigration/v1/base/vm-utilization-metrics
   take form vm-utilization-metrics
 
-load @termsurf/snow/googleapis.com/vmmigration/v1/base/vmware-vm-details
+load @cluesurf/snow/googleapis.com/vmmigration/v1/base/vmware-vm-details
   take form vmware-vm-details
 
 form vm-utilization-info, name <VmUtilizationInfo>

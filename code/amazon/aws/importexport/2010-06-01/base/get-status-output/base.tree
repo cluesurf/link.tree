@@ -1,47 +1,47 @@
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/artifact-list
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/artifact-list
   take form artifact-list
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/carrier
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/carrier
   take form carrier
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/creation-date
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/creation-date
   take form creation-date
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/current-manifest
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/current-manifest
   take form current-manifest
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/error-count
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/error-count
   take form error-count
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/job-id
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/job-id
   take form job-id
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/job-type
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/job-type
   take form job-type
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/location-code
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/location-code
   take form location-code
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/location-message
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/location-message
   take form location-message
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/log-bucket
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/log-bucket
   take form log-bucket
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/log-key
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/log-key
   take form log-key
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/progress-code
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/progress-code
   take form progress-code
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/progress-message
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/progress-message
   take form progress-message
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/signature
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/signature
   take form signature
 
-load @termsurf/snow/amazonaws.com/importexport/2010-06-01/base/tracking-number
+load @cluesurf/snow/amazonaws.com/importexport/2010-06-01/base/tracking-number
   take form tracking-number
 
 form get-status-output, name <GetStatusOutput>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-status
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-status
   take form instance-status
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form instance-status-list, name <InstanceStatusList>

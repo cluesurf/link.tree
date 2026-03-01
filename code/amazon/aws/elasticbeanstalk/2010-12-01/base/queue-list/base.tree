@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/queue
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/queue
   take form queue
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form queue-list, name <QueueList>

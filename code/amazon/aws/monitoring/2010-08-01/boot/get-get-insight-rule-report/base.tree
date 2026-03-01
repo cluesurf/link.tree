@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/get-insight-rule-report-output
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/get-insight-rule-report-output
   take form get-insight-rule-report-output
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/insight-rule-metric-name
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/insight-rule-metric-name
   take form insight-rule-metric-name
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/invalid-parameter-value-exception
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/invalid-parameter-value-exception
   take form invalid-parameter-value-exception
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/missing-required-parameter-exception
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/missing-required-parameter-exception
   take form missing-required-parameter-exception
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-get-insight-rule-report, name <GET_GetInsightRuleReport>

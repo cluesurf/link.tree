@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/load-balancer-listeners-description
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/load-balancer-listeners-description
   take form load-balancer-listeners-description
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form load-balancer-description, name <LoadBalancerDescription>

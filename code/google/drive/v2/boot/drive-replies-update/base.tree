@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/drive/v2/base/comment-reply
+load @cluesurf/snow/googleapis.com/drive/v2/base/comment-reply
   take form comment-reply
 
 boot drive-replies-update, name <drive.replies.update>

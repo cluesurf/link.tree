@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-description
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-description
   take form assessment-description
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-name
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-name
   take form assessment-name
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-reports-destination
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-reports-destination
   take form assessment-reports-destination
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/roles
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/roles
   take form roles
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/scope
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/scope
   take form scope
 
 form update-assessment-request, name <UpdateAssessmentRequest>

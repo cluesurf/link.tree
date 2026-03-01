@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/budgets
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/budgets
   take form budgets
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/product-view-detail
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/product-view-detail
   take form product-view-detail
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioning-artifact-summaries
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/provisioning-artifact-summaries
   take form provisioning-artifact-summaries
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tag-option-details
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tag-option-details
   take form tag-option-details
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tags
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/tags
   take form tags
 
 form describe-product-as-admin-output, name <DescribeProductAsAdminOutput>

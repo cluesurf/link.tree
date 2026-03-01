@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/describe-origin-endpoint-response
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/describe-origin-endpoint-response
   take form describe-origin-endpoint-response
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/forbidden-exception
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/forbidden-exception
   take form forbidden-exception
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/internal-server-error-exception
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/internal-server-error-exception
   take form internal-server-error-exception
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/not-found-exception
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/not-found-exception
   take form not-found-exception
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/service-unavailable-exception
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/service-unavailable-exception
   take form service-unavailable-exception
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/too-many-requests-exception
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/too-many-requests-exception
   take form too-many-requests-exception
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/unprocessable-entity-exception
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/unprocessable-entity-exception
   take form unprocessable-entity-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-origin-endpoint, name <DescribeOriginEndpoint>

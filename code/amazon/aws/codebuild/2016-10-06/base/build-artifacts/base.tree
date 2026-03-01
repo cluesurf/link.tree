@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/bucket-owner-access
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/bucket-owner-access
   take form bucket-owner-access
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/wrapper-boolean
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/wrapper-boolean
   take form wrapper-boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form build-artifacts, name <BuildArtifacts>

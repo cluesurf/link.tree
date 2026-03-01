@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/firebase/v1beta1/base/operation
+load @cluesurf/snow/googleapis.com/firebase/v1beta1/base/operation
   take form operation
 
 boot firebase-projects-web-apps-create, name <firebase.projects.webApps.create>

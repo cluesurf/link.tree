@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/property-difference
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/property-difference
   take form property-difference
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form property-differences, name <PropertyDifferences>

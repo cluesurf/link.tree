@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/batch-update-cluster-response
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/batch-update-cluster-response
   take form batch-update-cluster-response
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/invalid-parameter-value-exception
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/invalid-parameter-value-exception
   take form invalid-parameter-value-exception
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/service-update-not-found-fault
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/service-update-not-found-fault
   take form service-update-not-found-fault
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot batch-update-cluster, name <BatchUpdateCluster>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ecr/2015-09-21/base/invalid-parameter-exception
+load @cluesurf/snow/amazonaws.com/ecr/2015-09-21/base/invalid-parameter-exception
   take form invalid-parameter-exception
 
-load @termsurf/snow/amazonaws.com/ecr/2015-09-21/base/put-replication-configuration-response
+load @cluesurf/snow/amazonaws.com/ecr/2015-09-21/base/put-replication-configuration-response
   take form put-replication-configuration-response
 
-load @termsurf/snow/amazonaws.com/ecr/2015-09-21/base/server-exception
+load @cluesurf/snow/amazonaws.com/ecr/2015-09-21/base/server-exception
   take form server-exception
 
-load @termsurf/snow/amazonaws.com/ecr/2015-09-21/base/validation-exception
+load @cluesurf/snow/amazonaws.com/ecr/2015-09-21/base/validation-exception
   take form validation-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot put-replication-configuration, name <PutReplicationConfiguration>

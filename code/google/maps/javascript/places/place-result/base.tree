@@ -1,39 +1,39 @@
 
-load @termsurf/land/code/javascript/base/native-boolean
+load @cluesurf/land/code/javascript/base/native-boolean
   take form native-boolean
 
-load @termsurf/land/code/javascript/base/native-number
+load @cluesurf/land/code/javascript/base/native-number
   take form native-number
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/seed/code/form/list
+load @cluesurf/seed/code/form/list
   take form list
     save form list-link-text
 
-load @termsurf/snow/code/javascript/google/maps/geocoder-address-component
+load @cluesurf/snow/code/javascript/google/maps/geocoder-address-component
   take form geocoder-address-component
 
-load @termsurf/snow/code/javascript/google/maps/places/business-status
+load @cluesurf/snow/code/javascript/google/maps/places/business-status
   take form business-status
 
-load @termsurf/snow/code/javascript/google/maps/places/place-aspect-rating
+load @cluesurf/snow/code/javascript/google/maps/places/place-aspect-rating
   take form place-aspect-rating
 
-load @termsurf/snow/code/javascript/google/maps/places/place-geometry
+load @cluesurf/snow/code/javascript/google/maps/places/place-geometry
   take form place-geometry
 
-load @termsurf/snow/code/javascript/google/maps/places/place-opening-hours
+load @cluesurf/snow/code/javascript/google/maps/places/place-opening-hours
   take form place-opening-hours
 
-load @termsurf/snow/code/javascript/google/maps/places/place-photo
+load @cluesurf/snow/code/javascript/google/maps/places/place-photo
   take form place-photo
 
-load @termsurf/snow/code/javascript/google/maps/places/place-plus-code
+load @cluesurf/snow/code/javascript/google/maps/places/place-plus-code
   take form place-plus-code
 
-load @termsurf/snow/code/javascript/google/maps/places/place-review
+load @cluesurf/snow/code/javascript/google/maps/places/place-review
   take form place-review
 
 form place-result, name <google.maps.places.PlaceResult>

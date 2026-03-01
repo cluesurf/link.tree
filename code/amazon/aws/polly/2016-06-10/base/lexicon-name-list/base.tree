@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/polly/2016-06-10/base/lexicon-name
+load @cluesurf/snow/amazonaws.com/polly/2016-06-10/base/lexicon-name
   take form lexicon-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form lexicon-name-list, name <LexiconNameList>

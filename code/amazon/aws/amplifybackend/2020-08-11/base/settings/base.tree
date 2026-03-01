@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/amplifybackend/2020-08-11/base/list-of-mfa-types-element
+load @cluesurf/snow/amazonaws.com/amplifybackend/2020-08-11/base/list-of-mfa-types-element
   take form list-of-mfa-types-element
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form settings, name <Settings>

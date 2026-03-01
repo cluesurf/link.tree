@@ -1,29 +1,29 @@
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/land/code/javascript/base/native-void
+load @cluesurf/land/code/javascript/base/native-void
   take form native-void
 
-load @termsurf/land/code/javascript/base/promise
+load @cluesurf/land/code/javascript/base/promise
   take form promise
 
-load @termsurf/land/code/javascript/stripejs/payment/can-make-payment-result
+load @cluesurf/land/code/javascript/stripejs/payment/can-make-payment-result
   take form can-make-payment-result
 
-load @termsurf/land/code/javascript/stripejs/payment/new-shipping-address
+load @cluesurf/land/code/javascript/stripejs/payment/new-shipping-address
   take form new-shipping-address
 
-load @termsurf/land/code/javascript/stripejs/payment/new-shipping-options
+load @cluesurf/land/code/javascript/stripejs/payment/new-shipping-options
   take form new-shipping-options
 
-load @termsurf/land/code/javascript/stripejs/payment/stripe-payment-response
+load @cluesurf/land/code/javascript/stripejs/payment/stripe-payment-response
   take form stripe-payment-response
 
-load @termsurf/land/code/javascript/stripejs/payment/update-options
+load @cluesurf/land/code/javascript/stripejs/payment/update-options
   take form update-options
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 

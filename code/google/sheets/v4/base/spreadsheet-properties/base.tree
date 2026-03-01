@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/cell-format
+load @cluesurf/snow/googleapis.com/sheets/v4/base/cell-format
   take form cell-format
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/iterative-calculation-settings
+load @cluesurf/snow/googleapis.com/sheets/v4/base/iterative-calculation-settings
   take form iterative-calculation-settings
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/spreadsheet-theme
+load @cluesurf/snow/googleapis.com/sheets/v4/base/spreadsheet-theme
   take form spreadsheet-theme
 
 form spreadsheet-properties, name <SpreadsheetProperties>

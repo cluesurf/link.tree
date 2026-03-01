@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/component-type
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/component-type
   take form component-type
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/date-time
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/image-builder-arn
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/image-builder-arn
   take form image-builder-arn
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/os-version-list
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/os-version-list
   take form os-version-list
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/platform
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/platform
   take form platform
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/resource-name
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/version-number
+load @cluesurf/snow/amazonaws.com/imagebuilder/2019-12-02/base/version-number
   take form version-number
 
 form component-version, name <ComponentVersion>

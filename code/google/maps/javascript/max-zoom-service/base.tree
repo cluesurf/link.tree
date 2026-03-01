@@ -1,24 +1,24 @@
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/land/code/javascript/base/native-void
+load @cluesurf/land/code/javascript/base/native-void
   take form native-void
 
-load @termsurf/land/code/javascript/base/promise
+load @cluesurf/land/code/javascript/base/promise
   take form promise
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng
+load @cluesurf/snow/code/javascript/google/maps/lat-lng
   take form lat-lng
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-literal
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-literal
   take form lat-lng-literal
 
-load @termsurf/snow/code/javascript/google/maps/max-zoom-result
+load @cluesurf/snow/code/javascript/google/maps/max-zoom-result
   take form max-zoom-result
 
 form max-zoom-service, name <google.maps.MaxZoomService>

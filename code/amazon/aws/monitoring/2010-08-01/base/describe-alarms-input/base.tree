@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/action-prefix
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/action-prefix
   take form action-prefix
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/alarm-name
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/alarm-name
   take form alarm-name
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/alarm-name-prefix
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/alarm-name-prefix
   take form alarm-name-prefix
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/alarm-names
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/alarm-names
   take form alarm-names
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/alarm-types
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/alarm-types
   take form alarm-types
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/max-records
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/max-records
   take form max-records
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/next-token
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/state-value
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/state-value
   take form state-value
 
 form describe-alarms-input, name <DescribeAlarmsInput>

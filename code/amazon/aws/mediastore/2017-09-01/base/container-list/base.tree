@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediastore/2017-09-01/base/container
+load @cluesurf/snow/amazonaws.com/mediastore/2017-09-01/base/container
   take form container
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form container-list, name <ContainerList>

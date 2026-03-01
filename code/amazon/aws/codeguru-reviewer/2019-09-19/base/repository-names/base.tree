@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/name
+load @cluesurf/snow/amazonaws.com/codeguru-reviewer/2019-09-19/base/name
   take form name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form repository-names, name <RepositoryNames>

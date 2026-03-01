@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/case-list
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/case-list
   take form case-list
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/next-token
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/next-token
   take form next-token
 
 form describe-cases-response, name <DescribeCasesResponse>

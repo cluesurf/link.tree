@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/encryption-type
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/encryption-type
   take form encryption-type
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/key-id
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/key-id
   take form key-id
 
 form encryption-config, name <EncryptionConfig>

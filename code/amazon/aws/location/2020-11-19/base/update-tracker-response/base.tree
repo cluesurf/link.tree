@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/arn
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/resource-name
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/timestamp
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/timestamp
   take form timestamp
 
 form update-tracker-response, name <UpdateTrackerResponse>

@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/current-instance
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/current-instance
   take form current-instance
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/finding-reason-codes
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/finding-reason-codes
   take form finding-reason-codes
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/generic-string
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/generic-string
   take form generic-string
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/modify-recommendation-detail
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/modify-recommendation-detail
   take form modify-recommendation-detail
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/rightsizing-type
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/rightsizing-type
   take form rightsizing-type
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/terminate-recommendation-detail
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/terminate-recommendation-detail
   take form terminate-recommendation-detail
 
 form rightsizing-recommendation, name <RightsizingRecommendation>

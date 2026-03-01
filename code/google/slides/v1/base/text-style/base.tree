@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/dimension
+load @cluesurf/snow/googleapis.com/slides/v1/base/dimension
   take form dimension
 
-load @termsurf/snow/googleapis.com/slides/v1/base/link
+load @cluesurf/snow/googleapis.com/slides/v1/base/link
   take form link
 
-load @termsurf/snow/googleapis.com/slides/v1/base/optional-color
+load @cluesurf/snow/googleapis.com/slides/v1/base/optional-color
   take form optional-color
 
-load @termsurf/snow/googleapis.com/slides/v1/base/weighted-font-family
+load @cluesurf/snow/googleapis.com/slides/v1/base/weighted-font-family
   take form weighted-font-family
 
 form text-style, name <TextStyle>

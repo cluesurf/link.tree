@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/vtl-device
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/vtl-device
   take form vtl-device
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form vtl-devices, name <VTLDevices>

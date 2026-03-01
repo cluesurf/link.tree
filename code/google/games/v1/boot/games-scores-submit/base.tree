@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/games/v1/base/player-score-response
+load @cluesurf/snow/googleapis.com/games/v1/base/player-score-response
   take form player-score-response
 
 boot games-scores-submit, name <games.scores.submit>

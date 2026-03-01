@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/glacier/2012-06-01/base/describe-vault-output
+load @cluesurf/snow/amazonaws.com/glacier/2012-06-01/base/describe-vault-output
   take form describe-vault-output
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form vault-list, name <VaultList>

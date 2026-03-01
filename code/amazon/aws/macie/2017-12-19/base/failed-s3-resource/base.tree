@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/macie/2017-12-19/base/error-code
+load @cluesurf/snow/amazonaws.com/macie/2017-12-19/base/error-code
   take form error-code
 
-load @termsurf/snow/amazonaws.com/macie/2017-12-19/base/exception-message
+load @cluesurf/snow/amazonaws.com/macie/2017-12-19/base/exception-message
   take form exception-message
 
-load @termsurf/snow/amazonaws.com/macie/2017-12-19/base/s3-resource
+load @cluesurf/snow/amazonaws.com/macie/2017-12-19/base/s3-resource
   take form s3-resource
 
 form failed-s3-resource, name <FailedS3Resource>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/synthetics/2017-10-11/base/canaries-last-run
+load @cluesurf/snow/amazonaws.com/synthetics/2017-10-11/base/canaries-last-run
   take form canaries-last-run
 
-load @termsurf/snow/amazonaws.com/synthetics/2017-10-11/base/token
+load @cluesurf/snow/amazonaws.com/synthetics/2017-10-11/base/token
   take form token
 
 form describe-canaries-last-run-response, name <DescribeCanariesLastRunResponse>

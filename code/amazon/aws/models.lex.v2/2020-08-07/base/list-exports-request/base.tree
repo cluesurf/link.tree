@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/bot-version
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/bot-version
   take form bot-version
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/export-filters
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/export-filters
   take form export-filters
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/export-sort-by
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/export-sort-by
   take form export-sort-by
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/id
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/max-results
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/max-results
   take form max-results
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/next-token
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/next-token
   take form next-token
 
 form list-exports-request, name <ListExportsRequest>

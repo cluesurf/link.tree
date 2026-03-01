@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/ec2-image-id
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/ec2-image-id
   take form ec2-image-id
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/eula-id-list
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/eula-id-list
   take form eula-id-list
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-description
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-description
   take form streaming-image-description
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-encryption-configuration
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-encryption-configuration
   take form streaming-image-encryption-configuration
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-id
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-id
   take form streaming-image-id
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-name
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-name
   take form streaming-image-name
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-owner
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-owner
   take form streaming-image-owner
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-platform
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-platform
   take form streaming-image-platform
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-state
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-state
   take form streaming-image-state
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-status-code
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-image-status-code
   take form streaming-image-status-code
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/tags
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/tags
   take form tags
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form streaming-image, name <StreamingImage>

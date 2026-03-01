@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/lifesciences/v2beta/base/secret
+load @cluesurf/snow/googleapis.com/lifesciences/v2beta/base/secret
   take form secret
 
 form action, name <Action>

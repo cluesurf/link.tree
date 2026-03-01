@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/privateca/v1beta1/base/subject
+load @cluesurf/snow/googleapis.com/privateca/v1beta1/base/subject
   take form subject
 
-load @termsurf/snow/googleapis.com/privateca/v1beta1/base/subject-alt-names
+load @cluesurf/snow/googleapis.com/privateca/v1beta1/base/subject-alt-names
   take form subject-alt-names
 
 form subject-description, name <SubjectDescription>

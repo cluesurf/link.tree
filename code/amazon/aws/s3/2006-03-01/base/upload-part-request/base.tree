@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/body
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/body
   take form body
 
 form upload-part-request, name <UploadPartRequest>

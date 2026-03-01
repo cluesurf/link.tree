@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-configuration
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-configuration
   take form action-configuration
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-type-id
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-type-id
   take form action-type-id
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/artifact-list
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/artifact-list
   take form artifact-list
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/aws-session-credentials
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/aws-session-credentials
   take form aws-session-credentials
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/continuation-token
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/continuation-token
   take form continuation-token
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/encryption-key
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/encryption-key
   take form encryption-key
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-context
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-context
   take form pipeline-context
 
 form third-party-job-data, name <ThirdPartyJobData>

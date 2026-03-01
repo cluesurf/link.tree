@@ -1,5 +1,5 @@
 
-deck @termsurf/leaf
+deck @cluesurf/leaf
   text <LinkText Third-Party API Providers>
   make <api>
   make <information>

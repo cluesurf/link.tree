@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/description
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/firewall-policy
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/firewall-policy
   take form firewall-policy
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/resource-name
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/network-firewall/2020-11-12/base/tag-list
+load @cluesurf/snow/amazonaws.com/network-firewall/2020-11-12/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form create-firewall-policy-request, name <CreateFirewallPolicyRequest>

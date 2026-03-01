@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/chat/v1/base/image-button
+load @cluesurf/snow/googleapis.com/chat/v1/base/image-button
   take form image-button
 
-load @termsurf/snow/googleapis.com/chat/v1/base/text-button
+load @cluesurf/snow/googleapis.com/chat/v1/base/text-button
   take form text-button
 
 form button, name <Button>

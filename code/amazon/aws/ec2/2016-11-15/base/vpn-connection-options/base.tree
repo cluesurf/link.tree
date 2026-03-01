@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tunnel-inside-ip-version
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tunnel-inside-ip-version
   take form tunnel-inside-ip-version
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tunnel-options-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tunnel-options-list
   take form tunnel-options-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form vpn-connection-options, name <VpnConnectionOptions>

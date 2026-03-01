@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-egress-only-internet-gateways-max-results
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-egress-only-internet-gateways-max-results
   take form describe-egress-only-internet-gateways-max-results
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/egress-only-internet-gateway-id-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/egress-only-internet-gateway-id-list
   take form egress-only-internet-gateway-id-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
   take form filter-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-egress-only-internet-gateways-request, name <DescribeEgressOnlyInternetGatewaysRequest>

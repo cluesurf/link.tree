@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/cloudidentity/v1/base/membership
+load @cluesurf/snow/googleapis.com/cloudidentity/v1/base/membership
   take form membership
 
 form modify-membership-roles-response, name <ModifyMembershipRolesResponse>

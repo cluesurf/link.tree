@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/data
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/data
   take form data
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/failure-reason
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/failure-reason
   take form failure-reason
 
 form fail-workflow-execution-decision-attributes, name <FailWorkflowExecutionDecisionAttributes>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/streetviewpublish/v1/base/photo-id
+load @cluesurf/snow/googleapis.com/streetviewpublish/v1/base/photo-id
   take form photo-id
 
-load @termsurf/snow/googleapis.com/streetviewpublish/v1/base/pose
+load @cluesurf/snow/googleapis.com/streetviewpublish/v1/base/pose
   take form pose
 
-load @termsurf/snow/googleapis.com/streetviewpublish/v1/base/upload-ref
+load @cluesurf/snow/googleapis.com/streetviewpublish/v1/base/upload-ref
   take form upload-ref
 
 form photo, name <Photo>

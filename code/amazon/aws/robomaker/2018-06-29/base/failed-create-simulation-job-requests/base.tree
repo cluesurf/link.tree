@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/failed-create-simulation-job-request
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/failed-create-simulation-job-request
   take form failed-create-simulation-job-request
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form failed-create-simulation-job-requests, name <FailedCreateSimulationJobRequests>

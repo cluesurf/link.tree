@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/trusted-advisor-category-specific-summary
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/trusted-advisor-category-specific-summary
   take form trusted-advisor-category-specific-summary
 
-load @termsurf/snow/amazonaws.com/support/2013-04-15/base/trusted-advisor-resources-summary
+load @cluesurf/snow/amazonaws.com/support/2013-04-15/base/trusted-advisor-resources-summary
   take form trusted-advisor-resources-summary
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form trusted-advisor-check-summary, name <TrustedAdvisorCheckSummary>

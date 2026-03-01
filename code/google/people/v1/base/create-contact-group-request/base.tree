@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/people/v1/base/contact-group
+load @cluesurf/snow/googleapis.com/people/v1/base/contact-group
   take form contact-group
 
 form create-contact-group-request, name <CreateContactGroupRequest>

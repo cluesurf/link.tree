@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/action-history-status
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/action-history-status
   take form action-history-status
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/action-type
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/action-type
   take form action-type
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/failure-type
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/failure-type
   take form failure-type
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form managed-action-history-item, name <ManagedActionHistoryItem>

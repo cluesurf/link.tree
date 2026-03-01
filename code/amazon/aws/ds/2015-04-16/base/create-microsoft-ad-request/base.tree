@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/description
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/directory-edition
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/directory-edition
   take form directory-edition
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/directory-name
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/directory-name
   take form directory-name
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/directory-short-name
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/directory-short-name
   take form directory-short-name
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/directory-vpc-settings
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/directory-vpc-settings
   take form directory-vpc-settings
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/password
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/password
   take form password
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/tags
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/tags
   take form tags
 
 form create-microsoft-ad-request, name <CreateMicrosoftADRequest>

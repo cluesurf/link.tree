@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/frauddetector/2019-11-15/base/data-source
+load @cluesurf/snow/amazonaws.com/frauddetector/2019-11-15/base/data-source
   take form data-source
 
-load @termsurf/snow/amazonaws.com/frauddetector/2019-11-15/base/data-type
+load @cluesurf/snow/amazonaws.com/frauddetector/2019-11-15/base/data-type
   take form data-type
 
-load @termsurf/snow/amazonaws.com/frauddetector/2019-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/frauddetector/2019-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-variable-request, name <CreateVariableRequest>

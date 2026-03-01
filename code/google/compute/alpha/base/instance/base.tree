@@ -1,50 +1,50 @@
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/advanced-machine-features
+load @cluesurf/snow/googleapis.com/compute/alpha/base/advanced-machine-features
   take form advanced-machine-features
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/confidential-instance-config
+load @cluesurf/snow/googleapis.com/compute/alpha/base/confidential-instance-config
   take form confidential-instance-config
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/customer-encryption-key
+load @cluesurf/snow/googleapis.com/compute/alpha/base/customer-encryption-key
   take form customer-encryption-key
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/display-device
+load @cluesurf/snow/googleapis.com/compute/alpha/base/display-device
   take form display-device
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/instance-params
+load @cluesurf/snow/googleapis.com/compute/alpha/base/instance-params
   take form instance-params
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/metadata
+load @cluesurf/snow/googleapis.com/compute/alpha/base/metadata
   take form metadata
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/network-performance-config
+load @cluesurf/snow/googleapis.com/compute/alpha/base/network-performance-config
   take form network-performance-config
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/reservation-affinity
+load @cluesurf/snow/googleapis.com/compute/alpha/base/reservation-affinity
   take form reservation-affinity
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/resource-status
+load @cluesurf/snow/googleapis.com/compute/alpha/base/resource-status
   take form resource-status
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/scheduling
+load @cluesurf/snow/googleapis.com/compute/alpha/base/scheduling
   take form scheduling
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/shielded-instance-config
+load @cluesurf/snow/googleapis.com/compute/alpha/base/shielded-instance-config
   take form shielded-instance-config
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/shielded-instance-integrity-policy
+load @cluesurf/snow/googleapis.com/compute/alpha/base/shielded-instance-integrity-policy
   take form shielded-instance-integrity-policy
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/shielded-vm-config
+load @cluesurf/snow/googleapis.com/compute/alpha/base/shielded-vm-config
   take form shielded-vm-config
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/shielded-vm-integrity-policy
+load @cluesurf/snow/googleapis.com/compute/alpha/base/shielded-vm-integrity-policy
   take form shielded-vm-integrity-policy
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/tags
+load @cluesurf/snow/googleapis.com/compute/alpha/base/tags
   take form tags
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/upcoming-maintenance
+load @cluesurf/snow/googleapis.com/compute/alpha/base/upcoming-maintenance
   take form upcoming-maintenance
 
 form instance, name <Instance>

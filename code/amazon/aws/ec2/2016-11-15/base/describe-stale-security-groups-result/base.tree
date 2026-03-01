@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/stale-security-group-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/stale-security-group-set
   take form stale-security-group-set
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-stale-security-groups-result, name <DescribeStaleSecurityGroupsResult>

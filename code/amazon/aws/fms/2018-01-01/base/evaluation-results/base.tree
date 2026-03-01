@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fms/2018-01-01/base/evaluation-result
+load @cluesurf/snow/amazonaws.com/fms/2018-01-01/base/evaluation-result
   take form evaluation-result
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form evaluation-results, name <EvaluationResults>

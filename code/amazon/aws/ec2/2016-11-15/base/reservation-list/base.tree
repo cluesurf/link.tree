@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/reservation
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/reservation
   take form reservation
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form reservation-list, name <ReservationList>

@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/additional-code-repository-names-or-urls
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/additional-code-repository-names-or-urls
   take form additional-code-repository-names-or-urls
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/code-repository-name-or-url
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/code-repository-name-or-url
   take form code-repository-name-or-url
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/creation-time
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/creation-time
   take form creation-time
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/instance-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/instance-type
   take form instance-type
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/last-modified-time
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/last-modified-time
   take form last-modified-time
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-arn
   take form notebook-instance-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-lifecycle-config-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-lifecycle-config-name
   take form notebook-instance-lifecycle-config-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-name
   take form notebook-instance-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-status
   take form notebook-instance-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-url
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/notebook-instance-url
   take form notebook-instance-url
 
 form notebook-instance-summary, name <NotebookInstanceSummary>

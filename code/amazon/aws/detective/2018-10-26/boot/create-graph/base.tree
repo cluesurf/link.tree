@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/detective/2018-10-26/base/conflict-exception
+load @cluesurf/snow/amazonaws.com/detective/2018-10-26/base/conflict-exception
   take form conflict-exception
 
-load @termsurf/snow/amazonaws.com/detective/2018-10-26/base/create-graph-body
+load @cluesurf/snow/amazonaws.com/detective/2018-10-26/base/create-graph-body
   take form create-graph-body
 
-load @termsurf/snow/amazonaws.com/detective/2018-10-26/base/create-graph-response
+load @cluesurf/snow/amazonaws.com/detective/2018-10-26/base/create-graph-response
   take form create-graph-response
 
-load @termsurf/snow/amazonaws.com/detective/2018-10-26/base/internal-server-exception
+load @cluesurf/snow/amazonaws.com/detective/2018-10-26/base/internal-server-exception
   take form internal-server-exception
 
-load @termsurf/snow/amazonaws.com/detective/2018-10-26/base/service-quota-exceeded-exception
+load @cluesurf/snow/amazonaws.com/detective/2018-10-26/base/service-quota-exceeded-exception
   take form service-quota-exceeded-exception
 
 boot create-graph, name <CreateGraph>

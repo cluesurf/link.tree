@@ -1,25 +1,25 @@
 
-load @termsurf/land/code/javascript/base/native-boolean
+load @cluesurf/land/code/javascript/base/native-boolean
   take form native-boolean
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/seed/code/form/list
+load @cluesurf/seed/code/form/list
   take form list
     save form list-link-text
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-bounds
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-bounds
   take form lat-lng-bounds
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-bounds-literal
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-bounds-literal
   take form lat-lng-bounds-literal
 
-load @termsurf/snow/code/javascript/google/maps/places/component-restrictions
+load @cluesurf/snow/code/javascript/google/maps/places/component-restrictions
   take form component-restrictions
 
 form autocomplete-options, name <google.maps.places.AutocompleteOptions>

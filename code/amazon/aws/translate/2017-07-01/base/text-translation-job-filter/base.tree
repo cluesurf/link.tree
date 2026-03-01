@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/translate/2017-07-01/base/job-name
+load @cluesurf/snow/amazonaws.com/translate/2017-07-01/base/job-name
   take form job-name
 
-load @termsurf/snow/amazonaws.com/translate/2017-07-01/base/job-status
+load @cluesurf/snow/amazonaws.com/translate/2017-07-01/base/job-status
   take form job-status
 
-load @termsurf/snow/amazonaws.com/translate/2017-07-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/translate/2017-07-01/base/timestamp
   take form timestamp
 
 form text-translation-job-filter, name <TextTranslationJobFilter>

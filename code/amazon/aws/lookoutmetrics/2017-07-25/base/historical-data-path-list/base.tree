@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/historical-data-path
+load @cluesurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/historical-data-path
   take form historical-data-path
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form historical-data-path-list, name <HistoricalDataPathList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/jira/openapi.json/base/version-unresolved-issues-count
+load @cluesurf/snow/jira/openapi.json/base/version-unresolved-issues-count
   take form version-unresolved-issues-count
 
 boot get-version-unresolved-issues, name <getVersionUnresolvedIssues>

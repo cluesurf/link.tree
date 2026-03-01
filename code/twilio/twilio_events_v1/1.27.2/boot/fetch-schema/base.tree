@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/twilio.com/twilio_events_v1/1.27.2/base/events-v1-schema
+load @cluesurf/snow/twilio.com/twilio_events_v1/1.27.2/base/events-v1-schema
   take form events-v1-schema
 
 boot fetch-schema, name <FetchSchema>

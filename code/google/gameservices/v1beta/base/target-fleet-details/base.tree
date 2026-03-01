@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/gameservices/v1beta/base/target-fleet
+load @cluesurf/snow/googleapis.com/gameservices/v1beta/base/target-fleet
   take form target-fleet
 
-load @termsurf/snow/googleapis.com/gameservices/v1beta/base/target-fleet-autoscaler
+load @cluesurf/snow/googleapis.com/gameservices/v1beta/base/target-fleet-autoscaler
   take form target-fleet-autoscaler
 
 form target-fleet-details, name <TargetFleetDetails>

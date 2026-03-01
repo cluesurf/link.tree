@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/max-results
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/max-results
   take form max-results
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/next-token
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/resource-property-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/resource-property-name
   take form resource-property-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/resource-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/resource-type
   take form resource-type
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/search-expression
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/search-expression
   take form search-expression
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/search-sort-order
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/search-sort-order
   take form search-sort-order
 
 form search-request, name <SearchRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-action-status
+load @cluesurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-action-status
   take form experiment-action-status
 
-load @termsurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-action-status-reason
+load @cluesurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-action-status-reason
   take form experiment-action-status-reason
 
 form experiment-action-state, name <ExperimentActionState>

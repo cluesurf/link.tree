@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/directory-id
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/directory-id
   take form directory-id
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/role
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/role
   take form role
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/url
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/url
   take form url
 
 form identity-provider-details, name <IdentityProviderDetails>

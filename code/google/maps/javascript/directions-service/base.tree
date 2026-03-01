@@ -1,24 +1,24 @@
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/land/code/javascript/base/native-void
+load @cluesurf/land/code/javascript/base/native-void
   take form native-void
 
-load @termsurf/land/code/javascript/base/promise
+load @cluesurf/land/code/javascript/base/promise
   take form promise
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/directions-request
+load @cluesurf/snow/code/javascript/google/maps/directions-request
   take form directions-request
 
-load @termsurf/snow/code/javascript/google/maps/directions-result
+load @cluesurf/snow/code/javascript/google/maps/directions-result
   take form directions-result
 
-load @termsurf/snow/code/javascript/google/maps/directions-status
+load @cluesurf/snow/code/javascript/google/maps/directions-status
   take form directions-status
 
 form directions-service, name <google.maps.DirectionsService>

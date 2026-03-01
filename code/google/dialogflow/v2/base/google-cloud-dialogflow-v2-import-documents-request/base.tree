@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/dialogflow/v2/base/google-cloud-dialogflow-v2-gcs-sources
+load @cluesurf/snow/googleapis.com/dialogflow/v2/base/google-cloud-dialogflow-v2-gcs-sources
   take form google-cloud-dialogflow-v2-gcs-sources
 
-load @termsurf/snow/googleapis.com/dialogflow/v2/base/google-cloud-dialogflow-v2-import-document-template
+load @cluesurf/snow/googleapis.com/dialogflow/v2/base/google-cloud-dialogflow-v2-import-document-template
   take form google-cloud-dialogflow-v2-import-document-template
 
 form google-cloud-dialogflow-v2-import-documents-request, name <GoogleCloudDialogflowV2ImportDocumentsRequest>

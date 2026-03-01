@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/date-time
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/role-arn
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-arn
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-arn
   take form stream-processor-arn
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-input
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-input
   take form stream-processor-input
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-name
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-name
   take form stream-processor-name
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-output
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-output
   take form stream-processor-output
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-settings
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-settings
   take form stream-processor-settings
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-status
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/stream-processor-status
   take form stream-processor-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-stream-processor-response, name <DescribeStreamProcessorResponse>

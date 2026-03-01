@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kms/2014-11-01/base/grant-token-type
+load @cluesurf/snow/amazonaws.com/kms/2014-11-01/base/grant-token-type
   take form grant-token-type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form grant-token-list, name <GrantTokenList>

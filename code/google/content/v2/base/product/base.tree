@@ -1,23 +1,23 @@
 
-load @termsurf/snow/googleapis.com/content/v2/base/installment
+load @cluesurf/snow/googleapis.com/content/v2/base/installment
   take form installment
 
-load @termsurf/snow/googleapis.com/content/v2/base/loyalty-points
+load @cluesurf/snow/googleapis.com/content/v2/base/loyalty-points
   take form loyalty-points
 
-load @termsurf/snow/googleapis.com/content/v2/base/price
+load @cluesurf/snow/googleapis.com/content/v2/base/price
   take form price
 
-load @termsurf/snow/googleapis.com/content/v2/base/product-shipping-dimension
+load @cluesurf/snow/googleapis.com/content/v2/base/product-shipping-dimension
   take form product-shipping-dimension
 
-load @termsurf/snow/googleapis.com/content/v2/base/product-shipping-weight
+load @cluesurf/snow/googleapis.com/content/v2/base/product-shipping-weight
   take form product-shipping-weight
 
-load @termsurf/snow/googleapis.com/content/v2/base/product-unit-pricing-base-measure
+load @cluesurf/snow/googleapis.com/content/v2/base/product-unit-pricing-base-measure
   take form product-unit-pricing-base-measure
 
-load @termsurf/snow/googleapis.com/content/v2/base/product-unit-pricing-measure
+load @cluesurf/snow/googleapis.com/content/v2/base/product-unit-pricing-measure
   take form product-unit-pricing-measure
 
 form product, name <Product>

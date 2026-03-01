@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/bigtableadmin/v1/base/gc-rule
+load @cluesurf/snow/googleapis.com/bigtableadmin/v1/base/gc-rule
   take form gc-rule
 
 form column-family, name <ColumnFamily>

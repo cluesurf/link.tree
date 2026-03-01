@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/launch-template-ebs-block-device-request
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/launch-template-ebs-block-device-request
   take form launch-template-ebs-block-device-request
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form launch-template-block-device-mapping-request, name <LaunchTemplateBlockDeviceMappingRequest>

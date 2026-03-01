@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kinesisanalyticsv2/2018-05-23/base/reference-data-source-update
+load @cluesurf/snow/amazonaws.com/kinesisanalyticsv2/2018-05-23/base/reference-data-source-update
   take form reference-data-source-update
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form reference-data-source-updates, name <ReferenceDataSourceUpdates>

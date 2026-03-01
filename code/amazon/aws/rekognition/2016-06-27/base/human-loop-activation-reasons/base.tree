@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/human-loop-activation-reason
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/human-loop-activation-reason
   take form human-loop-activation-reason
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form human-loop-activation-reasons, name <HumanLoopActivationReasons>

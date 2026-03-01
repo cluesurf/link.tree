@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/internal-server-error-exception
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/internal-server-error-exception
   take form internal-server-error-exception
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/list-group-certificate-authorities-response
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/list-group-certificate-authorities-response
   take form list-group-certificate-authorities-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-group-certificate-authorities, name <ListGroupCertificateAuthorities>

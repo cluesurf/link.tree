@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/databrew/2017-07-25/base/statistic-override
+load @cluesurf/snow/amazonaws.com/databrew/2017-07-25/base/statistic-override
   take form statistic-override
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form statistic-override-list, name <StatisticOverrideList>

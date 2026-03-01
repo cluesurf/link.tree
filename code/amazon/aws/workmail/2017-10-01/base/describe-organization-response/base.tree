@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/amazon-resource-name
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/amazon-resource-name
   take form amazon-resource-name
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/organization-id
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/organization-id
   take form organization-id
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/organization-name
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/organization-name
   take form organization-name
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-organization-response, name <DescribeOrganizationResponse>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/double
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/recurring-charge-list
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/recurring-charge-list
   take form recurring-charge-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form reserved-db-instances-offering, name <ReservedDBInstancesOffering>

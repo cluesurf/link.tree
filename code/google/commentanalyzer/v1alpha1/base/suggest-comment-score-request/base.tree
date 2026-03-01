@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/commentanalyzer/v1alpha1/base/context
+load @cluesurf/snow/googleapis.com/commentanalyzer/v1alpha1/base/context
   take form context
 
-load @termsurf/snow/googleapis.com/commentanalyzer/v1alpha1/base/text-entry
+load @cluesurf/snow/googleapis.com/commentanalyzer/v1alpha1/base/text-entry
   take form text-entry
 
 form suggest-comment-score-request, name <SuggestCommentScoreRequest>

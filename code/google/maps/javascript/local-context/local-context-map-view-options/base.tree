@@ -1,80 +1,80 @@
 
-load @termsurf/land/code/javascript/base/element
+load @cluesurf/land/code/javascript/base/element
   take form element
 
-load @termsurf/land/code/javascript/base/native-boolean
+load @cluesurf/land/code/javascript/base/native-boolean
   take form native-boolean
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/land/code/javascript/base/native-number
+load @cluesurf/land/code/javascript/base/native-number
   take form native-number
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/land/code/javascript/base/native-undefined
+load @cluesurf/land/code/javascript/base/native-undefined
   take form native-undefined
 
-load @termsurf/seed/code/form/form
+load @cluesurf/seed/code/form/form
   take form form
     save form form-link-text
 
-load @termsurf/seed/code/form/list
+load @cluesurf/seed/code/form/list
   take form list
     save form list-link-text
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/circle
+load @cluesurf/snow/code/javascript/google/maps/circle
   take form circle
 
-load @termsurf/snow/code/javascript/google/maps/circle-literal
+load @cluesurf/snow/code/javascript/google/maps/circle-literal
   take form circle-literal
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng
+load @cluesurf/snow/code/javascript/google/maps/lat-lng
   take form lat-lng
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-bounds
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-bounds
   take form lat-lng-bounds
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-bounds-literal
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-bounds-literal
   take form lat-lng-bounds-literal
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-literal
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-literal
   take form lat-lng-literal
 
-load @termsurf/snow/code/javascript/google/maps/local-context/map-directions-options-literal
+load @cluesurf/snow/code/javascript/google/maps/local-context/map-directions-options-literal
   take form map-directions-options-literal
 
-load @termsurf/snow/code/javascript/google/maps/local-context/pin-options
+load @cluesurf/snow/code/javascript/google/maps/local-context/pin-options
   take form pin-options
 
-load @termsurf/snow/code/javascript/google/maps/local-context/place-chooser-layout-mode
+load @cluesurf/snow/code/javascript/google/maps/local-context/place-chooser-layout-mode
   take form place-chooser-layout-mode
 
-load @termsurf/snow/code/javascript/google/maps/local-context/place-chooser-position
+load @cluesurf/snow/code/javascript/google/maps/local-context/place-chooser-position
   take form place-chooser-position
 
-load @termsurf/snow/code/javascript/google/maps/local-context/place-chooser-view-setup-options
+load @cluesurf/snow/code/javascript/google/maps/local-context/place-chooser-view-setup-options
   take form place-chooser-view-setup-options
 
-load @termsurf/snow/code/javascript/google/maps/local-context/place-details-layout-mode
+load @cluesurf/snow/code/javascript/google/maps/local-context/place-details-layout-mode
   take form place-details-layout-mode
 
-load @termsurf/snow/code/javascript/google/maps/local-context/place-details-position
+load @cluesurf/snow/code/javascript/google/maps/local-context/place-details-position
   take form place-details-position
 
-load @termsurf/snow/code/javascript/google/maps/local-context/place-details-view-setup-options
+load @cluesurf/snow/code/javascript/google/maps/local-context/place-details-view-setup-options
   take form place-details-view-setup-options
 
-load @termsurf/snow/code/javascript/google/maps/local-context/place-type-preference
+load @cluesurf/snow/code/javascript/google/maps/local-context/place-type-preference
   take form place-type-preference
 
-load @termsurf/snow/code/javascript/google/maps/map
+load @cluesurf/snow/code/javascript/google/maps/map
   take form map
 
 form local-context-map-view-options, name <google.maps.localContext.LocalContextMapViewOptions>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/admin-status
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/admin-status
   take form admin-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form admin-account, name <AdminAccount>

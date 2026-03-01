@@ -1,50 +1,50 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-options-request
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-options-request
   take form capacity-reservation-options-request
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/create-fleet-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/create-fleet-result
   take form create-fleet-result
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/default-target-capacity-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/default-target-capacity-type
   take form default-target-capacity-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/fleet-launch-template-config-request
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/fleet-launch-template-config-request
   take form fleet-launch-template-config-request
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/fleet-on-demand-allocation-strategy
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/fleet-on-demand-allocation-strategy
   take form fleet-on-demand-allocation-strategy
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/fleet-spot-maintenance-strategies-request
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/fleet-spot-maintenance-strategies-request
   take form fleet-spot-maintenance-strategies-request
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-allocation-strategy
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-allocation-strategy
   take form spot-allocation-strategy
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-interruption-behavior
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-interruption-behavior
   take form spot-instance-interruption-behavior
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification
   take form tag-specification
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 boot get-create-fleet, name <GET_CreateFleet>

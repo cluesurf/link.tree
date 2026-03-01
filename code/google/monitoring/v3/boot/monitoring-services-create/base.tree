@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/service
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/service
   take form service
 
 boot monitoring-services-create, name <monitoring.services.create>

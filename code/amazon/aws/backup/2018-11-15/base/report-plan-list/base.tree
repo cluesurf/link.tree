@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/report-plan
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/report-plan
   take form report-plan
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form report-plan-list, name <ReportPlanList>

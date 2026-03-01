@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/analyticsdata/v1beta/base/cohort-spec
+load @cluesurf/snow/googleapis.com/analyticsdata/v1beta/base/cohort-spec
   take form cohort-spec
 
-load @termsurf/snow/googleapis.com/analyticsdata/v1beta/base/filter-expression
+load @cluesurf/snow/googleapis.com/analyticsdata/v1beta/base/filter-expression
   take form filter-expression
 
 form run-pivot-report-request, name <RunPivotReportRequest>

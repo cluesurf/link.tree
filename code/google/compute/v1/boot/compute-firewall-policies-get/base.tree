@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/compute/v1/base/firewall-policy
+load @cluesurf/snow/googleapis.com/compute/v1/base/firewall-policy
   take form firewall-policy
 
 boot compute-firewall-policies-get, name <compute.firewallPolicies.get>

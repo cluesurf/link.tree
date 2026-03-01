@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/is-private-zone
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/is-private-zone
   take form is-private-zone
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/resource-description
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/resource-description
   take form resource-description
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/vpc-id
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/vpc-id
   take form vpc-id
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/vpc-region
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/vpc-region
   take form vpc-region
 
 form create-hosted-zone-body

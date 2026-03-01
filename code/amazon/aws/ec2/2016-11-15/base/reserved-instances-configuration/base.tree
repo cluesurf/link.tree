@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-type
   take form instance-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/scope
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/scope
   take form scope
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form reserved-instances-configuration, name <ReservedInstancesConfiguration>

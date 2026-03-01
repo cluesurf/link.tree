@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/current-metric
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/current-metric
   take form current-metric
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form current-metrics, name <CurrentMetrics>

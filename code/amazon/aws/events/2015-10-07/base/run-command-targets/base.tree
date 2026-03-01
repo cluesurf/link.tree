@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/run-command-target
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/run-command-target
   take form run-command-target
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form run-command-targets, name <RunCommandTargets>

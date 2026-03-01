@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/arn
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/name
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-data
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-data
   take form sensitive-data
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/trace-header
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/trace-header
   take form trace-header
 
 form start-sync-execution-input, name <StartSyncExecutionInput>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/date
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/remediation-execution-state
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/remediation-execution-state
   take form remediation-execution-state
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/remediation-execution-steps
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/remediation-execution-steps
   take form remediation-execution-steps
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/resource-key
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/resource-key
   take form resource-key
 
 form remediation-execution-status, name <RemediationExecutionStatus>

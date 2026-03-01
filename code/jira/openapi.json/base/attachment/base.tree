@@ -1,5 +1,5 @@
 
-load @termsurf/snow/jira/openapi.json/base/user-details
+load @cluesurf/snow/jira/openapi.json/base/user-details
   take form user-details
 
 form attachment, name <Attachment>

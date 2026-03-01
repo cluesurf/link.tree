@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/launch-profile
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/launch-profile
   take form launch-profile
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form launch-profile-list, name <LaunchProfileList>

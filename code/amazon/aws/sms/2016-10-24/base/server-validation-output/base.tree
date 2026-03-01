@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/server
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/server
   take form server
 
 form server-validation-output, name <ServerValidationOutput>

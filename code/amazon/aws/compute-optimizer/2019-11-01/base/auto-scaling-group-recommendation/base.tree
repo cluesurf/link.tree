@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/account-id
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/auto-scaling-group-arn
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/auto-scaling-group-arn
   take form auto-scaling-group-arn
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/auto-scaling-group-configuration
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/auto-scaling-group-configuration
   take form auto-scaling-group-configuration
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/auto-scaling-group-name
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/auto-scaling-group-name
   take form auto-scaling-group-name
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/auto-scaling-group-recommendation-options
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/auto-scaling-group-recommendation-options
   take form auto-scaling-group-recommendation-options
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/finding
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/finding
   take form finding
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/last-refresh-timestamp
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/last-refresh-timestamp
   take form last-refresh-timestamp
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/look-back-period-in-days
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/look-back-period-in-days
   take form look-back-period-in-days
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/utilization-metrics
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/utilization-metrics
   take form utilization-metrics
 
 form auto-scaling-group-recommendation, name <AutoScalingGroupRecommendation>

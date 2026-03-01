@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/managedidentities/v1alpha1/base/maintenance-window
+load @cluesurf/snow/googleapis.com/managedidentities/v1alpha1/base/maintenance-window
   take form maintenance-window
 
 form update-policy, name <UpdatePolicy>

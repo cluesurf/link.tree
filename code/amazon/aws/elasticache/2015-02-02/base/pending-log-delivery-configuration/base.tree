@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/destination-details
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/destination-details
   take form destination-details
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/destination-type
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/destination-type
   take form destination-type
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/log-format
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/log-format
   take form log-format
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/log-type
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/log-type
   take form log-type
 
 form pending-log-delivery-configuration, name <PendingLogDeliveryConfiguration>

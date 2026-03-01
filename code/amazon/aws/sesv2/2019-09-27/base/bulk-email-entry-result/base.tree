@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/bulk-email-status
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/bulk-email-status
   take form bulk-email-status
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/error-message
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/error-message
   take form error-message
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/outbound-message-id
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/outbound-message-id
   take form outbound-message-id
 
 form bulk-email-entry-result, name <BulkEmailEntryResult>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/evidence
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/evidence
   take form evidence
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form evidence-list, name <EvidenceList>

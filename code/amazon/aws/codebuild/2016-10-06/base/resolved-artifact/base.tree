@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/artifacts-type
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/artifacts-type
   take form artifacts-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form resolved-artifact, name <ResolvedArtifact>

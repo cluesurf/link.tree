@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/datastream/v1alpha1/base/gcs-destination-config
+load @cluesurf/snow/googleapis.com/datastream/v1alpha1/base/gcs-destination-config
   take form gcs-destination-config
 
 form destination-config, name <DestinationConfig>

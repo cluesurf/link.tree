@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/acknowledge-flow
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/acknowledge-flow
   take form acknowledge-flow
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/initialization-configuration
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/initialization-configuration
   take form initialization-configuration
 
 form alarm-capabilities, name <AlarmCapabilities>

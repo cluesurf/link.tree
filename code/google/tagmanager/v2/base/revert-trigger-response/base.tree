@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/tagmanager/v2/base/trigger
+load @cluesurf/snow/googleapis.com/tagmanager/v2/base/trigger
   take form trigger
 
 form revert-trigger-response, name <RevertTriggerResponse>

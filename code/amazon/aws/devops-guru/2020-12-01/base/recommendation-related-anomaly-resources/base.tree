@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/recommendation-related-anomaly-resource
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/recommendation-related-anomaly-resource
   take form recommendation-related-anomaly-resource
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form recommendation-related-anomaly-resources, name <RecommendationRelatedAnomalyResources>

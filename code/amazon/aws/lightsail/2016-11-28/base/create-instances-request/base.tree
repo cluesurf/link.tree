@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/add-on-request-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/add-on-request-list
   take form add-on-request-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/ip-address-type
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/ip-address-type
   take form ip-address-type
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/string-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/string-list
   take form string-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/tag-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-instances-request, name <CreateInstancesRequest>

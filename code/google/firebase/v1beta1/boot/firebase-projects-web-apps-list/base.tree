@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/firebase/v1beta1/base/list-web-apps-response
+load @cluesurf/snow/googleapis.com/firebase/v1beta1/base/list-web-apps-response
   take form list-web-apps-response
 
 boot firebase-projects-web-apps-list, name <firebase.projects.webApps.list>

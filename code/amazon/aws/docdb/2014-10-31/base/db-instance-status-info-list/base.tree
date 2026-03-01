@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/docdb/2014-10-31/base/db-instance-status-info
+load @cluesurf/snow/amazonaws.com/docdb/2014-10-31/base/db-instance-status-info
   take form db-instance-status-info
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form db-instance-status-info-list, name <DBInstanceStatusInfoList>

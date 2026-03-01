@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/baseline-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/baseline-id
   take form baseline-id
 
 form register-default-patch-baseline-result, name <RegisterDefaultPatchBaselineResult>

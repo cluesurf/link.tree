@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/image-versions
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/image-versions
   take form image-versions
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form environment-image, name <EnvironmentImage>

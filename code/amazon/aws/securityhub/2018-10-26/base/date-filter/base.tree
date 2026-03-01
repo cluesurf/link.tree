@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/date-range
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/date-range
   take form date-range
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
   take form non-empty-string
 
 form date-filter, name <DateFilter>

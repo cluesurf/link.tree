@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/capacity-provider-strategy
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/capacity-provider-strategy
   take form capacity-provider-strategy
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/deployment-rollout-state
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/deployment-rollout-state
   take form deployment-rollout-state
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/launch-type
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/launch-type
   take form launch-type
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/network-configuration
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/network-configuration
   take form network-configuration
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/timestamp
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form deployment, name <Deployment>

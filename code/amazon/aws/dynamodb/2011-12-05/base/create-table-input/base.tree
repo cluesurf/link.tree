@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/key-schema
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/key-schema
   take form key-schema
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/provisioned-throughput
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/provisioned-throughput
   take form provisioned-throughput
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/table-name
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/table-name
   take form table-name
 
 form create-table-input, name <CreateTableInput>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/get-aws-organizations-access-status-output
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/get-aws-organizations-access-status-output
   take form get-aws-organizations-access-status-output
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/operation-not-supported-exception
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/operation-not-supported-exception
   take form operation-not-supported-exception
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-aws-organizations-access-status, name <GetAWSOrganizationsAccessStatus>

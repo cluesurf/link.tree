@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/remediation-configurations
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/remediation-configurations
   take form remediation-configurations
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form failed-remediation-batch, name <FailedRemediationBatch>

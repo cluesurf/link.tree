@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/ec2-tag-filter-type
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/ec2-tag-filter-type
   take form ec2-tag-filter-type
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/key
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/key
   take form key
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/value
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/value
   take form value
 
 form ec2-tag-filter, name <EC2TagFilter>

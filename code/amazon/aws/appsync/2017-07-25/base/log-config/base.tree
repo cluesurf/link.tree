@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/appsync/2017-07-25/base/field-log-level
+load @cluesurf/snow/amazonaws.com/appsync/2017-07-25/base/field-log-level
   take form field-log-level
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form log-config, name <LogConfig>

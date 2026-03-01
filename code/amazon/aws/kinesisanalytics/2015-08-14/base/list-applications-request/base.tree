@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kinesisanalytics/2015-08-14/base/application-name
+load @cluesurf/snow/amazonaws.com/kinesisanalytics/2015-08-14/base/application-name
   take form application-name
 
-load @termsurf/snow/amazonaws.com/kinesisanalytics/2015-08-14/base/list-applications-input-limit
+load @cluesurf/snow/amazonaws.com/kinesisanalytics/2015-08-14/base/list-applications-input-limit
   take form list-applications-input-limit
 
 form list-applications-request, name <ListApplicationsRequest>

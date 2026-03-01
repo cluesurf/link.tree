@@ -1,41 +1,41 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/availability-zones
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/availability-zones
   take form availability-zones
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/canonical-hosted-zone-id
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/canonical-hosted-zone-id
   take form canonical-hosted-zone-id
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/created-time
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/created-time
   take form created-time
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/customer-owned-ipv4-pool
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/customer-owned-ipv4-pool
   take form customer-owned-ipv4-pool
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/dns-name
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/dns-name
   take form dns-name
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/ip-address-type
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/ip-address-type
   take form ip-address-type
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancer-arn
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancer-arn
   take form load-balancer-arn
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancer-name
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancer-name
   take form load-balancer-name
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancer-scheme-enum
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancer-scheme-enum
   take form load-balancer-scheme-enum
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancer-state
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancer-state
   take form load-balancer-state
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancer-type-enum
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/load-balancer-type-enum
   take form load-balancer-type-enum
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/security-groups
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/security-groups
   take form security-groups
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/vpc-id
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/vpc-id
   take form vpc-id
 
 form load-balancer, name <LoadBalancer>

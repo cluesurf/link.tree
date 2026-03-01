@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/mediatailor/2018-04-23/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/mediatailor/2018-04-23/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/mediatailor/2018-04-23/base/tag-resource-body
+load @cluesurf/snow/amazonaws.com/mediatailor/2018-04-23/base/tag-resource-body
   take form tag-resource-body
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot tag-resource, name <TagResource>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/notification
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/notification
   take form notification
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form notifications, name <Notifications>

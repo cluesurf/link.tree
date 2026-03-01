@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/marker
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/marker
   take form marker
 
 form list-studios-input, name <ListStudiosInput>

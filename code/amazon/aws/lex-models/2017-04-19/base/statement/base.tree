@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/message-list
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/message-list
   take form message-list
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/response-card
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/response-card
   take form response-card
 
 form statement, name <Statement>

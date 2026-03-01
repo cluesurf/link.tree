@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/campaign-response
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/campaign-response
   take form campaign-response
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/global-error-response-schema
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/global-error-response-schema
   take form global-error-response-schema
 
 boot post-campaigns, name <POST_campaigns>

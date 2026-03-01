@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.3/base/platform-types-list-response
+load @cluesurf/snow/googleapis.com/dfareporting/v3.3/base/platform-types-list-response
   take form platform-types-list-response
 
 boot dfareporting-platform-types-list, name <dfareporting.platformTypes.list>

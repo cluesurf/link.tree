@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/admin/directory_v1/base/org-unit
+load @cluesurf/snow/googleapis.com/admin/directory_v1/base/org-unit
   take form org-unit
 
 boot directory-orgunits-patch, name <directory.orgunits.patch>

@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/campaign-id
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/campaign-id
   take form campaign-id
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/esps
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/esps
   take form esps
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/identity
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/identity
   take form identity
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/image-url
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/image-url
   take form image-url
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/ip-list
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/ip-list
   take form ip-list
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/percentage
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/percentage
   take form percentage
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/subject
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/subject
   take form subject
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/timestamp
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/volume
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/volume
   take form volume
 
 form domain-deliverability-campaign, name <DomainDeliverabilityCampaign>

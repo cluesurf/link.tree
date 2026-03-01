@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/googleapis.com/cloudresourcemanager/v3/base/operation
+load @cluesurf/snow/googleapis.com/cloudresourcemanager/v3/base/operation
   take form operation
 
 boot cloudresourcemanager-tag-bindings-create, name <cloudresourcemanager.tagBindings.create>

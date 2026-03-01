@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-03-25/base/certificate-source
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-03-25/base/certificate-source
   take form certificate-source
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-03-25/base/minimum-protocol-version
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-03-25/base/minimum-protocol-version
   take form minimum-protocol-version
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-03-25/base/ssl-support-method
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-03-25/base/ssl-support-method
   take form ssl-support-method
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form viewer-certificate, name <ViewerCertificate>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-next-token-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-next-token-exception
   take form invalid-next-token-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/list-deployment-configs-output
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/list-deployment-configs-output
   take form list-deployment-configs-output
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-deployment-configs, name <ListDeploymentConfigs>

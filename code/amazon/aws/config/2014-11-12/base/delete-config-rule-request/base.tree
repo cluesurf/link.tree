@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-name
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-name
   take form config-rule-name
 
 form delete-config-rule-request, name <DeleteConfigRuleRequest>

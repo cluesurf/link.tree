@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/agent-parameters
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/agent-parameters
   take form agent-parameters
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form agent-configuration, name <AgentConfiguration>

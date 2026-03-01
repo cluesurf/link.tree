@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.4/base/landing-page
+load @cluesurf/snow/googleapis.com/dfareporting/v3.4/base/landing-page
   take form landing-page
 
 boot dfareporting-advertiser-landing-pages-insert, name <dfareporting.advertiserLandingPages.insert>

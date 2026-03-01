@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/association-execution-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/association-execution-id
   take form association-execution-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/association-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/association-id
   take form association-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/association-resource-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/association-resource-id
   take form association-resource-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/association-resource-type
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/association-resource-type
   take form association-resource-type
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/association-version
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/association-version
   take form association-version
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/output-source
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/output-source
   take form output-source
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/status-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/status-name
   take form status-name
 
 form association-execution-target, name <AssociationExecutionTarget>

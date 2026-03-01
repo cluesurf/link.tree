@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/entity-filter-value
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/entity-filter-value
   take form entity-filter-value
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form entity-filter-values, name <EntityFilterValues>

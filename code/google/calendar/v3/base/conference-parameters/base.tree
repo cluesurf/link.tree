@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/calendar/v3/base/conference-parameters-add-on-parameters
+load @cluesurf/snow/googleapis.com/calendar/v3/base/conference-parameters-add-on-parameters
   take form conference-parameters-add-on-parameters
 
 form conference-parameters, name <ConferenceParameters>

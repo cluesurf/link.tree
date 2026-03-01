@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/okta/base/theme
+load @cluesurf/snow/okta/base/theme
   take form theme
 
 boot update-brand-theme, name <updateBrandTheme>

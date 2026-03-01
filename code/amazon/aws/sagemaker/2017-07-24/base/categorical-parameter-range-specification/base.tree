@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/parameter-values
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/parameter-values
   take form parameter-values
 
 form categorical-parameter-range-specification, name <CategoricalParameterRangeSpecification>

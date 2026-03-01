@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/topic-rule-destination-summary
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/topic-rule-destination-summary
   take form topic-rule-destination-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form topic-rule-destination-summaries, name <TopicRuleDestinationSummaries>

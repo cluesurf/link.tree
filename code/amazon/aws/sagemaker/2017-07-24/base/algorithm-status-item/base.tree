@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/detailed-algorithm-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/detailed-algorithm-status
   take form detailed-algorithm-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
   take form entity-name
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form algorithm-status-item, name <AlgorithmStatusItem>

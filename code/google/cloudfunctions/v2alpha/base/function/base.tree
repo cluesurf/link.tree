@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/cloudfunctions/v2alpha/base/build-config
+load @cluesurf/snow/googleapis.com/cloudfunctions/v2alpha/base/build-config
   take form build-config
 
-load @termsurf/snow/googleapis.com/cloudfunctions/v2alpha/base/event-trigger
+load @cluesurf/snow/googleapis.com/cloudfunctions/v2alpha/base/event-trigger
   take form event-trigger
 
-load @termsurf/snow/googleapis.com/cloudfunctions/v2alpha/base/service-config
+load @cluesurf/snow/googleapis.com/cloudfunctions/v2alpha/base/service-config
   take form service-config
 
 form function, name <Function>

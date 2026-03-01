@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/port
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/port
   take form port
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/target-id
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/target-id
   take form target-id
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/zone-name
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/zone-name
   take form zone-name
 
 form target-description, name <TargetDescription>

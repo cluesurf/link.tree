@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/adsense/v1.4/base/ad-code
+load @cluesurf/snow/googleapis.com/adsense/v1.4/base/ad-code
   take form ad-code
 
 boot adsense-adunits-get-ad-code, name <adsense.adunits.getAdCode>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/fleet-error-code
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/fleet-error-code
   take form fleet-error-code
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form fleet-error, name <FleetError>

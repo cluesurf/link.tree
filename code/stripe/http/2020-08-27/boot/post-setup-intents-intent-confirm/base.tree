@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-setup-intents-intent-confirm-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-setup-intents-intent-confirm-body
   take form post-setup-intents-intent-confirm-body
 
-load @termsurf/snow/stripe.com/2020-08-27/base/setup-intent
+load @cluesurf/snow/stripe.com/2020-08-27/base/setup-intent
   take form setup-intent
 
 boot post-setup-intents-intent-confirm, name <PostSetupIntentsIntentConfirm>

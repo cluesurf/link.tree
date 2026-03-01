@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/cloud-function
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/cloud-function
   take form cloud-function
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/cloud-function-invocation-role
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/cloud-function-invocation-role
   take form cloud-function-invocation-role
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/event
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/event
   take form event
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/event-list
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/event-list
   take form event-list
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/notification-id
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/notification-id
   take form notification-id
 
 form cloud-function-configuration, name <CloudFunctionConfiguration>

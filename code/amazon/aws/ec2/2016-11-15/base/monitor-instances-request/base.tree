@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-id-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-id-string-list
   take form instance-id-string-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form monitor-instances-request, name <MonitorInstancesRequest>

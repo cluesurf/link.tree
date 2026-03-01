@@ -1,47 +1,47 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/access-denied
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/access-denied
   take form access-denied
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/field-level-encryption-profile-already-exists
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/field-level-encryption-profile-already-exists
   take form field-level-encryption-profile-already-exists
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/field-level-encryption-profile-size-exceeded
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/field-level-encryption-profile-size-exceeded
   take form field-level-encryption-profile-size-exceeded
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/illegal-update
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/illegal-update
   take form illegal-update
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/inconsistent-quantities
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/inconsistent-quantities
   take form inconsistent-quantities
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/invalid-argument
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/invalid-argument
   take form invalid-argument
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/invalid-if-match-version
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/invalid-if-match-version
   take form invalid-if-match-version
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/no-such-field-level-encryption-profile
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/no-such-field-level-encryption-profile
   take form no-such-field-level-encryption-profile
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/no-such-public-key
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/no-such-public-key
   take form no-such-public-key
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/precondition-failed
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/precondition-failed
   take form precondition-failed
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/too-many-field-level-encryption-encryption-entities
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/too-many-field-level-encryption-encryption-entities
   take form too-many-field-level-encryption-encryption-entities
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/too-many-field-level-encryption-field-patterns
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/too-many-field-level-encryption-field-patterns
   take form too-many-field-level-encryption-field-patterns
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/update-field-level-encryption-profile-result
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/update-field-level-encryption-profile-result
   take form update-field-level-encryption-profile-result
 
-load @termsurf/snow/amazonaws.com/cloudfront/2017-10-30/base/update-field-level-encryption-profile2017-10-30-body
+load @cluesurf/snow/amazonaws.com/cloudfront/2017-10-30/base/update-field-level-encryption-profile2017-10-30-body
   take form update-field-level-encryption-profile2017-10-30-body
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot update-field-level-encryption-profile2017-10-30, name <UpdateFieldLevelEncryptionProfile2017_10_30>

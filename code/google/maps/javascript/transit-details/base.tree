@@ -1,17 +1,17 @@
 
-load @termsurf/land/code/javascript/base/native-number
+load @cluesurf/land/code/javascript/base/native-number
   take form native-number
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/snow/code/javascript/google/maps/time
+load @cluesurf/snow/code/javascript/google/maps/time
   take form time
 
-load @termsurf/snow/code/javascript/google/maps/transit-line
+load @cluesurf/snow/code/javascript/google/maps/transit-line
   take form transit-line
 
-load @termsurf/snow/code/javascript/google/maps/transit-stop
+load @cluesurf/snow/code/javascript/google/maps/transit-stop
   take form transit-stop
 
 form transit-details, name <google.maps.TransitDetails>

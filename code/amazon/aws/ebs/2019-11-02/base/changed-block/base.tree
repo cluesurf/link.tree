@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ebs/2019-11-02/base/block-index
+load @cluesurf/snow/amazonaws.com/ebs/2019-11-02/base/block-index
   take form block-index
 
-load @termsurf/snow/amazonaws.com/ebs/2019-11-02/base/block-token
+load @cluesurf/snow/amazonaws.com/ebs/2019-11-02/base/block-token
   take form block-token
 
 form changed-block, name <ChangedBlock>

@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-instance-platform
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-instance-platform
   take form capacity-reservation-instance-platform
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-tenancy
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-tenancy
   take form capacity-reservation-tenancy
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/end-date-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/end-date-type
   take form end-date-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-match-criteria
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-match-criteria
   take form instance-match-criteria
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/outpost-arn
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/outpost-arn
   take form outpost-arn
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification-list
   take form tag-specification-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-capacity-reservation-request, name <CreateCapacityReservationRequest>

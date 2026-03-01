@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-code-build-project-environment
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-code-build-project-environment
   take form aws-code-build-project-environment
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-code-build-project-source
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-code-build-project-source
   take form aws-code-build-project-source
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-code-build-project-vpc-config
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/aws-code-build-project-vpc-config
   take form aws-code-build-project-vpc-config
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
   take form non-empty-string
 
 form aws-code-build-project-details, name <AwsCodeBuildProjectDetails>

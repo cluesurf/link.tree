@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/run/v1/base/domain-mapping-spec
+load @cluesurf/snow/googleapis.com/run/v1/base/domain-mapping-spec
   take form domain-mapping-spec
 
-load @termsurf/snow/googleapis.com/run/v1/base/domain-mapping-status
+load @cluesurf/snow/googleapis.com/run/v1/base/domain-mapping-status
   take form domain-mapping-status
 
-load @termsurf/snow/googleapis.com/run/v1/base/object-meta
+load @cluesurf/snow/googleapis.com/run/v1/base/object-meta
   take form object-meta
 
 form domain-mapping, name <DomainMapping>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-instances-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-instances-result
   take form describe-instances-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-describe-instances, name <POST_DescribeInstances>

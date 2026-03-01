@@ -1,17 +1,17 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/layout-properties
+load @cluesurf/snow/googleapis.com/slides/v1/base/layout-properties
   take form layout-properties
 
-load @termsurf/snow/googleapis.com/slides/v1/base/master-properties
+load @cluesurf/snow/googleapis.com/slides/v1/base/master-properties
   take form master-properties
 
-load @termsurf/snow/googleapis.com/slides/v1/base/notes-properties
+load @cluesurf/snow/googleapis.com/slides/v1/base/notes-properties
   take form notes-properties
 
-load @termsurf/snow/googleapis.com/slides/v1/base/page-properties
+load @cluesurf/snow/googleapis.com/slides/v1/base/page-properties
   take form page-properties
 
-load @termsurf/snow/googleapis.com/slides/v1/base/slide-properties
+load @cluesurf/snow/googleapis.com/slides/v1/base/slide-properties
   take form slide-properties
 
 form page, name <Page>

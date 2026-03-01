@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2020-05-31/base/origin-custom-headers-list
+load @cluesurf/snow/amazonaws.com/cloudfront/2020-05-31/base/origin-custom-headers-list
   take form origin-custom-headers-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form custom-headers, name <CustomHeaders>

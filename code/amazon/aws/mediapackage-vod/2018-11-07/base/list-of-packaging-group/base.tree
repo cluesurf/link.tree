@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/packaging-group
+load @cluesurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/packaging-group
   take form packaging-group
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-packaging-group, name <__listOfPackagingGroup>

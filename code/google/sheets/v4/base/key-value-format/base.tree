@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/text-format
+load @cluesurf/snow/googleapis.com/sheets/v4/base/text-format
   take form text-format
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/text-position
+load @cluesurf/snow/googleapis.com/sheets/v4/base/text-position
   take form text-position
 
 form key-value-format, name <KeyValueFormat>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/snapshot-id
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/snapshot-id
   take form snapshot-id
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-arn
   take form volume-arn
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-snapshot-from-volume-recovery-point-output, name <CreateSnapshotFromVolumeRecoveryPointOutput>

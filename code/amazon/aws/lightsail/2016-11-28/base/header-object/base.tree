@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/forward-values
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/forward-values
   take form forward-values
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/header-forward-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/header-forward-list
   take form header-forward-list
 
 form header-object, name <HeaderObject>

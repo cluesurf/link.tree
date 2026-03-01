@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/invalid-input-exception
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/invalid-input-exception
   take form invalid-input-exception
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/list-build-batches-output
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/list-build-batches-output
   take form list-build-batches-output
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-build-batches, name <ListBuildBatches>

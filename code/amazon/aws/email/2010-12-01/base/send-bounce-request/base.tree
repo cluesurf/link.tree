@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/address
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/address
   take form address
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/amazon-resource-name
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/amazon-resource-name
   take form amazon-resource-name
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/bounced-recipient-info-list
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/bounced-recipient-info-list
   take form bounced-recipient-info-list
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/explanation
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/explanation
   take form explanation
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/message-dsn
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/message-dsn
   take form message-dsn
 
-load @termsurf/snow/amazonaws.com/email/2010-12-01/base/message-id
+load @cluesurf/snow/amazonaws.com/email/2010-12-01/base/message-id
   take form message-id
 
 form send-bounce-request, name <SendBounceRequest>

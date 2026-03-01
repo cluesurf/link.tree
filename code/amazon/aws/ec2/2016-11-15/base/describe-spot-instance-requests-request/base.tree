@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
   take form filter-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-request-id-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-request-id-list
   take form spot-instance-request-id-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-spot-instance-requests-request, name <DescribeSpotInstanceRequestsRequest>

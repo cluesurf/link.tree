@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/content/v2/base/price
+load @cluesurf/snow/googleapis.com/content/v2/base/price
   take form price
 
 form pos-inventory, name <PosInventory>

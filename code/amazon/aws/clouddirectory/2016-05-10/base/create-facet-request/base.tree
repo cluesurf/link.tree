@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/facet-attribute-list
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/facet-attribute-list
   take form facet-attribute-list
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/facet-name
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/facet-name
   take form facet-name
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/object-type
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/object-type
   take form object-type
 
 form create-facet-request, name <CreateFacetRequest>

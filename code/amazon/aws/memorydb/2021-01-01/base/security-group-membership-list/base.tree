@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/security-group-membership
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/security-group-membership
   take form security-group-membership
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form security-group-membership-list, name <SecurityGroupMembershipList>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/cdn-settings
+load @cluesurf/snow/googleapis.com/youtube/v3/base/cdn-settings
   take form cdn-settings
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/live-stream-content-details
+load @cluesurf/snow/googleapis.com/youtube/v3/base/live-stream-content-details
   take form live-stream-content-details
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/live-stream-snippet
+load @cluesurf/snow/googleapis.com/youtube/v3/base/live-stream-snippet
   take form live-stream-snippet
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/live-stream-status
+load @cluesurf/snow/googleapis.com/youtube/v3/base/live-stream-status
   take form live-stream-status
 
 form live-stream, name <LiveStream>

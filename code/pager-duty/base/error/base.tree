@@ -1,5 +1,5 @@
 
-load @termsurf/snow/pager-duty/base/error-object
+load @cluesurf/snow/pager-duty/base/error-object
   take form error-object
 
 form error, name <Error>

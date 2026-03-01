@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/association
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/association
   take form association
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form association-list, name <AssociationList>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/oslogin/v1beta/base/ssh-public-key
+load @cluesurf/snow/googleapis.com/oslogin/v1beta/base/ssh-public-key
   take form ssh-public-key
 
 boot oslogin-users-ssh-public-keys-patch, name <oslogin.users.sshPublicKeys.patch>

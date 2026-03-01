@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/function-definition-version
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/function-definition-version
   take form function-definition-version
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-function-definition-version-response, name <GetFunctionDefinitionVersionResponse>

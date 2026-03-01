@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/securitycenter/v1p1alpha1/base/finding
+load @cluesurf/snow/googleapis.com/securitycenter/v1p1alpha1/base/finding
   take form finding
 
-load @termsurf/snow/googleapis.com/securitycenter/v1p1alpha1/base/google-cloud-securitycenter-v1-resource
+load @cluesurf/snow/googleapis.com/securitycenter/v1p1alpha1/base/google-cloud-securitycenter-v1-resource
   take form google-cloud-securitycenter-v1-resource
 
 form google-cloud-securitycenter-v1-notification-message, name <GoogleCloudSecuritycenterV1NotificationMessage>

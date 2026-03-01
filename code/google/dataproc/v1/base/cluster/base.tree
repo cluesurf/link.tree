@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/dataproc/v1/base/cluster-config
+load @cluesurf/snow/googleapis.com/dataproc/v1/base/cluster-config
   take form cluster-config
 
-load @termsurf/snow/googleapis.com/dataproc/v1/base/cluster-metrics
+load @cluesurf/snow/googleapis.com/dataproc/v1/base/cluster-metrics
   take form cluster-metrics
 
-load @termsurf/snow/googleapis.com/dataproc/v1/base/cluster-status
+load @cluesurf/snow/googleapis.com/dataproc/v1/base/cluster-status
   take form cluster-status
 
 form cluster, name <Cluster>

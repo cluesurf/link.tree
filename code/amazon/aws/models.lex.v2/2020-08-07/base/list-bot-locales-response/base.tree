@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/bot-locale-summary-list
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/bot-locale-summary-list
   take form bot-locale-summary-list
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/bot-version
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/bot-version
   take form bot-version
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/id
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/next-token
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/next-token
   take form next-token
 
 form list-bot-locales-response, name <ListBotLocalesResponse>

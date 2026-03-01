@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-category
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-category
   take form action-category
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-owner
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-owner
   take form action-owner
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-provider
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-provider
   take form action-provider
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/version
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/version
   take form version
 
 form action-type-id, name <ActionTypeId>

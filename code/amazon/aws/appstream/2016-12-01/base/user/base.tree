@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/arn
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/authentication-type
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/authentication-type
   take form authentication-type
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/user-attribute-value
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/user-attribute-value
   take form user-attribute-value
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/username
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/username
   take form username
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form user, name <User>

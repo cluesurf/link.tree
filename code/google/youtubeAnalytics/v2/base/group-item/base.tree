@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/youtubeAnalytics/v2/base/errors
+load @cluesurf/snow/googleapis.com/youtubeAnalytics/v2/base/errors
   take form errors
 
-load @termsurf/snow/googleapis.com/youtubeAnalytics/v2/base/group-item-resource
+load @cluesurf/snow/googleapis.com/youtubeAnalytics/v2/base/group-item-resource
   take form group-item-resource
 
 form group-item, name <GroupItem>

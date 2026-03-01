@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/current-metric-results
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/current-metric-results
   take form current-metric-results
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/next-token
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/timestamp
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/timestamp
   take form timestamp
 
 form get-current-metric-data-response, name <GetCurrentMetricDataResponse>

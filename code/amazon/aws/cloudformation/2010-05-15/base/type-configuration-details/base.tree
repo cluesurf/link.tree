@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/is-default-configuration
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/is-default-configuration
   take form is-default-configuration
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-arn
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-arn
   take form type-arn
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-configuration
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-configuration
   take form type-configuration
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-configuration-alias
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-configuration-alias
   take form type-configuration-alias
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-configuration-arn
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-configuration-arn
   take form type-configuration-arn
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-name
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/type-name
   take form type-name
 
 form type-configuration-details, name <TypeConfigurationDetails>

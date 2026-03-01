@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-template-target-input-filter
+load @cluesurf/snow/amazonaws.com/fis/2020-12-01/base/experiment-template-target-input-filter
   take form experiment-template-target-input-filter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form experiment-template-target-filter-input-list, name <ExperimentTemplateTargetFilterInputList>

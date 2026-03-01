@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/aws-location
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/aws-location
   take form aws-location
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/location
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/location
   take form location
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-device-request, name <UpdateDeviceRequest>

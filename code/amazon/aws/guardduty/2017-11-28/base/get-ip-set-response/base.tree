@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/ip-set-format
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/ip-set-format
   take form ip-set-format
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/ip-set-status
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/ip-set-status
   take form ip-set-status
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/location
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/location
   take form location
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/name
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/tag-map
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/tag-map
   take form tag-map
 
 form get-ip-set-response, name <GetIPSetResponse>

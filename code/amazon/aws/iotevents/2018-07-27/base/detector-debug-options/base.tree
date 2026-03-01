@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/detector-debug-option
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/detector-debug-option
   take form detector-debug-option
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form detector-debug-options, name <DetectorDebugOptions>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/cluster-id
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/cluster-id
   take form cluster-id
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/list-limit
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/list-limit
   take form list-limit
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-cluster-jobs-request, name <ListClusterJobsRequest>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dialogflow/v2beta1/base/google-cloud-dialogflow-v2beta1-session-entity-type
+load @cluesurf/snow/googleapis.com/dialogflow/v2beta1/base/google-cloud-dialogflow-v2beta1-session-entity-type
   take form google-cloud-dialogflow-v2beta1-session-entity-type
 
 boot dialogflow-projects-locations-agent-sessions-entity-types-create, name <dialogflow.projects.locations.agent.sessions.entityTypes.create>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/issuing-transaction
+load @cluesurf/snow/stripe.com/2020-08-27/base/issuing-transaction
   take form issuing-transaction
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-issuing-transactions-transaction-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-issuing-transactions-transaction-body
   take form post-issuing-transactions-transaction-body
 
 boot post-issuing-transactions-transaction, name <PostIssuingTransactionsTransaction>

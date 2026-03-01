@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/savingsplans/2019-06-28/base/savings-plan-offering-rate
+load @cluesurf/snow/amazonaws.com/savingsplans/2019-06-28/base/savings-plan-offering-rate
   take form savings-plan-offering-rate
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form savings-plan-offering-rates-list, name <SavingsPlanOfferingRatesList>

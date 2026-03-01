@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/dispute
+load @cluesurf/snow/stripe.com/2020-08-27/base/dispute
   take form dispute
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-disputes-dispute-close-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-disputes-dispute-close-body
   take form post-disputes-dispute-close-body
 
 boot post-disputes-dispute-close, name <PostDisputesDisputeClose>

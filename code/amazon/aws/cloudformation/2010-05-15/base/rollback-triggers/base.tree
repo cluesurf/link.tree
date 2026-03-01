@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/rollback-trigger
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/rollback-trigger
   take form rollback-trigger
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form rollback-triggers, name <RollbackTriggers>

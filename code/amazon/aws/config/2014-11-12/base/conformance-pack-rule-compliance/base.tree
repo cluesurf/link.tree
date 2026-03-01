@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-name
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-name
   take form config-rule-name
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/conformance-pack-compliance-type
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/conformance-pack-compliance-type
   take form conformance-pack-compliance-type
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/controls-list
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/controls-list
   take form controls-list
 
 form conformance-pack-rule-compliance, name <ConformancePackRuleCompliance>

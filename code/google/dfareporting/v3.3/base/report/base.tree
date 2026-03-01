@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.3/base/activities
+load @cluesurf/snow/googleapis.com/dfareporting/v3.3/base/activities
   take form activities
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.3/base/custom-rich-media-events
+load @cluesurf/snow/googleapis.com/dfareporting/v3.3/base/custom-rich-media-events
   take form custom-rich-media-events
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.3/base/date-range
+load @cluesurf/snow/googleapis.com/dfareporting/v3.3/base/date-range
   take form date-range
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.3/base/dimension-value
+load @cluesurf/snow/googleapis.com/dfareporting/v3.3/base/dimension-value
   take form dimension-value
 
 form report, name <Report>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/jira/openapi.json/base/dashboard-gadget-response
+load @cluesurf/snow/jira/openapi.json/base/dashboard-gadget-response
   take form dashboard-gadget-response
 
-load @termsurf/snow/jira/openapi.json/base/error-collection
+load @cluesurf/snow/jira/openapi.json/base/error-collection
   take form error-collection
 
 boot get-all-gadgets, name <getAllGadgets>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/third-party-job
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/third-party-job
   take form third-party-job
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form third-party-job-list, name <ThirdPartyJobList>

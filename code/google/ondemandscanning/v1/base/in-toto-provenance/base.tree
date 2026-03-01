@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/ondemandscanning/v1/base/builder-config
+load @cluesurf/snow/googleapis.com/ondemandscanning/v1/base/builder-config
   take form builder-config
 
-load @termsurf/snow/googleapis.com/ondemandscanning/v1/base/metadata
+load @cluesurf/snow/googleapis.com/ondemandscanning/v1/base/metadata
   take form metadata
 
-load @termsurf/snow/googleapis.com/ondemandscanning/v1/base/recipe
+load @cluesurf/snow/googleapis.com/ondemandscanning/v1/base/recipe
   take form recipe
 
 form in-toto-provenance, name <InTotoProvenance>

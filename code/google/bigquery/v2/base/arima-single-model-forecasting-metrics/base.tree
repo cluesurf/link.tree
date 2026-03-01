@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/bigquery/v2/base/arima-fitting-metrics
+load @cluesurf/snow/googleapis.com/bigquery/v2/base/arima-fitting-metrics
   take form arima-fitting-metrics
 
-load @termsurf/snow/googleapis.com/bigquery/v2/base/arima-order
+load @cluesurf/snow/googleapis.com/bigquery/v2/base/arima-order
   take form arima-order
 
 form arima-single-model-forecasting-metrics, name <ArimaSingleModelForecastingMetrics>

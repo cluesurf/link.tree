@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/cells
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/cells
   take form cells
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/pages
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/pages
   take form pages
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/ranges
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/ranges
   take form ranges
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/records
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/records
   take form records
 
 form occurrences, name <Occurrences>

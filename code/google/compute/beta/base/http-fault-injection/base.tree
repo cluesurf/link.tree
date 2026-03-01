@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/compute/beta/base/http-fault-abort
+load @cluesurf/snow/googleapis.com/compute/beta/base/http-fault-abort
   take form http-fault-abort
 
-load @termsurf/snow/googleapis.com/compute/beta/base/http-fault-delay
+load @cluesurf/snow/googleapis.com/compute/beta/base/http-fault-delay
   take form http-fault-delay
 
 form http-fault-injection, name <HttpFaultInjection>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/arn
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/license-status
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/license-status
   take form license-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-license-response, name <CreateLicenseResponse>

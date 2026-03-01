@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/forecastquery/2018-06-26/base/arn
+load @cluesurf/snow/amazonaws.com/forecastquery/2018-06-26/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/forecastquery/2018-06-26/base/date-time
+load @cluesurf/snow/amazonaws.com/forecastquery/2018-06-26/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/forecastquery/2018-06-26/base/filters
+load @cluesurf/snow/amazonaws.com/forecastquery/2018-06-26/base/filters
   take form filters
 
-load @termsurf/snow/amazonaws.com/forecastquery/2018-06-26/base/next-token
+load @cluesurf/snow/amazonaws.com/forecastquery/2018-06-26/base/next-token
   take form next-token
 
 form query-forecast-request, name <QueryForecastRequest>

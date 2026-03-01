@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-name
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-name
   take form group-name
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-string
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-string
   take form group-string
 
 form get-group-input, name <GetGroupInput>

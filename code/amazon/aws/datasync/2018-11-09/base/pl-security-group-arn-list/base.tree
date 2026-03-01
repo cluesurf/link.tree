@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/ec2-security-group-arn
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/ec2-security-group-arn
   take form ec2-security-group-arn
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form pl-security-group-arn-list, name <PLSecurityGroupArnList>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2018-11-05/base/invalidation-batch
+load @cluesurf/snow/amazonaws.com/cloudfront/2018-11-05/base/invalidation-batch
   take form invalidation-batch
 
-load @termsurf/snow/amazonaws.com/cloudfront/2018-11-05/base/timestamp
+load @cluesurf/snow/amazonaws.com/cloudfront/2018-11-05/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form invalidation, name <Invalidation>

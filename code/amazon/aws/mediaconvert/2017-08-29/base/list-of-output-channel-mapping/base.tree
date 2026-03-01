@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/output-channel-mapping
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/output-channel-mapping
   take form output-channel-mapping
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-output-channel-mapping, name <__listOfOutputChannelMapping>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/application-name
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/application-name
   take form application-name
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/description
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/description
   take form description
 
 form update-application-message, name <UpdateApplicationMessage>

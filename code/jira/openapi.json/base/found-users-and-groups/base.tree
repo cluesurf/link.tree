@@ -1,8 +1,8 @@
 
-load @termsurf/snow/jira/openapi.json/base/found-groups
+load @cluesurf/snow/jira/openapi.json/base/found-groups
   take form found-groups
 
-load @termsurf/snow/jira/openapi.json/base/found-users
+load @cluesurf/snow/jira/openapi.json/base/found-users
   take form found-users
 
 form found-users-and-groups, name <FoundUsersAndGroups>

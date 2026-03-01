@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53-recovery-cluster/2019-12-02/base/update-routing-control-state-entry
+load @cluesurf/snow/amazonaws.com/route53-recovery-cluster/2019-12-02/base/update-routing-control-state-entry
   take form update-routing-control-state-entry
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form update-routing-control-state-entries, name <UpdateRoutingControlStateEntries>

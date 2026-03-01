@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/failure-reason
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/failure-reason
   take form failure-reason
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-arn
   take form image-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-base-image
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-base-image
   take form image-base-image
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-container-image
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-container-image
   take form image-container-image
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-version-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-version-arn
   take form image-version-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-version-number
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-version-number
   take form image-version-number
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-version-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-version-status
   take form image-version-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
 form describe-image-version-response, name <DescribeImageVersionResponse>

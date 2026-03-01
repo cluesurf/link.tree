@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/double-object
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/double-object
   take form double-object
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/kms-key
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/kms-key
   take form kms-key
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/pool-id
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/pool-id
   take form pool-id
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-arn
   take form tape-arn
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-barcode
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-barcode
   take form tape-barcode
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-size
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-size
   take form tape-size
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-status
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-status
   take form tape-status
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-usage
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-usage
   take form tape-usage
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/time
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/time
   take form time
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/vtl-device-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/vtl-device-arn
   take form vtl-device-arn
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form tape, name <Tape>

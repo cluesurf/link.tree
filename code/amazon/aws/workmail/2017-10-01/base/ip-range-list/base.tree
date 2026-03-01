@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/ip-range
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/ip-range
   take form ip-range
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form ip-range-list, name <IpRangeList>

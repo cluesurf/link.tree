@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/secretmanager/v1beta1/base/automatic
+load @cluesurf/snow/googleapis.com/secretmanager/v1beta1/base/automatic
   take form automatic
 
-load @termsurf/snow/googleapis.com/secretmanager/v1beta1/base/user-managed
+load @cluesurf/snow/googleapis.com/secretmanager/v1beta1/base/user-managed
   take form user-managed
 
 form replication, name <Replication>

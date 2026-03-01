@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/behavior
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/behavior
   take form behavior
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form behaviors, name <Behaviors>

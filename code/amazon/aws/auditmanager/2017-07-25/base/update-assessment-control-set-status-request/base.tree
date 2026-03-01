@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-set-status
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-set-status
   take form control-set-status
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/delegation-comment
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/delegation-comment
   take form delegation-comment
 
 form update-assessment-control-set-status-request, name <UpdateAssessmentControlSetStatusRequest>

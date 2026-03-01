@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/file-system-type
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/file-system-type
   take form file-system-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form project-file-system-location, name <ProjectFileSystemLocation>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/string-list
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/string-list
   take form string-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form report-destination, name <ReportDestination>

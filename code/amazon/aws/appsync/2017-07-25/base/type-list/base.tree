@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appsync/2017-07-25/base/type
+load @cluesurf/snow/amazonaws.com/appsync/2017-07-25/base/type
   take form type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form type-list, name <TypeList>

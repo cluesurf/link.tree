@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/vpce-configuration
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/vpce-configuration
   take form vpce-configuration
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form vpce-configurations, name <VPCEConfigurations>

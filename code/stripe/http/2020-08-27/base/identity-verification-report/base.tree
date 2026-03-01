@@ -1,14 +1,14 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/gelato-document-report
+load @cluesurf/snow/stripe.com/2020-08-27/base/gelato-document-report
   take form gelato-document-report
 
-load @termsurf/snow/stripe.com/2020-08-27/base/gelato-id-number-report
+load @cluesurf/snow/stripe.com/2020-08-27/base/gelato-id-number-report
   take form gelato-id-number-report
 
-load @termsurf/snow/stripe.com/2020-08-27/base/gelato-selfie-report
+load @cluesurf/snow/stripe.com/2020-08-27/base/gelato-selfie-report
   take form gelato-selfie-report
 
-load @termsurf/snow/stripe.com/2020-08-27/base/gelato-verification-report-options
+load @cluesurf/snow/stripe.com/2020-08-27/base/gelato-verification-report-options
   take form gelato-verification-report-options
 
 form identity-verification-report, name <identity.verification_report>

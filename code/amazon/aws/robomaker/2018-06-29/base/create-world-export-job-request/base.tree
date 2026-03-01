@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/arns
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/arns
   take form arns
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/client-request-token
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/client-request-token
   take form client-request-token
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/iam-role
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/iam-role
   take form iam-role
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/output-location
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/output-location
   take form output-location
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/tag-map
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/tag-map
   take form tag-map
 
 form create-world-export-job-request, name <CreateWorldExportJobRequest>

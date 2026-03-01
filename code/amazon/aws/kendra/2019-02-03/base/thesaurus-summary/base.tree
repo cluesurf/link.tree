@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/thesaurus-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/thesaurus-id
   take form thesaurus-id
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/thesaurus-name
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/thesaurus-name
   take form thesaurus-name
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/thesaurus-status
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/thesaurus-status
   take form thesaurus-status
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/timestamp
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/timestamp
   take form timestamp
 
 form thesaurus-summary, name <ThesaurusSummary>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/log-group
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/log-group
   take form log-group
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form log-groups, name <LogGroups>

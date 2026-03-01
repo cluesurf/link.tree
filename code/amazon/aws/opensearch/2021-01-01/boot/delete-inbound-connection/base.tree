@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/delete-inbound-connection-response
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/delete-inbound-connection-response
   take form delete-inbound-connection-response
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/disabled-operation-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/disabled-operation-exception
   take form disabled-operation-exception
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-inbound-connection, name <DeleteInboundConnection>

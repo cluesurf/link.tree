@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/dialog-action-type
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/dialog-action-type
   take form dialog-action-type
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/fulfillment-state
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/fulfillment-state
   take form fulfillment-state
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/intent-name
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/intent-name
   take form intent-name
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/message-format-type
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/message-format-type
   take form message-format-type
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/string-map
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/string-map
   take form string-map
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/text
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/text
   take form text
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form dialog-action, name <DialogAction>

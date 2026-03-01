@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/backup-vault-event
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/backup-vault-event
   take form backup-vault-event
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form backup-vault-events, name <BackupVaultEvents>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/abusiveexperiencereport/v1/base/site-summary-response
+load @cluesurf/snow/googleapis.com/abusiveexperiencereport/v1/base/site-summary-response
   take form site-summary-response
 
 boot abusiveexperiencereport-sites-get, name <abusiveexperiencereport.sites.get>

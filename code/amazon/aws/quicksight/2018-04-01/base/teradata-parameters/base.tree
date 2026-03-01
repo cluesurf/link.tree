@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/database
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/database
   take form database
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/host
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/host
   take form host
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/port
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/port
   take form port
 
 form teradata-parameters, name <TeradataParameters>

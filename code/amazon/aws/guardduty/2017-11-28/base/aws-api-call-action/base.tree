@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/domain-details
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/domain-details
   take form domain-details
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/remote-ip-details
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/remote-ip-details
   take form remote-ip-details
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form aws-api-call-action, name <AwsApiCallAction>

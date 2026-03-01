@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/issuing-authorization
+load @cluesurf/snow/stripe.com/2020-08-27/base/issuing-authorization
   take form issuing-authorization
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-issuing-authorizations-authorization-approve-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-issuing-authorizations-authorization-approve-body
   take form post-issuing-authorizations-authorization-approve-body
 
 boot post-issuing-authorizations-authorization-approve, name <PostIssuingAuthorizationsAuthorizationApprove>

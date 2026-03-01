@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/local-post
+load @cluesurf/snow/googleapis.com/my-business/v4/base/local-post
   take form local-post
 
 boot mybusiness-accounts-locations-local-posts-create, name <mybusiness.accounts.locations.localPosts.create>

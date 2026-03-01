@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/healthcare/v1/base/list-messages-response
+load @cluesurf/snow/googleapis.com/healthcare/v1/base/list-messages-response
   take form list-messages-response
 
 boot healthcare-projects-locations-datasets-hl7-v2-stores-messages-list, name <healthcare.projects.locations.datasets.hl7V2Stores.messages.list>

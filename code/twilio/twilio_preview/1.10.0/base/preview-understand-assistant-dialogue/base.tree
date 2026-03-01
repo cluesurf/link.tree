@@ -1,17 +1,17 @@
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/object
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/object
   take form object
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ac
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ac
   take form sid-ac
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ua
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ua
   take form sid-ua
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-uk
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-uk
   take form sid-uk
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/url
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/url
   take form url
 
 form preview-understand-assistant-dialogue, name <preview.understand.assistant.dialogue>

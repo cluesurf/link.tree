@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/member
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/member
   take form member
 
 form get-member-output, name <GetMemberOutput>

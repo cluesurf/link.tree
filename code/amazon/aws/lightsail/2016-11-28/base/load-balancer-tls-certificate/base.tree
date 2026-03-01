@@ -1,47 +1,47 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/iso-date
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/iso-date
   take form iso-date
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/load-balancer-tls-certificate-domain-validation-record-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/load-balancer-tls-certificate-domain-validation-record-list
   take form load-balancer-tls-certificate-domain-validation-record-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/load-balancer-tls-certificate-failure-reason
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/load-balancer-tls-certificate-failure-reason
   take form load-balancer-tls-certificate-failure-reason
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/load-balancer-tls-certificate-renewal-summary
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/load-balancer-tls-certificate-renewal-summary
   take form load-balancer-tls-certificate-renewal-summary
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/load-balancer-tls-certificate-revocation-reason
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/load-balancer-tls-certificate-revocation-reason
   take form load-balancer-tls-certificate-revocation-reason
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/load-balancer-tls-certificate-status
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/load-balancer-tls-certificate-status
   take form load-balancer-tls-certificate-status
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-location
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-location
   take form resource-location
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-type
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-type
   take form resource-type
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/string-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/string-list
   take form string-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/tag-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form load-balancer-tls-certificate, name <LoadBalancerTlsCertificate>

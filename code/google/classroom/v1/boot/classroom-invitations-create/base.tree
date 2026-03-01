@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/invitation
+load @cluesurf/snow/googleapis.com/classroom/v1/base/invitation
   take form invitation
 
 boot classroom-invitations-create, name <classroom.invitations.create>

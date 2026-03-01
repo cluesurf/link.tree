@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/millisecond-date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/millisecond-date-time
   take form millisecond-date-time
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form volume-status-event, name <VolumeStatusEvent>

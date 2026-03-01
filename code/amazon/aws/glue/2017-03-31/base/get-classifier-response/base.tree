@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/classifier
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/classifier
   take form classifier
 
 form get-classifier-response, name <GetClassifierResponse>

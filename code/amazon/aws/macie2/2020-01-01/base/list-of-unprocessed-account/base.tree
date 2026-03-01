@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/unprocessed-account
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/unprocessed-account
   take form unprocessed-account
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-unprocessed-account, name <__listOfUnprocessedAccount>

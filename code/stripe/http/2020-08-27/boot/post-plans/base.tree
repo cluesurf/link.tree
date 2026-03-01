@@ -1,11 +1,11 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/plan
+load @cluesurf/snow/stripe.com/2020-08-27/base/plan
   take form plan
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-plans-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-plans-body
   take form post-plans-body
 
 boot post-plans, name <PostPlans>

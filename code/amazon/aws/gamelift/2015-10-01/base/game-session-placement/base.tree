@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/dns-name
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/dns-name
   take form dns-name
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-property-list
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-property-list
   take form game-property-list
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-session-placement-state
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-session-placement-state
   take form game-session-placement-state
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-session-queue-name
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-session-queue-name
   take form game-session-queue-name
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/id-string-model
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/id-string-model
   take form id-string-model
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/ip-address
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/ip-address
   take form ip-address
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/large-game-session-data
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/large-game-session-data
   take form large-game-session-data
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/matchmaker-data
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/matchmaker-data
   take form matchmaker-data
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
   take form non-zero-and-max-string
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/placed-player-session-list
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/placed-player-session-list
   take form placed-player-session-list
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/player-latency-list
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/player-latency-list
   take form player-latency-list
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/port-number
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/port-number
   take form port-number
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/whole-number
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/whole-number
   take form whole-number
 
 form game-session-placement, name <GameSessionPlacement>

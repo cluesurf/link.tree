@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/list-apps-response
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/list-apps-response
   take form list-apps-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-apps, name <ListApps>

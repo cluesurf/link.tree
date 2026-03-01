@@ -1,39 +1,39 @@
 
-load @termsurf/land/code/javascript/base/native-any
+load @cluesurf/land/code/javascript/base/native-any
   take form native-any
 
-load @termsurf/land/code/javascript/base/native-boolean
+load @cluesurf/land/code/javascript/base/native-boolean
   take form native-boolean
 
-load @termsurf/land/code/javascript/base/native-number
+load @cluesurf/land/code/javascript/base/native-number
   take form native-number
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/land/code/javascript/base/native-undefined
+load @cluesurf/land/code/javascript/base/native-undefined
   take form native-undefined
 
-load @termsurf/land/code/javascript/base/payment-options
+load @cluesurf/land/code/javascript/base/payment-options
   take form payment-options
 
-load @termsurf/land/code/javascript/stripejs/customer/customer
+load @cluesurf/land/code/javascript/stripejs/customer/customer
   take form customer
 
-load @termsurf/land/code/javascript/stripejs/source/code-verification
+load @cluesurf/land/code/javascript/stripejs/source/code-verification
   take form code-verification
 
-load @termsurf/land/code/javascript/stripejs/source/receiver
+load @cluesurf/land/code/javascript/stripejs/source/receiver
   take form receiver
 
-load @termsurf/land/code/javascript/stripejs/source/redirect
+load @cluesurf/land/code/javascript/stripejs/source/redirect
   take form redirect
 
-load @termsurf/seed/code/form/form
+load @cluesurf/seed/code/form/form
   take form form
     save form form-link-text
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 

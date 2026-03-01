@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/region-status
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/region-status
   take form region-status
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/sse-kms-key
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/sse-kms-key
   take form sse-kms-key
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/timestamp
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form region-info, name <RegionInfo>

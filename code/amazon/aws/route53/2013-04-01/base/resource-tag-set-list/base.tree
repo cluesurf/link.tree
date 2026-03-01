@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/resource-tag-set
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/resource-tag-set
   take form resource-tag-set
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form resource-tag-set-list, name <ResourceTagSetList>

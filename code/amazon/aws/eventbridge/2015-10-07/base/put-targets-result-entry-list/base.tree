@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/put-targets-result-entry
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/put-targets-result-entry
   take form put-targets-result-entry
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form put-targets-result-entry-list, name <PutTargetsResultEntryList>

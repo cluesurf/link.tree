@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/marker
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/marker
   take form marker
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/positive-int-object
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/positive-int-object
   take form positive-int-object
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-ar-ns
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-ar-ns
   take form tape-ar-ns
 
 form list-tapes-input, name <ListTapesInput>

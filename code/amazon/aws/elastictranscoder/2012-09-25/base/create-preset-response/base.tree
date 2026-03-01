@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/preset
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/preset
   take form preset
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-preset-response, name <CreatePresetResponse>

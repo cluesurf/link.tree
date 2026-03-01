@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/bad-request
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/bad-request
   take form bad-request
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/list-tags-for-resource-response
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/list-tags-for-resource-response
   take form list-tags-for-resource-response
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/not-service-resource-error
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/not-service-resource-error
   take form not-service-resource-error
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/resource-does-not-support-tagging
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/resource-does-not-support-tagging
   take form resource-does-not-support-tagging
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/resource-not-found
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/resource-not-found
   take form resource-not-found
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-tags-for-resource, name <ListTagsForResource>

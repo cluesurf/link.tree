@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/glacier/2012-06-01/base/upload-list-element
+load @cluesurf/snow/amazonaws.com/glacier/2012-06-01/base/upload-list-element
   take form upload-list-element
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form uploads-list, name <UploadsList>

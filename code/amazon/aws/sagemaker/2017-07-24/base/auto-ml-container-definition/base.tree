@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/container-image
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/container-image
   take form container-image
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/environment-map
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/environment-map
   take form environment-map
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/url
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/url
   take form url
 
 form auto-ml-container-definition, name <AutoMLContainerDefinition>

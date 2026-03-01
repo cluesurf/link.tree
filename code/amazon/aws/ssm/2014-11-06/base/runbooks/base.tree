@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/runbook
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/runbook
   take form runbook
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form runbooks, name <Runbooks>

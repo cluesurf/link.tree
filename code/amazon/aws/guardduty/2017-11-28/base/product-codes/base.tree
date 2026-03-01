@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/product-code
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/product-code
   take form product-code
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form product-codes, name <ProductCodes>

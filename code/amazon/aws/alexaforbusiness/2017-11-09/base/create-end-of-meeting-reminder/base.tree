@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/end-of-meeting-reminder-minutes-list
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/end-of-meeting-reminder-minutes-list
   take form end-of-meeting-reminder-minutes-list
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/end-of-meeting-reminder-type
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/end-of-meeting-reminder-type
   take form end-of-meeting-reminder-type
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form create-end-of-meeting-reminder, name <CreateEndOfMeetingReminder>

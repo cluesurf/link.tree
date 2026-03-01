@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/migration-task-summary-list
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/migration-task-summary-list
   take form migration-task-summary-list
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/token
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/token
   take form token
 
 form list-migration-tasks-result, name <ListMigrationTasksResult>

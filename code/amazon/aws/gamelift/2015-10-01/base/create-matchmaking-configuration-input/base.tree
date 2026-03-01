@@ -1,47 +1,47 @@
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/backfill-mode
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/backfill-mode
   take form backfill-mode
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/boolean-model
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/boolean-model
   take form boolean-model
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/custom-event-data
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/custom-event-data
   take form custom-event-data
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/flex-match-mode
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/flex-match-mode
   take form flex-match-mode
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-property-list
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-property-list
   take form game-property-list
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-session-data
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/game-session-data
   take form game-session-data
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/matchmaking-acceptance-timeout-integer
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/matchmaking-acceptance-timeout-integer
   take form matchmaking-acceptance-timeout-integer
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/matchmaking-id-string-model
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/matchmaking-id-string-model
   take form matchmaking-id-string-model
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/matchmaking-request-timeout-integer
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/matchmaking-request-timeout-integer
   take form matchmaking-request-timeout-integer
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/matchmaking-rule-set-name
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/matchmaking-rule-set-name
   take form matchmaking-rule-set-name
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
   take form non-zero-and-max-string
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/queue-arns-list
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/queue-arns-list
   take form queue-arns-list
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/sns-arn-string-model
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/sns-arn-string-model
   take form sns-arn-string-model
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/tag-list
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/whole-number
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/whole-number
   take form whole-number
 
 form create-matchmaking-configuration-input, name <CreateMatchmakingConfigurationInput>

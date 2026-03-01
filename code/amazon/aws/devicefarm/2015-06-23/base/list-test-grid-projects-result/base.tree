@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/pagination-token
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/pagination-token
   take form pagination-token
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/test-grid-projects
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/test-grid-projects
   take form test-grid-projects
 
 form list-test-grid-projects-result, name <ListTestGridProjectsResult>

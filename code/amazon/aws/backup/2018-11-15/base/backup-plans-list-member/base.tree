@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/advanced-backup-settings
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/advanced-backup-settings
   take form advanced-backup-settings
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/arn
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/backup-plan-name
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/backup-plan-name
   take form backup-plan-name
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form backup-plans-list-member, name <BackupPlansListMember>

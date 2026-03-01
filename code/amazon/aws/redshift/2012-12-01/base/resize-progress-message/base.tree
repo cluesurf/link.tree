@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/double-optional
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/double-optional
   take form double-optional
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/import-tables-completed
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/import-tables-completed
   take form import-tables-completed
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/import-tables-in-progress
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/import-tables-in-progress
   take form import-tables-in-progress
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/import-tables-not-started
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/import-tables-not-started
   take form import-tables-not-started
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/integer-optional
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/long-optional
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/long-optional
   take form long-optional
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form resize-progress-message, name <ResizeProgressMessage>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/deploymentmanager/v2beta/base/composite-type
+load @cluesurf/snow/googleapis.com/deploymentmanager/v2beta/base/composite-type
   take form composite-type
 
 boot deploymentmanager-composite-types-get, name <deploymentmanager.compositeTypes.get>

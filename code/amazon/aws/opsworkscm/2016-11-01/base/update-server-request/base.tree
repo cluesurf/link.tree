@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/server-name
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/server-name
   take form server-name
 
-load @termsurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/time-window-definition
+load @cluesurf/snow/amazonaws.com/opsworkscm/2016-11-01/base/time-window-definition
   take form time-window-definition
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form update-server-request, name <UpdateServerRequest>

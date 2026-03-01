@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/client-token
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/dashboard-definition
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/dashboard-definition
   take form dashboard-definition
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/description
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/id
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/name
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/tag-map
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/tag-map
   take form tag-map
 
 form create-dashboard-request, name <CreateDashboardRequest>

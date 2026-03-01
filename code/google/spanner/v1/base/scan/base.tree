@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/spanner/v1/base/scan-data
+load @cluesurf/snow/googleapis.com/spanner/v1/base/scan-data
   take form scan-data
 
 form scan, name <Scan>

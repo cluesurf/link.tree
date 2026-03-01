@@ -1,17 +1,17 @@
 
-load @termsurf/snow/jira/openapi.json/base/issue-type-details
+load @cluesurf/snow/jira/openapi.json/base/issue-type-details
   take form issue-type-details
 
-load @termsurf/snow/jira/openapi.json/base/priority
+load @cluesurf/snow/jira/openapi.json/base/priority
   take form priority
 
-load @termsurf/snow/jira/openapi.json/base/status-details
+load @cluesurf/snow/jira/openapi.json/base/status-details
   take form status-details
 
-load @termsurf/snow/jira/openapi.json/base/time-tracking-details
+load @cluesurf/snow/jira/openapi.json/base/time-tracking-details
   take form time-tracking-details
 
-load @termsurf/snow/jira/openapi.json/base/user-details
+load @cluesurf/snow/jira/openapi.json/base/user-details
   take form user-details
 
 form fields, name <Fields>

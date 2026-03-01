@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2020-05-31/base/function-runtime
+load @cluesurf/snow/amazonaws.com/cloudfront/2020-05-31/base/function-runtime
   take form function-runtime
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-function2020-05-31-body

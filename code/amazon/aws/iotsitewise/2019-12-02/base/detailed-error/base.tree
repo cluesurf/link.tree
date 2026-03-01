@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/detailed-error-code
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/detailed-error-code
   take form detailed-error-code
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/detailed-error-message
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/detailed-error-message
   take form detailed-error-message
 
 form detailed-error, name <DetailedError>

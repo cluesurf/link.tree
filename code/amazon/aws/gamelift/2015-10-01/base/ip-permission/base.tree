@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/ip-protocol
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/ip-protocol
   take form ip-protocol
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-blank-string
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-blank-string
   take form non-blank-string
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/port-number
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/port-number
   take form port-number
 
 form ip-permission, name <IpPermission>

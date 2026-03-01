@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/healthcare/v1beta1/base/user-data-mapping
+load @cluesurf/snow/googleapis.com/healthcare/v1beta1/base/user-data-mapping
   take form user-data-mapping
 
 boot healthcare-projects-locations-datasets-consent-stores-user-data-mappings-create, name <healthcare.projects.locations.datasets.consentStores.userDataMappings.create>

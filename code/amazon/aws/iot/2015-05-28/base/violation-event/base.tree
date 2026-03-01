@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/behavior
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/behavior
   take form behavior
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/device-defender-thing-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/device-defender-thing-name
   take form device-defender-thing-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/metric-value
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/metric-value
   take form metric-value
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/security-profile-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/security-profile-name
   take form security-profile-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/timestamp
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/violation-event-additional-info
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/violation-event-additional-info
   take form violation-event-additional-info
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/violation-event-type
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/violation-event-type
   take form violation-event-type
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/violation-id
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/violation-id
   take form violation-id
 
 form violation-event, name <ViolationEvent>

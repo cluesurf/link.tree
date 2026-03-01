@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rds/2013-02-12/base/character-set
+load @cluesurf/snow/amazonaws.com/rds/2013-02-12/base/character-set
   take form character-set
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form supported-character-sets-list, name <SupportedCharacterSetsList>

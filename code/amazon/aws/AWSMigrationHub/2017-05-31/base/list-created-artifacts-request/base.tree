@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/max-results-created-artifacts
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/max-results-created-artifacts
   take form max-results-created-artifacts
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/migration-task-name
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/migration-task-name
   take form migration-task-name
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/progress-update-stream
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/progress-update-stream
   take form progress-update-stream
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/token
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/token
   take form token
 
 form list-created-artifacts-request, name <ListCreatedArtifactsRequest>

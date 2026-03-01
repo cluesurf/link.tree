@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/filter
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/filter
   take form filter
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/get-transit-gateway-prefix-list-references-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/get-transit-gateway-prefix-list-references-result
   take form get-transit-gateway-prefix-list-references-result
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-get-transit-gateway-prefix-list-references, name <GET_GetTransitGatewayPrefixListReferences>

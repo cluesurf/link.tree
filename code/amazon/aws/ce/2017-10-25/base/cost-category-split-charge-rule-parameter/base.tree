@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-split-charge-rule-parameter-type
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-split-charge-rule-parameter-type
   take form cost-category-split-charge-rule-parameter-type
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-split-charge-rule-parameter-values-list
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-split-charge-rule-parameter-values-list
   take form cost-category-split-charge-rule-parameter-values-list
 
 form cost-category-split-charge-rule-parameter, name <CostCategorySplitChargeRuleParameter>

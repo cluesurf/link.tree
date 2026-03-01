@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/rank-expression-status
+load @cluesurf/snow/amazonaws.com/cloudsearch/2011-02-01/base/rank-expression-status
   take form rank-expression-status
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form rank-expression-status-list, name <RankExpressionStatusList>

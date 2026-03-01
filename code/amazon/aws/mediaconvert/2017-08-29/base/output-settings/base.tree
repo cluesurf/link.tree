@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-settings
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-settings
   take form hls-settings
 
 form output-settings, name <OutputSettings>

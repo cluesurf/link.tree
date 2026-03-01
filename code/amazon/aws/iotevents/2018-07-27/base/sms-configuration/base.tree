@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/notification-additional-message
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/notification-additional-message
   take form notification-additional-message
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/recipient-details
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/recipient-details
   take form recipient-details
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/sms-sender-id
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/sms-sender-id
   take form sms-sender-id
 
 form sms-configuration, name <SMSConfiguration>

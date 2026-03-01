@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/cloud-watch-logs-encoding
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/cloud-watch-logs-encoding
   take form cloud-watch-logs-encoding
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/cloud-watch-logs-initial-position
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/cloud-watch-logs-initial-position
   take form cloud-watch-logs-initial-position
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/cloud-watch-logs-time-zone
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/cloud-watch-logs-time-zone
   take form cloud-watch-logs-time-zone
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form cloud-watch-logs-log-stream, name <CloudWatchLogsLogStream>

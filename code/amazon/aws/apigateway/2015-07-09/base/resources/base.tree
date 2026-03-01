@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/list-of-resource
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/list-of-resource
   take form list-of-resource
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form resources, name <Resources>

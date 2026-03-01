@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/reservation-value
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/reservation-value
   take form reservation-value
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/reserved-instance-reservation-value-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/reserved-instance-reservation-value-set
   take form reserved-instance-reservation-value-set
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/target-reservation-value-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/target-reservation-value-set
   take form target-reservation-value-set
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-reserved-instances-exchange-quote-result, name <GetReservedInstancesExchangeQuoteResult>

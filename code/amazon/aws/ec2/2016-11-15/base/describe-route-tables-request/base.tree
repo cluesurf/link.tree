@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-route-tables-max-results
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-route-tables-max-results
   take form describe-route-tables-max-results
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
   take form filter-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/route-table-id-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/route-table-id-string-list
   take form route-table-id-string-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-route-tables-request, name <DescribeRouteTablesRequest>

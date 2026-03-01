@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/model-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/model-arn
   take form model-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/model-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/model-name
   take form model-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
 form model-summary, name <ModelSummary>

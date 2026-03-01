@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/datastore-arn
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/datastore-arn
   take form datastore-arn
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/datastore-name
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/datastore-name
   take form datastore-name
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/datastore-partitions
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/datastore-partitions
   take form datastore-partitions
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/datastore-status
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/datastore-status
   take form datastore-status
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/datastore-storage
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/datastore-storage
   take form datastore-storage
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/file-format-configuration
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/file-format-configuration
   take form file-format-configuration
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/retention-period
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/retention-period
   take form retention-period
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/timestamp
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/timestamp
   take form timestamp
 
 form datastore, name <Datastore>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-description
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-description
   take form maintenance-window-description
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-id
   take form maintenance-window-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-name
   take form maintenance-window-name
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-target-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-target-id
   take form maintenance-window-target-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/owner-information
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/owner-information
   take form owner-information
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/targets
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/targets
   take form targets
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form update-maintenance-window-target-request, name <UpdateMaintenanceWindowTargetRequest>

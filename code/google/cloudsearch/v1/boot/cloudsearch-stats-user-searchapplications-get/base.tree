@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudsearch/v1/base/get-search-application-user-stats-response
+load @cluesurf/snow/googleapis.com/cloudsearch/v1/base/get-search-application-user-stats-response
   take form get-search-application-user-stats-response
 
 boot cloudsearch-stats-user-searchapplications-get, name <cloudsearch.stats.user.searchapplications.get>

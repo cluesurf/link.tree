@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/event
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/event
   take form event
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/event-list
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/event-list
   take form event-list
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/notification-id
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/notification-id
   take form notification-id
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/queue-arn
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/queue-arn
   take form queue-arn
 
 form queue-configuration-deprecated, name <QueueConfigurationDeprecated>

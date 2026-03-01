@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/geofence-geometry
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/geofence-geometry
   take form geofence-geometry
 
-load @termsurf/snow/amazonaws.com/location/2020-11-19/base/id
+load @cluesurf/snow/amazonaws.com/location/2020-11-19/base/id
   take form id
 
 form batch-put-geofence-request-entry, name <BatchPutGeofenceRequestEntry>

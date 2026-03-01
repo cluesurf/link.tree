@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/iso8601-timestamp
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/iso8601-timestamp
   take form iso8601-timestamp
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-name
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-name
   take form sip-rule-name
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-target-application-list
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-target-application-list
   take form sip-rule-target-application-list
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-trigger-type
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/sip-rule-trigger-type
   take form sip-rule-trigger-type
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form sip-rule, name <SipRule>

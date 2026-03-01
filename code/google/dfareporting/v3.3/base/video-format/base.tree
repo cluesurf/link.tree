@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.3/base/size
+load @cluesurf/snow/googleapis.com/dfareporting/v3.3/base/size
   take form size
 
 form video-format, name <VideoFormat>

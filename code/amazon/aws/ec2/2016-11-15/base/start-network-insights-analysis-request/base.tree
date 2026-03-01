@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/arn-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/arn-list
   take form arn-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/network-insights-path-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/network-insights-path-id
   take form network-insights-path-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification-list
   take form tag-specification-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form start-network-insights-analysis-request, name <StartNetworkInsightsAnalysisRequest>

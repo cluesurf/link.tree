@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/arn
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/certificate-time
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/certificate-time
   take form certificate-time
 
 form device-network-profile-info, name <DeviceNetworkProfileInfo>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/auto-sub-domain-creation-patterns
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/auto-sub-domain-creation-patterns
   take form auto-sub-domain-creation-patterns
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/auto-sub-domain-iam-role
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/auto-sub-domain-iam-role
   take form auto-sub-domain-iam-role
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/domain-name
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/enable-auto-sub-domain
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/enable-auto-sub-domain
   take form enable-auto-sub-domain
 
-load @termsurf/snow/amazonaws.com/amplify/2017-07-25/base/sub-domain-settings
+load @cluesurf/snow/amazonaws.com/amplify/2017-07-25/base/sub-domain-settings
   take form sub-domain-settings
 
 form create-domain-association-request, name <CreateDomainAssociationRequest>

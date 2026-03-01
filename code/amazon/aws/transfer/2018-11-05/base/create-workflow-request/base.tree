@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/tags
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/tags
   take form tags
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/workflow-description
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/workflow-description
   take form workflow-description
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/workflow-steps
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/workflow-steps
   take form workflow-steps
 
 form create-workflow-request, name <CreateWorkflowRequest>

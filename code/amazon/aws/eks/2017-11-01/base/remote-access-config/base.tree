@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/eks/2017-11-01/base/string-list
+load @cluesurf/snow/amazonaws.com/eks/2017-11-01/base/string-list
   take form string-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form remote-access-config, name <RemoteAccessConfig>

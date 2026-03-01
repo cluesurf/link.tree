@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/schemas/2019-12-02/base/string-min0-max256
+load @cluesurf/snow/amazonaws.com/schemas/2019-12-02/base/string-min0-max256
   take form string-min0-max256
 
-load @termsurf/snow/amazonaws.com/schemas/2019-12-02/base/string-min20-max1600
+load @cluesurf/snow/amazonaws.com/schemas/2019-12-02/base/string-min20-max1600
   take form string-min20-max1600
 
-load @termsurf/snow/amazonaws.com/schemas/2019-12-02/base/tags
+load @cluesurf/snow/amazonaws.com/schemas/2019-12-02/base/tags
   take form tags
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form create-discoverer-request, name <CreateDiscovererRequest>

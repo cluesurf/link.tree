@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/automation-execution-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/automation-execution-id
   take form automation-execution-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/max-results
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/max-results
   take form max-results
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/next-token
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/step-execution-filter-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/step-execution-filter-list
   take form step-execution-filter-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form describe-automation-step-executions-request, name <DescribeAutomationStepExecutionsRequest>

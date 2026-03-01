@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/end-of-meeting-reminder
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/end-of-meeting-reminder
   take form end-of-meeting-reminder
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/instant-booking
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/instant-booking
   take form instant-booking
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/require-check-in
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/require-check-in
   take form require-check-in
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form meeting-room-configuration, name <MeetingRoomConfiguration>

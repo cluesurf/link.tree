@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/modify-hosts-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/modify-hosts-result
   take form modify-hosts-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-modify-hosts, name <POST_ModifyHosts>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/appengine/v1alpha/base/list-authorized-certificates-response
+load @cluesurf/snow/googleapis.com/appengine/v1alpha/base/list-authorized-certificates-response
   take form list-authorized-certificates-response
 
 boot appengine-apps-authorized-certificates-list, name <appengine.apps.authorizedCertificates.list>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/description
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/slot-type-signature
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/slot-type-signature
   take form slot-type-signature
 
 form built-in-slot-type-summary, name <BuiltInSlotTypeSummary>

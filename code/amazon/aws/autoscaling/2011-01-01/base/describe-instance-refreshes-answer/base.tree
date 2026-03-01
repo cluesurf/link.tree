@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/instance-refreshes
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/instance-refreshes
   take form instance-refreshes
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string
   take form xml-string
 
 form describe-instance-refreshes-answer, name <DescribeInstanceRefreshesAnswer>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/arn
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/date
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/featurization-parameters
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/featurization-parameters
   take form featurization-parameters
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/name
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/status
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/status
   take form status
 
 form feature-transformation, name <FeatureTransformation>

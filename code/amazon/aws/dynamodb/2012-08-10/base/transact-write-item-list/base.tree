@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/transact-write-item
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/transact-write-item
   take form transact-write-item
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form transact-write-item-list, name <TransactWriteItemList>

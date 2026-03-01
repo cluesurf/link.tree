@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/numeric-value
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/numeric-value
   take form numeric-value
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/unit-value
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/unit-value
   take form unit-value
 
 form spend, name <Spend>

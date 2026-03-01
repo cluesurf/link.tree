@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/list-of-mss-manifest
+load @cluesurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/list-of-mss-manifest
   take form list-of-mss-manifest
 
-load @termsurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/mss-encryption
+load @cluesurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/mss-encryption
   take form mss-encryption
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form mss-package, name <MssPackage>

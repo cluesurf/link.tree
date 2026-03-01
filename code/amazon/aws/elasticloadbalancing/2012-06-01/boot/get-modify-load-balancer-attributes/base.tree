@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-log
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-log
   take form access-log
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-not-found-exception
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/access-point-not-found-exception
   take form access-point-not-found-exception
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/additional-attributes
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/additional-attributes
   take form additional-attributes
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/connection-draining
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/connection-draining
   take form connection-draining
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/connection-settings
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/connection-settings
   take form connection-settings
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/cross-zone-load-balancing
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/cross-zone-load-balancing
   take form cross-zone-load-balancing
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/invalid-configuration-request-exception
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/invalid-configuration-request-exception
   take form invalid-configuration-request-exception
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/load-balancer-attribute-not-found-exception
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/load-balancer-attribute-not-found-exception
   take form load-balancer-attribute-not-found-exception
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/modify-load-balancer-attributes-output
+load @cluesurf/snow/amazonaws.com/elasticloadbalancing/2012-06-01/base/modify-load-balancer-attributes-output
   take form modify-load-balancer-attributes-output
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-modify-load-balancer-attributes, name <GET_ModifyLoadBalancerAttributes>

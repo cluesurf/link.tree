@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/timestream-write/2018-11-01/base/date
+load @cluesurf/snow/amazonaws.com/timestream-write/2018-11-01/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/timestream-write/2018-11-01/base/resource-name
+load @cluesurf/snow/amazonaws.com/timestream-write/2018-11-01/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/timestream-write/2018-11-01/base/retention-properties
+load @cluesurf/snow/amazonaws.com/timestream-write/2018-11-01/base/retention-properties
   take form retention-properties
 
-load @termsurf/snow/amazonaws.com/timestream-write/2018-11-01/base/table-status
+load @cluesurf/snow/amazonaws.com/timestream-write/2018-11-01/base/table-status
   take form table-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form table, name <Table>

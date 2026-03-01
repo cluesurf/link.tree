@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/alert-summary
+load @cluesurf/snow/amazonaws.com/lookoutmetrics/2017-07-25/base/alert-summary
   take form alert-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form alert-summary-list, name <AlertSummaryList>

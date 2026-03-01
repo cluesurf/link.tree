@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/text-detection
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/text-detection
   take form text-detection
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form text-detection-list, name <TextDetectionList>

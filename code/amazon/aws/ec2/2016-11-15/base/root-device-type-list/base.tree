@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/root-device-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/root-device-type
   take form root-device-type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form root-device-type-list, name <RootDeviceTypeList>

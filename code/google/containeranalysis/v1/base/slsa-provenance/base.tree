@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1/base/slsa-builder
+load @cluesurf/snow/googleapis.com/containeranalysis/v1/base/slsa-builder
   take form slsa-builder
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1/base/slsa-metadata
+load @cluesurf/snow/googleapis.com/containeranalysis/v1/base/slsa-metadata
   take form slsa-metadata
 
-load @termsurf/snow/googleapis.com/containeranalysis/v1/base/slsa-recipe
+load @cluesurf/snow/googleapis.com/containeranalysis/v1/base/slsa-recipe
   take form slsa-recipe
 
 form slsa-provenance, name <SlsaProvenance>

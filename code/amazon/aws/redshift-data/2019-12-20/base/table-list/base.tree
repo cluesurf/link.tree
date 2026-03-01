@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/redshift-data/2019-12-20/base/table-member
+load @cluesurf/snow/amazonaws.com/redshift-data/2019-12-20/base/table-member
   take form table-member
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form table-list, name <TableList>

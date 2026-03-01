@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/accept-language
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/accept-language
   take form accept-language
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/idempotency-token
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/idempotency-token
   take form idempotency-token
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/service-action-definition-map
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/service-action-definition-map
   take form service-action-definition-map
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/service-action-definition-type
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/service-action-definition-type
   take form service-action-definition-type
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/service-action-description
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/service-action-description
   take form service-action-description
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/service-action-name
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/service-action-name
   take form service-action-name
 
 form create-service-action-input, name <CreateServiceActionInput>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/answer-summaries
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/answer-summaries
   take form answer-summaries
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/lens-alias
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/lens-alias
   take form lens-alias
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/milestone-number
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/milestone-number
   take form milestone-number
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/next-token
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/workload-id
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/workload-id
   take form workload-id
 
 form list-answers-output, name <ListAnswersOutput>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/compute/beta/base/url-map
+load @cluesurf/snow/googleapis.com/compute/beta/base/url-map
   take form url-map
 
 boot compute-url-maps-get, name <compute.urlMaps.get>

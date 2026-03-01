@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/schemas/2019-12-02/base/discoverer-state
+load @cluesurf/snow/amazonaws.com/schemas/2019-12-02/base/discoverer-state
   take form discoverer-state
 
-load @termsurf/snow/amazonaws.com/schemas/2019-12-02/base/tags
+load @cluesurf/snow/amazonaws.com/schemas/2019-12-02/base/tags
   take form tags
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form discoverer-summary, name <DiscovererSummary>

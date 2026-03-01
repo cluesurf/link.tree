@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/worker-configuration-summary
+load @cluesurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/worker-configuration-summary
   take form worker-configuration-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-worker-configuration-summary, name <__listOfWorkerConfigurationSummary>

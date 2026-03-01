@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/export-task-s3-location
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/export-task-s3-location
   take form export-task-s3-location
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form export-image-task, name <ExportImageTask>

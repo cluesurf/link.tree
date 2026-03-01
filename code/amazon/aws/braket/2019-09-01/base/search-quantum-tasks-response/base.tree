@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/braket/2019-09-01/base/quantum-task-summary-list
+load @cluesurf/snow/amazonaws.com/braket/2019-09-01/base/quantum-task-summary-list
   take form quantum-task-summary-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form search-quantum-tasks-response, name <SearchQuantumTasksResponse>

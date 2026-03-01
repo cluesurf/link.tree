@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/conflict-exception
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/conflict-exception
   take form conflict-exception
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/internal-server-error-exception
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/internal-server-error-exception
   take form internal-server-error-exception
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/list-launch-profiles-response
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/list-launch-profiles-response
   take form list-launch-profiles-response
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/service-quota-exceeded-exception
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/service-quota-exceeded-exception
   take form service-quota-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/throttling-exception
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/throttling-exception
   take form throttling-exception
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/validation-exception
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/validation-exception
   take form validation-exception
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 boot list-launch-profiles, name <ListLaunchProfiles>

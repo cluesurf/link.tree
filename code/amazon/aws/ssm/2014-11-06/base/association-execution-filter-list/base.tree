@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/association-execution-filter
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/association-execution-filter
   take form association-execution-filter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form association-execution-filter-list, name <AssociationExecutionFilterList>

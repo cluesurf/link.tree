@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/created-at-date
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/created-at-date
   take form created-at-date
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/is-disabled
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/is-disabled
   take form is-disabled
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/rule-arn
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/rule-arn
   take form rule-arn
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/rule-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/rule-name
   take form rule-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/topic-pattern
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/topic-pattern
   take form topic-pattern
 
 form topic-rule-list-item, name <TopicRuleListItem>

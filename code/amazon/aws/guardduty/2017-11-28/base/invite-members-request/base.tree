@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/guardduty/2017-11-28/base/account-ids
+load @cluesurf/snow/amazonaws.com/guardduty/2017-11-28/base/account-ids
   take form account-ids
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form invite-members-request, name <InviteMembersRequest>

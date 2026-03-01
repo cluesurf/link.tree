@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androidenterprise/v1/base/enterprises-send-test-push-notification-response
+load @cluesurf/snow/googleapis.com/androidenterprise/v1/base/enterprises-send-test-push-notification-response
   take form enterprises-send-test-push-notification-response
 
 boot androidenterprise-enterprises-send-test-push-notification, name <androidenterprise.enterprises.sendTestPushNotification>

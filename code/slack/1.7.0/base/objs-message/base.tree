@@ -1,26 +1,26 @@
 
-load @termsurf/snow/slack.com/1.7.0/base/blocks
+load @cluesurf/snow/slack.com/1.7.0/base/blocks
   take form blocks
 
-load @termsurf/snow/slack.com/1.7.0/base/defs-ts
+load @cluesurf/snow/slack.com/1.7.0/base/defs-ts
   take form defs-ts
 
-load @termsurf/snow/slack.com/1.7.0/base/defs-user-id
+load @cluesurf/snow/slack.com/1.7.0/base/defs-user-id
   take form defs-user-id
 
-load @termsurf/snow/slack.com/1.7.0/base/defs-workspace-id
+load @cluesurf/snow/slack.com/1.7.0/base/defs-workspace-id
   take form defs-workspace-id
 
-load @termsurf/snow/slack.com/1.7.0/base/objs-bot-profile
+load @cluesurf/snow/slack.com/1.7.0/base/objs-bot-profile
   take form objs-bot-profile
 
-load @termsurf/snow/slack.com/1.7.0/base/objs-comment
+load @cluesurf/snow/slack.com/1.7.0/base/objs-comment
   take form objs-comment
 
-load @termsurf/snow/slack.com/1.7.0/base/objs-file
+load @cluesurf/snow/slack.com/1.7.0/base/objs-file
   take form objs-file
 
-load @termsurf/snow/slack.com/1.7.0/base/objs-user-profile-short
+load @cluesurf/snow/slack.com/1.7.0/base/objs-user-profile-short
   take form objs-user-profile-short
 
 form objs-message, name <objs_message>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/expression
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/expression
   take form expression
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form expressions, name <Expressions>

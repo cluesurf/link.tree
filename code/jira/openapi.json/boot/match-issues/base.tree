@@ -1,5 +1,5 @@
 
-load @termsurf/snow/jira/openapi.json/base/issue-matches
+load @cluesurf/snow/jira/openapi.json/base/issue-matches
   take form issue-matches
 
 boot match-issues, name <matchIssues>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/deleted-object
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/deleted-object
   take form deleted-object
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form deleted-objects, name <DeletedObjects>

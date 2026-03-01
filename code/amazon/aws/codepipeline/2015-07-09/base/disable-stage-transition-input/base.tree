@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/disabled-reason
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/disabled-reason
   take form disabled-reason
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-name
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/pipeline-name
   take form pipeline-name
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/stage-name
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/stage-name
   take form stage-name
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/stage-transition-type
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/stage-transition-type
   take form stage-transition-type
 
 form disable-stage-transition-input, name <DisableStageTransitionInput>

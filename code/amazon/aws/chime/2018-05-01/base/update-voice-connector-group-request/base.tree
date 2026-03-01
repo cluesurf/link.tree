@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/voice-connector-group-name
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/voice-connector-group-name
   take form voice-connector-group-name
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/voice-connector-item-list
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/voice-connector-item-list
   take form voice-connector-item-list
 
 form update-voice-connector-group-request, name <UpdateVoiceConnectorGroupRequest>

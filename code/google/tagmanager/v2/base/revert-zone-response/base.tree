@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/tagmanager/v2/base/zone
+load @cluesurf/snow/googleapis.com/tagmanager/v2/base/zone
   take form zone
 
 form revert-zone-response, name <RevertZoneResponse>

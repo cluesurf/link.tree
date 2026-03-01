@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/authentication-failed-exception
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/authentication-failed-exception
   take form authentication-failed-exception
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/client-exception
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/client-exception
   take form client-exception
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/enable-sso-result
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/enable-sso-result
   take form enable-sso-result
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/entity-does-not-exist-exception
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/entity-does-not-exist-exception
   take form entity-does-not-exist-exception
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/insufficient-permissions-exception
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/insufficient-permissions-exception
   take form insufficient-permissions-exception
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/service-exception
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/service-exception
   take form service-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot enable-sso, name <EnableSso>

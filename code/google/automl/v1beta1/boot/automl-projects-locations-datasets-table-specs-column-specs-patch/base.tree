@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/automl/v1beta1/base/column-spec
+load @cluesurf/snow/googleapis.com/automl/v1beta1/base/column-spec
   take form column-spec
 
 boot automl-projects-locations-datasets-table-specs-column-specs-patch, name <automl.projects.locations.datasets.tableSpecs.columnSpecs.patch>

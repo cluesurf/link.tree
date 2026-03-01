@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/device-description
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/device-description
   take form device-description
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/device-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/device-name
   take form device-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/thing-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/thing-name
   take form thing-name
 
 form device, name <Device>

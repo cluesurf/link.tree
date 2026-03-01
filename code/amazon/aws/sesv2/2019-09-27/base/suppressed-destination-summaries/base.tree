@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sesv2/2019-09-27/base/suppressed-destination-summary
+load @cluesurf/snow/amazonaws.com/sesv2/2019-09-27/base/suppressed-destination-summary
   take form suppressed-destination-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form suppressed-destination-summaries, name <SuppressedDestinationSummaries>

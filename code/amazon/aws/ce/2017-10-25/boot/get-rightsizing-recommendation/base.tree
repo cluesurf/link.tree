@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/get-rightsizing-recommendation-response
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/get-rightsizing-recommendation-response
   take form get-rightsizing-recommendation-response
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/invalid-next-token-exception
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/invalid-next-token-exception
   take form invalid-next-token-exception
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/limit-exceeded-exception
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/limit-exceeded-exception
   take form limit-exceeded-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-rightsizing-recommendation, name <GetRightsizingRecommendation>

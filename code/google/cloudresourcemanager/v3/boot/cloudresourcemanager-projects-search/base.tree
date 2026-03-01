@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudresourcemanager/v3/base/search-projects-response
+load @cluesurf/snow/googleapis.com/cloudresourcemanager/v3/base/search-projects-response
   take form search-projects-response
 
 boot cloudresourcemanager-projects-search, name <cloudresourcemanager.projects.search>

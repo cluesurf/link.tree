@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/textract/2018-06-27/base/point
+load @cluesurf/snow/amazonaws.com/textract/2018-06-27/base/point
   take form point
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form polygon, name <Polygon>

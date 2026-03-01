@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/account-level
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/account-level
   take form account-level
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/config-id
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/config-id
   take form config-id
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/exclude
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/exclude
   take form exclude
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/include
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/include
   take form include
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/is-enabled
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/is-enabled
   take form is-enabled
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/storage-lens-arn
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/storage-lens-arn
   take form storage-lens-arn
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/storage-lens-aws-org
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/storage-lens-aws-org
   take form storage-lens-aws-org
 
-load @termsurf/snow/amazonaws.com/s3control/2018-08-20/base/storage-lens-data-export
+load @cluesurf/snow/amazonaws.com/s3control/2018-08-20/base/storage-lens-data-export
   take form storage-lens-data-export
 
 form put-storage-lens-configuration-body

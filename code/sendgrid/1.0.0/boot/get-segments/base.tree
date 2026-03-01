@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/all-segments-response
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/all-segments-response
   take form all-segments-response
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/errors-seg-v2
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/errors-seg-v2
   take form errors-seg-v2
 
 boot get-segments, name <GET_segments>

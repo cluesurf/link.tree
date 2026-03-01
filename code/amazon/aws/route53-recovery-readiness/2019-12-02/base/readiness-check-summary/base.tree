@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/readiness
+load @cluesurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/readiness
   take form readiness
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form readiness-check-summary, name <ReadinessCheckSummary>

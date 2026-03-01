@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/execution-parameters
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/execution-parameters
   take form execution-parameters
 
 form describe-service-action-execution-parameters-output, name <DescribeServiceActionExecutionParametersOutput>

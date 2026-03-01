@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/replication-task
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/replication-task
   take form replication-task
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form replication-task-list, name <ReplicationTaskList>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/volume-attribute-name
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/volume-attribute-name
   take form volume-attribute-name
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/volume-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/volume-id
   take form volume-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form describe-volume-attribute-request, name <DescribeVolumeAttributeRequest>

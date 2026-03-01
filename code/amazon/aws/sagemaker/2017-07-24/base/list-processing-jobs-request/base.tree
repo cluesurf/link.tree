@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/max-results
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/max-results
   take form max-results
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/next-token
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/processing-job-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/processing-job-status
   take form processing-job-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/sort-by
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/sort-by
   take form sort-by
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/sort-order
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/sort-order
   take form sort-order
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-processing-jobs-request, name <ListProcessingJobsRequest>

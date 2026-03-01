@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/blob
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/blob
   take form blob
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/merge-strategy
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/merge-strategy
   take form merge-strategy
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/resource-type
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/resource-type
   take form resource-type
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/tag-list
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/tag-list
   take form tag-list
 
 form start-import-request, name <StartImportRequest>

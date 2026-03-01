@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/message
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/message
   take form message
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/stop-status
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/stop-status
   take form stop-status
 
 form stop-deployment-output, name <StopDeploymentOutput>

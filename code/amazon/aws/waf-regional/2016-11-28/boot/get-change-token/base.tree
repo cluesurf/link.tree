@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/get-change-token-response
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/get-change-token-response
   take form get-change-token-response
 
-load @termsurf/snow/amazonaws.com/waf-regional/2016-11-28/base/waf-internal-error-exception
+load @cluesurf/snow/amazonaws.com/waf-regional/2016-11-28/base/waf-internal-error-exception
   take form waf-internal-error-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-change-token, name <GetChangeToken>

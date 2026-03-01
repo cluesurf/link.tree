@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/account-id
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/current-instance-type
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/current-instance-type
   take form current-instance-type
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/finding
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/finding
   take form finding
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/instance-arn
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/instance-arn
   take form instance-arn
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/instance-name
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/instance-name
   take form instance-name
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/instance-recommendation-finding-reason-codes
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/instance-recommendation-finding-reason-codes
   take form instance-recommendation-finding-reason-codes
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/last-refresh-timestamp
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/last-refresh-timestamp
   take form last-refresh-timestamp
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/look-back-period-in-days
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/look-back-period-in-days
   take form look-back-period-in-days
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/recommendation-options
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/recommendation-options
   take form recommendation-options
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/recommendation-sources
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/recommendation-sources
   take form recommendation-sources
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/utilization-metrics
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/utilization-metrics
   take form utilization-metrics
 
 form instance-recommendation, name <InstanceRecommendation>

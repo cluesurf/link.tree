@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/coverage-cost
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/coverage-cost
   take form coverage-cost
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/coverage-hours
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/coverage-hours
   take form coverage-hours
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/coverage-normalized-units
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/coverage-normalized-units
   take form coverage-normalized-units
 
 form coverage, name <Coverage>

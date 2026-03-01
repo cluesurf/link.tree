@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/classification-details
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/classification-details
   take form classification-details
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/finding-category
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/finding-category
   take form finding-category
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/finding-type
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/finding-type
   take form finding-type
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/long
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/policy-details
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/policy-details
   take form policy-details
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/resources-affected
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/resources-affected
   take form resources-affected
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/severity
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/severity
   take form severity
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/timestamp-iso8601
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/timestamp-iso8601
   take form timestamp-iso8601
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form finding, name <Finding>

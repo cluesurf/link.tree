@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/redshift/2012-12-01/base/endpoint-access
+load @cluesurf/snow/amazonaws.com/redshift/2012-12-01/base/endpoint-access
   take form endpoint-access
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form endpoint-accesses, name <EndpointAccesses>

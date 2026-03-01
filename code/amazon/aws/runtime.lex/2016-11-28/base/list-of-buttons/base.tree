@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/button
+load @cluesurf/snow/amazonaws.com/runtime.lex/2016-11-28/base/button
   take form button
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-buttons, name <listOfButtons>

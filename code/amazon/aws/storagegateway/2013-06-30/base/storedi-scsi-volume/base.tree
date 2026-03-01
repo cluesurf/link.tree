@@ -1,47 +1,47 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/created-date
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/created-date
   take form created-date
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/disk-id
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/disk-id
   take form disk-id
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/double-object
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/double-object
   take form double-object
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/kms-key
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/kms-key
   take form kms-key
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/long
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/snapshot-id
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/snapshot-id
   take form snapshot-id
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/target-name
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/target-name
   take form target-name
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-arn
   take form volume-arn
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-attachment-status
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-attachment-status
   take form volume-attachment-status
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-id
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-id
   take form volume-id
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-status
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-status
   take form volume-status
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-type
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-type
   take form volume-type
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-used-in-bytes
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volume-used-in-bytes
   take form volume-used-in-bytes
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volumei-scsi-attributes
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/volumei-scsi-attributes
   take form volumei-scsi-attributes
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form storedi-scsi-volume, name <StorediSCSIVolume>

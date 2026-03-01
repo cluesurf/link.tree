@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/billingbudgets/v1beta1/base/google-cloud-billing-budgets-v1beta1-all-updates-rule
+load @cluesurf/snow/googleapis.com/billingbudgets/v1beta1/base/google-cloud-billing-budgets-v1beta1-all-updates-rule
   take form google-cloud-billing-budgets-v1beta1-all-updates-rule
 
-load @termsurf/snow/googleapis.com/billingbudgets/v1beta1/base/google-cloud-billing-budgets-v1beta1-budget-amount
+load @cluesurf/snow/googleapis.com/billingbudgets/v1beta1/base/google-cloud-billing-budgets-v1beta1-budget-amount
   take form google-cloud-billing-budgets-v1beta1-budget-amount
 
-load @termsurf/snow/googleapis.com/billingbudgets/v1beta1/base/google-cloud-billing-budgets-v1beta1-filter
+load @cluesurf/snow/googleapis.com/billingbudgets/v1beta1/base/google-cloud-billing-budgets-v1beta1-filter
   take form google-cloud-billing-budgets-v1beta1-filter
 
 form google-cloud-billing-budgets-v1beta1-budget, name <GoogleCloudBillingBudgetsV1beta1Budget>

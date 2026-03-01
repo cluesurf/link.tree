@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/destination-configuration
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/destination-configuration
   take form destination-configuration
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-destination-configuration, name <__listOfDestinationConfiguration>

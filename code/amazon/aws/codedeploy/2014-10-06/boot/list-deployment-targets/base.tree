@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-does-not-exist-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-does-not-exist-exception
   take form deployment-does-not-exist-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-id-required-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-id-required-exception
   take form deployment-id-required-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-not-started-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-not-started-exception
   take form deployment-not-started-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-deployment-id-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-deployment-id-exception
   take form invalid-deployment-id-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-deployment-instance-type-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-deployment-instance-type-exception
   take form invalid-deployment-instance-type-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-instance-status-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-instance-status-exception
   take form invalid-instance-status-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-instance-type-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-instance-type-exception
   take form invalid-instance-type-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-next-token-exception
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/invalid-next-token-exception
   take form invalid-next-token-exception
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/list-deployment-targets-output
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/list-deployment-targets-output
   take form list-deployment-targets-output
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-deployment-targets, name <ListDeploymentTargets>

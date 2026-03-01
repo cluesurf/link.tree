@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/gateway-group-summary
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/gateway-group-summary
   take form gateway-group-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form gateway-group-summaries, name <GatewayGroupSummaries>

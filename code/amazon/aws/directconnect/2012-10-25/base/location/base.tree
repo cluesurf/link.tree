@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/available-mac-sec-port-speeds
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/available-mac-sec-port-speeds
   take form available-mac-sec-port-speeds
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/available-port-speeds
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/available-port-speeds
   take form available-port-speeds
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/location-code
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/location-code
   take form location-code
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/location-name
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/location-name
   take form location-name
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/provider-list
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/provider-list
   take form provider-list
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/region
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/region
   take form region
 
 form location, name <Location>

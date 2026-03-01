@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/account-id
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/action
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/action
   take form action
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/budget-name
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/budget-name
   take form budget-name
 
 form describe-budget-action-response, name <DescribeBudgetActionResponse>

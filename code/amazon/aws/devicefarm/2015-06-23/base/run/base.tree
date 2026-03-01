@@ -1,65 +1,65 @@
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/amazon-resource-name
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/amazon-resource-name
   take form amazon-resource-name
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/billing-method
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/billing-method
   take form billing-method
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/counters
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/counters
   take form counters
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/customer-artifact-paths
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/customer-artifact-paths
   take form customer-artifact-paths
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/date-time
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/device-minutes
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/device-minutes
   take form device-minutes
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/device-platform
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/device-platform
   take form device-platform
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/device-selection-result
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/device-selection-result
   take form device-selection-result
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/execution-result
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/execution-result
   take form execution-result
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/execution-result-code
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/execution-result-code
   take form execution-result-code
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/execution-status
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/execution-status
   take form execution-status
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/job-timeout-minutes
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/job-timeout-minutes
   take form job-timeout-minutes
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/location
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/location
   take form location
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/message
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/message
   take form message
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/name
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/network-profile
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/network-profile
   take form network-profile
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/radios
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/radios
   take form radios
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/skip-app-resign
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/skip-app-resign
   take form skip-app-resign
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/test-type
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/test-type
   take form test-type
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form run, name <Run>

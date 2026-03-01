@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/interface
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/interface
   take form interface
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form destination-configuration, name <DestinationConfiguration>

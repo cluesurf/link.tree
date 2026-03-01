@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-connect
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-connect
   take form transit-gateway-connect
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form transit-gateway-connect-list, name <TransitGatewayConnectList>

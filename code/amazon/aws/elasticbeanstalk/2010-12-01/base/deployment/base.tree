@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/deployment-timestamp
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/deployment-timestamp
   take form deployment-timestamp
 
-load @termsurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/nullable-long
+load @cluesurf/snow/amazonaws.com/elasticbeanstalk/2010-12-01/base/nullable-long
   take form nullable-long
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form deployment, name <Deployment>

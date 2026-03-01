@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/message
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/message
   take form message
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/problems
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/problems
   take form problems
 
 form unique-problem, name <UniqueProblem>

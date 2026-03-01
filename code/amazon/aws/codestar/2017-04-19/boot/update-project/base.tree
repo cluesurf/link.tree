@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/project-not-found-exception
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/project-not-found-exception
   take form project-not-found-exception
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/update-project-result
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/update-project-result
   take form update-project-result
 
-load @termsurf/snow/amazonaws.com/codestar/2017-04-19/base/validation-exception
+load @cluesurf/snow/amazonaws.com/codestar/2017-04-19/base/validation-exception
   take form validation-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot update-project, name <UpdateProject>

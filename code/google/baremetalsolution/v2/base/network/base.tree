@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/baremetalsolution/v2/base/vrf
+load @cluesurf/snow/googleapis.com/baremetalsolution/v2/base/vrf
   take form vrf
 
 form network, name <Network>

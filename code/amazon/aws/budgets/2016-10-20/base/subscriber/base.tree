@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/subscriber-address
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/subscriber-address
   take form subscriber-address
 
-load @termsurf/snow/amazonaws.com/budgets/2016-10-20/base/subscription-type
+load @cluesurf/snow/amazonaws.com/budgets/2016-10-20/base/subscription-type
   take form subscription-type
 
 form subscriber, name <Subscriber>

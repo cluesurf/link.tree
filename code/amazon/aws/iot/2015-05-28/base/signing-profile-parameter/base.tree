@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/certificate-arn
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/certificate-arn
   take form certificate-arn
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/certificate-path-on-device
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/certificate-path-on-device
   take form certificate-path-on-device
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/platform
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/platform
   take form platform
 
 form signing-profile-parameter, name <SigningProfileParameter>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-peering-connection-state-reason
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-peering-connection-state-reason
   take form vpc-peering-connection-state-reason
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-peering-connection-vpc-info
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-peering-connection-vpc-info
   take form vpc-peering-connection-vpc-info
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form vpc-peering-connection, name <VpcPeeringConnection>

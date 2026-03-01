@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/dimension-values-with-attributes
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/dimension-values-with-attributes
   take form dimension-values-with-attributes
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form dimension-values-with-attributes-list, name <DimensionValuesWithAttributesList>

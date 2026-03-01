@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/bigqueryconnection/v1beta1/base/connection
+load @cluesurf/snow/googleapis.com/bigqueryconnection/v1beta1/base/connection
   take form connection
 
 boot bigqueryconnection-projects-locations-connections-create, name <bigqueryconnection.projects.locations.connections.create>

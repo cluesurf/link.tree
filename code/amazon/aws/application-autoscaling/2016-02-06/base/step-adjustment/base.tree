@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/application-autoscaling/2016-02-06/base/metric-scale
+load @cluesurf/snow/amazonaws.com/application-autoscaling/2016-02-06/base/metric-scale
   take form metric-scale
 
-load @termsurf/snow/amazonaws.com/application-autoscaling/2016-02-06/base/scaling-adjustment
+load @cluesurf/snow/amazonaws.com/application-autoscaling/2016-02-06/base/scaling-adjustment
   take form scaling-adjustment
 
 form step-adjustment, name <StepAdjustment>

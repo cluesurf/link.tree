@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kafka/2018-11-14/base/cluster-operation-step
+load @cluesurf/snow/amazonaws.com/kafka/2018-11-14/base/cluster-operation-step
   take form cluster-operation-step
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-cluster-operation-step, name <__listOfClusterOperationStep>

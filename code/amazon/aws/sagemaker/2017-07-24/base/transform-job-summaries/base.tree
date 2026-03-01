@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/transform-job-summary
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/transform-job-summary
   take form transform-job-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form transform-job-summaries, name <TransformJobSummaries>

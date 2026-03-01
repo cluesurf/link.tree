@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-behavior
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-behavior
   take form cache-behavior
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-behavior-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-behavior-list
   take form cache-behavior-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-settings
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/cache-settings
   take form cache-settings
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/ip-address-type
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/ip-address-type
   take form ip-address-type
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/iso-date
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/iso-date
   take form iso-date
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/non-empty-string
   take form non-empty-string
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/origin
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/origin
   take form origin
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-location
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-location
   take form resource-location
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-name
   take form resource-name
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-type
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/resource-type
   take form resource-type
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/string-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/string-list
   take form string-list
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/tag-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form lightsail-distribution, name <LightsailDistribution>

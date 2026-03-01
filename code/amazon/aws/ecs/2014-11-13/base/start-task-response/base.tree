@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/failures
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/failures
   take form failures
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/tasks
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/tasks
   take form tasks
 
 form start-task-response, name <StartTaskResponse>

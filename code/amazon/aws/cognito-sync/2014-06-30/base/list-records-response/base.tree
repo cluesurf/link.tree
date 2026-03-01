@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/long
+load @cluesurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/merged-dataset-name-list
+load @cluesurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/merged-dataset-name-list
   take form merged-dataset-name-list
 
-load @termsurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/record-list
+load @cluesurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/record-list
   take form record-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-records-response, name <ListRecordsResponse>

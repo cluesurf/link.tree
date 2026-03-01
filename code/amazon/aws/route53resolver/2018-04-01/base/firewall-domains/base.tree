@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53resolver/2018-04-01/base/firewall-domain-name
+load @cluesurf/snow/amazonaws.com/route53resolver/2018-04-01/base/firewall-domain-name
   take form firewall-domain-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form firewall-domains, name <FirewallDomains>

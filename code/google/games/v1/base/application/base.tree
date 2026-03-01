@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/games/v1/base/application-category
+load @cluesurf/snow/googleapis.com/games/v1/base/application-category
   take form application-category
 
 form application, name <Application>

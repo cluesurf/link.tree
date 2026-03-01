@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/get-ops-summary-result
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/get-ops-summary-result
   take form get-ops-summary-result
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-aggregator-exception
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-aggregator-exception
   take form invalid-aggregator-exception
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-filter
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-filter
   take form invalid-filter
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-next-token
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-next-token
   take form invalid-next-token
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-type-name-exception
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/invalid-type-name-exception
   take form invalid-type-name-exception
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/resource-data-sync-not-found-exception
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/resource-data-sync-not-found-exception
   take form resource-data-sync-not-found-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-ops-summary, name <GetOpsSummary>

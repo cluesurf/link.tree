@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/device-list
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/device-list
   take form device-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-devices-response, name <GetDevicesResponse>

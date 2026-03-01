@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/job-flow-detail
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/job-flow-detail
   take form job-flow-detail
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form job-flow-detail-list, name <JobFlowDetailList>

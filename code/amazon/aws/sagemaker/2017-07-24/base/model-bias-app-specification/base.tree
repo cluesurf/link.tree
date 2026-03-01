@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-uri
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/image-uri
   take form image-uri
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-environment-map
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/monitoring-environment-map
   take form monitoring-environment-map
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
   take form s3-uri
 
 form model-bias-app-specification, name <ModelBiasAppSpecification>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/availability-zones-list
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/availability-zones-list
   take form availability-zones-list
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/release-status-values
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/release-status-values
   take form release-status-values
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form orderable-replication-instance, name <OrderableReplicationInstance>

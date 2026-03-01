@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/cluster-id
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/cluster-id
   take form cluster-id
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/container-info
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/container-info
   take form container-info
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/container-provider-type
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/container-provider-type
   take form container-provider-type
 
 form create-virtual-cluster-body

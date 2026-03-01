@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-class
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-class
   take form event-class
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-data-source
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-data-source
   take form event-data-source
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-id
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-id
   take form event-id
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-name
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-name
   take form event-name
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-resources
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-resources
   take form event-resources
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-source
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/event-source
   take form event-source
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/resource-collection
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/resource-collection
   take form resource-collection
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/timestamp
   take form timestamp
 
 form event, name <Event>

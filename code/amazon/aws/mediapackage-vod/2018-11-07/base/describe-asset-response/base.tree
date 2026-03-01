@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/list-of-egress-endpoint
+load @cluesurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/list-of-egress-endpoint
   take form list-of-egress-endpoint
 
-load @termsurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/tags
+load @cluesurf/snow/amazonaws.com/mediapackage-vod/2018-11-07/base/tags
   take form tags
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-asset-response, name <DescribeAssetResponse>

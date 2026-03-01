@@ -1,53 +1,53 @@
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-description
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-description
   take form app-description
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-id
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-id
   take form app-id
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-launch-configuration-status
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-launch-configuration-status
   take form app-launch-configuration-status
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-launch-status
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-launch-status
   take form app-launch-status
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-launch-status-message
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-launch-status-message
   take form app-launch-status-message
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-name
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-name
   take form app-name
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-replication-configuration-status
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-replication-configuration-status
   take form app-replication-configuration-status
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-replication-status
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-replication-status
   take form app-replication-status
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-replication-status-message
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-replication-status-message
   take form app-replication-status-message
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-status
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-status
   take form app-status
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/app-status-message
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/app-status-message
   take form app-status-message
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/imported-app-id
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/imported-app-id
   take form imported-app-id
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/launch-details
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/launch-details
   take form launch-details
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/role-name
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/role-name
   take form role-name
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/total-server-groups
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/total-server-groups
   take form total-server-groups
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/total-servers
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/total-servers
   take form total-servers
 
 form app-summary, name <AppSummary>

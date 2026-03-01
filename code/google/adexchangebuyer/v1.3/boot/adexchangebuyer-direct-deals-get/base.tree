@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/adexchangebuyer/v1.3/base/direct-deal
+load @cluesurf/snow/googleapis.com/adexchangebuyer/v1.3/base/direct-deal
   take form direct-deal
 
 boot adexchangebuyer-direct-deals-get, name <adexchangebuyer.directDeals.get>

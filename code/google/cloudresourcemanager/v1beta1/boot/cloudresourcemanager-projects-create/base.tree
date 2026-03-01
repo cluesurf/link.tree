@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/googleapis.com/cloudresourcemanager/v1beta1/base/project
+load @cluesurf/snow/googleapis.com/cloudresourcemanager/v1beta1/base/project
   take form project
 
 boot cloudresourcemanager-projects-create, name <cloudresourcemanager.projects.create>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/execution-parameter
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/execution-parameter
   take form execution-parameter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form execution-parameters, name <ExecutionParameters>

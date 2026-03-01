@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
   take form filter-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-connect-peer-id-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-connect-peer-id-string-list
   take form transit-gateway-connect-peer-id-string-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-max-results
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/transit-gateway-max-results
   take form transit-gateway-max-results
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-transit-gateway-connect-peers-request, name <DescribeTransitGatewayConnectPeersRequest>

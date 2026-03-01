@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/pool-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/pool-arn
   take form pool-arn
 
 form delete-tape-pool-output, name <DeleteTapePoolOutput>

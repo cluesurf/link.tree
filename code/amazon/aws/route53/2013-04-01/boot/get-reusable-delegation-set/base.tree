@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/delegation-set-not-reusable
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/delegation-set-not-reusable
   take form delegation-set-not-reusable
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/get-reusable-delegation-set-response
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/get-reusable-delegation-set-response
   take form get-reusable-delegation-set-response
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-input
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-input
   take form invalid-input
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/no-such-delegation-set
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/no-such-delegation-set
   take form no-such-delegation-set
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-reusable-delegation-set, name <GetReusableDelegationSet>

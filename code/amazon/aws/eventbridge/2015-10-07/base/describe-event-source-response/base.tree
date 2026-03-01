@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/event-source-state
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/event-source-state
   take form event-source-state
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/timestamp
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-event-source-response, name <DescribeEventSourceResponse>

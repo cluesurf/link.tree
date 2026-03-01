@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2020-05-31/base/function-execution-log-list
+load @cluesurf/snow/amazonaws.com/cloudfront/2020-05-31/base/function-execution-log-list
   take form function-execution-log-list
 
-load @termsurf/snow/amazonaws.com/cloudfront/2020-05-31/base/function-summary
+load @cluesurf/snow/amazonaws.com/cloudfront/2020-05-31/base/function-summary
   take form function-summary
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form test-result, name <TestResult>

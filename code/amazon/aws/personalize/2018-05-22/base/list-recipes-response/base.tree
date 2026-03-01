@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/next-token
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/next-token
   take form next-token
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/recipes
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/recipes
   take form recipes
 
 form list-recipes-response, name <ListRecipesResponse>

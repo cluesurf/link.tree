@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-output-config
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-output-config
   take form edge-output-config
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-packaging-job-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-packaging-job-arn
   take form edge-packaging-job-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-packaging-job-status
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-packaging-job-status
   take form edge-packaging-job-status
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-preset-deployment-output
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-preset-deployment-output
   take form edge-preset-deployment-output
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-version
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-version
   take form edge-version
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
   take form entity-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
   take form kms-key-id
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/role-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
   take form s3-uri
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-edge-packaging-job-response, name <DescribeEdgePackagingJobResponse>

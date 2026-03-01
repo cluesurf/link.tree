@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/alarms
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/alarms
   take form alarms
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/arn
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/auth-mode
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/auth-mode
   take form auth-mode
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/description
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/email
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/email
   take form email
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/id
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/image-location
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/image-location
   take form image-location
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/name
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/portal-client-id
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/portal-client-id
   take form portal-client-id
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/portal-status
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/portal-status
   take form portal-status
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/timestamp
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/url
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/url
   take form url
 
 form describe-portal-response, name <DescribePortalResponse>

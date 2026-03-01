@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/directory-path
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/directory-path
   take form directory-path
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/file-system-access-mode
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/file-system-access-mode
   take form file-system-access-mode
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/file-system-id
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/file-system-id
   take form file-system-id
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/file-system-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/file-system-type
   take form file-system-type
 
 form file-system-data-source, name <FileSystemDataSource>

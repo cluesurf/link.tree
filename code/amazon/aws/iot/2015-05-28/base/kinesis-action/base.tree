@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/aws-arn
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/aws-arn
   take form aws-arn
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/partition-key
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/partition-key
   take form partition-key
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/stream-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/stream-name
   take form stream-name
 
 form kinesis-action, name <KinesisAction>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-key-pairs-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/describe-key-pairs-result
   take form describe-key-pairs-result
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/filter
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/filter
   take form filter
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/key-pair-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/key-pair-id
   take form key-pair-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/key-pair-name
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/key-pair-name
   take form key-pair-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-describe-key-pairs, name <GET_DescribeKeyPairs>

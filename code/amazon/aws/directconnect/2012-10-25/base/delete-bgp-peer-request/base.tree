@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/asn
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/asn
   take form asn
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/bgp-peer-id
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/bgp-peer-id
   take form bgp-peer-id
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/customer-address
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/customer-address
   take form customer-address
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-id
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-id
   take form virtual-interface-id
 
 form delete-bgp-peer-request, name <DeleteBGPPeerRequest>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/list-of-string
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/list-of-string
   take form list-of-string
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/map-of-string-to-string
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/map-of-string-to-string
   take form map-of-string-to-string
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/vpc-link-status
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/vpc-link-status
   take form vpc-link-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form vpc-link, name <VpcLink>

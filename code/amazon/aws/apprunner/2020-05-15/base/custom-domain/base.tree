@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/apprunner/2020-05-15/base/certificate-validation-record-list
+load @cluesurf/snow/amazonaws.com/apprunner/2020-05-15/base/certificate-validation-record-list
   take form certificate-validation-record-list
 
-load @termsurf/snow/amazonaws.com/apprunner/2020-05-15/base/custom-domain-association-status
+load @cluesurf/snow/amazonaws.com/apprunner/2020-05-15/base/custom-domain-association-status
   take form custom-domain-association-status
 
-load @termsurf/snow/amazonaws.com/apprunner/2020-05-15/base/domain-name
+load @cluesurf/snow/amazonaws.com/apprunner/2020-05-15/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/apprunner/2020-05-15/base/nullable-boolean
+load @cluesurf/snow/amazonaws.com/apprunner/2020-05-15/base/nullable-boolean
   take form nullable-boolean
 
 form custom-domain, name <CustomDomain>

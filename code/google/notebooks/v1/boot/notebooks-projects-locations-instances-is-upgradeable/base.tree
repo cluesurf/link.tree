@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/notebooks/v1/base/is-instance-upgradeable-response
+load @cluesurf/snow/googleapis.com/notebooks/v1/base/is-instance-upgradeable-response
   take form is-instance-upgradeable-response
 
 boot notebooks-projects-locations-instances-is-upgradeable, name <notebooks.projects.locations.instances.isUpgradeable>

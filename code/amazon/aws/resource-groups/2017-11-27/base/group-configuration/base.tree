@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration-failure-reason
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration-failure-reason
   take form group-configuration-failure-reason
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration-list
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration-list
   take form group-configuration-list
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration-status
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration-status
   take form group-configuration-status
 
 form group-configuration, name <GroupConfiguration>

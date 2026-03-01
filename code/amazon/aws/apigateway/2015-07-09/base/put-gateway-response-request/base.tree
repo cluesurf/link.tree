@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/map-of-string-to-string
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/map-of-string-to-string
   take form map-of-string-to-string
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/status-code
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/status-code
   take form status-code
 
 form put-gateway-response-request, name <PutGatewayResponseRequest>

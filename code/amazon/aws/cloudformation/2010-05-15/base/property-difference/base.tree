@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/difference-type
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/difference-type
   take form difference-type
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/property-path
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/property-path
   take form property-path
 
-load @termsurf/snow/amazonaws.com/cloudformation/2010-05-15/base/property-value
+load @cluesurf/snow/amazonaws.com/cloudformation/2010-05-15/base/property-value
   take form property-value
 
 form property-difference, name <PropertyDifference>

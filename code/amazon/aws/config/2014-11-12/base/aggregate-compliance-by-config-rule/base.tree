@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/account-id
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/account-id
   take form account-id
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/aws-region
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/aws-region
   take form aws-region
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/compliance
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/compliance
   take form compliance
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-name
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/config-rule-name
   take form config-rule-name
 
 form aggregate-compliance-by-config-rule, name <AggregateComplianceByConfigRule>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/appengine/v1alpha/base/certificate-raw-data
+load @cluesurf/snow/googleapis.com/appengine/v1alpha/base/certificate-raw-data
   take form certificate-raw-data
 
-load @termsurf/snow/googleapis.com/appengine/v1alpha/base/managed-certificate
+load @cluesurf/snow/googleapis.com/appengine/v1alpha/base/managed-certificate
   take form managed-certificate
 
 form authorized-certificate, name <AuthorizedCertificate>

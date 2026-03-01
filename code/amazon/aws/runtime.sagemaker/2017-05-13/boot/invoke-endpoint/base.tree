@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/internal-failure
+load @cluesurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/internal-failure
   take form internal-failure
 
-load @termsurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/invoke-endpoint-body
+load @cluesurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/invoke-endpoint-body
   take form invoke-endpoint-body
 
-load @termsurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/invoke-endpoint-output
+load @cluesurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/invoke-endpoint-output
   take form invoke-endpoint-output
 
-load @termsurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/model-error
+load @cluesurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/model-error
   take form model-error
 
-load @termsurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/service-unavailable
+load @cluesurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/service-unavailable
   take form service-unavailable
 
-load @termsurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/validation-error
+load @cluesurf/snow/amazonaws.com/runtime.sagemaker/2017-05-13/base/validation-error
   take form validation-error
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot invoke-endpoint, name <InvokeEndpoint>

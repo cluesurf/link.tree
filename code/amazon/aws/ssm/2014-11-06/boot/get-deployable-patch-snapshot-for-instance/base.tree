@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/get-deployable-patch-snapshot-for-instance-result
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/get-deployable-patch-snapshot-for-instance-result
   take form get-deployable-patch-snapshot-for-instance-result
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/unsupported-feature-required-exception
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/unsupported-feature-required-exception
   take form unsupported-feature-required-exception
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/unsupported-operating-system
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/unsupported-operating-system
   take form unsupported-operating-system
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-deployable-patch-snapshot-for-instance, name <GetDeployablePatchSnapshotForInstance>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/event-bus-name-or-arn
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/event-bus-name-or-arn
   take form event-bus-name-or-arn
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/rule-name
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/rule-name
   take form rule-name
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/target-id-list
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/target-id-list
   take form target-id-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form remove-targets-request, name <RemoveTargetsRequest>

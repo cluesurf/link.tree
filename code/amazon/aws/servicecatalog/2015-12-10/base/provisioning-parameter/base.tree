@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/parameter-key
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/parameter-key
   take form parameter-key
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/parameter-value
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/parameter-value
   take form parameter-value
 
 form provisioning-parameter, name <ProvisioningParameter>

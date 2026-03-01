@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/mq/2017-11-27/base/authentication-strategy
+load @cluesurf/snow/amazonaws.com/mq/2017-11-27/base/authentication-strategy
   take form authentication-strategy
 
-load @termsurf/snow/amazonaws.com/mq/2017-11-27/base/configuration-revision
+load @cluesurf/snow/amazonaws.com/mq/2017-11-27/base/configuration-revision
   take form configuration-revision
 
-load @termsurf/snow/amazonaws.com/mq/2017-11-27/base/timestamp-iso8601
+load @cluesurf/snow/amazonaws.com/mq/2017-11-27/base/timestamp-iso8601
   take form timestamp-iso8601
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-configuration-response, name <CreateConfigurationResponse>

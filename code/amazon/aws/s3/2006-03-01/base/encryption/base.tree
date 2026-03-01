@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/kms-context
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/kms-context
   take form kms-context
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/server-side-encryption
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/server-side-encryption
   take form server-side-encryption
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/ssekms-key-id
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/ssekms-key-id
   take form ssekms-key-id
 
 form encryption, name <Encryption>

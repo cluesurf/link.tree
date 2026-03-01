@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-configuration-key
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-configuration-key
   take form action-configuration-key
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-configuration-property-type
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/action-configuration-property-type
   take form action-configuration-property-type
 
-load @termsurf/snow/amazonaws.com/codepipeline/2015-07-09/base/description
+load @cluesurf/snow/amazonaws.com/codepipeline/2015-07-09/base/description
   take form description
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form action-configuration-property, name <ActionConfigurationProperty>

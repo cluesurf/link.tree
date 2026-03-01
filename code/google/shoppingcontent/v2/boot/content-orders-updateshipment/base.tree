@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/shoppingcontent/v2/base/orders-update-shipment-response
+load @cluesurf/snow/googleapis.com/shoppingcontent/v2/base/orders-update-shipment-response
   take form orders-update-shipment-response
 
 boot content-orders-updateshipment, name <content.orders.updateshipment>

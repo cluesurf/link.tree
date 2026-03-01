@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/serverlessrepo/2017-09-08/base/list-of-string
+load @cluesurf/snow/amazonaws.com/serverlessrepo/2017-09-08/base/list-of-string
   take form list-of-string
 
-load @termsurf/snow/amazonaws.com/serverlessrepo/2017-09-08/base/version
+load @cluesurf/snow/amazonaws.com/serverlessrepo/2017-09-08/base/version
   take form version
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-application-response, name <GetApplicationResponse>

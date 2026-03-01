@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/custom-routing-endpoint-description
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/custom-routing-endpoint-description
   take form custom-routing-endpoint-description
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form custom-routing-endpoint-descriptions, name <CustomRoutingEndpointDescriptions>

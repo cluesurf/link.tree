@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/workspace-request
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/workspace-request
   take form workspace-request
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form workspace-request-list, name <WorkspaceRequestList>

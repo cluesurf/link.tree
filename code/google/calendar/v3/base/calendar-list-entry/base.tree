@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/calendar/v3/base/conference-properties
+load @cluesurf/snow/googleapis.com/calendar/v3/base/conference-properties
   take form conference-properties
 
 form calendar-list-entry, name <CalendarListEntry>

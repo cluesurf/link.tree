@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/alertcenter/v1beta1/base/login-details
+load @cluesurf/snow/googleapis.com/alertcenter/v1beta1/base/login-details
   take form login-details
 
 form account-warning, name <AccountWarning>

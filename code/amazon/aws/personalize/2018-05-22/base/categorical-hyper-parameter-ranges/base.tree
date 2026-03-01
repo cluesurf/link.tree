@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/personalize/2018-05-22/base/categorical-hyper-parameter-range
+load @cluesurf/snow/amazonaws.com/personalize/2018-05-22/base/categorical-hyper-parameter-range
   take form categorical-hyper-parameter-range
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form categorical-hyper-parameter-ranges, name <CategoricalHyperParameterRanges>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/date-time
+load @cluesurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-arn
+load @cluesurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-arn
   take form model-arn
 
-load @termsurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-description-message
+load @cluesurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-description-message
   take form model-description-message
 
-load @termsurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-performance
+load @cluesurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-performance
   take form model-performance
 
-load @termsurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-status
+load @cluesurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-status
   take form model-status
 
-load @termsurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-status-message
+load @cluesurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-status-message
   take form model-status-message
 
-load @termsurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-version
+load @cluesurf/snow/amazonaws.com/lookoutvision/2020-11-20/base/model-version
   take form model-version
 
 form model-metadata, name <ModelMetadata>

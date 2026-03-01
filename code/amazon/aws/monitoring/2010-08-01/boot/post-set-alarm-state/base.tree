@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/invalid-format-fault
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/invalid-format-fault
   take form invalid-format-fault
 
-load @termsurf/snow/amazonaws.com/monitoring/2010-08-01/base/resource-not-found
+load @cluesurf/snow/amazonaws.com/monitoring/2010-08-01/base/resource-not-found
   take form resource-not-found
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-set-alarm-state, name <POST_SetAlarmState>

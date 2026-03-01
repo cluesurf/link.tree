@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/schemas/2019-12-02/base/search-schema-summary
+load @cluesurf/snow/amazonaws.com/schemas/2019-12-02/base/search-schema-summary
   take form search-schema-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-search-schema-summary, name <__listOfSearchSchemaSummary>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/gateway-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/gateway-arn
   take form gateway-arn
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/kms-key
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/kms-key
   take form kms-key
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/pool-id
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/pool-id
   take form pool-id
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tags
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tags
   take form tags
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-barcode
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-barcode
   take form tape-barcode
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-size
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/tape-size
   take form tape-size
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form create-tape-with-barcode-input, name <CreateTapeWithBarcodeInput>

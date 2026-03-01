@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/compute/beta/base/http-health-check
+load @cluesurf/snow/googleapis.com/compute/beta/base/http-health-check
   take form http-health-check
 
 boot compute-http-health-checks-get, name <compute.httpHealthChecks.get>

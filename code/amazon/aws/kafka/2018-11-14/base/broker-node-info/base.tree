@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/kafka/2018-11-14/base/broker-software-info
+load @cluesurf/snow/amazonaws.com/kafka/2018-11-14/base/broker-software-info
   take form broker-software-info
 
-load @termsurf/snow/amazonaws.com/kafka/2018-11-14/base/double
+load @cluesurf/snow/amazonaws.com/kafka/2018-11-14/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/kafka/2018-11-14/base/list-of-string
+load @cluesurf/snow/amazonaws.com/kafka/2018-11-14/base/list-of-string
   take form list-of-string
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form broker-node-info, name <BrokerNodeInfo>

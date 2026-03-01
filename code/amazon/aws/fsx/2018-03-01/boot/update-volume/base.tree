@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/bad-request
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/bad-request
   take form bad-request
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/incompatible-parameter-error
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/incompatible-parameter-error
   take form incompatible-parameter-error
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/missing-volume-configuration
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/missing-volume-configuration
   take form missing-volume-configuration
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/update-volume-response
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/update-volume-response
   take form update-volume-response
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-not-found
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-not-found
   take form volume-not-found
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot update-volume, name <UpdateVolume>

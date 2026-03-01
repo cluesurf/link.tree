@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/member-error
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/member-error
   take form member-error
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form member-error-list, name <MemberErrorList>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/compute/beta/base/duration
+load @cluesurf/snow/googleapis.com/compute/beta/base/duration
   take form duration
 
 form outlier-detection, name <OutlierDetection>

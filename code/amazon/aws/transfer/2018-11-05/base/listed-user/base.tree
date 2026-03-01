@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/arn
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/home-directory
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/home-directory
   take form home-directory
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/home-directory-type
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/home-directory-type
   take form home-directory-type
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/role
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/role
   take form role
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/ssh-public-key-count
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/ssh-public-key-count
   take form ssh-public-key-count
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/user-name
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/user-name
   take form user-name
 
 form listed-user, name <ListedUser>

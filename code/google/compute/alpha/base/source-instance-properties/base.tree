@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/metadata
+load @cluesurf/snow/googleapis.com/compute/alpha/base/metadata
   take form metadata
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/scheduling
+load @cluesurf/snow/googleapis.com/compute/alpha/base/scheduling
   take form scheduling
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/tags
+load @cluesurf/snow/googleapis.com/compute/alpha/base/tags
   take form tags
 
 form source-instance-properties, name <SourceInstanceProperties>

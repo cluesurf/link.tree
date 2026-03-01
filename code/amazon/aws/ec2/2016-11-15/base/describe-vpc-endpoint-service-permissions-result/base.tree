@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/allowed-principal-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/allowed-principal-set
   take form allowed-principal-set
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-vpc-endpoint-service-permissions-result, name <DescribeVpcEndpointServicePermissionsResult>

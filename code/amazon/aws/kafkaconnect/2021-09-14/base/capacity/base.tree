@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/auto-scaling
+load @cluesurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/auto-scaling
   take form auto-scaling
 
-load @termsurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/provisioned-capacity
+load @cluesurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/provisioned-capacity
   take form provisioned-capacity
 
 form capacity, name <Capacity>

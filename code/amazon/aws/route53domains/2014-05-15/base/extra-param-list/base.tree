@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/extra-param
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/extra-param
   take form extra-param
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form extra-param-list, name <ExtraParamList>

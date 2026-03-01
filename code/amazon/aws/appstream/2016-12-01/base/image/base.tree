@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/applications
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/applications
   take form applications
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/appstream-agent-version
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/appstream-agent-version
   take form appstream-agent-version
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/arn
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/image-permissions
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/image-permissions
   take form image-permissions
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/image-state
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/image-state
   take form image-state
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/image-state-change-reason
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/image-state-change-reason
   take form image-state-change-reason
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/platform-type
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/platform-type
   take form platform-type
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/resource-errors
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/resource-errors
   take form resource-errors
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/visibility-type
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/visibility-type
   take form visibility-type
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form image, name <Image>

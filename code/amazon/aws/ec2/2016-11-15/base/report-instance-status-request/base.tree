@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-id-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-id-string-list
   take form instance-id-string-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/reason-codes-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/reason-codes-list
   take form reason-codes-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/report-status-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/report-status-type
   take form report-status-type
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form report-instance-status-request, name <ReportInstanceStatusRequest>

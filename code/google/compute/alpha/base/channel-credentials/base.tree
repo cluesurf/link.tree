@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/tls-certificate-paths
+load @cluesurf/snow/googleapis.com/compute/alpha/base/tls-certificate-paths
   take form tls-certificate-paths
 
 form channel-credentials, name <ChannelCredentials>

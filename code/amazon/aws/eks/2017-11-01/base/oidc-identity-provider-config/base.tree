@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/eks/2017-11-01/base/config-status
+load @cluesurf/snow/amazonaws.com/eks/2017-11-01/base/config-status
   take form config-status
 
-load @termsurf/snow/amazonaws.com/eks/2017-11-01/base/required-claims-map
+load @cluesurf/snow/amazonaws.com/eks/2017-11-01/base/required-claims-map
   take form required-claims-map
 
-load @termsurf/snow/amazonaws.com/eks/2017-11-01/base/tag-map
+load @cluesurf/snow/amazonaws.com/eks/2017-11-01/base/tag-map
   take form tag-map
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form oidc-identity-provider-config, name <OidcIdentityProviderConfig>

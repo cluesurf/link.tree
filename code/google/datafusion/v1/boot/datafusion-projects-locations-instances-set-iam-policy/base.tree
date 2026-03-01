@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/datafusion/v1/base/policy
+load @cluesurf/snow/googleapis.com/datafusion/v1/base/policy
   take form policy
 
 boot datafusion-projects-locations-instances-set-iam-policy, name <datafusion.projects.locations.instances.setIamPolicy>

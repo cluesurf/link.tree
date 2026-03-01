@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/commit-message
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/commit-message
   take form commit-message
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-description
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-description
   take form package-description
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-id
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-id
   take form package-id
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-source
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/package-source
   take form package-source
 
 form update-package-request, name <UpdatePackageRequest>

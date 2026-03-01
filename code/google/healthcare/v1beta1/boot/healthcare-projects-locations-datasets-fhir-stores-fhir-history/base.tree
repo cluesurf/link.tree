@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/healthcare/v1beta1/base/http-body
+load @cluesurf/snow/googleapis.com/healthcare/v1beta1/base/http-body
   take form http-body
 
 boot healthcare-projects-locations-datasets-fhir-stores-fhir-history, name <healthcare.projects.locations.datasets.fhirStores.fhir.history>

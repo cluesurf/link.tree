@@ -1,17 +1,17 @@
 
-load @termsurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/employee
+load @cluesurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/employee
   take form employee
 
-load @termsurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/income-breakdown
+load @cluesurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/income-breakdown
   take form income-breakdown
 
-load @termsurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/pay-period-details
+load @cluesurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/pay-period-details
   take form pay-period-details
 
-load @termsurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/paystub-employer
+load @cluesurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/paystub-employer
   take form paystub-employer
 
-load @termsurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/paystub-ytd-details
+load @cluesurf/snow/openapi-directory/APIs/plaid.com/2020-09-14_1.20.6/base/paystub-ytd-details
   take form paystub-ytd-details
 
 form paystub, name <Paystub>

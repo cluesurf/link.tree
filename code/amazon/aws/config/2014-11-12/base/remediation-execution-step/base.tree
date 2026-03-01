@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/date
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/remediation-execution-step-state
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/remediation-execution-step-state
   take form remediation-execution-step-state
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form remediation-execution-step, name <RemediationExecutionStep>

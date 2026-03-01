@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/arn
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/integration-association-id
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/integration-association-id
   take form integration-association-id
 
 form create-integration-association-response, name <CreateIntegrationAssociationResponse>

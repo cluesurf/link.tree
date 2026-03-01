@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/export-transit-gateway-routes-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/export-transit-gateway-routes-result
   take form export-transit-gateway-routes-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-export-transit-gateway-routes, name <POST_ExportTransitGatewayRoutes>

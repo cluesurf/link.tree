@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/data-source-summary
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/data-source-summary
   take form data-source-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form data-source-summary-list, name <DataSourceSummaryList>

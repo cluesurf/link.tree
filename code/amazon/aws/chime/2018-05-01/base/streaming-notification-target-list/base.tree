@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/streaming-notification-target
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/streaming-notification-target
   take form streaming-notification-target
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form streaming-notification-target-list, name <StreamingNotificationTargetList>

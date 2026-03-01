@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/blob
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/blob
   take form blob
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/environment-variables
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/environment-variables
   take form environment-variables
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/resource-arn
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/resource-arn
   take form resource-arn
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/s3-bucket
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/s3-bucket
   take form s3-bucket
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/s3-key
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/s3-key
   take form s3-key
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/s3-object-version
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/s3-object-version
   take form s3-object-version
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/security-group-ids
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/security-group-ids
   take form security-group-ids
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/string-list
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/string-list
   take form string-list
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/subnet-ids
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/subnet-ids
   take form subnet-ids
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/tracing-mode
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/tracing-mode
   take form tracing-mode
 
-load @termsurf/snow/amazonaws.com/lambda/2015-03-31/base/working-directory
+load @cluesurf/snow/amazonaws.com/lambda/2015-03-31/base/working-directory
   take form working-directory
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-function-body

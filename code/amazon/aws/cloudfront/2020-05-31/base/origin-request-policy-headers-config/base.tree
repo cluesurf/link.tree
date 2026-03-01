@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2020-05-31/base/headers
+load @cluesurf/snow/amazonaws.com/cloudfront/2020-05-31/base/headers
   take form headers
 
-load @termsurf/snow/amazonaws.com/cloudfront/2020-05-31/base/origin-request-policy-header-behavior
+load @cluesurf/snow/amazonaws.com/cloudfront/2020-05-31/base/origin-request-policy-header-behavior
   take form origin-request-policy-header-behavior
 
 form origin-request-policy-headers-config, name <OriginRequestPolicyHeadersConfig>

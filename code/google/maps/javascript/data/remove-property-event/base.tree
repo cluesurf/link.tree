@@ -1,11 +1,11 @@
 
-load @termsurf/land/code/javascript/base/native-any
+load @cluesurf/land/code/javascript/base/native-any
   take form native-any
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/snow/code/javascript/google/maps/data/feature
+load @cluesurf/snow/code/javascript/google/maps/data/feature
   take form feature
 
 form remove-property-event, name <google.maps.Data.RemovePropertyEvent>

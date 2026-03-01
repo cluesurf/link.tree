@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/boxed-boolean
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/boxed-boolean
   take form boxed-boolean
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/exit-behavior
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/exit-behavior
   take form exit-behavior
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/name
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/name
   take form name
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/unrestricted-command
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/unrestricted-command
   take form unrestricted-command
 
 form tool, name <Tool>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/bigtableadmin/v2/base/multi-cluster-routing-use-any
+load @cluesurf/snow/googleapis.com/bigtableadmin/v2/base/multi-cluster-routing-use-any
   take form multi-cluster-routing-use-any
 
-load @termsurf/snow/googleapis.com/bigtableadmin/v2/base/single-cluster-routing
+load @cluesurf/snow/googleapis.com/bigtableadmin/v2/base/single-cluster-routing
   take form single-cluster-routing
 
 form app-profile, name <AppProfile>

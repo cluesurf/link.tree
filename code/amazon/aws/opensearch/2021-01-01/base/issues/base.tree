@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/issue
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/issue
   take form issue
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form issues, name <Issues>

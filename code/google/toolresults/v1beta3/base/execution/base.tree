@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/toolresults/v1beta3/base/outcome
+load @cluesurf/snow/googleapis.com/toolresults/v1beta3/base/outcome
   take form outcome
 
-load @termsurf/snow/googleapis.com/toolresults/v1beta3/base/specification
+load @cluesurf/snow/googleapis.com/toolresults/v1beta3/base/specification
   take form specification
 
-load @termsurf/snow/googleapis.com/toolresults/v1beta3/base/timestamp
+load @cluesurf/snow/googleapis.com/toolresults/v1beta3/base/timestamp
   take form timestamp
 
 form execution, name <Execution>

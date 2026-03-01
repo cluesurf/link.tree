@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/internet-gateway-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/internet-gateway-id
   take form internet-gateway-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-id
   take form vpc-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form detach-internet-gateway-request, name <DetachInternetGatewayRequest>

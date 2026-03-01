@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/encryption
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/encryption
   take form encryption
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/list-of-media-stream-source-configuration
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/list-of-media-stream-source-configuration
   take form list-of-media-stream-source-configuration
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/transport
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/transport
   take form transport
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form source, name <Source>

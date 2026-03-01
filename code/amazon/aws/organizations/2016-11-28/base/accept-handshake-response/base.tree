@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/organizations/2016-11-28/base/handshake
+load @cluesurf/snow/amazonaws.com/organizations/2016-11-28/base/handshake
   take form handshake
 
 form accept-handshake-response, name <AcceptHandshakeResponse>

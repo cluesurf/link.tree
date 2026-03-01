@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/cpu-options
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/cpu-options
   take form cpu-options
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/instance-block-device-mapping-list
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/instance-block-device-mapping-list
   take form instance-block-device-mapping-list
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/instance-state
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/instance-state
   take form instance-state
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/security-group-identifier-list
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/security-group-identifier-list
   take form security-group-identifier-list
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/timestamp
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form instance, name <Instance>

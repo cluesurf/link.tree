@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/time-to-live-attribute-name
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/time-to-live-attribute-name
   take form time-to-live-attribute-name
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/time-to-live-status
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/time-to-live-status
   take form time-to-live-status
 
 form time-to-live-description, name <TimeToLiveDescription>

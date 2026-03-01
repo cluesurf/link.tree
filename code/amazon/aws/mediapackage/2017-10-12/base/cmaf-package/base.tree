@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/cmaf-encryption
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/cmaf-encryption
   take form cmaf-encryption
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/list-of-hls-manifest
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/list-of-hls-manifest
   take form list-of-hls-manifest
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/stream-selection
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/stream-selection
   take form stream-selection
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form cmaf-package, name <CmafPackage>

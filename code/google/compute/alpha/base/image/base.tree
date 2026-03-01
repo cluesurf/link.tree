@@ -1,14 +1,14 @@
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/customer-encryption-key
+load @cluesurf/snow/googleapis.com/compute/alpha/base/customer-encryption-key
   take form customer-encryption-key
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/deprecation-status
+load @cluesurf/snow/googleapis.com/compute/alpha/base/deprecation-status
   take form deprecation-status
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/initial-state-config
+load @cluesurf/snow/googleapis.com/compute/alpha/base/initial-state-config
   take form initial-state-config
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/rollout-policy
+load @cluesurf/snow/googleapis.com/compute/alpha/base/rollout-policy
   take form rollout-policy
 
 form image, name <Image>

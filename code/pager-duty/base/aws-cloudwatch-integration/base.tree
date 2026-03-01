@@ -1,8 +1,8 @@
 
-load @termsurf/snow/pager-duty/base/api-based-integration
+load @cluesurf/snow/pager-duty/base/api-based-integration
   take form api-based-integration
 
-load @termsurf/snow/pager-duty/base/aws-cloudwatch-integration-reference
+load @cluesurf/snow/pager-duty/base/aws-cloudwatch-integration-reference
   take form aws-cloudwatch-integration-reference
 
 form aws-cloudwatch-integration, name <AwsCloudwatchIntegration>

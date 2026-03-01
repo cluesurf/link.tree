@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/regex-pattern
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/regex-pattern
   take form regex-pattern
 
 form slot-value-regex-filter, name <SlotValueRegexFilter>

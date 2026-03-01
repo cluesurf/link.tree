@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/shield/2016-06-02/base/health-check-ids
+load @cluesurf/snow/amazonaws.com/shield/2016-06-02/base/health-check-ids
   take form health-check-ids
 
-load @termsurf/snow/amazonaws.com/shield/2016-06-02/base/protection-id
+load @cluesurf/snow/amazonaws.com/shield/2016-06-02/base/protection-id
   take form protection-id
 
-load @termsurf/snow/amazonaws.com/shield/2016-06-02/base/protection-name
+load @cluesurf/snow/amazonaws.com/shield/2016-06-02/base/protection-name
   take form protection-name
 
-load @termsurf/snow/amazonaws.com/shield/2016-06-02/base/resource-arn
+load @cluesurf/snow/amazonaws.com/shield/2016-06-02/base/resource-arn
   take form resource-arn
 
 form protection, name <Protection>

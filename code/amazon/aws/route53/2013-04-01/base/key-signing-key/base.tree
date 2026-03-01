@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-integer
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-integer
   take form signing-key-integer
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-name
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-name
   take form signing-key-name
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-status
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-status
   take form signing-key-status
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-status-message
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-status-message
   take form signing-key-status-message
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-string
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-string
   take form signing-key-string
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-tag
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/signing-key-tag
   take form signing-key-tag
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/time-stamp
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/time-stamp
   take form time-stamp
 
 form key-signing-key, name <KeySigningKey>

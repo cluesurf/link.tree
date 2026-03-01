@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/color-scheme
+load @cluesurf/snow/googleapis.com/slides/v1/base/color-scheme
   take form color-scheme
 
-load @termsurf/snow/googleapis.com/slides/v1/base/page-background-fill
+load @cluesurf/snow/googleapis.com/slides/v1/base/page-background-fill
   take form page-background-fill
 
 form page-properties, name <PageProperties>

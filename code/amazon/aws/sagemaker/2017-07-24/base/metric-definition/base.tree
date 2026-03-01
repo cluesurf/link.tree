@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metric-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metric-name
   take form metric-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metric-regex
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metric-regex
   take form metric-regex
 
 form metric-definition, name <MetricDefinition>

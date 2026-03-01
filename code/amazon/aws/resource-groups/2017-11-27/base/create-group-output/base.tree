@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group
   take form group
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration
   take form group-configuration
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/resource-query
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/resource-query
   take form resource-query
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/tags
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/tags
   take form tags
 
 form create-group-output, name <CreateGroupOutput>

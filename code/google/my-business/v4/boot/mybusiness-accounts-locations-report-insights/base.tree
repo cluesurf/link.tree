@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/my-business/v4/base/report-location-insights-response
+load @cluesurf/snow/googleapis.com/my-business/v4/base/report-location-insights-response
   take form report-location-insights-response
 
 boot mybusiness-accounts-locations-report-insights, name <mybusiness.accounts.locations.reportInsights>

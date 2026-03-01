@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/bucket-name
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/bucket-name
   take form bucket-name
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/bucket-prefix
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/bucket-prefix
   take form bucket-prefix
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/error-handling-config
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/error-handling-config
   take form error-handling-config
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/object
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/object
   take form object
 
 form redshift-destination-properties, name <RedshiftDestinationProperties>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudprivatecatalogproducer/v1beta1/base/google-protobuf-empty
+load @cluesurf/snow/googleapis.com/cloudprivatecatalogproducer/v1beta1/base/google-protobuf-empty
   take form google-protobuf-empty
 
 boot cloudprivatecatalogproducer-operations-cancel, name <cloudprivatecatalogproducer.operations.cancel>

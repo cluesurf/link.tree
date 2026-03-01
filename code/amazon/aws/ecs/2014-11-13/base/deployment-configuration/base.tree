@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/boxed-integer
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/boxed-integer
   take form boxed-integer
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/deployment-circuit-breaker
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/deployment-circuit-breaker
   take form deployment-circuit-breaker
 
 form deployment-configuration, name <DeploymentConfiguration>

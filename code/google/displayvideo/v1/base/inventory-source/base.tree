@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/inventory-source-status
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/inventory-source-status
   take form inventory-source-status
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/rate-details
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/rate-details
   take form rate-details
 
-load @termsurf/snow/googleapis.com/displayvideo/v1/base/time-range
+load @cluesurf/snow/googleapis.com/displayvideo/v1/base/time-range
   take form time-range
 
 form inventory-source, name <InventorySource>

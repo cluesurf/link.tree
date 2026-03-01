@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/allowed-methods
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/allowed-methods
   take form allowed-methods
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/forwarded-values
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/forwarded-values
   take form forwarded-values
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/lambda-function-associations
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/lambda-function-associations
   take form lambda-function-associations
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/long
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/trusted-signers
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/trusted-signers
   take form trusted-signers
 
-load @termsurf/snow/amazonaws.com/cloudfront/2019-03-26/base/viewer-protocol-policy
+load @cluesurf/snow/amazonaws.com/cloudfront/2019-03-26/base/viewer-protocol-policy
   take form viewer-protocol-policy
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form cache-behavior, name <CacheBehavior>

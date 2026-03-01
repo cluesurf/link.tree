@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/trunk-interface-association-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/trunk-interface-association-id
   take form trunk-interface-association-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form trunk-interface-association-id-list, name <TrunkInterfaceAssociationIdList>

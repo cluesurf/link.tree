@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/data-filter
+load @cluesurf/snow/googleapis.com/sheets/v4/base/data-filter
   take form data-filter
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/value-range
+load @cluesurf/snow/googleapis.com/sheets/v4/base/value-range
   take form value-range
 
 form update-values-by-data-filter-response, name <UpdateValuesByDataFilterResponse>

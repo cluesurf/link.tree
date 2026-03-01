@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-group-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/capacity-reservation-group-set
   take form capacity-reservation-group-set
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-groups-for-capacity-reservation-result, name <GetGroupsForCapacityReservationResult>

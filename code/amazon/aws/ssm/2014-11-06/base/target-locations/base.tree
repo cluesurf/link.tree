@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/target-location
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/target-location
   take form target-location
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form target-locations, name <TargetLocations>

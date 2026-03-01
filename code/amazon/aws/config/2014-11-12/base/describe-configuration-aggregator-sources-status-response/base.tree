@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/aggregated-source-status-list
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/aggregated-source-status-list
   take form aggregated-source-status-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-configuration-aggregator-sources-status-response, name <DescribeConfigurationAggregatorSourcesStatusResponse>

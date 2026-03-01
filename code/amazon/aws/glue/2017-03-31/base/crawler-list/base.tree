@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/crawler
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/crawler
   take form crawler
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form crawler-list, name <CrawlerList>

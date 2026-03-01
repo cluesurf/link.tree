@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/email-address
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/email-address
   take form email-address
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/user-type
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/user-type
   take form user-type
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-user-request, name <CreateUserRequest>

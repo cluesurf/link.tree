@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/ebs-utilization-metric
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/ebs-utilization-metric
   take form ebs-utilization-metric
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form ebs-utilization-metrics, name <EBSUtilizationMetrics>

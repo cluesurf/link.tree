@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/replication-configuration-template-id
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/replication-configuration-template-id
   take form replication-configuration-template-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form replication-configuration-template-i-ds, name <ReplicationConfigurationTemplateIDs>

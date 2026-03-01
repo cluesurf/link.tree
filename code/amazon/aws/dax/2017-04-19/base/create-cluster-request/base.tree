@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/availability-zone-list
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/availability-zone-list
   take form availability-zone-list
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/cluster-endpoint-encryption-type
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/cluster-endpoint-encryption-type
   take form cluster-endpoint-encryption-type
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/security-group-identifier-list
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/security-group-identifier-list
   take form security-group-identifier-list
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/sse-specification
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/sse-specification
   take form sse-specification
 
-load @termsurf/snow/amazonaws.com/dax/2017-04-19/base/tag-list
+load @cluesurf/snow/amazonaws.com/dax/2017-04-19/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-cluster-request, name <CreateClusterRequest>

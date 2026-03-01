@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/conflicting-domain-exists
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/conflicting-domain-exists
   take form conflicting-domain-exists
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/create-hosted-zone-body
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/create-hosted-zone-body
   take form create-hosted-zone-body
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/create-hosted-zone-response
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/create-hosted-zone-response
   take form create-hosted-zone-response
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/delegation-set-not-available
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/delegation-set-not-available
   take form delegation-set-not-available
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/delegation-set-not-reusable
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/delegation-set-not-reusable
   take form delegation-set-not-reusable
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/hosted-zone-already-exists
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/hosted-zone-already-exists
   take form hosted-zone-already-exists
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-domain-name
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-domain-name
   take form invalid-domain-name
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-input
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-input
   take form invalid-input
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-vpc-id
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/invalid-vpc-id
   take form invalid-vpc-id
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/no-such-delegation-set
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/no-such-delegation-set
   take form no-such-delegation-set
 
-load @termsurf/snow/amazonaws.com/route53/2013-04-01/base/too-many-hosted-zones
+load @cluesurf/snow/amazonaws.com/route53/2013-04-01/base/too-many-hosted-zones
   take form too-many-hosted-zones
 
 boot create-hosted-zone, name <CreateHostedZone>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/twilio.com/api/1.27.2/base/api-v2010-account-new-signing-key
+load @cluesurf/snow/twilio.com/api/1.27.2/base/api-v2010-account-new-signing-key
   take form api-v2010-account-new-signing-key
 
-load @termsurf/snow/twilio.com/api/1.27.2/base/create-new-signing-key-body
+load @cluesurf/snow/twilio.com/api/1.27.2/base/create-new-signing-key-body
   take form create-new-signing-key-body
 
 boot create-new-signing-key, name <CreateNewSigningKey>

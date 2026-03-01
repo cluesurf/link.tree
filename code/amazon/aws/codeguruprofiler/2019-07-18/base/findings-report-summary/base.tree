@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/findings-report-id
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/findings-report-id
   take form findings-report-id
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/timestamp
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form findings-report-summary, name <FindingsReportSummary>

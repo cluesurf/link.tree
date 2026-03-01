@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/backup-plan-versions-list
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/backup-plan-versions-list
   take form backup-plan-versions-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-backup-plan-versions-output, name <ListBackupPlanVersionsOutput>

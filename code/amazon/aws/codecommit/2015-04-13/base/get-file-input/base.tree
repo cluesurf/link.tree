@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/commit-name
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/commit-name
   take form commit-name
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/path
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/path
   take form path
 
-load @termsurf/snow/amazonaws.com/codecommit/2015-04-13/base/repository-name
+load @cluesurf/snow/amazonaws.com/codecommit/2015-04-13/base/repository-name
   take form repository-name
 
 form get-file-input, name <GetFileInput>

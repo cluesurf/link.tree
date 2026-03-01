@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/sheets/v4/base/extended-value
+load @cluesurf/snow/googleapis.com/sheets/v4/base/extended-value
   take form extended-value
 
 form manual-rule-group, name <ManualRuleGroup>

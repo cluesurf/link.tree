@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/master-user-options
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/master-user-options
   take form master-user-options
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/saml-options-input
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/saml-options-input
   take form saml-options-input
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form advanced-security-options-input, name <AdvancedSecurityOptionsInput>

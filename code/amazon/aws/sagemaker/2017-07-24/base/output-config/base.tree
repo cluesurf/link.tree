@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/compiler-options
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/compiler-options
   take form compiler-options
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/kms-key-id
   take form kms-key-id
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
   take form s3-uri
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/target-device
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/target-device
   take form target-device
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/target-platform
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/target-platform
   take form target-platform
 
 form output-config, name <OutputConfig>

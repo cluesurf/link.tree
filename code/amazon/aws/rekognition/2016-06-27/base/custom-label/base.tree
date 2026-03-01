@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/geometry
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/geometry
   take form geometry
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/percent
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/percent
   take form percent
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form custom-label, name <CustomLabel>

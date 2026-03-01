@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/baremetalsolution/v2/base/network-address
+load @cluesurf/snow/googleapis.com/baremetalsolution/v2/base/network-address
   take form network-address
 
 form instance-config, name <InstanceConfig>

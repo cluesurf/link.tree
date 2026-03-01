@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/list-of-message
+load @cluesurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/list-of-message
   take form list-of-message
 
-load @termsurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/readiness
+load @cluesurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/readiness
   take form readiness
 
-load @termsurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/readiness-check-timestamp
+load @cluesurf/snow/amazonaws.com/route53-recovery-readiness/2019-12-02/base/readiness-check-timestamp
   take form readiness-check-timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form rule-result, name <RuleResult>

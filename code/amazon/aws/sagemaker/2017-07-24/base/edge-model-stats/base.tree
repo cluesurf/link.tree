@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-model-stat
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/edge-model-stat
   take form edge-model-stat
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form edge-model-stats, name <EdgeModelStats>

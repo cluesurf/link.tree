@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.4/base/creative
+load @cluesurf/snow/googleapis.com/dfareporting/v3.4/base/creative
   take form creative
 
 boot dfareporting-creatives-insert, name <dfareporting.creatives.insert>

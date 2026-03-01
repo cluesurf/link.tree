@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/okta/base/identity-provider
+load @cluesurf/snow/okta/base/identity-provider
   take form identity-provider
 
 boot update-identity-provider, name <updateIdentityProvider>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/cache-node-type-specific-value-list
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/cache-node-type-specific-value-list
   take form cache-node-type-specific-value-list
 
-load @termsurf/snow/amazonaws.com/elasticache/2015-02-02/base/change-type
+load @cluesurf/snow/amazonaws.com/elasticache/2015-02-02/base/change-type
   take form change-type
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form cache-node-type-specific-parameter, name <CacheNodeTypeSpecificParameter>

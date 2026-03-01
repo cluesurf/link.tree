@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/bucket-key-value
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/bucket-key-value
   take form bucket-key-value
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/count
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/count
   take form count
 
 form bucket, name <Bucket>

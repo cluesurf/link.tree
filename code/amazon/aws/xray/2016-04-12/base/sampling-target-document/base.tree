@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/double
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/double
   take form double
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-integer
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/nullable-integer
   take form nullable-integer
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form sampling-target-document, name <SamplingTargetDocument>

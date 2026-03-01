@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-name
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-name
   take form upgrade-name
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-status
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-status
   take form upgrade-status
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-step
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/upgrade-step
   take form upgrade-step
 
 form get-upgrade-status-response, name <GetUpgradeStatusResponse>

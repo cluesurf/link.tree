@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/deploymentmanager/alpha/base/credential
+load @cluesurf/snow/googleapis.com/deploymentmanager/alpha/base/credential
   take form credential
 
 form deployment-update, name <DeploymentUpdate>

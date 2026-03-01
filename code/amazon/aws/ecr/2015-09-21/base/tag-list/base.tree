@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecr/2015-09-21/base/tag
+load @cluesurf/snow/amazonaws.com/ecr/2015-09-21/base/tag
   take form tag
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form tag-list, name <TagList>

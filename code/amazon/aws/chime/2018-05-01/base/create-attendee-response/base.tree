@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/chime/2018-05-01/base/attendee
+load @cluesurf/snow/amazonaws.com/chime/2018-05-01/base/attendee
   take form attendee
 
 form create-attendee-response, name <CreateAttendeeResponse>

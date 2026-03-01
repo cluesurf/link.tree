@@ -1,15 +1,15 @@
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/seed/code/form/list
+load @cluesurf/seed/code/form/list
   take form list
     save form list-link-text
 
-load @termsurf/snow/code/javascript/google/maps/places/prediction-substring
+load @cluesurf/snow/code/javascript/google/maps/places/prediction-substring
   take form prediction-substring
 
-load @termsurf/snow/code/javascript/google/maps/places/prediction-term
+load @cluesurf/snow/code/javascript/google/maps/places/prediction-term
   take form prediction-term
 
 form query-autocomplete-prediction, name <google.maps.places.QueryAutocompletePrediction>

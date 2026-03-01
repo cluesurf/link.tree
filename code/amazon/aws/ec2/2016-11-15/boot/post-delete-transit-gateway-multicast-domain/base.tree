@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/delete-transit-gateway-multicast-domain-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/delete-transit-gateway-multicast-domain-result
   take form delete-transit-gateway-multicast-domain-result
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-delete-transit-gateway-multicast-domain, name <POST_DeleteTransitGatewayMulticastDomain>

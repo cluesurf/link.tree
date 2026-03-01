@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/iam-arn
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/iam-arn
   take form iam-arn
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/role-type
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/role-type
   take form role-type
 
 form role, name <Role>

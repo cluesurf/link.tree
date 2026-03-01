@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/capacity-list
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/capacity-list
   take form capacity-list
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/managed-device-id
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/managed-device-id
   take form managed-device-id
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/physical-network-interface-list
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/physical-network-interface-list
   take form physical-network-interface-list
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/software-information
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/software-information
   take form software-information
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/tag-map
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/tag-map
   take form tag-map
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/timestamp
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/unlock-state
+load @cluesurf/snow/amazonaws.com/snow-device-management/2021-08-04/base/unlock-state
   take form unlock-state
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-device-output, name <DescribeDeviceOutput>

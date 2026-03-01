@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/identity-pool-usage
+load @cluesurf/snow/amazonaws.com/cognito-sync/2014-06-30/base/identity-pool-usage
   take form identity-pool-usage
 
 form describe-identity-pool-usage-response, name <DescribeIdentityPoolUsageResponse>

@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/application-host-url
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/application-host-url
   take form application-host-url
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/application-service-path
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/application-service-path
   take form application-service-path
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/client-number
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/client-number
   take form client-number
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/logon-language
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/logon-language
   take form logon-language
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/o-auth-properties
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/o-auth-properties
   take form o-auth-properties
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/port-number
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/port-number
   take form port-number
 
-load @termsurf/snow/amazonaws.com/appflow/2020-08-23/base/private-link-service-name
+load @cluesurf/snow/amazonaws.com/appflow/2020-08-23/base/private-link-service-name
   take form private-link-service-name
 
 form sapo-data-connector-profile-properties, name <SAPODataConnectorProfileProperties>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/timezone
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/timezone
   take form timezone
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form supported-timezones-list, name <SupportedTimezonesList>

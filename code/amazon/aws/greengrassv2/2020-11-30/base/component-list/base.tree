@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/greengrassv2/2020-11-30/base/component
+load @cluesurf/snow/amazonaws.com/greengrassv2/2020-11-30/base/component
   take form component
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form component-list, name <ComponentList>

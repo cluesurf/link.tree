@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/user-name
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/user-name
   take form user-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form user-name-list-input, name <UserNameListInput>

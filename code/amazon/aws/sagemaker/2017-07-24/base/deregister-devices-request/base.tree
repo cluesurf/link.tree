@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/device-names
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/device-names
   take form device-names
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
   take form entity-name
 
 form deregister-devices-request, name <DeregisterDevicesRequest>

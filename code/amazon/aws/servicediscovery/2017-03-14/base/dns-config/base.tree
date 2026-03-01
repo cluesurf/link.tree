@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/dns-record-list
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/dns-record-list
   take form dns-record-list
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/resource-id
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/resource-id
   take form resource-id
 
-load @termsurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/routing-policy
+load @cluesurf/snow/amazonaws.com/servicediscovery/2017-03-14/base/routing-policy
   take form routing-policy
 
 form dns-config, name <DnsConfig>

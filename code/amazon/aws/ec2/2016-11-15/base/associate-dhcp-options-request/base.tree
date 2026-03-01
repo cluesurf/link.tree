@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/defaulting-dhcp-options-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/defaulting-dhcp-options-id
   take form defaulting-dhcp-options-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-id
   take form vpc-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form associate-dhcp-options-request, name <AssociateDhcpOptionsRequest>

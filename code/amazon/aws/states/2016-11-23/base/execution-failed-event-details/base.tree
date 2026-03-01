@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-cause
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-cause
   take form sensitive-cause
 
-load @termsurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-error
+load @cluesurf/snow/amazonaws.com/states/2016-11-23/base/sensitive-error
   take form sensitive-error
 
 form execution-failed-event-details, name <ExecutionFailedEventDetails>

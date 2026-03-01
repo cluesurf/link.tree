@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/action-plan-instructions
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/action-plan-instructions
   take form action-plan-instructions
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/action-plan-title
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/action-plan-title
   take form action-plan-title
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-description
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-description
   take form control-description
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-mapping-sources
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-mapping-sources
   take form control-mapping-sources
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-name
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-name
   take form control-name
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/testing-information
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/testing-information
   take form testing-information
 
 form update-control-request, name <UpdateControlRequest>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/path-to-map-of-method-snapshot
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/path-to-map-of-method-snapshot
   take form path-to-map-of-method-snapshot
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/timestamp
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form deployment, name <Deployment>

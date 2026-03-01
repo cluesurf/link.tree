@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-id
   take form instance-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-interruption-behavior
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-interruption-behavior
   take form instance-interruption-behavior
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/launch-specification
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/launch-specification
   take form launch-specification
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/ri-product-description
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/ri-product-description
   take form ri-product-description
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-state
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-state
   take form spot-instance-state
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-state-fault
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-state-fault
   take form spot-instance-state-fault
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-status
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-status
   take form spot-instance-status
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-type
   take form spot-instance-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form spot-instance-request, name <SpotInstanceRequest>

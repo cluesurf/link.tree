@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/column-number
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/column-number
   take form column-number
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/line-number
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/line-number
   take form line-number
 
 form position, name <Position>

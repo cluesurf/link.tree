@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel-name
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel-name
   take form channel-name
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel-status
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel-status
   take form channel-status
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel-storage-summary
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/channel-storage-summary
   take form channel-storage-summary
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/timestamp
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/timestamp
   take form timestamp
 
 form channel-summary, name <ChannelSummary>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ds/2015-04-16/base/attribute
+load @cluesurf/snow/amazonaws.com/ds/2015-04-16/base/attribute
   take form attribute
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form attributes, name <Attributes>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/segment-confidence
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/segment-confidence
   take form segment-confidence
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/technical-cue-type
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/technical-cue-type
   take form technical-cue-type
 
 form technical-cue-segment, name <TechnicalCueSegment>

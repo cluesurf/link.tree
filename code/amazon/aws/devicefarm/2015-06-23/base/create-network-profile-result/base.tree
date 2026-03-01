@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/network-profile
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/network-profile
   take form network-profile
 
 form create-network-profile-result, name <CreateNetworkProfileResult>

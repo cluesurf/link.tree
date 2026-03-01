@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/key-schema-element
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/key-schema-element
   take form key-schema-element
 
 form key-schema, name <KeySchema>

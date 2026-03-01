@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/proximitybeacon/v1beta1/base/beacon
+load @cluesurf/snow/googleapis.com/proximitybeacon/v1beta1/base/beacon
   take form beacon
 
 boot proximitybeacon-beacons-register, name <proximitybeacon.beacons.register>

@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/arn
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/boxed-boolean
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/boxed-boolean
   take form boxed-boolean
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/launch-config
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/launch-config
   take form launch-config
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/tools
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/tools
   take form tools
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/upload-configurations
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/upload-configurations
   take form upload-configurations
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/version
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/version
   take form version
 
 form robot-application-config, name <RobotApplicationConfig>

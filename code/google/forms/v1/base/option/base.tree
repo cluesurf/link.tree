@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/forms/v1/base/image
+load @cluesurf/snow/googleapis.com/forms/v1/base/image
   take form image
 
 form option, name <Option>

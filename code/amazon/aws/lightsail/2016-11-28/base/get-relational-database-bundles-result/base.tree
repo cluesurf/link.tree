@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database-bundle-list
+load @cluesurf/snow/amazonaws.com/lightsail/2016-11-28/base/relational-database-bundle-list
   take form relational-database-bundle-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-relational-database-bundles-result, name <GetRelationalDatabaseBundlesResult>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/error-details
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/error-details
   take form error-details
 
-load @termsurf/snow/amazonaws.com/glue/2017-03-31/base/version-long-number
+load @cluesurf/snow/amazonaws.com/glue/2017-03-31/base/version-long-number
   take form version-long-number
 
 form schema-version-error-item, name <SchemaVersionErrorItem>

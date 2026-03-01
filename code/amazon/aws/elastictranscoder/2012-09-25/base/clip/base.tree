@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/time-span
+load @cluesurf/snow/amazonaws.com/elastictranscoder/2012-09-25/base/time-span
   take form time-span
 
 form clip, name <Clip>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/failover-mode
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/failover-mode
   take form failover-mode
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/source-priority
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/source-priority
   take form source-priority
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/state
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/state
   take form state
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form update-flow-body

@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/activation-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/activation-id
   take form activation-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/computer-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/computer-name
   take form computer-name
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/iam-role
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/iam-role
   take form iam-role
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/instance-aggregated-association-overview
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/instance-aggregated-association-overview
   take form instance-aggregated-association-overview
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/instance-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/instance-id
   take form instance-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/ip-address
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/ip-address
   take form ip-address
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/ping-status
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/ping-status
   take form ping-status
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/platform-type
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/platform-type
   take form platform-type
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/resource-type
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/resource-type
   take form resource-type
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/status-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/status-name
   take form status-name
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/version
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/version
   take form version
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form instance-information, name <InstanceInformation>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/preview-marketplace-available-add-on
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/preview-marketplace-available-add-on
   take form preview-marketplace-available-add-on
 
 boot fetch-available-add-on, name <FetchAvailableAddOn>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/backup-details
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/backup-details
   take form backup-details
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/source-table-details
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/source-table-details
   take form source-table-details
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/source-table-feature-details
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/source-table-feature-details
   take form source-table-feature-details
 
 form backup-description, name <BackupDescription>

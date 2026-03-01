@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudkms/v1/base/list-import-jobs-response
+load @cluesurf/snow/googleapis.com/cloudkms/v1/base/list-import-jobs-response
   take form list-import-jobs-response
 
 boot cloudkms-projects-locations-key-rings-import-jobs-list, name <cloudkms.projects.locations.keyRings.importJobs.list>

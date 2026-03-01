@@ -1,11 +1,11 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-subscription-schedules-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-subscription-schedules-body
   take form post-subscription-schedules-body
 
-load @termsurf/snow/stripe.com/2020-08-27/base/subscription-schedule
+load @cluesurf/snow/stripe.com/2020-08-27/base/subscription-schedule
   take form subscription-schedule
 
 boot post-subscription-schedules, name <PostSubscriptionSchedules>

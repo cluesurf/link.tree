@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/metric-filter
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/metric-filter
   take form metric-filter
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form metric-filters, name <MetricFilters>

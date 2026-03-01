@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/cur/2017-01-06/base/delete-report-definition-response
+load @cluesurf/snow/amazonaws.com/cur/2017-01-06/base/delete-report-definition-response
   take form delete-report-definition-response
 
-load @termsurf/snow/amazonaws.com/cur/2017-01-06/base/internal-error-exception
+load @cluesurf/snow/amazonaws.com/cur/2017-01-06/base/internal-error-exception
   take form internal-error-exception
 
-load @termsurf/snow/amazonaws.com/cur/2017-01-06/base/validation-exception
+load @cluesurf/snow/amazonaws.com/cur/2017-01-06/base/validation-exception
   take form validation-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot delete-report-definition, name <DeleteReportDefinition>

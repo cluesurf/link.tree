@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/logging/v2/base/log-view
+load @cluesurf/snow/googleapis.com/logging/v2/base/log-view
   take form log-view
 
 boot logging-projects-locations-buckets-views-patch, name <logging.projects.locations.buckets.views.patch>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/attribute-name-list
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/attribute-name-list
   take form attribute-name-list
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/consistent-read
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/consistent-read
   take form consistent-read
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/key
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/key
   take form key
 
-load @termsurf/snow/amazonaws.com/dynamodb/2011-12-05/base/table-name
+load @cluesurf/snow/amazonaws.com/dynamodb/2011-12-05/base/table-name
   take form table-name
 
 form get-item-input, name <GetItemInput>

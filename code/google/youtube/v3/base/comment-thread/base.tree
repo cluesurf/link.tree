@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/comment-thread-replies
+load @cluesurf/snow/googleapis.com/youtube/v3/base/comment-thread-replies
   take form comment-thread-replies
 
-load @termsurf/snow/googleapis.com/youtube/v3/base/comment-thread-snippet
+load @cluesurf/snow/googleapis.com/youtube/v3/base/comment-thread-snippet
   take form comment-thread-snippet
 
 form comment-thread, name <CommentThread>

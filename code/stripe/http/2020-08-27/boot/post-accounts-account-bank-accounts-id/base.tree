@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/external-account
+load @cluesurf/snow/stripe.com/2020-08-27/base/external-account
   take form external-account
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-accounts-account-bank-accounts-id-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-accounts-account-bank-accounts-id-body
   take form post-accounts-account-bank-accounts-id-body
 
 boot post-accounts-account-bank-accounts-id, name <PostAccountsAccountBankAccountsId>

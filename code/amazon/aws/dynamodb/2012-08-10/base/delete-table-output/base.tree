@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/dynamodb/2012-08-10/base/table-description
+load @cluesurf/snow/amazonaws.com/dynamodb/2012-08-10/base/table-description
   take form table-description
 
 form delete-table-output, name <DeleteTableOutput>

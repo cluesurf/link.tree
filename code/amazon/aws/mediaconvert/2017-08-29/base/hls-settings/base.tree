@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-audio-only-container
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-audio-only-container
   take form hls-audio-only-container
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-audio-track-type
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-audio-track-type
   take form hls-audio-track-type
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-descriptive-video-service-flag
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-descriptive-video-service-flag
   take form hls-descriptive-video-service-flag
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-i-frame-only-manifest
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/hls-i-frame-only-manifest
   take form hls-i-frame-only-manifest
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form hls-settings, name <HlsSettings>

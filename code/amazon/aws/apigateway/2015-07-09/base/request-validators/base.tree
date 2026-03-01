@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/list-of-request-validator
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/list-of-request-validator
   take form list-of-request-validator
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form request-validators, name <RequestValidators>

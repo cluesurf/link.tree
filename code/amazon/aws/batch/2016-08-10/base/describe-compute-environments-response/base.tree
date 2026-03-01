@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/compute-environment-detail-list
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/compute-environment-detail-list
   take form compute-environment-detail-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-compute-environments-response, name <DescribeComputeEnvironmentsResponse>

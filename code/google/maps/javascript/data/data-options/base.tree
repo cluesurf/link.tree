@@ -1,34 +1,34 @@
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/seed/code/form/list
+load @cluesurf/seed/code/form/list
   take form list
     save form list-link-text
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/control-position
+load @cluesurf/snow/code/javascript/google/maps/control-position
   take form control-position
 
-load @termsurf/snow/code/javascript/google/maps/data/feature
+load @cluesurf/snow/code/javascript/google/maps/data/feature
   take form feature
 
-load @termsurf/snow/code/javascript/google/maps/data/geometry
+load @cluesurf/snow/code/javascript/google/maps/data/geometry
   take form geometry
 
-load @termsurf/snow/code/javascript/google/maps/data/style-options
+load @cluesurf/snow/code/javascript/google/maps/data/style-options
   take form style-options
 
-load @termsurf/snow/code/javascript/google/maps/data/styling-function
+load @cluesurf/snow/code/javascript/google/maps/data/styling-function
   take form styling-function
 
-load @termsurf/snow/code/javascript/google/maps/map
+load @cluesurf/snow/code/javascript/google/maps/map
   take form map
 
 form data-options, name <google.maps.Data.DataOptions>

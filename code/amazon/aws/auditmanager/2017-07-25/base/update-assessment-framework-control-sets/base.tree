@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/update-assessment-framework-control-set
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/update-assessment-framework-control-set
   take form update-assessment-framework-control-set
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form update-assessment-framework-control-sets, name <UpdateAssessmentFrameworkControlSets>

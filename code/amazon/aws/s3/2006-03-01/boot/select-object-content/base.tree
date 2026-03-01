@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/select-object-content-body
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/select-object-content-body
   take form select-object-content-body
 
-load @termsurf/snow/amazonaws.com/s3/2006-03-01/base/select-object-content-output
+load @cluesurf/snow/amazonaws.com/s3/2006-03-01/base/select-object-content-output
   take form select-object-content-output
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot select-object-content, name <SelectObjectContent>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/marker
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/marker
   take form marker
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/principals
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/principals
   take form principals
 
 form list-policy-principals-response, name <ListPolicyPrincipalsResponse>

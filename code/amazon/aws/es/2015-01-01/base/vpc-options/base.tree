@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/es/2015-01-01/base/string-list
+load @cluesurf/snow/amazonaws.com/es/2015-01-01/base/string-list
   take form string-list
 
 form vpc-options, name <VPCOptions>

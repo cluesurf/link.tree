@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/customer-gateway-association-list
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/customer-gateway-association-list
   take form customer-gateway-association-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-customer-gateway-associations-response, name <GetCustomerGatewayAssociationsResponse>

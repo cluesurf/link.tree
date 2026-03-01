@@ -1,30 +1,30 @@
 
-load @termsurf/land/code/javascript/base/event
+load @cluesurf/land/code/javascript/base/event
   take form event
 
-load @termsurf/land/code/javascript/base/keyboard-event
+load @cluesurf/land/code/javascript/base/keyboard-event
   take form keyboard-event
 
-load @termsurf/land/code/javascript/base/native-null
+load @cluesurf/land/code/javascript/base/native-null
   take form native-null
 
-load @termsurf/land/code/javascript/base/native-void
+load @cluesurf/land/code/javascript/base/native-void
   take form native-void
 
-load @termsurf/land/code/javascript/base/pointer-event
+load @cluesurf/land/code/javascript/base/pointer-event
   take form pointer-event
 
-load @termsurf/land/code/javascript/base/touch-event
+load @cluesurf/land/code/javascript/base/touch-event
   take form touch-event
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/data/mouse-event
+load @cluesurf/snow/code/javascript/google/maps/data/mouse-event
   take form mouse-event
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng
+load @cluesurf/snow/code/javascript/google/maps/lat-lng
   take form lat-lng
 
 form map-mouse-event, name <google.maps.MapMouseEvent>

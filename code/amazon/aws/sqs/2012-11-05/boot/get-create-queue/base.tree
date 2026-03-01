@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/create-queue-result
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/create-queue-result
   take form create-queue-result
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/queue-deleted-recently
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/queue-deleted-recently
   take form queue-deleted-recently
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/queue-name-exists
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/queue-name-exists
   take form queue-name-exists
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-create-queue, name <GET_CreateQueue>

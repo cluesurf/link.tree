@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/vgw-telemetry
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/vgw-telemetry
   take form vgw-telemetry
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form vgw-telemetry-list, name <VgwTelemetryList>

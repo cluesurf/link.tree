@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dlp/v2/base/google-privacy-dlp-v2-stored-info-type
+load @cluesurf/snow/googleapis.com/dlp/v2/base/google-privacy-dlp-v2-stored-info-type
   take form google-privacy-dlp-v2-stored-info-type
 
 boot dlp-projects-stored-info-types-get, name <dlp.projects.storedInfoTypes.get>

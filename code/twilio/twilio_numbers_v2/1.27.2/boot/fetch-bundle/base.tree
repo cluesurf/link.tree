@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/twilio.com/twilio_numbers_v2/1.27.2/base/numbers-v2-regulatory-compliance-bundle
+load @cluesurf/snow/twilio.com/twilio_numbers_v2/1.27.2/base/numbers-v2-regulatory-compliance-bundle
   take form numbers-v2-regulatory-compliance-bundle
 
 boot fetch-bundle, name <FetchBundle>

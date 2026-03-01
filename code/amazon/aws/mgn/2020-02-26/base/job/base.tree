@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/arn
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/initiated-by
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/initiated-by
   take form initiated-by
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/iso8601-datetime-string
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/iso8601-datetime-string
   take form iso8601-datetime-string
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/job-id
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/job-id
   take form job-id
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/job-status
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/job-status
   take form job-status
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/job-type
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/job-type
   take form job-type
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/participating-servers
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/participating-servers
   take form participating-servers
 
-load @termsurf/snow/amazonaws.com/mgn/2020-02-26/base/tags-map
+load @cluesurf/snow/amazonaws.com/mgn/2020-02-26/base/tags-map
   take form tags-map
 
 form job, name <Job>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/get-job-unlock-code-result
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/get-job-unlock-code-result
   take form get-job-unlock-code-result
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/invalid-job-state-exception
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/invalid-job-state-exception
   take form invalid-job-state-exception
 
-load @termsurf/snow/amazonaws.com/snowball/2016-06-30/base/invalid-resource-exception
+load @cluesurf/snow/amazonaws.com/snowball/2016-06-30/base/invalid-resource-exception
   take form invalid-resource-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-job-unlock-code, name <GetJobUnlockCode>

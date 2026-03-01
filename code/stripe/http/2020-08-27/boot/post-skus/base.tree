@@ -1,11 +1,11 @@
 
-load @termsurf/snow/stripe.com/2020-08-27/base/error
+load @cluesurf/snow/stripe.com/2020-08-27/base/error
   take form error
 
-load @termsurf/snow/stripe.com/2020-08-27/base/post-skus-body
+load @cluesurf/snow/stripe.com/2020-08-27/base/post-skus-body
   take form post-skus-body
 
-load @termsurf/snow/stripe.com/2020-08-27/base/sku
+load @cluesurf/snow/stripe.com/2020-08-27/base/sku
   take form sku
 
 boot post-skus, name <PostSkus>

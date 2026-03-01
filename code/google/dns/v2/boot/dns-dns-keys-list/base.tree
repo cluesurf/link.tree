@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dns/v2/base/dns-keys-list-response
+load @cluesurf/snow/googleapis.com/dns/v2/base/dns-keys-list-response
   take form dns-keys-list-response
 
 boot dns-dns-keys-list, name <dns.dnsKeys.list>

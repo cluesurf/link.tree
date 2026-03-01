@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/vmmigration/v1/base/vmware-vms-details
+load @cluesurf/snow/googleapis.com/vmmigration/v1/base/vmware-vms-details
   take form vmware-vms-details
 
 form fetch-inventory-response, name <FetchInventoryResponse>

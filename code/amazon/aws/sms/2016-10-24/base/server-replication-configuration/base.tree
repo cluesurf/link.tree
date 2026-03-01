@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/server
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/server
   take form server
 
-load @termsurf/snow/amazonaws.com/sms/2016-10-24/base/server-replication-parameters
+load @cluesurf/snow/amazonaws.com/sms/2016-10-24/base/server-replication-parameters
   take form server-replication-parameters
 
 form server-replication-configuration, name <ServerReplicationConfiguration>

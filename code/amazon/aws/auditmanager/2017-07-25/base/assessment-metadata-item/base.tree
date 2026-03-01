@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-name
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-name
   take form assessment-name
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-status
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-status
   take form assessment-status
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/compliance-type
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/compliance-type
   take form compliance-type
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/delegations
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/delegations
   take form delegations
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/roles
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/roles
   take form roles
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/timestamp
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/uuid
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/uuid
   take form uuid
 
 form assessment-metadata-item, name <AssessmentMetadataItem>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/child-policy
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/child-policy
   take form child-policy
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/data
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/data
   take form data
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/terminate-reason
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/terminate-reason
   take form terminate-reason
 
-load @termsurf/snow/amazonaws.com/swf/2012-01-25/base/workflow-execution-terminated-cause
+load @cluesurf/snow/amazonaws.com/swf/2012-01-25/base/workflow-execution-terminated-cause
   take form workflow-execution-terminated-cause
 
 form workflow-execution-terminated-event-attributes, name <WorkflowExecutionTerminatedEventAttributes>

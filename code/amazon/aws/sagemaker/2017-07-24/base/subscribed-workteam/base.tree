@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/string200
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/string200
   take form string200
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/workteam-arn
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/workteam-arn
   take form workteam-arn
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form subscribed-workteam, name <SubscribedWorkteam>

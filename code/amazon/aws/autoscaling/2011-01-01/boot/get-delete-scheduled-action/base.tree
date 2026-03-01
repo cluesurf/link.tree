@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/resource-contention-fault
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/resource-contention-fault
   take form resource-contention-fault
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-delete-scheduled-action, name <GET_DeleteScheduledAction>

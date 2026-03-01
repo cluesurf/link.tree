@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/arn
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/client-token
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/digital-signature-method
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/digital-signature-method
   take form digital-signature-method
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/entitlement-data-list
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/entitlement-data-list
   take form entitlement-data-list
 
-load @termsurf/snow/amazonaws.com/license-manager/2018-08-01/base/metadata-list
+load @cluesurf/snow/amazonaws.com/license-manager/2018-08-01/base/metadata-list
   take form metadata-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form checkout-borrow-license-request, name <CheckoutBorrowLicenseRequest>

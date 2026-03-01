@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/trace-id-list
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/trace-id-list
   take form trace-id-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form batch-get-traces-request, name <BatchGetTracesRequest>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/eks/2017-11-01/base/launch-template-specification
+load @cluesurf/snow/amazonaws.com/eks/2017-11-01/base/launch-template-specification
   take form launch-template-specification
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form update-nodegroup-version-request, name <UpdateNodegroupVersionRequest>

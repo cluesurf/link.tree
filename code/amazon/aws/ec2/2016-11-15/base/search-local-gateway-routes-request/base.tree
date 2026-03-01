@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/filter-list
   take form filter-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/local-gateway-routetable-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/local-gateway-routetable-id
   take form local-gateway-routetable-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/max-results
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/max-results
   take form max-results
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form search-local-gateway-routes-request, name <SearchLocalGatewayRoutesRequest>

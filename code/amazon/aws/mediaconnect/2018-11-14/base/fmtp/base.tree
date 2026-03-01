@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/colorimetry
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/colorimetry
   take form colorimetry
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/range
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/range
   take form range
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/scan-mode
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/scan-mode
   take form scan-mode
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/tcs
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/tcs
   take form tcs
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form fmtp, name <Fmtp>

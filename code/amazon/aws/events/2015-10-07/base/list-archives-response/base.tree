@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/archive-response-list
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/archive-response-list
   take form archive-response-list
 
-load @termsurf/snow/amazonaws.com/events/2015-10-07/base/next-token
+load @cluesurf/snow/amazonaws.com/events/2015-10-07/base/next-token
   take form next-token
 
 form list-archives-response, name <ListArchivesResponse>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sso-admin/2020-07-20/base/access-control-attribute
+load @cluesurf/snow/amazonaws.com/sso-admin/2020-07-20/base/access-control-attribute
   take form access-control-attribute
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form access-control-attribute-list, name <AccessControlAttributeList>

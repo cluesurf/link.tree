@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/long
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/long
   take form long
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
   take form non-empty-string
 
 form aws-elb-lb-cookie-stickiness-policy, name <AwsElbLbCookieStickinessPolicy>

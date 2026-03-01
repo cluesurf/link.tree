@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/date
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/date
   take form date
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/delivery-status
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/delivery-status
   take form delivery-status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form config-export-delivery-info, name <ConfigExportDeliveryInfo>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/lakeformation/2017-03-31/base/catalog-id-string
+load @cluesurf/snow/amazonaws.com/lakeformation/2017-03-31/base/catalog-id-string
   take form catalog-id-string
 
-load @termsurf/snow/amazonaws.com/lakeformation/2017-03-31/base/expression
+load @cluesurf/snow/amazonaws.com/lakeformation/2017-03-31/base/expression
   take form expression
 
-load @termsurf/snow/amazonaws.com/lakeformation/2017-03-31/base/resource-type
+load @cluesurf/snow/amazonaws.com/lakeformation/2017-03-31/base/resource-type
   take form resource-type
 
 form lf-tag-policy-resource, name <LFTagPolicyResource>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-state
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-state
   take form asset-state
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/error-details
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/error-details
   take form error-details
 
 form asset-status, name <AssetStatus>

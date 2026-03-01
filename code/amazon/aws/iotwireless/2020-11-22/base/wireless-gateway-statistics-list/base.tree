@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/wireless-gateway-statistics
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/wireless-gateway-statistics
   take form wireless-gateway-statistics
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form wireless-gateway-statistics-list, name <WirelessGatewayStatisticsList>

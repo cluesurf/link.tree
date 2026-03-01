@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/compute/beta/base/shielded-vm-identity-entry
+load @cluesurf/snow/googleapis.com/compute/beta/base/shielded-vm-identity-entry
   take form shielded-vm-identity-entry
 
 form shielded-vm-identity, name <ShieldedVmIdentity>

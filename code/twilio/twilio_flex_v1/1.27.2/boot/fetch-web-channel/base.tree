@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/twilio.com/twilio_flex_v1/1.27.2/base/flex-v1-web-channel
+load @cluesurf/snow/twilio.com/twilio_flex_v1/1.27.2/base/flex-v1-web-channel
   take form flex-v1-web-channel
 
 boot fetch-web-channel, name <FetchWebChannel>

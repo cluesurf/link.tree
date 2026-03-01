@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/endpoint-groups
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/endpoint-groups
   take form endpoint-groups
 
-load @termsurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/generic-string
+load @cluesurf/snow/amazonaws.com/globalaccelerator/2018-08-08/base/generic-string
   take form generic-string
 
 form list-endpoint-groups-response, name <ListEndpointGroupsResponse>

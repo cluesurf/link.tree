@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/frame-metric
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/frame-metric
   take form frame-metric
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/frame-metric-values
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/frame-metric-values
   take form frame-metric-values
 
 form frame-metric-datum, name <FrameMetricDatum>

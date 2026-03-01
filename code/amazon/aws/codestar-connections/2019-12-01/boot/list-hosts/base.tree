@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/list-hosts-output
+load @cluesurf/snow/amazonaws.com/codestar-connections/2019-12-01/base/list-hosts-output
   take form list-hosts-output
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-hosts, name <ListHosts>

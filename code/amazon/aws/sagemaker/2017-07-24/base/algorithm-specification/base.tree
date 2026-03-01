@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/algorithm-image
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/algorithm-image
   take form algorithm-image
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/arn-or-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/arn-or-name
   take form arn-or-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metric-definition-list
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/metric-definition-list
   take form metric-definition-list
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/training-input-mode
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/training-input-mode
   take form training-input-mode
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form algorithm-specification, name <AlgorithmSpecification>

@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/atime
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/atime
   take form atime
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/bytes-per-second
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/bytes-per-second
   take form bytes-per-second
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/gid
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/gid
   take form gid
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/log-level
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/log-level
   take form log-level
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/mtime
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/mtime
   take form mtime
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/overwrite-mode
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/overwrite-mode
   take form overwrite-mode
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/posix-permissions
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/posix-permissions
   take form posix-permissions
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/preserve-deleted-files
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/preserve-deleted-files
   take form preserve-deleted-files
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/preserve-devices
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/preserve-devices
   take form preserve-devices
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/smb-security-descriptor-copy-flags
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/smb-security-descriptor-copy-flags
   take form smb-security-descriptor-copy-flags
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/task-queueing
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/task-queueing
   take form task-queueing
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/transfer-mode
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/transfer-mode
   take form transfer-mode
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/uid
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/uid
   take form uid
 
-load @termsurf/snow/amazonaws.com/datasync/2018-11-09/base/verify-mode
+load @cluesurf/snow/amazonaws.com/datasync/2018-11-09/base/verify-mode
   take form verify-mode
 
 form options, name <Options>

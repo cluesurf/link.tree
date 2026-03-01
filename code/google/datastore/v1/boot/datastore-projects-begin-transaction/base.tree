@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/datastore/v1/base/begin-transaction-response
+load @cluesurf/snow/googleapis.com/datastore/v1/base/begin-transaction-response
   take form begin-transaction-response
 
 boot datastore-projects-begin-transaction, name <datastore.projects.beginTransaction>

@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/boxed-boolean
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/boxed-boolean
   take form boxed-boolean
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/message-groups-list
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/message-groups-list
   take form message-groups-list
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/still-waiting-response-frequency
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/still-waiting-response-frequency
   take form still-waiting-response-frequency
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/still-waiting-response-timeout
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/still-waiting-response-timeout
   take form still-waiting-response-timeout
 
 form still-waiting-response-specification, name <StillWaitingResponseSpecification>

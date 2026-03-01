@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/apigateway/2015-07-09/base/api-stage
+load @cluesurf/snow/amazonaws.com/apigateway/2015-07-09/base/api-stage
   take form api-stage
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-api-stage, name <ListOfApiStage>

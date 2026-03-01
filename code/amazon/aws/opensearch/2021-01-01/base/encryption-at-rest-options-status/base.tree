@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/encryption-at-rest-options
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/encryption-at-rest-options
   take form encryption-at-rest-options
 
-load @termsurf/snow/amazonaws.com/opensearch/2021-01-01/base/option-status
+load @cluesurf/snow/amazonaws.com/opensearch/2021-01-01/base/option-status
   take form option-status
 
 form encryption-at-rest-options-status, name <EncryptionAtRestOptionsStatus>

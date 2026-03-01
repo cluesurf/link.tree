@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-summary
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/asset-summary
   take form asset-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form asset-summaries, name <AssetSummaries>

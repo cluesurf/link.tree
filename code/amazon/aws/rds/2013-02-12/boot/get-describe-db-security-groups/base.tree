@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/rds/2013-02-12/base/db-security-group-message
+load @cluesurf/snow/amazonaws.com/rds/2013-02-12/base/db-security-group-message
   take form db-security-group-message
 
-load @termsurf/snow/amazonaws.com/rds/2013-02-12/base/db-security-group-not-found-fault
+load @cluesurf/snow/amazonaws.com/rds/2013-02-12/base/db-security-group-not-found-fault
   take form db-security-group-not-found-fault
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-describe-db-security-groups, name <GET_DescribeDBSecurityGroups>

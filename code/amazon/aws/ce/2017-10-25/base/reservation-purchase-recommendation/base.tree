@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/account-scope
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/account-scope
   take form account-scope
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/lookback-period-in-days
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/lookback-period-in-days
   take form lookback-period-in-days
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/payment-option
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/payment-option
   take form payment-option
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/reservation-purchase-recommendation-details
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/reservation-purchase-recommendation-details
   take form reservation-purchase-recommendation-details
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/reservation-purchase-recommendation-summary
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/reservation-purchase-recommendation-summary
   take form reservation-purchase-recommendation-summary
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/service-specification
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/service-specification
   take form service-specification
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/term-in-years
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/term-in-years
   take form term-in-years
 
 form reservation-purchase-recommendation, name <ReservationPurchaseRecommendation>

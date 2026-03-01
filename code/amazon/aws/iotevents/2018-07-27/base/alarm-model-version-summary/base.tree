@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-arn
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-arn
   take form alarm-model-arn
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-name
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-name
   take form alarm-model-name
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-version
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-version
   take form alarm-model-version
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-version-status
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-version-status
   take form alarm-model-version-status
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/amazon-resource-name
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/amazon-resource-name
   take form amazon-resource-name
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/status-message
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/status-message
   take form status-message
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/timestamp
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/timestamp
   take form timestamp
 
 form alarm-model-version-summary, name <AlarmModelVersionSummary>

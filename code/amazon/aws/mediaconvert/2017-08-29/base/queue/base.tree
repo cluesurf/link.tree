@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/pricing-plan
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/pricing-plan
   take form pricing-plan
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/queue-status
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/queue-status
   take form queue-status
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/reservation-plan
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/reservation-plan
   take form reservation-plan
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/timestamp-unix
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/timestamp-unix
   take form timestamp-unix
 
-load @termsurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/type
+load @cluesurf/snow/amazonaws.com/mediaconvert/2017-08-29/base/type
   take form type
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form queue, name <Queue>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/networkmanager/2019-07-05/base/site
+load @cluesurf/snow/amazonaws.com/networkmanager/2019-07-05/base/site
   take form site
 
 form create-site-response, name <CreateSiteResponse>

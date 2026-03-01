@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/package-name
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/package-name
   take form package-name
 
-load @termsurf/snow/amazonaws.com/codeartifact/2018-09-22/base/package-namespace
+load @cluesurf/snow/amazonaws.com/codeartifact/2018-09-22/base/package-namespace
   take form package-namespace
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form package-dependency, name <PackageDependency>

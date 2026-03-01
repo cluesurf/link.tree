@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/address-line
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/address-line
   take form address-line
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/city
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/city
   take form city
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-name
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-name
   take form contact-name
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-number
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-number
   take form contact-number
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-type
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-type
   take form contact-type
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/country-code
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/country-code
   take form country-code
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/email
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/email
   take form email
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/extra-param-list
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/extra-param-list
   take form extra-param-list
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/state
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/state
   take form state
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/zip-code
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/zip-code
   take form zip-code
 
 form contact-detail, name <ContactDetail>

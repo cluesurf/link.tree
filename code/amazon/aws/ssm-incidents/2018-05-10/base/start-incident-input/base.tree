@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/arn
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/client-token
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/impact
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/impact
   take form impact
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/incident-title
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/incident-title
   take form incident-title
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/related-item-list
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/related-item-list
   take form related-item-list
 
-load @termsurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/trigger-details
+load @cluesurf/snow/amazonaws.com/ssm-incidents/2018-05-10/base/trigger-details
   take form trigger-details
 
 form start-incident-input, name <StartIncidentInput>

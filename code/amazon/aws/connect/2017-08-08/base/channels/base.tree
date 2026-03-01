@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/connect/2017-08-08/base/channel
+load @cluesurf/snow/amazonaws.com/connect/2017-08-08/base/channel
   take form channel
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form channels, name <Channels>

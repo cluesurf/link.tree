@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/health/2016-08-04/base/timestamp
+load @cluesurf/snow/amazonaws.com/health/2016-08-04/base/timestamp
   take form timestamp
 
 form date-time-range, name <DateTimeRange>

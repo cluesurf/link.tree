@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudtrace/v2/base/span
+load @cluesurf/snow/googleapis.com/cloudtrace/v2/base/span
   take form span
 
 boot cloudtrace-projects-traces-spans-create-span, name <cloudtrace.projects.traces.spans.createSpan>

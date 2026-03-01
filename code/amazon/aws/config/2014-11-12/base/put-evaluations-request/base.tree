@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/evaluations
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/evaluations
   take form evaluations
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form put-evaluations-request, name <PutEvaluationsRequest>

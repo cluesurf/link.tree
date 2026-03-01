@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/memorydb/2021-01-01/base/cluster-list
+load @cluesurf/snow/amazonaws.com/memorydb/2021-01-01/base/cluster-list
   take form cluster-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-clusters-response, name <DescribeClustersResponse>

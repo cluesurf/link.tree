@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/classic-flow
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/classic-flow
   take form classic-flow
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/cognito-identity-provider-list
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/cognito-identity-provider-list
   take form cognito-identity-provider-list
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/developer-provider-name
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/developer-provider-name
   take form developer-provider-name
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-id
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-id
   take form identity-pool-id
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-name
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-name
   take form identity-pool-name
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-tags-type
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-tags-type
   take form identity-pool-tags-type
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-unauthenticated
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-pool-unauthenticated
   take form identity-pool-unauthenticated
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-providers
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/identity-providers
   take form identity-providers
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/oidc-provider-list
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/oidc-provider-list
   take form oidc-provider-list
 
-load @termsurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/saml-provider-list
+load @cluesurf/snow/amazonaws.com/cognito-identity/2014-06-30/base/saml-provider-list
   take form saml-provider-list
 
 form identity-pool, name <IdentityPool>

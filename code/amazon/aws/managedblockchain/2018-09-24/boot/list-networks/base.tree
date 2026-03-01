@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/internal-service-error-exception
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/internal-service-error-exception
   take form internal-service-error-exception
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/invalid-request-exception
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/invalid-request-exception
   take form invalid-request-exception
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/list-networks-output
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/list-networks-output
   take form list-networks-output
 
-load @termsurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/throttling-exception
+load @cluesurf/snow/amazonaws.com/managedblockchain/2018-09-24/base/throttling-exception
   take form throttling-exception
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-networks, name <ListNetworks>

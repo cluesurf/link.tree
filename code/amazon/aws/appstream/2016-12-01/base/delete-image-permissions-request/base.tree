@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/aws-account-id
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/aws-account-id
   take form aws-account-id
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/name
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/name
   take form name
 
 form delete-image-permissions-request, name <DeleteImagePermissionsRequest>

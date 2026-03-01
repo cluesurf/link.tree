@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androidpublisher/v1.1/base/inapp-purchase
+load @cluesurf/snow/googleapis.com/androidpublisher/v1.1/base/inapp-purchase
   take form inapp-purchase
 
 boot androidpublisher-inapppurchases-get, name <androidpublisher.inapppurchases.get>

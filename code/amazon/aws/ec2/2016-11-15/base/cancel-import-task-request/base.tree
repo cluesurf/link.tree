@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/import-task-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/import-task-id
   take form import-task-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form cancel-import-task-request, name <CancelImportTaskRequest>

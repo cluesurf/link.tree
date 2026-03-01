@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/run/v1/base/execution-spec
+load @cluesurf/snow/googleapis.com/run/v1/base/execution-spec
   take form execution-spec
 
-load @termsurf/snow/googleapis.com/run/v1/base/execution-status
+load @cluesurf/snow/googleapis.com/run/v1/base/execution-status
   take form execution-status
 
-load @termsurf/snow/googleapis.com/run/v1/base/object-meta
+load @cluesurf/snow/googleapis.com/run/v1/base/object-meta
   take form object-meta
 
 form execution, name <Execution>

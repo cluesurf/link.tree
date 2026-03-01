@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/already-exists-fault
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/already-exists-fault
   take form already-exists-fault
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/block-device-mapping
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/block-device-mapping
   take form block-device-mapping
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/instance-metadata-endpoint-state
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/instance-metadata-endpoint-state
   take form instance-metadata-endpoint-state
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/instance-metadata-http-put-response-hop-limit
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/instance-metadata-http-put-response-hop-limit
   take form instance-metadata-http-put-response-hop-limit
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/instance-metadata-http-tokens-state
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/instance-metadata-http-tokens-state
   take form instance-metadata-http-tokens-state
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/limit-exceeded-fault
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/limit-exceeded-fault
   take form limit-exceeded-fault
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/monitoring-enabled
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/monitoring-enabled
   take form monitoring-enabled
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/resource-contention-fault
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/resource-contention-fault
   take form resource-contention-fault
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string
   take form xml-string
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string-max-len255
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/xml-string-max-len255
   take form xml-string-max-len255
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-create-launch-configuration, name <GET_CreateLaunchConfiguration>

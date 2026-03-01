@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/compliance-contributor-count
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/compliance-contributor-count
   take form compliance-contributor-count
 
-load @termsurf/snow/amazonaws.com/config/2014-11-12/base/compliance-type
+load @cluesurf/snow/amazonaws.com/config/2014-11-12/base/compliance-type
   take form compliance-type
 
 form compliance, name <Compliance>

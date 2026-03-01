@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/algorithm-image
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/algorithm-image
   take form algorithm-image
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/directory-path
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/directory-path
   take form directory-path
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/optional-volume-size-in-gb
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/optional-volume-size-in-gb
   take form optional-volume-size-in-gb
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/processing-instance-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/processing-instance-type
   take form processing-instance-type
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/rule-configuration-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/rule-configuration-name
   take form rule-configuration-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/rule-parameters
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/rule-parameters
   take form rule-parameters
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/s3-uri
   take form s3-uri
 
 form debug-rule-configuration, name <DebugRuleConfiguration>

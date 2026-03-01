@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-authentication-request-extra-params
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-authentication-request-extra-params
   take form authenticate-oidc-action-authentication-request-extra-params
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-authorization-endpoint
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-authorization-endpoint
   take form authenticate-oidc-action-authorization-endpoint
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-client-id
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-client-id
   take form authenticate-oidc-action-client-id
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-client-secret
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-client-secret
   take form authenticate-oidc-action-client-secret
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-conditional-behavior-enum
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-conditional-behavior-enum
   take form authenticate-oidc-action-conditional-behavior-enum
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-issuer
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-issuer
   take form authenticate-oidc-action-issuer
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-scope
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-scope
   take form authenticate-oidc-action-scope
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-session-cookie-name
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-session-cookie-name
   take form authenticate-oidc-action-session-cookie-name
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-session-timeout
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-session-timeout
   take form authenticate-oidc-action-session-timeout
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-token-endpoint
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-token-endpoint
   take form authenticate-oidc-action-token-endpoint
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-use-existing-client-secret
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-use-existing-client-secret
   take form authenticate-oidc-action-use-existing-client-secret
 
-load @termsurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-user-info-endpoint
+load @cluesurf/snow/amazonaws.com/elasticloadbalancingv2/2015-12-01/base/authenticate-oidc-action-user-info-endpoint
   take form authenticate-oidc-action-user-info-endpoint
 
 form authenticate-oidc-action-config, name <AuthenticateOidcActionConfig>

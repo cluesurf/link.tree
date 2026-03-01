@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-detail
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/contact-detail
   take form contact-detail
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/domain-auth-code
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/domain-auth-code
   take form domain-auth-code
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/domain-name
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/domain-name
   take form domain-name
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/duration-in-years
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/duration-in-years
   take form duration-in-years
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/lang-code
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/lang-code
   take form lang-code
 
-load @termsurf/snow/amazonaws.com/route53domains/2014-05-15/base/nameserver-list
+load @cluesurf/snow/amazonaws.com/route53domains/2014-05-15/base/nameserver-list
   take form nameserver-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form transfer-domain-request, name <TransferDomainRequest>

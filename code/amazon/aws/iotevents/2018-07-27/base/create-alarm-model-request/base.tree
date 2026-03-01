@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-capabilities
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-capabilities
   take form alarm-capabilities
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-event-actions
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-event-actions
   take form alarm-event-actions
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-description
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-description
   take form alarm-model-description
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-name
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-model-name
   take form alarm-model-name
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-notification
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-notification
   take form alarm-notification
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-rule
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/alarm-rule
   take form alarm-rule
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/amazon-resource-name
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/amazon-resource-name
   take form amazon-resource-name
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/attribute-json-path
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/attribute-json-path
   take form attribute-json-path
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/severity
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/severity
   take form severity
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/tags
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/tags
   take form tags
 
 form create-alarm-model-request, name <CreateAlarmModelRequest>

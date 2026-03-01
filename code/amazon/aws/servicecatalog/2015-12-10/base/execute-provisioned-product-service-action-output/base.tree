@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/record-detail
+load @cluesurf/snow/amazonaws.com/servicecatalog/2015-12-10/base/record-detail
   take form record-detail
 
 form execute-provisioned-product-service-action-output, name <ExecuteProvisionedProductServiceActionOutput>

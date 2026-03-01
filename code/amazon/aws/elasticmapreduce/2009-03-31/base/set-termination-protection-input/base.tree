@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string-list
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string-list
   take form xml-string-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form set-termination-protection-input, name <SetTerminationProtectionInput>

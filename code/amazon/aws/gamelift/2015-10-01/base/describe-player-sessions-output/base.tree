@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/non-zero-and-max-string
   take form non-zero-and-max-string
 
-load @termsurf/snow/amazonaws.com/gamelift/2015-10-01/base/player-session-list
+load @cluesurf/snow/amazonaws.com/gamelift/2015-10-01/base/player-session-list
   take form player-session-list
 
 form describe-player-sessions-output, name <DescribePlayerSessionsOutput>

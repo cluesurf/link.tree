@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/endpoint-state
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/endpoint-state
   take form endpoint-state
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form endpoint-states, name <EndpointStates>

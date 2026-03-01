@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mediatailor/2018-04-23/base/channel
+load @cluesurf/snow/amazonaws.com/mediatailor/2018-04-23/base/channel
   take form channel
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form list-of-channel, name <__listOfChannel>

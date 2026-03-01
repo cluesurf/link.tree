@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/drive/v3/base/drive
+load @cluesurf/snow/googleapis.com/drive/v3/base/drive
   take form drive
 
-load @termsurf/snow/googleapis.com/drive/v3/base/file
+load @cluesurf/snow/googleapis.com/drive/v3/base/file
   take form file
 
-load @termsurf/snow/googleapis.com/drive/v3/base/team-drive
+load @cluesurf/snow/googleapis.com/drive/v3/base/team-drive
   take form team-drive
 
 form change, name <Change>

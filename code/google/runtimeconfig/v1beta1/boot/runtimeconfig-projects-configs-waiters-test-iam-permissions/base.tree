@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/runtimeconfig/v1beta1/base/test-iam-permissions-response
+load @cluesurf/snow/googleapis.com/runtimeconfig/v1beta1/base/test-iam-permissions-response
   take form test-iam-permissions-response
 
 boot runtimeconfig-projects-configs-waiters-test-iam-permissions, name <runtimeconfig.projects.configs.waiters.testIamPermissions>

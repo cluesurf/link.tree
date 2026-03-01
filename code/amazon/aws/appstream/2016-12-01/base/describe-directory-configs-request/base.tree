@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/directory-name-list
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/directory-name-list
   take form directory-name-list
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-directory-configs-request, name <DescribeDirectoryConfigsRequest>

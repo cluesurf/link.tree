@@ -1,23 +1,23 @@
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ac
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-ac
   take form sid-ac
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-bw
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-bw
   take form sid-bw
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-bx
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-bx
   take form sid-bx
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-bz
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-bz
   take form sid-bz
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-pn
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/sid-pn
   take form sid-pn
 
-load @termsurf/snow/twilio.com/twilio_preview/1.10.0/base/url
+load @cluesurf/snow/twilio.com/twilio_preview/1.10.0/base/url
   take form url
 
 form preview-trusted-comms-branded-channel-channel, name <preview.trusted_comms.branded_channel.channel>

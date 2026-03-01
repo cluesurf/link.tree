@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/allowed-pattern
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/allowed-pattern
   take form allowed-pattern
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-data-type
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-data-type
   take form parameter-data-type
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-description
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-description
   take form parameter-description
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-key-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-key-id
   take form parameter-key-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-policy-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-policy-list
   take form parameter-policy-list
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-tier
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-tier
   take form parameter-tier
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-type
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-type
   take form parameter-type
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/ps-parameter-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/ps-parameter-name
   take form ps-parameter-name
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/ps-parameter-version
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/ps-parameter-version
   take form ps-parameter-version
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form parameter-metadata, name <ParameterMetadata>

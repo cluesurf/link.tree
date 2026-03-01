@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/filter-group
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/filter-group
   take form filter-group
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form filter-groups, name <FilterGroups>

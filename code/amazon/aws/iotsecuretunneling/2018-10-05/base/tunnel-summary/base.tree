@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/iotsecuretunneling/2018-10-05/base/date-type
+load @cluesurf/snow/amazonaws.com/iotsecuretunneling/2018-10-05/base/date-type
   take form date-type
 
-load @termsurf/snow/amazonaws.com/iotsecuretunneling/2018-10-05/base/description
+load @cluesurf/snow/amazonaws.com/iotsecuretunneling/2018-10-05/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/iotsecuretunneling/2018-10-05/base/tunnel-arn
+load @cluesurf/snow/amazonaws.com/iotsecuretunneling/2018-10-05/base/tunnel-arn
   take form tunnel-arn
 
-load @termsurf/snow/amazonaws.com/iotsecuretunneling/2018-10-05/base/tunnel-id
+load @cluesurf/snow/amazonaws.com/iotsecuretunneling/2018-10-05/base/tunnel-id
   take form tunnel-id
 
-load @termsurf/snow/amazonaws.com/iotsecuretunneling/2018-10-05/base/tunnel-status
+load @cluesurf/snow/amazonaws.com/iotsecuretunneling/2018-10-05/base/tunnel-status
   take form tunnel-status
 
 form tunnel-summary, name <TunnelSummary>

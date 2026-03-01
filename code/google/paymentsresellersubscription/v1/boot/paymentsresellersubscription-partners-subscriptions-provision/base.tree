@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/paymentsresellersubscription/v1/base/google-cloud-payments-reseller-subscription-v1-subscription
+load @cluesurf/snow/googleapis.com/paymentsresellersubscription/v1/base/google-cloud-payments-reseller-subscription-v1-subscription
   take form google-cloud-payments-reseller-subscription-v1-subscription
 
 boot paymentsresellersubscription-partners-subscriptions-provision, name <paymentsresellersubscription.partners.subscriptions.provision>

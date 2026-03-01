@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/iot-data/2015-05-28/base/payload
+load @cluesurf/snow/amazonaws.com/iot-data/2015-05-28/base/payload
   take form payload
 
 form publish-request, name <PublishRequest>

@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-alias
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-alias
   take form contact-alias
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-name
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-name
   take form contact-name
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-type
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/contact-type
   take form contact-type
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/idempotency-token
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/idempotency-token
   take form idempotency-token
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/plan
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/plan
   take form plan
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/tags-list
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/tags-list
   take form tags-list
 
 form create-contact-request, name <CreateContactRequest>

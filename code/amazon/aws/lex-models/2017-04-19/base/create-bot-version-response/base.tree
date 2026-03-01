@@ -1,38 +1,38 @@
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/bot-name
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/bot-name
   take form bot-name
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/description
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/intent-list
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/intent-list
   take form intent-list
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/locale
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/locale
   take form locale
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/prompt
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/prompt
   take form prompt
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/session-ttl
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/session-ttl
   take form session-ttl
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/statement
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/statement
   take form statement
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/status
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/status
   take form status
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/timestamp
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/timestamp
   take form timestamp
 
-load @termsurf/snow/amazonaws.com/lex-models/2017-04-19/base/version
+load @cluesurf/snow/amazonaws.com/lex-models/2017-04-19/base/version
   take form version
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-bot-version-response, name <CreateBotVersionResponse>

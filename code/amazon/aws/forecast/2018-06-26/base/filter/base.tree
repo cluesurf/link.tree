@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/arn
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/filter-condition-string
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/filter-condition-string
   take form filter-condition-string
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form filter, name <Filter>

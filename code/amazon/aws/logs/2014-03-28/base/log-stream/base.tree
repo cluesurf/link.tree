@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/arn
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/log-stream-name
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/log-stream-name
   take form log-stream-name
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/sequence-token
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/sequence-token
   take form sequence-token
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/stored-bytes
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/stored-bytes
   take form stored-bytes
 
-load @termsurf/snow/amazonaws.com/logs/2014-03-28/base/timestamp
+load @cluesurf/snow/amazonaws.com/logs/2014-03-28/base/timestamp
   take form timestamp
 
 form log-stream, name <LogStream>

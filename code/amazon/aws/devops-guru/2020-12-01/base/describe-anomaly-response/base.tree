@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/proactive-anomaly
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/proactive-anomaly
   take form proactive-anomaly
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/reactive-anomaly
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/reactive-anomaly
   take form reactive-anomaly
 
 form describe-anomaly-response, name <DescribeAnomalyResponse>

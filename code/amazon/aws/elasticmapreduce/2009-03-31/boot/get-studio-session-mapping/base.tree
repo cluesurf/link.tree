@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/get-studio-session-mapping-output
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/get-studio-session-mapping-output
   take form get-studio-session-mapping-output
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/invalid-request-exception
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/invalid-request-exception
   take form invalid-request-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-studio-session-mapping, name <GetStudioSessionMapping>

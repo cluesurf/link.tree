@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/monitoring/v3/base/trigger
+load @cluesurf/snow/googleapis.com/monitoring/v3/base/trigger
   take form trigger
 
 form monitoring-query-language-condition, name <MonitoringQueryLanguageCondition>

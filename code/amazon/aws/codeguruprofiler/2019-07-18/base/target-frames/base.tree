@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/target-frame
+load @cluesurf/snow/amazonaws.com/codeguruprofiler/2019-07-18/base/target-frame
   take form target-frame
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form target-frames, name <TargetFrames>

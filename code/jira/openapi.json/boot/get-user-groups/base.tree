@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/jira/openapi.json/base/group-name
+load @cluesurf/snow/jira/openapi.json/base/group-name
   take form group-name
 
 boot get-user-groups, name <getUserGroups>

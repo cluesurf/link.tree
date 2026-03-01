@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/workmail/2017-10-01/base/device-type
+load @cluesurf/snow/amazonaws.com/workmail/2017-10-01/base/device-type
   take form device-type
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form device-type-list, name <DeviceTypeList>

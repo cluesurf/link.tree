@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/command-invocation
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/command-invocation
   take form command-invocation
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form command-invocation-list, name <CommandInvocationList>

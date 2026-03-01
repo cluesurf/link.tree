@@ -1,41 +1,41 @@
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/api-config-handler
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/api-config-handler
   take form api-config-handler
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/automatic-scaling
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/automatic-scaling
   take form automatic-scaling
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/basic-scaling
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/basic-scaling
   take form basic-scaling
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/deployment
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/deployment
   take form deployment
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/endpoints-api-service
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/endpoints-api-service
   take form endpoints-api-service
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/entrypoint
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/entrypoint
   take form entrypoint
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/health-check
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/health-check
   take form health-check
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/liveness-check
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/liveness-check
   take form liveness-check
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/manual-scaling
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/manual-scaling
   take form manual-scaling
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/network
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/network
   take form network
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/readiness-check
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/readiness-check
   take form readiness-check
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/resources
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/resources
   take form resources
 
-load @termsurf/snow/googleapis.com/appengine/v1beta/base/vpc-access-connector
+load @cluesurf/snow/googleapis.com/appengine/v1beta/base/vpc-access-connector
   take form vpc-access-connector
 
 form version, name <Version>

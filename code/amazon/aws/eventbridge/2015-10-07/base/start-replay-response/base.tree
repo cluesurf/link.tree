@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/replay-arn
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/replay-arn
   take form replay-arn
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/replay-state
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/replay-state
   take form replay-state
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/replay-state-reason
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/replay-state-reason
   take form replay-state-reason
 
-load @termsurf/snow/amazonaws.com/eventbridge/2015-10-07/base/timestamp
+load @cluesurf/snow/amazonaws.com/eventbridge/2015-10-07/base/timestamp
   take form timestamp
 
 form start-replay-response, name <StartReplayResponse>

@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/slides/v1/base/opaque-color
+load @cluesurf/snow/googleapis.com/slides/v1/base/opaque-color
   take form opaque-color
 
 form color-stop, name <ColorStop>

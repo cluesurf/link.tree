@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/utilization-metric
+load @cluesurf/snow/amazonaws.com/compute-optimizer/2019-11-01/base/utilization-metric
   take form utilization-metric
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form projected-utilization-metrics, name <ProjectedUtilizationMetrics>

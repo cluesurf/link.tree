@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/list-of-usage-by-account
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/list-of-usage-by-account
   take form list-of-usage-by-account
 
-load @termsurf/snow/amazonaws.com/macie2/2020-01-01/base/timestamp-iso8601
+load @cluesurf/snow/amazonaws.com/macie2/2020-01-01/base/timestamp-iso8601
   take form timestamp-iso8601
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form usage-record, name <UsageRecord>

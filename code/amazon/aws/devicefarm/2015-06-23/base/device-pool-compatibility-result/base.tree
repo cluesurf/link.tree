@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/device
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/device
   take form device
 
-load @termsurf/snow/amazonaws.com/devicefarm/2015-06-23/base/incompatibility-messages
+load @cluesurf/snow/amazonaws.com/devicefarm/2015-06-23/base/incompatibility-messages
   take form incompatibility-messages
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form device-pool-compatibility-result, name <DevicePoolCompatibilityResult>

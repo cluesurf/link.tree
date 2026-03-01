@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/testing/v1/base/google-auto
+load @cluesurf/snow/googleapis.com/testing/v1/base/google-auto
   take form google-auto
 
 form account, name <Account>

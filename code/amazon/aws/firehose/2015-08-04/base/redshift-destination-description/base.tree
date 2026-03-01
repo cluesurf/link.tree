@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/cloud-watch-logging-options
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/cloud-watch-logging-options
   take form cloud-watch-logging-options
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/cluster-jdbcurl
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/cluster-jdbcurl
   take form cluster-jdbcurl
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/copy-command
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/copy-command
   take form copy-command
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/processing-configuration
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/processing-configuration
   take form processing-configuration
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/redshift-retry-options
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/redshift-retry-options
   take form redshift-retry-options
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/redshift-s3-backup-mode
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/redshift-s3-backup-mode
   take form redshift-s3-backup-mode
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/role-arn
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/s3-destination-description
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/s3-destination-description
   take form s3-destination-description
 
-load @termsurf/snow/amazonaws.com/firehose/2015-08-04/base/username
+load @cluesurf/snow/amazonaws.com/firehose/2015-08-04/base/username
   take form username
 
 form redshift-destination-description, name <RedshiftDestinationDescription>

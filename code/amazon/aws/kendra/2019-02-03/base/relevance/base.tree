@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/document-metadata-boolean
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/document-metadata-boolean
   take form document-metadata-boolean
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/duration
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/duration
   take form duration
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/importance
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/importance
   take form importance
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/order
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/order
   take form order
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/value-importance-map
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/value-importance-map
   take form value-importance-map
 
 form relevance, name <Relevance>

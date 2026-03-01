@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/alertcenter/v1beta1/base/merge-info
+load @cluesurf/snow/googleapis.com/alertcenter/v1beta1/base/merge-info
   take form merge-info
 
 form apps-outage, name <AppsOutage>

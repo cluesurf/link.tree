@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/discovery/2015-11-01/base/configurations-export-id
+load @cluesurf/snow/amazonaws.com/discovery/2015-11-01/base/configurations-export-id
   take form configurations-export-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form continuous-export-ids, name <ContinuousExportIds>

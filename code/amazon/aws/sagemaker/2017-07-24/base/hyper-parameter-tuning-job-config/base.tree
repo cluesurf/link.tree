@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/hyper-parameter-tuning-job-objective
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/hyper-parameter-tuning-job-objective
   take form hyper-parameter-tuning-job-objective
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/hyper-parameter-tuning-job-strategy-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/hyper-parameter-tuning-job-strategy-type
   take form hyper-parameter-tuning-job-strategy-type
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/parameter-ranges
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/parameter-ranges
   take form parameter-ranges
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/resource-limits
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/resource-limits
   take form resource-limits
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/training-job-early-stopping-type
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/training-job-early-stopping-type
   take form training-job-early-stopping-type
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/tuning-job-completion-criteria
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/tuning-job-completion-criteria
   take form tuning-job-completion-criteria
 
 form hyper-parameter-tuning-job-config, name <HyperParameterTuningJobConfig>

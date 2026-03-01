@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/privateca/v1/base/list-certificate-templates-response
+load @cluesurf/snow/googleapis.com/privateca/v1/base/list-certificate-templates-response
   take form list-certificate-templates-response
 
 boot privateca-projects-locations-certificate-templates-list, name <privateca.projects.locations.certificateTemplates.list>

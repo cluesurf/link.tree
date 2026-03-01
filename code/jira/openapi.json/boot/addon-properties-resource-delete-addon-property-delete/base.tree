@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/jira/openapi.json/base/operation-message
+load @cluesurf/snow/jira/openapi.json/base/operation-message
   take form operation-message
 
 boot addon-properties-resource-delete-addon-property-delete, name <AddonPropertiesResource.deleteAddonProperty_delete>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/portal-resource
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/portal-resource
   take form portal-resource
 
-load @termsurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/project-resource
+load @cluesurf/snow/amazonaws.com/iotsitewise/2019-12-02/base/project-resource
   take form project-resource
 
 form resource, name <Resource>

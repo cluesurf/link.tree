@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/polly/2016-06-10/base/engine
+load @cluesurf/snow/amazonaws.com/polly/2016-06-10/base/engine
   take form engine
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form engine-list, name <EngineList>

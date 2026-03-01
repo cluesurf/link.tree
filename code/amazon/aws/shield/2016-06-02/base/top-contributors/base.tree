@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/shield/2016-06-02/base/contributor
+load @cluesurf/snow/amazonaws.com/shield/2016-06-02/base/contributor
   take form contributor
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form top-contributors, name <TopContributors>

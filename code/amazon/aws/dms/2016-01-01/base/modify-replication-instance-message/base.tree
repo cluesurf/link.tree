@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/boolean-optional
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/boolean-optional
   take form boolean-optional
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/integer-optional
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/integer-optional
   take form integer-optional
 
-load @termsurf/snow/amazonaws.com/dms/2016-01-01/base/vpc-security-group-id-list
+load @cluesurf/snow/amazonaws.com/dms/2016-01-01/base/vpc-security-group-id-list
   take form vpc-security-group-id-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form modify-replication-instance-message, name <ModifyReplicationInstanceMessage>

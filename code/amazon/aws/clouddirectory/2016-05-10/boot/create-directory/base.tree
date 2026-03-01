@@ -1,35 +1,35 @@
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/create-directory-body
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/create-directory-body
   take form create-directory-body
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/create-directory-response
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/create-directory-response
   take form create-directory-response
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/directory-already-exists-exception
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/directory-already-exists-exception
   take form directory-already-exists-exception
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/internal-service-exception
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/internal-service-exception
   take form internal-service-exception
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/invalid-arn-exception
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/invalid-arn-exception
   take form invalid-arn-exception
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/limit-exceeded-exception
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/limit-exceeded-exception
   take form limit-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/retryable-conflict-exception
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/retryable-conflict-exception
   take form retryable-conflict-exception
 
-load @termsurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/validation-exception
+load @cluesurf/snow/amazonaws.com/clouddirectory/2016-05-10/base/validation-exception
   take form validation-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot create-directory, name <CreateDirectory>

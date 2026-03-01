@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/binaryauthorization/v1/base/attestor
+load @cluesurf/snow/googleapis.com/binaryauthorization/v1/base/attestor
   take form attestor
 
 boot binaryauthorization-projects-attestors-update, name <binaryauthorization.projects.attestors.update>

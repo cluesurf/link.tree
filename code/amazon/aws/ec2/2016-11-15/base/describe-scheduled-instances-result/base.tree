@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/scheduled-instance-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/scheduled-instance-set
   take form scheduled-instance-set
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-scheduled-instances-result, name <DescribeScheduledInstancesResult>

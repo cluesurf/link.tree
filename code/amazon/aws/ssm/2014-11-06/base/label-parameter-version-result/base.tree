@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-label-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/parameter-label-list
   take form parameter-label-list
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/ps-parameter-version
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/ps-parameter-version
   take form ps-parameter-version
 
 form label-parameter-version-result, name <LabelParameterVersionResult>

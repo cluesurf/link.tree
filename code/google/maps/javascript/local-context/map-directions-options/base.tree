@@ -1,21 +1,21 @@
 
-load @termsurf/land/code/javascript/base/function
+load @cluesurf/land/code/javascript/base/function
   take form function
 
-load @termsurf/land/code/javascript/base/native-string
+load @cluesurf/land/code/javascript/base/native-string
   take form native-string
 
-load @termsurf/seed/code/form/sink
+load @cluesurf/seed/code/form/sink
   take form sink
     save form sink-link-text
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng
+load @cluesurf/snow/code/javascript/google/maps/lat-lng
   take form lat-lng
 
-load @termsurf/snow/code/javascript/google/maps/lat-lng-literal
+load @cluesurf/snow/code/javascript/google/maps/lat-lng-literal
   take form lat-lng-literal
 
-load @termsurf/snow/code/javascript/google/maps/maps-event-listener
+load @cluesurf/snow/code/javascript/google/maps/maps-event-listener
   take form maps-event-listener
 
 form map-directions-options, name <google.maps.localContext.MapDirectionsOptions>

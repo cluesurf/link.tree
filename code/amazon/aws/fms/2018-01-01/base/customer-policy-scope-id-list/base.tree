@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fms/2018-01-01/base/customer-policy-scope-id
+load @cluesurf/snow/amazonaws.com/fms/2018-01-01/base/customer-policy-scope-id
   take form customer-policy-scope-id
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form customer-policy-scope-id-list, name <CustomerPolicyScopeIdList>

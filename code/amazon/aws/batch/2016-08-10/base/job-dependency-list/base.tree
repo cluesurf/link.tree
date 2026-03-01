@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/job-dependency
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/job-dependency
   take form job-dependency
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form job-dependency-list, name <JobDependencyList>

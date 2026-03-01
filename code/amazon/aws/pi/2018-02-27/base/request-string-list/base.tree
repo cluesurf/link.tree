@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/pi/2018-02-27/base/request-string
+load @cluesurf/snow/amazonaws.com/pi/2018-02-27/base/request-string
   take form request-string
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form request-string-list, name <RequestStringList>

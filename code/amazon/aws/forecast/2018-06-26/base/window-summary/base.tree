@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/evaluation-type
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/evaluation-type
   take form evaluation-type
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/metrics
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/metrics
   take form metrics
 
-load @termsurf/snow/amazonaws.com/forecast/2018-06-26/base/timestamp
+load @cluesurf/snow/amazonaws.com/forecast/2018-06-26/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
 form window-summary, name <WindowSummary>

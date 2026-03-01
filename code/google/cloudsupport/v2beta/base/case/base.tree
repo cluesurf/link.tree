@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/cloudsupport/v2beta/base/actor
+load @cluesurf/snow/googleapis.com/cloudsupport/v2beta/base/actor
   take form actor
 
-load @termsurf/snow/googleapis.com/cloudsupport/v2beta/base/case-classification
+load @cluesurf/snow/googleapis.com/cloudsupport/v2beta/base/case-classification
   take form case-classification
 
 form case, name <Case>

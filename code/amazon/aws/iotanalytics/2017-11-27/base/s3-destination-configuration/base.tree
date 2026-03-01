@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/bucket-key-expression
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/bucket-key-expression
   take form bucket-key-expression
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/bucket-name
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/bucket-name
   take form bucket-name
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/glue-configuration
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/glue-configuration
   take form glue-configuration
 
-load @termsurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/role-arn
+load @cluesurf/snow/amazonaws.com/iotanalytics/2017-11-27/base/role-arn
   take form role-arn
 
 form s3-destination-configuration, name <S3DestinationConfiguration>

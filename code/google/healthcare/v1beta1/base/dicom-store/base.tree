@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/healthcare/v1beta1/base/notification-config
+load @cluesurf/snow/googleapis.com/healthcare/v1beta1/base/notification-config
   take form notification-config
 
 form dicom-store, name <DicomStore>

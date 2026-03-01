@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-session-stream-state
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-session-stream-state
   take form streaming-session-stream-state
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-session-stream-status-code
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/streaming-session-stream-status-code
   take form streaming-session-stream-status-code
 
-load @termsurf/snow/amazonaws.com/nimble/2020-08-01/base/timestamp
+load @cluesurf/snow/amazonaws.com/nimble/2020-08-01/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form streaming-session-stream, name <StreamingSessionStream>

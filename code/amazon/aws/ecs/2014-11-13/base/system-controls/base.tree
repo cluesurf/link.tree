@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/system-control
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/system-control
   take form system-control
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form system-controls, name <SystemControls>

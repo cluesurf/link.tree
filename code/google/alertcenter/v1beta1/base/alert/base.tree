@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/alertcenter/v1beta1/base/alert-metadata
+load @cluesurf/snow/googleapis.com/alertcenter/v1beta1/base/alert-metadata
   take form alert-metadata
 
 form alert, name <Alert>

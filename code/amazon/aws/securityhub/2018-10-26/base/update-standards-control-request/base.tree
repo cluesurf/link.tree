@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/control-status
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/control-status
   take form control-status
 
-load @termsurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
+load @cluesurf/snow/amazonaws.com/securityhub/2018-10-26/base/non-empty-string
   take form non-empty-string
 
 form update-standards-control-request, name <UpdateStandardsControlRequest>

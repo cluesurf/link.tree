@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/list-service-specific-credentials-response
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/list-service-specific-credentials-response
   take form list-service-specific-credentials-response
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/no-such-entity-exception
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/no-such-entity-exception
   take form no-such-entity-exception
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/service-not-supported-exception
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/service-not-supported-exception
   take form service-not-supported-exception
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-list-service-specific-credentials, name <POST_ListServiceSpecificCredentials>

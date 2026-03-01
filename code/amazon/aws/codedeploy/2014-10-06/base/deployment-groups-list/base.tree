@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-group-name
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/deployment-group-name
   take form deployment-group-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form deployment-groups-list, name <DeploymentGroupsList>

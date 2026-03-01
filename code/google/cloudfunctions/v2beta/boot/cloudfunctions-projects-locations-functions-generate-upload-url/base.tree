@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudfunctions/v2beta/base/generate-upload-url-response
+load @cluesurf/snow/googleapis.com/cloudfunctions/v2beta/base/generate-upload-url-response
   take form generate-upload-url-response
 
 boot cloudfunctions-projects-locations-functions-generate-upload-url, name <cloudfunctions.projects.locations.functions.generateUploadUrl>

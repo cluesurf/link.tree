@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/baseline-description
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/baseline-description
   take form baseline-description
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/baseline-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/baseline-id
   take form baseline-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/baseline-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/baseline-name
   take form baseline-name
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-action
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-action
   take form patch-action
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-compliance-level
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-compliance-level
   take form patch-compliance-level
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-filter-group
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-filter-group
   take form patch-filter-group
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-id-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-id-list
   take form patch-id-list
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-rule-group
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-rule-group
   take form patch-rule-group
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-source-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/patch-source-list
   take form patch-source-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form update-patch-baseline-request, name <UpdatePatchBaselineRequest>

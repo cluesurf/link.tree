@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/vpc-description
+load @cluesurf/snow/amazonaws.com/kafkaconnect/2021-09-14/base/vpc-description
   take form vpc-description
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form apache-kafka-cluster-description, name <ApacheKafkaClusterDescription>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/document-id
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/document-id
   take form document-id
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/error-code
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/error-code
   take form error-code
 
-load @termsurf/snow/amazonaws.com/kendra/2019-02-03/base/error-message
+load @cluesurf/snow/amazonaws.com/kendra/2019-02-03/base/error-message
   take form error-message
 
 form batch-put-document-response-failed-document, name <BatchPutDocumentResponseFailedDocument>

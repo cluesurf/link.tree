@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/classroom/v1/base/name
+load @cluesurf/snow/googleapis.com/classroom/v1/base/name
   take form name
 
 form user-profile, name <UserProfile>

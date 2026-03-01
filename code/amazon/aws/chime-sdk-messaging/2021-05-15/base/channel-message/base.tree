@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/channel-message-persistence-type
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/channel-message-persistence-type
   take form channel-message-persistence-type
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/channel-message-type
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/channel-message-type
   take form channel-message-type
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/chime-arn
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/chime-arn
   take form chime-arn
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/content
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/content
   take form content
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/identity
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/identity
   take form identity
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/message-id
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/message-id
   take form message-id
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/metadata
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/metadata
   take form metadata
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/non-nullable-boolean
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/non-nullable-boolean
   take form non-nullable-boolean
 
-load @termsurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/chime-sdk-messaging/2021-05-15/base/timestamp
   take form timestamp
 
 form channel-message, name <ChannelMessage>

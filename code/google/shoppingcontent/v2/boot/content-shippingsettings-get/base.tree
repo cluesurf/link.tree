@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/shoppingcontent/v2/base/shipping-settings
+load @cluesurf/snow/googleapis.com/shoppingcontent/v2/base/shipping-settings
   take form shipping-settings
 
 boot content-shippingsettings-get, name <content.shippingsettings.get>

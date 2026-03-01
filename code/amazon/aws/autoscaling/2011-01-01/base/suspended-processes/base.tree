@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/suspended-process
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/suspended-process
   take form suspended-process
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form suspended-processes, name <SuspendedProcesses>

@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/bot-status
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/bot-status
   take form bot-status
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/id
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/id
   take form id
 
-load @termsurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/numerical-bot-version
+load @cluesurf/snow/amazonaws.com/models.lex.v2/2020-08-07/base/numerical-bot-version
   take form numerical-bot-version
 
 form delete-bot-version-response, name <DeleteBotVersionResponse>

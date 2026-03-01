@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/document-review-comment-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/document-review-comment-list
   take form document-review-comment-list
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/review-status
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/review-status
   take form review-status
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/reviewer
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/reviewer
   take form reviewer
 
 form document-reviewer-response-source, name <DocumentReviewerResponseSource>

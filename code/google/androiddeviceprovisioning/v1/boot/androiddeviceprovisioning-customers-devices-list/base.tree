@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/androiddeviceprovisioning/v1/base/customer-list-devices-response
+load @cluesurf/snow/googleapis.com/androiddeviceprovisioning/v1/base/customer-list-devices-response
   take form customer-list-devices-response
 
 boot androiddeviceprovisioning-customers-devices-list, name <androiddeviceprovisioning.customers.devices.list>

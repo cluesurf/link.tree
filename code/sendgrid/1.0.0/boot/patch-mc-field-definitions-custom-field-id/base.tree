@@ -1,17 +1,17 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/custom-field-definitions-response
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/custom-field-definitions-response
   take form custom-field-definitions-response
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/metadata
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/metadata
   take form metadata
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/patch-mc-field-definitions-custom-field-id-body
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/patch-mc-field-definitions-custom-field-id-body
   take form patch-mc-field-definitions-custom-field-id-body
 
 boot patch-mc-field-definitions-custom-field-id, name <PATCH_mc-field_definitions-custom_field_id>

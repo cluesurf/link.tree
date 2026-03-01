@@ -1,5 +1,5 @@
 
-load @termsurf/snow/jira/openapi.json/base/status-details
+load @cluesurf/snow/jira/openapi.json/base/status-details
   take form status-details
 
 form issue-transition, name <IssueTransition>

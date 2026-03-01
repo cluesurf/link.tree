@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/generic-boolean
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/generic-boolean
   take form generic-boolean
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/generic-string
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/generic-string
   take form generic-string
 
 form es-instance-details, name <ESInstanceDetails>

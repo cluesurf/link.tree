@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/compute/v1/base/network-endpoint-group-app-engine
+load @cluesurf/snow/googleapis.com/compute/v1/base/network-endpoint-group-app-engine
   take form network-endpoint-group-app-engine
 
-load @termsurf/snow/googleapis.com/compute/v1/base/network-endpoint-group-cloud-function
+load @cluesurf/snow/googleapis.com/compute/v1/base/network-endpoint-group-cloud-function
   take form network-endpoint-group-cloud-function
 
-load @termsurf/snow/googleapis.com/compute/v1/base/network-endpoint-group-cloud-run
+load @cluesurf/snow/googleapis.com/compute/v1/base/network-endpoint-group-cloud-run
   take form network-endpoint-group-cloud-run
 
 form network-endpoint-group, name <NetworkEndpointGroup>

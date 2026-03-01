@@ -1,41 +1,41 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/logging-info
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/logging-info
   take form logging-info
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-description
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-description
   take form maintenance-window-description
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-id
   take form maintenance-window-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-name
   take form maintenance-window-name
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-task-arn
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-task-arn
   take form maintenance-window-task-arn
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-task-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-task-id
   take form maintenance-window-task-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-task-invocation-parameters
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-task-invocation-parameters
   take form maintenance-window-task-invocation-parameters
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-task-parameters
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-task-parameters
   take form maintenance-window-task-parameters
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-task-priority
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/maintenance-window-task-priority
   take form maintenance-window-task-priority
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/max-concurrency
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/max-concurrency
   take form max-concurrency
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/max-errors
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/max-errors
   take form max-errors
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/service-role
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/service-role
   take form service-role
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/targets
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/targets
   take form targets
 
 form update-maintenance-window-task-result, name <UpdateMaintenanceWindowTaskResult>

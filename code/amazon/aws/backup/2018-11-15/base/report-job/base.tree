@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/arn
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/report-destination
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/report-destination
   take form report-destination
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/report-job-id
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/report-job-id
   take form report-job-id
 
-load @termsurf/snow/amazonaws.com/backup/2018-11-15/base/timestamp
+load @cluesurf/snow/amazonaws.com/backup/2018-11-15/base/timestamp
   take form timestamp
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form report-job, name <ReportJob>

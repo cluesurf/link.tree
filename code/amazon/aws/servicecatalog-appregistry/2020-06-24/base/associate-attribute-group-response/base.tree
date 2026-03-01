@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/application-arn
+load @cluesurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/application-arn
   take form application-arn
 
-load @termsurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/attribute-group-arn
+load @cluesurf/snow/amazonaws.com/servicecatalog-appregistry/2020-06-24/base/attribute-group-arn
   take form attribute-group-arn
 
 form associate-attribute-group-response, name <AssociateAttributeGroupResponse>

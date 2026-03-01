@@ -1,5 +1,5 @@
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form fixed-mode-schedule-action-start-settings, name <FixedModeScheduleActionStartSettings>

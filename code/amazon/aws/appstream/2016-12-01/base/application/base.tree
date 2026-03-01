@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/metadata
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/metadata
   take form metadata
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form application, name <Application>

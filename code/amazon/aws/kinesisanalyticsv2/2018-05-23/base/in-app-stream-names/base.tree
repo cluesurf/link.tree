@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/kinesisanalyticsv2/2018-05-23/base/in-app-stream-name
+load @cluesurf/snow/amazonaws.com/kinesisanalyticsv2/2018-05-23/base/in-app-stream-name
   take form in-app-stream-name
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form in-app-stream-names, name <InAppStreamNames>

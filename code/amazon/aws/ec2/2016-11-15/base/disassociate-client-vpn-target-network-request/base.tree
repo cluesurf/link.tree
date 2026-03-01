@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-association-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-association-id
   take form client-vpn-association-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-endpoint-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-endpoint-id
   take form client-vpn-endpoint-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form disassociate-client-vpn-target-network-request, name <DisassociateClientVpnTargetNetworkRequest>

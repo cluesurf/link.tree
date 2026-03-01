@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/mq/2017-11-27/base/pending-logs
+load @cluesurf/snow/amazonaws.com/mq/2017-11-27/base/pending-logs
   take form pending-logs
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form logs-summary, name <LogsSummary>

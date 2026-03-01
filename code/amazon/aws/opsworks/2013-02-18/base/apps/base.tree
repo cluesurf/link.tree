@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/opsworks/2013-02-18/base/app
+load @cluesurf/snow/amazonaws.com/opsworks/2013-02-18/base/app
   take form app
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form apps, name <Apps>

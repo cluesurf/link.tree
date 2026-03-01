@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-lifecycle
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-lifecycle
   take form instance-lifecycle
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/launch-template-and-overrides-response
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/launch-template-and-overrides-response
   take form launch-template-and-overrides-response
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-fleet-error, name <CreateFleetError>

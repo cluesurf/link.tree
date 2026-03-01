@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/robomaker/2018-06-29/base/source
+load @cluesurf/snow/amazonaws.com/robomaker/2018-06-29/base/source
   take form source
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form sources, name <Sources>

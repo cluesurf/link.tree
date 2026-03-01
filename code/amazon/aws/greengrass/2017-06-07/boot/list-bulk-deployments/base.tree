@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/bad-request-exception
   take form bad-request-exception
 
-load @termsurf/snow/amazonaws.com/greengrass/2017-06-07/base/list-bulk-deployments-response
+load @cluesurf/snow/amazonaws.com/greengrass/2017-06-07/base/list-bulk-deployments-response
   take form list-bulk-deployments-response
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot list-bulk-deployments, name <ListBulkDeployments>

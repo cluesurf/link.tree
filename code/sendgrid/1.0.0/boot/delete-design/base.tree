@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/api-errors
+load @cluesurf/snow/openapi-directory/APIs/sendgrid.com/1.0.0/base/api-errors
   take form api-errors
 
 boot delete-design, name <DELETE-design>

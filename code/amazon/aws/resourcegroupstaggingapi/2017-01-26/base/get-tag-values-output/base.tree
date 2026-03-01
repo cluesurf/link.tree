@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/resourcegroupstaggingapi/2017-01-26/base/pagination-token
+load @cluesurf/snow/amazonaws.com/resourcegroupstaggingapi/2017-01-26/base/pagination-token
   take form pagination-token
 
-load @termsurf/snow/amazonaws.com/resourcegroupstaggingapi/2017-01-26/base/tag-values-output-list
+load @cluesurf/snow/amazonaws.com/resourcegroupstaggingapi/2017-01-26/base/tag-values-output-list
   take form tag-values-output-list
 
 form get-tag-values-output, name <GetTagValuesOutput>

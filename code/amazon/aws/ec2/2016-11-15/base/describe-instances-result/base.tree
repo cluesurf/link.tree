@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/reservation-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/reservation-list
   take form reservation-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-instances-result, name <DescribeInstancesResult>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/cloudfunctions/v2alpha/base/repo-source
+load @cluesurf/snow/googleapis.com/cloudfunctions/v2alpha/base/repo-source
   take form repo-source
 
-load @termsurf/snow/googleapis.com/cloudfunctions/v2alpha/base/storage-source
+load @cluesurf/snow/googleapis.com/cloudfunctions/v2alpha/base/storage-source
   take form storage-source
 
 form source, name <Source>

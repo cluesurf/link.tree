@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/actions
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/actions
   take form actions
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/condition
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/condition
   take form condition
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/event-name
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/event-name
   take form event-name
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/state-name
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/state-name
   take form state-name
 
 form transition-event, name <TransitionEvent>

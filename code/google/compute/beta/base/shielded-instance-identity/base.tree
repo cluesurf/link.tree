@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/compute/beta/base/shielded-instance-identity-entry
+load @cluesurf/snow/googleapis.com/compute/beta/base/shielded-instance-identity-entry
   take form shielded-instance-identity-entry
 
 form shielded-instance-identity, name <ShieldedInstanceIdentity>

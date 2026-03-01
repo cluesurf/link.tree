@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/system-template-summary
+load @cluesurf/snow/amazonaws.com/iotthingsgraph/2018-09-06/base/system-template-summary
   take form system-template-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form system-template-summaries, name <SystemTemplateSummaries>

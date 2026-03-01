@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/bigtableadmin/v2/base/location
+load @cluesurf/snow/googleapis.com/bigtableadmin/v2/base/location
   take form location
 
 boot bigtableadmin-projects-locations-get, name <bigtableadmin.projects.locations.get>

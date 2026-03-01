@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/pinpoint/2016-12-01/base/direct-message-configuration
+load @cluesurf/snow/amazonaws.com/pinpoint/2016-12-01/base/direct-message-configuration
   take form direct-message-configuration
 
-load @termsurf/snow/amazonaws.com/pinpoint/2016-12-01/base/map-of-endpoint-send-configuration
+load @cluesurf/snow/amazonaws.com/pinpoint/2016-12-01/base/map-of-endpoint-send-configuration
   take form map-of-endpoint-send-configuration
 
-load @termsurf/snow/amazonaws.com/pinpoint/2016-12-01/base/map-of-string
+load @cluesurf/snow/amazonaws.com/pinpoint/2016-12-01/base/map-of-string
   take form map-of-string
 
-load @termsurf/snow/amazonaws.com/pinpoint/2016-12-01/base/template-configuration
+load @cluesurf/snow/amazonaws.com/pinpoint/2016-12-01/base/template-configuration
   take form template-configuration
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form send-users-messages-body

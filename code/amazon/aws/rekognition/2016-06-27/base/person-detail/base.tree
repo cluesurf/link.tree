@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/bounding-box
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/bounding-box
   take form bounding-box
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/face-detail
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/face-detail
   take form face-detail
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/person-index
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/person-index
   take form person-index
 
 form person-detail, name <PersonDetail>

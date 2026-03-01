@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/appstream/2016-12-01/base/fleet-attribute
+load @cluesurf/snow/amazonaws.com/appstream/2016-12-01/base/fleet-attribute
   take form fleet-attribute
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form fleet-attributes, name <FleetAttributes>

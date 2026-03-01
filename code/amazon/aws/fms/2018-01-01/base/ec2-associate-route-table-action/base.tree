@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fms/2018-01-01/base/action-target
+load @cluesurf/snow/amazonaws.com/fms/2018-01-01/base/action-target
   take form action-target
 
-load @termsurf/snow/amazonaws.com/fms/2018-01-01/base/length-bounded-string
+load @cluesurf/snow/amazonaws.com/fms/2018-01-01/base/length-bounded-string
   take form length-bounded-string
 
 form ec2-associate-route-table-action, name <EC2AssociateRouteTableAction>

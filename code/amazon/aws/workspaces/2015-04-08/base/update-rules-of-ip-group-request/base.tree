@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/ip-group-id
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/ip-group-id
   take form ip-group-id
 
-load @termsurf/snow/amazonaws.com/workspaces/2015-04-08/base/ip-rule-list
+load @cluesurf/snow/amazonaws.com/workspaces/2015-04-08/base/ip-rule-list
   take form ip-rule-list
 
 form update-rules-of-ip-group-request, name <UpdateRulesOfIpGroupRequest>

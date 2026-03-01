@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/client-token
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/devops-guru/2020-12-01/base/cost-estimation-resource-collection-filter
+load @cluesurf/snow/amazonaws.com/devops-guru/2020-12-01/base/cost-estimation-resource-collection-filter
   take form cost-estimation-resource-collection-filter
 
 form start-cost-estimation-request, name <StartCostEstimationRequest>

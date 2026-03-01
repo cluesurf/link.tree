@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/group-name-type
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/group-name-type
   take form group-name-type
 
-load @termsurf/snow/amazonaws.com/iam/2010-05-08/base/policy-name-type
+load @cluesurf/snow/amazonaws.com/iam/2010-05-08/base/policy-name-type
   take form policy-name-type
 
 form delete-group-policy-request, name <DeleteGroupPolicyRequest>

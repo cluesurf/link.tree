@@ -1,14 +1,14 @@
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dfareporting/v3.3/base/targeting-templates-list-response
+load @cluesurf/snow/googleapis.com/dfareporting/v3.3/base/targeting-templates-list-response
   take form targeting-templates-list-response
 
 boot dfareporting-targeting-templates-list, name <dfareporting.targetingTemplates.list>

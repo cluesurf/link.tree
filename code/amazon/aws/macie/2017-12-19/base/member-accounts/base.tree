@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/macie/2017-12-19/base/member-account
+load @cluesurf/snow/amazonaws.com/macie/2017-12-19/base/member-account
   take form member-account
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form member-accounts, name <MemberAccounts>

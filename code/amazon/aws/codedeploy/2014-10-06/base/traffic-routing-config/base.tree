@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/time-based-canary
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/time-based-canary
   take form time-based-canary
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/time-based-linear
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/time-based-linear
   take form time-based-linear
 
-load @termsurf/snow/amazonaws.com/codedeploy/2014-10-06/base/traffic-routing-type
+load @cluesurf/snow/amazonaws.com/codedeploy/2014-10-06/base/traffic-routing-type
   take form traffic-routing-type
 
 form traffic-routing-config, name <TrafficRoutingConfig>

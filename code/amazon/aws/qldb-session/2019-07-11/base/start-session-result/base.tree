@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/qldb-session/2019-07-11/base/session-token
+load @cluesurf/snow/amazonaws.com/qldb-session/2019-07-11/base/session-token
   take form session-token
 
-load @termsurf/snow/amazonaws.com/qldb-session/2019-07-11/base/timing-information
+load @cluesurf/snow/amazonaws.com/qldb-session/2019-07-11/base/timing-information
   take form timing-information
 
 form start-session-result, name <StartSessionResult>

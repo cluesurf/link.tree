@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/iot-data/2015-05-28/base/json-document
+load @cluesurf/snow/amazonaws.com/iot-data/2015-05-28/base/json-document
   take form json-document
 
 form update-thing-shadow-request, name <UpdateThingShadowRequest>

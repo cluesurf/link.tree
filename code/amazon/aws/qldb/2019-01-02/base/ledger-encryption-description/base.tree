@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/arn
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/encryption-status
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/encryption-status
   take form encryption-status
 
-load @termsurf/snow/amazonaws.com/qldb/2019-01-02/base/timestamp
+load @cluesurf/snow/amazonaws.com/qldb/2019-01-02/base/timestamp
   take form timestamp
 
 form ledger-encryption-description, name <LedgerEncryptionDescription>

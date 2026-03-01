@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/get-queue-attributes-result
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/get-queue-attributes-result
   take form get-queue-attributes-result
 
-load @termsurf/snow/amazonaws.com/sqs/2012-11-05/base/invalid-attribute-name
+load @cluesurf/snow/amazonaws.com/sqs/2012-11-05/base/invalid-attribute-name
   take form invalid-attribute-name
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot post-get-queue-attributes, name <POST_GetQueueAttributes>

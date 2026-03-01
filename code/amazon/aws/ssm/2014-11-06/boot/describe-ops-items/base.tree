@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/describe-ops-items-response
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/describe-ops-items-response
   take form describe-ops-items-response
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/internal-server-error
   take form internal-server-error
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-ops-items, name <DescribeOpsItems>

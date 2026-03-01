@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/books/v1/base/empty
+load @cluesurf/snow/googleapis.com/books/v1/base/empty
   take form empty
 
 boot books-familysharing-unshare, name <books.familysharing.unshare>

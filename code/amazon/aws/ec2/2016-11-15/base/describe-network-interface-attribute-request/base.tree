@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/network-interface-attribute
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/network-interface-attribute
   take form network-interface-attribute
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/network-interface-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/network-interface-id
   take form network-interface-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form describe-network-interface-attribute-request, name <DescribeNetworkInterfaceAttributeRequest>

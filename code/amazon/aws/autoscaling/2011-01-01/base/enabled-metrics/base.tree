@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/autoscaling/2011-01-01/base/enabled-metric
+load @cluesurf/snow/amazonaws.com/autoscaling/2011-01-01/base/enabled-metric
   take form enabled-metric
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form enabled-metrics, name <EnabledMetrics>

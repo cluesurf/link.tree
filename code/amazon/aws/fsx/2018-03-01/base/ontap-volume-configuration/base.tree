@@ -1,29 +1,29 @@
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/flag
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/flag
   take form flag
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/flex-cache-endpoint-type
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/flex-cache-endpoint-type
   take form flex-cache-endpoint-type
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/junction-path
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/junction-path
   take form junction-path
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/ontap-volume-type
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/ontap-volume-type
   take form ontap-volume-type
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/security-style
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/security-style
   take form security-style
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/storage-virtual-machine-id
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/storage-virtual-machine-id
   take form storage-virtual-machine-id
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/tiering-policy
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/tiering-policy
   take form tiering-policy
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/uuid
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/uuid
   take form uuid
 
-load @termsurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-capacity
+load @cluesurf/snow/amazonaws.com/fsx/2018-03-01/base/volume-capacity
   take form volume-capacity
 
 form ontap-volume-configuration, name <OntapVolumeConfiguration>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/lens-upgrade-summary
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/lens-upgrade-summary
   take form lens-upgrade-summary
 
-load @termsurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/notification-type
+load @cluesurf/snow/amazonaws.com/wellarchitected/2020-03-31/base/notification-type
   take form notification-type
 
 form notification-summary, name <NotificationSummary>

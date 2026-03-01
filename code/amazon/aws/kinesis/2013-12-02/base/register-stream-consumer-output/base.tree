@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/kinesis/2013-12-02/base/consumer
+load @cluesurf/snow/amazonaws.com/kinesis/2013-12-02/base/consumer
   take form consumer
 
 form register-stream-consumer-output, name <RegisterStreamConsumerOutput>

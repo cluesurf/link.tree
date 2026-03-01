@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/glacier/2012-06-01/base/part-list-element
+load @cluesurf/snow/amazonaws.com/glacier/2012-06-01/base/part-list-element
   take form part-list-element
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form part-list, name <PartList>

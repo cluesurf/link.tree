@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string
+load @cluesurf/snow/amazonaws.com/elasticmapreduce/2009-03-31/base/xml-string
   take form xml-string
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form xml-string-list, name <XmlStringList>

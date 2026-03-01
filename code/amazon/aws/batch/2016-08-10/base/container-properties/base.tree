@@ -1,44 +1,44 @@
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/environment-variables
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/environment-variables
   take form environment-variables
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/fargate-platform-configuration
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/fargate-platform-configuration
   take form fargate-platform-configuration
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/linux-parameters
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/linux-parameters
   take form linux-parameters
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/log-configuration
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/log-configuration
   take form log-configuration
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/mount-points
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/mount-points
   take form mount-points
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/network-configuration
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/network-configuration
   take form network-configuration
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/resource-requirements
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/resource-requirements
   take form resource-requirements
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/secret-list
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/secret-list
   take form secret-list
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/string-list
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/string-list
   take form string-list
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/ulimits
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/ulimits
   take form ulimits
 
-load @termsurf/snow/amazonaws.com/batch/2016-08-10/base/volumes
+load @cluesurf/snow/amazonaws.com/batch/2016-08-10/base/volumes
   take form volumes
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form container-properties, name <ContainerProperties>

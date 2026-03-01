@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/currency-code-values
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/currency-code-values
   take form currency-code-values
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/payment-option
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/payment-option
   take form payment-option
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form host-offering, name <HostOffering>

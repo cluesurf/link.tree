@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/date-time
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/failure-reason
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/failure-reason
   take form failure-reason
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/language-code
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/language-code
   take form language-code
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/uri
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/uri
   take form uri
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-name
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-name
   take form vocabulary-name
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-state
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/vocabulary-state
   take form vocabulary-state
 
 form get-medical-vocabulary-response, name <GetMedicalVocabularyResponse>

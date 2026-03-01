@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/entity-name
   take form entity-name
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/git-config-for-update
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/git-config-for-update
   take form git-config-for-update
 
 form update-code-repository-input, name <UpdateCodeRepositoryInput>

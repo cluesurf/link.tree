@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/networkservices/v1beta1/base/policy
+load @cluesurf/snow/googleapis.com/networkservices/v1beta1/base/policy
   take form policy
 
 boot networkservices-projects-locations-service-bindings-set-iam-policy, name <networkservices.projects.locations.serviceBindings.setIamPolicy>

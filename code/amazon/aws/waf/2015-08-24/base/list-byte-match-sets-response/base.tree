@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/byte-match-set-summaries
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/byte-match-set-summaries
   take form byte-match-set-summaries
 
-load @termsurf/snow/amazonaws.com/waf/2015-08-24/base/next-marker
+load @cluesurf/snow/amazonaws.com/waf/2015-08-24/base/next-marker
   take form next-marker
 
 form list-byte-match-sets-response, name <ListByteMatchSetsResponse>

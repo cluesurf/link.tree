@@ -1,5 +1,5 @@
 
-load @termsurf/snow/googleapis.com/spanner/v1/base/visualization-data
+load @cluesurf/snow/googleapis.com/spanner/v1/base/visualization-data
   take form visualization-data
 
 form scan-data, name <ScanData>

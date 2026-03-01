@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/cloudchannel/v1/base/google-cloud-channel-v1-register-subscriber-response
+load @cluesurf/snow/googleapis.com/cloudchannel/v1/base/google-cloud-channel-v1-register-subscriber-response
   take form google-cloud-channel-v1-register-subscriber-response
 
 boot cloudchannel-accounts-register, name <cloudchannel.accounts.register>

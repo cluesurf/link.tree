@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/absolute-time-range
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/absolute-time-range
   take form absolute-time-range
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/relative-time-range
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/relative-time-range
   take form relative-time-range
 
-load @termsurf/snow/amazonaws.com/transcribe/2017-10-26/base/timestamp-milliseconds
+load @cluesurf/snow/amazonaws.com/transcribe/2017-10-26/base/timestamp-milliseconds
   take form timestamp-milliseconds
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form non-talk-time-filter, name <NonTalkTimeFilter>

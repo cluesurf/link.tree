@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/progress-update-stream-summary
+load @cluesurf/snow/amazonaws.com/AWSMigrationHub/2017-05-31/base/progress-update-stream-summary
   take form progress-update-stream-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form progress-update-stream-summary-list, name <ProgressUpdateStreamSummaryList>

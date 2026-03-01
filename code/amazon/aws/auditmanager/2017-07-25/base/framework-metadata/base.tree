@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-framework-description
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-framework-description
   take form assessment-framework-description
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-name
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/assessment-name
   take form assessment-name
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/compliance-type
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/compliance-type
   take form compliance-type
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/filename
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/filename
   take form filename
 
 form framework-metadata, name <FrameworkMetadata>

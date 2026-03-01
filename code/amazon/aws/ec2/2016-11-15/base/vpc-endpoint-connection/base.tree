@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/dns-entry-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/dns-entry-set
   take form dns-entry-set
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/millisecond-date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/millisecond-date-time
   take form millisecond-date-time
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/state
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/state
   take form state
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/value-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/value-string-list
   take form value-string-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form vpc-endpoint-connection, name <VpcEndpointConnection>

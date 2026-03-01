@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/inventory-result-entity-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/inventory-result-entity-list
   take form inventory-result-entity-list
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/next-token
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/next-token
   take form next-token
 
 form get-inventory-result, name <GetInventoryResult>

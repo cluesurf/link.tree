@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/s3-destination
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/s3-destination
   take form s3-destination
 
-load @termsurf/snow/amazonaws.com/mediapackage/2017-10-12/base/status
+load @cluesurf/snow/amazonaws.com/mediapackage/2017-10-12/base/status
   take form status
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-harvest-job-response, name <CreateHarvestJobResponse>

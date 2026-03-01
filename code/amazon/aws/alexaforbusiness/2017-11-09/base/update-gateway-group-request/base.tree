@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/arn
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/arn
   take form arn
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/gateway-group-description
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/gateway-group-description
   take form gateway-group-description
 
-load @termsurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/gateway-group-name
+load @cluesurf/snow/amazonaws.com/alexaforbusiness/2017-11-09/base/gateway-group-name
   take form gateway-group-name
 
 form update-gateway-group-request, name <UpdateGatewayGroupRequest>

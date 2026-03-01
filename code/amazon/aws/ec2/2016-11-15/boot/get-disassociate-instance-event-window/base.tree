@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/dedicated-host-id-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/dedicated-host-id-list
   take form dedicated-host-id-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/disassociate-instance-event-window-result
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/disassociate-instance-event-window-result
   take form disassociate-instance-event-window-result
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-id-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-id-list
   take form instance-id-list
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/form
+load @cluesurf/snow/base/form
   take form form
 
-load @termsurf/snow/base/native-boolean
+load @cluesurf/snow/base/native-boolean
   take form native-boolean
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot get-disassociate-instance-event-window, name <GET_DisassociateInstanceEventWindow>

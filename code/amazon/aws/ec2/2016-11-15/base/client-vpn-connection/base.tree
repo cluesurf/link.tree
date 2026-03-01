@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-connection-status
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-connection-status
   take form client-vpn-connection-status
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/value-string-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/value-string-list
   take form value-string-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form client-vpn-connection, name <ClientVpnConnection>

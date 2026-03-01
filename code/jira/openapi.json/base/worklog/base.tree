@@ -1,8 +1,8 @@
 
-load @termsurf/snow/jira/openapi.json/base/user-details
+load @cluesurf/snow/jira/openapi.json/base/user-details
   take form user-details
 
-load @termsurf/snow/jira/openapi.json/base/visibility
+load @cluesurf/snow/jira/openapi.json/base/visibility
   take form visibility
 
 form worklog, name <Worklog>

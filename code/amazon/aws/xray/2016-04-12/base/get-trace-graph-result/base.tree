@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/xray/2016-04-12/base/service-list
+load @cluesurf/snow/amazonaws.com/xray/2016-04-12/base/service-list
   take form service-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form get-trace-graph-result, name <GetTraceGraphResult>

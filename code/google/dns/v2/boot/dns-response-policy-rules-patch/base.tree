@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/dns/v2/base/response-policy-rules-patch-response
+load @cluesurf/snow/googleapis.com/dns/v2/base/response-policy-rules-patch-response
   take form response-policy-rules-patch-response
 
 boot dns-response-policy-rules-patch, name <dns.responsePolicyRules.patch>

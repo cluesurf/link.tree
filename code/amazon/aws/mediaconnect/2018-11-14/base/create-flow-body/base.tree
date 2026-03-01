@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/encryption
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/encryption
   take form encryption
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/failover-mode
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/failover-mode
   take form failover-mode
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/list-of-media-stream-source-configuration-request
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/list-of-media-stream-source-configuration-request
   take form list-of-media-stream-source-configuration-request
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/protocol
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/protocol
   take form protocol
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/source-priority
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/source-priority
   take form source-priority
 
-load @termsurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/state
+load @cluesurf/snow/amazonaws.com/mediaconnect/2018-11-14/base/state
   take form state
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form create-flow-body

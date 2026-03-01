@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/content/v2/base/accounts-link-response
+load @cluesurf/snow/googleapis.com/content/v2/base/accounts-link-response
   take form accounts-link-response
 
 boot content-accounts-link, name <content.accounts.link>

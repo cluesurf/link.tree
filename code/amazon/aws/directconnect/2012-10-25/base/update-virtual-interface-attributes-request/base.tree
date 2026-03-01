@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/mtu
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/mtu
   take form mtu
 
-load @termsurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-id
+load @cluesurf/snow/amazonaws.com/directconnect/2012-10-25/base/virtual-interface-id
   take form virtual-interface-id
 
 form update-virtual-interface-attributes-request, name <UpdateVirtualInterfaceAttributesRequest>

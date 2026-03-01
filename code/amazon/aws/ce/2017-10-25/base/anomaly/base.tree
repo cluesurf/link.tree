@@ -1,20 +1,20 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/anomaly-feedback-type
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/anomaly-feedback-type
   take form anomaly-feedback-type
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/anomaly-score
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/anomaly-score
   take form anomaly-score
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/generic-string
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/generic-string
   take form generic-string
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/impact
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/impact
   take form impact
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/root-causes
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/root-causes
   take form root-causes
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/year-month-day
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/year-month-day
   take form year-month-day
 
 form anomaly, name <Anomaly>

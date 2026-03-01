@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/lambda/2014-11-11/base/event-source-list
+load @cluesurf/snow/amazonaws.com/lambda/2014-11-11/base/event-source-list
   take form event-source-list
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form list-event-sources-response, name <ListEventSourcesResponse>

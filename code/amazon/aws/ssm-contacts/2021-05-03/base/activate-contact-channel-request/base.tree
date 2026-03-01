@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/activation-code
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/activation-code
   take form activation-code
 
-load @termsurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/ssm-contacts-arn
+load @cluesurf/snow/amazonaws.com/ssm-contacts/2021-05-03/base/ssm-contacts-arn
   take form ssm-contacts-arn
 
 form activate-contact-channel-request, name <ActivateContactChannelRequest>

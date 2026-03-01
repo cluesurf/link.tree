@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/describe-transform-job-response
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/describe-transform-job-response
   take form describe-transform-job-response
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/resource-not-found
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/resource-not-found
   take form resource-not-found
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot describe-transform-job, name <DescribeTransformJob>

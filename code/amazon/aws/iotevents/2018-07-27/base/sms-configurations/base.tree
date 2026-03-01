@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/iotevents/2018-07-27/base/sms-configuration
+load @cluesurf/snow/amazonaws.com/iotevents/2018-07-27/base/sms-configuration
   take form sms-configuration
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form sms-configurations, name <SMSConfigurations>

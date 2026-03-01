@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration-parameter-value
+load @cluesurf/snow/amazonaws.com/resource-groups/2017-11-27/base/group-configuration-parameter-value
   take form group-configuration-parameter-value
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form group-configuration-parameter-value-list, name <GroupConfigurationParameterValueList>

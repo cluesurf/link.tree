@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/rds/2014-10-31/base/string-sensitive
+load @cluesurf/snow/amazonaws.com/rds/2014-10-31/base/string-sensitive
   take form string-sensitive
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form vpn-details, name <VpnDetails>

@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-connect-options
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-connect-options
   take form client-connect-options
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-endpoint-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-endpoint-id
   take form client-vpn-endpoint-id
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-security-group-id-set
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/client-vpn-security-group-id-set
   take form client-vpn-security-group-id-set
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/connection-log-options
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/connection-log-options
   take form connection-log-options
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/dns-servers-options-modify-structure
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/dns-servers-options-modify-structure
   take form dns-servers-options-modify-structure
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/self-service-portal
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/self-service-portal
   take form self-service-portal
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-id
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/vpc-id
   take form vpc-id
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form modify-client-vpn-endpoint-request, name <ModifyClientVpnEndpointRequest>

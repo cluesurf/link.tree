@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-metadata
+load @cluesurf/snow/amazonaws.com/auditmanager/2017-07-25/base/control-metadata
   take form control-metadata
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form control-metadata-list, name <ControlMetadataList>

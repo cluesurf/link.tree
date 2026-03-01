@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/description
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/description
   take form description
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/expression
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/expression
   take form expression
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/expression-type
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/expression-type
   take form expression-type
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/role-arn
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/role-arn
   take form role-arn
 
 form update-destination-request, name <UpdateDestinationRequest>

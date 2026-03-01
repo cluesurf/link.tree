@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/mq/2017-11-27/base/sanitization-warning-reason
+load @cluesurf/snow/amazonaws.com/mq/2017-11-27/base/sanitization-warning-reason
   take form sanitization-warning-reason
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form sanitization-warning, name <SanitizationWarning>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/domains/v1/base/custom-dns
+load @cluesurf/snow/googleapis.com/domains/v1/base/custom-dns
   take form custom-dns
 
-load @termsurf/snow/googleapis.com/domains/v1/base/google-domains-dns
+load @cluesurf/snow/googleapis.com/domains/v1/base/google-domains-dns
   take form google-domains-dns
 
 form dns-settings, name <DnsSettings>

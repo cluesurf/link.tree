@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/activation-description
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/activation-description
   take form activation-description
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/activation-id
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/activation-id
   take form activation-id
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/created-date
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/created-date
   take form created-date
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/default-instance-name
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/default-instance-name
   take form default-instance-name
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/expiration-date
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/expiration-date
   take form expiration-date
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/iam-role
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/iam-role
   take form iam-role
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/registration-limit
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/registration-limit
   take form registration-limit
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/registrations-count
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/registrations-count
   take form registrations-count
 
-load @termsurf/snow/amazonaws.com/ssm/2014-11-06/base/tag-list
+load @cluesurf/snow/amazonaws.com/ssm/2014-11-06/base/tag-list
   take form tag-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
 form activation, name <Activation>

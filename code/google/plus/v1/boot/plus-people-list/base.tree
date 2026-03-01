@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/plus/v1/base/people-feed
+load @cluesurf/snow/googleapis.com/plus/v1/base/people-feed
   take form people-feed
 
 boot plus-people-list, name <plus.people.list>

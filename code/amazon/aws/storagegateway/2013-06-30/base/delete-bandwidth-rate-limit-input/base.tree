@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/bandwidth-type
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/bandwidth-type
   take form bandwidth-type
 
-load @termsurf/snow/amazonaws.com/storagegateway/2013-06-30/base/gateway-arn
+load @cluesurf/snow/amazonaws.com/storagegateway/2013-06-30/base/gateway-arn
   take form gateway-arn
 
 form delete-bandwidth-rate-limit-input, name <DeleteBandwidthRateLimitInput>

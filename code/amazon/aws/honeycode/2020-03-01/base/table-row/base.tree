@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/honeycode/2020-03-01/base/cells
+load @cluesurf/snow/amazonaws.com/honeycode/2020-03-01/base/cells
   take form cells
 
-load @termsurf/snow/amazonaws.com/honeycode/2020-03-01/base/row-id
+load @cluesurf/snow/amazonaws.com/honeycode/2020-03-01/base/row-id
   take form row-id
 
 form table-row, name <TableRow>

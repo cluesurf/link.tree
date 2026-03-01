@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/home-directory
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/home-directory
   take form home-directory
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/home-directory-mappings
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/home-directory-mappings
   take form home-directory-mappings
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/home-directory-type
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/home-directory-type
   take form home-directory-type
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/policy
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/policy
   take form policy
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/posix-profile
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/posix-profile
   take form posix-profile
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/role
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/role
   take form role
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/server-id
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/server-id
   take form server-id
 
-load @termsurf/snow/amazonaws.com/transfer/2018-11-05/base/user-name
+load @cluesurf/snow/amazonaws.com/transfer/2018-11-05/base/user-name
   take form user-name
 
 form update-user-request, name <UpdateUserRequest>

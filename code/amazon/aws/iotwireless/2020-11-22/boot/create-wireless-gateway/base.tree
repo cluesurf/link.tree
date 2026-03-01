@@ -1,23 +1,23 @@
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/conflict-exception
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/conflict-exception
   take form conflict-exception
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/create-wireless-gateway-body
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/create-wireless-gateway-body
   take form create-wireless-gateway-body
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/create-wireless-gateway-response
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/create-wireless-gateway-response
   take form create-wireless-gateway-response
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/internal-server-exception
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/internal-server-exception
   take form internal-server-exception
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/throttling-exception
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/throttling-exception
   take form throttling-exception
 
-load @termsurf/snow/amazonaws.com/iotwireless/2020-11-22/base/validation-exception
+load @cluesurf/snow/amazonaws.com/iotwireless/2020-11-22/base/validation-exception
   take form validation-exception
 
 boot create-wireless-gateway, name <CreateWirelessGateway>

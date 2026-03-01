@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/sdb/2009-04-15/base/attribute-list
+load @cluesurf/snow/amazonaws.com/sdb/2009-04-15/base/attribute-list
   take form attribute-list
 
 form get-attributes-result, name <GetAttributesResult>

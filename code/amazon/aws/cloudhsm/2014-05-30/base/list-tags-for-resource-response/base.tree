@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/tag-list
+load @cluesurf/snow/amazonaws.com/cloudhsm/2014-05-30/base/tag-list
   take form tag-list
 
 form list-tags-for-resource-response, name <ListTagsForResourceResponse>

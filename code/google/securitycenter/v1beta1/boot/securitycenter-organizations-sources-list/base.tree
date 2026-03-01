@@ -1,11 +1,11 @@
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/securitycenter/v1beta1/base/list-sources-response
+load @cluesurf/snow/googleapis.com/securitycenter/v1beta1/base/list-sources-response
   take form list-sources-response
 
 boot securitycenter-organizations-sources-list, name <securitycenter.organizations.sources.list>

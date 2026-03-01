@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/registry-s3-bucket-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/registry-s3-bucket-name
   take form registry-s3-bucket-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/registry-s3-key-name
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/registry-s3-key-name
   take form registry-s3-key-name
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/role-arn
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/role-arn
   take form role-arn
 
-load @termsurf/snow/amazonaws.com/iot/2015-05-28/base/template-body
+load @cluesurf/snow/amazonaws.com/iot/2015-05-28/base/template-body
   take form template-body
 
 form start-thing-registration-task-request, name <StartThingRegistrationTaskRequest>

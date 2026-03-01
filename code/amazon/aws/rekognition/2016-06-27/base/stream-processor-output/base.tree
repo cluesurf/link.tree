@@ -1,5 +1,5 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/kinesis-data-stream
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/kinesis-data-stream
   take form kinesis-data-stream
 
 form stream-processor-output, name <StreamProcessorOutput>

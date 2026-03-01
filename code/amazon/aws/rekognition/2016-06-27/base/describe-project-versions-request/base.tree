@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/extended-pagination-token
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/extended-pagination-token
   take form extended-pagination-token
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/project-arn
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/project-arn
   take form project-arn
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/project-versions-page-size
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/project-versions-page-size
   take form project-versions-page-size
 
-load @termsurf/snow/amazonaws.com/rekognition/2016-06-27/base/version-names
+load @cluesurf/snow/amazonaws.com/rekognition/2016-06-27/base/version-names
   take form version-names
 
 form describe-project-versions-request, name <DescribeProjectVersionsRequest>

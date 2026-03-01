@@ -1,32 +1,32 @@
 
-load @termsurf/snow/amazonaws.com/ebs/2019-11-02/base/access-denied-exception
+load @cluesurf/snow/amazonaws.com/ebs/2019-11-02/base/access-denied-exception
   take form access-denied-exception
 
-load @termsurf/snow/amazonaws.com/ebs/2019-11-02/base/internal-server-exception
+load @cluesurf/snow/amazonaws.com/ebs/2019-11-02/base/internal-server-exception
   take form internal-server-exception
 
-load @termsurf/snow/amazonaws.com/ebs/2019-11-02/base/put-snapshot-block-body
+load @cluesurf/snow/amazonaws.com/ebs/2019-11-02/base/put-snapshot-block-body
   take form put-snapshot-block-body
 
-load @termsurf/snow/amazonaws.com/ebs/2019-11-02/base/put-snapshot-block-response
+load @cluesurf/snow/amazonaws.com/ebs/2019-11-02/base/put-snapshot-block-response
   take form put-snapshot-block-response
 
-load @termsurf/snow/amazonaws.com/ebs/2019-11-02/base/request-throttled-exception
+load @cluesurf/snow/amazonaws.com/ebs/2019-11-02/base/request-throttled-exception
   take form request-throttled-exception
 
-load @termsurf/snow/amazonaws.com/ebs/2019-11-02/base/resource-not-found-exception
+load @cluesurf/snow/amazonaws.com/ebs/2019-11-02/base/resource-not-found-exception
   take form resource-not-found-exception
 
-load @termsurf/snow/amazonaws.com/ebs/2019-11-02/base/service-quota-exceeded-exception
+load @cluesurf/snow/amazonaws.com/ebs/2019-11-02/base/service-quota-exceeded-exception
   take form service-quota-exceeded-exception
 
-load @termsurf/snow/amazonaws.com/ebs/2019-11-02/base/validation-exception
+load @cluesurf/snow/amazonaws.com/ebs/2019-11-02/base/validation-exception
   take form validation-exception
 
-load @termsurf/snow/base/native-integer
+load @cluesurf/snow/base/native-integer
   take form native-integer
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
 boot put-snapshot-block, name <PutSnapshotBlock>

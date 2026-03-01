@@ -1,11 +1,11 @@
 
-load @termsurf/snow/googleapis.com/texttospeech/v1beta1/base/audio-config
+load @cluesurf/snow/googleapis.com/texttospeech/v1beta1/base/audio-config
   take form audio-config
 
-load @termsurf/snow/googleapis.com/texttospeech/v1beta1/base/synthesis-input
+load @cluesurf/snow/googleapis.com/texttospeech/v1beta1/base/synthesis-input
   take form synthesis-input
 
-load @termsurf/snow/googleapis.com/texttospeech/v1beta1/base/voice-selection-params
+load @cluesurf/snow/googleapis.com/texttospeech/v1beta1/base/voice-selection-params
   take form voice-selection-params
 
 form synthesize-speech-request, name <SynthesizeSpeechRequest>

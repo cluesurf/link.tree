@@ -1,8 +1,8 @@
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/call-credentials
+load @cluesurf/snow/googleapis.com/compute/alpha/base/call-credentials
   take form call-credentials
 
-load @termsurf/snow/googleapis.com/compute/alpha/base/channel-credentials
+load @cluesurf/snow/googleapis.com/compute/alpha/base/channel-credentials
   take form channel-credentials
 
 form grpc-service-config, name <GrpcServiceConfig>

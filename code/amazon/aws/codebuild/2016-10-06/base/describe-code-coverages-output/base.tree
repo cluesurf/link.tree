@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/codebuild/2016-10-06/base/code-coverages
+load @cluesurf/snow/amazonaws.com/codebuild/2016-10-06/base/code-coverages
   take form code-coverages
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form describe-code-coverages-output, name <DescribeCodeCoveragesOutput>

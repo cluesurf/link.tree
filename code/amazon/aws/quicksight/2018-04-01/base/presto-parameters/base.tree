@@ -1,11 +1,11 @@
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/catalog
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/catalog
   take form catalog
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/host
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/host
   take form host
 
-load @termsurf/snow/amazonaws.com/quicksight/2018-04-01/base/port
+load @cluesurf/snow/amazonaws.com/quicksight/2018-04-01/base/port
   take form port
 
 form presto-parameters, name <PrestoParameters>

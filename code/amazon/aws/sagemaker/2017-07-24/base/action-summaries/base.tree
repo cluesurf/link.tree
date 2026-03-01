@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/sagemaker/2017-07-24/base/action-summary
+load @cluesurf/snow/amazonaws.com/sagemaker/2017-07-24/base/action-summary
   take form action-summary
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form action-summaries, name <ActionSummaries>

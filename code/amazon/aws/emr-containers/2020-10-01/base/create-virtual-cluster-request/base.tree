@@ -1,14 +1,14 @@
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/client-token
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/client-token
   take form client-token
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/container-provider
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/container-provider
   take form container-provider
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/resource-name-string
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/resource-name-string
   take form resource-name-string
 
-load @termsurf/snow/amazonaws.com/emr-containers/2020-10-01/base/tag-map
+load @cluesurf/snow/amazonaws.com/emr-containers/2020-10-01/base/tag-map
   take form tag-map
 
 form create-virtual-cluster-request, name <CreateVirtualClusterRequest>

@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/docker-volume-configuration
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/docker-volume-configuration
   take form docker-volume-configuration
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/efs-volume-configuration
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/efs-volume-configuration
   take form efs-volume-configuration
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/f-sx-windows-file-server-volume-configuration
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/f-sx-windows-file-server-volume-configuration
   take form f-sx-windows-file-server-volume-configuration
 
-load @termsurf/snow/amazonaws.com/ecs/2014-11-13/base/host-volume-properties
+load @cluesurf/snow/amazonaws.com/ecs/2014-11-13/base/host-volume-properties
   take form host-volume-properties
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form volume, name <Volume>

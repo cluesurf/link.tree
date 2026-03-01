@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/fms/2018-01-01/base/dns-rule-group-priority
+load @cluesurf/snow/amazonaws.com/fms/2018-01-01/base/dns-rule-group-priority
   take form dns-rule-group-priority
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form dns-rule-group-priorities, name <DnsRuleGroupPriorities>

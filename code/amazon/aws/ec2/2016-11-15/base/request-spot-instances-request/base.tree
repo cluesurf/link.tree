@@ -1,26 +1,26 @@
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/date-time
   take form date-time
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-interruption-behavior
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/instance-interruption-behavior
   take form instance-interruption-behavior
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/request-spot-launch-specification
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/request-spot-launch-specification
   take form request-spot-launch-specification
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-type
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/spot-instance-type
   take form spot-instance-type
 
-load @termsurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification-list
+load @cluesurf/snow/amazonaws.com/ec2/2016-11-15/base/tag-specification-list
   take form tag-specification-list
 
-load @termsurf/snow/base/boolean
+load @cluesurf/snow/base/boolean
   take form boolean
 
-load @termsurf/snow/base/integer
+load @cluesurf/snow/base/integer
   take form integer
 
-load @termsurf/snow/base/string
+load @cluesurf/snow/base/string
   take form string
 
 form request-spot-instances-request, name <RequestSpotInstancesRequest>

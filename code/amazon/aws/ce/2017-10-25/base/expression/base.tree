@@ -1,17 +1,17 @@
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-values
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/cost-category-values
   take form cost-category-values
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/dimension-values
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/dimension-values
   take form dimension-values
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/expression
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/expression
   take form expression
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/expressions
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/expressions
   take form expressions
 
-load @termsurf/snow/amazonaws.com/ce/2017-10-25/base/tag-values
+load @cluesurf/snow/amazonaws.com/ce/2017-10-25/base/tag-values
   take form tag-values
 
 form expression, name <Expression>

@@ -1,8 +1,8 @@
 
-load @termsurf/snow/amazonaws.com/proton/2020-07-20/base/environment-account-connection-status
+load @cluesurf/snow/amazonaws.com/proton/2020-07-20/base/environment-account-connection-status
   take form environment-account-connection-status
 
-load @termsurf/snow/base/list
+load @cluesurf/snow/base/list
   take form list
 
 form environment-account-connection-status-list, name <EnvironmentAccountConnectionStatusList>

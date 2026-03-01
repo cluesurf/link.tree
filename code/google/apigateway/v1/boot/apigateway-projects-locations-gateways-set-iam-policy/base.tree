@@ -1,8 +1,8 @@
 
-load @termsurf/snow/base/native-string
+load @cluesurf/snow/base/native-string
   take form native-string
 
-load @termsurf/snow/googleapis.com/apigateway/v1/base/apigateway-policy
+load @cluesurf/snow/googleapis.com/apigateway/v1/base/apigateway-policy
   take form apigateway-policy
 
 boot apigateway-projects-locations-gateways-set-iam-policy, name <apigateway.projects.locations.gateways.setIamPolicy>
