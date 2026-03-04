@@ -1,9 +1,9 @@
 
 deck @cluesurf/link
-  text <TermTree Third-Party API Providers>
+  text <The Seed Third-Party API Provider Library>
   make <api>
   make <information>
   make <computation>
   make <library>
-  cite <Lance Pollard>, home <lp@elk.fm>
+  cite <Lance Pollard>, base <lp@elk.fm>
   term <Apache 2.0>
