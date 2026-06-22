@@ -377,7 +377,7 @@ Note that this field is deprecated. To search for a finding based on its workflo
     like string-filter-list
     void take
     note <The solution-generated identifier for a related finding.>
-  take note-text, name <TermTree>
+  take note-text, name <Seed>
     like string-filter-list
     void take
     note <The text of a note.>
